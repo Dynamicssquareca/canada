@@ -249,7 +249,7 @@ const CustomerService = () => {
                   Professional
                 </h3>
                 <div className="price">
-                $50 <span>Per-User/Per Month</span>
+                $67.80(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>
@@ -282,7 +282,7 @@ const CustomerService = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                $95<span>Per-User/Per Month</span>
+                $128.90<span>per user/month</span>
                 </div>
                 <ul>
                   <li>

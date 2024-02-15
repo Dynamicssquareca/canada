@@ -397,13 +397,23 @@ const Finance = () => {
                 Dynamics 365 Finance
                 </h3>
                 <div className="price">
-                $230.40(CAD)<span>Per-User/Month</span>
+                $244.20(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li className="text-center">
                   An intelligent, automated, and trusted core financial management solution.
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div className="col-lg-5">
+              <div className="box box-22">
+                <h3>
+                Dynamics 365 Finance Premium
+                </h3>
+                <div className="price">
+                $407(CAD)<span>per user/month</span>
+                </div>
               </div>
             </div>
           </div>

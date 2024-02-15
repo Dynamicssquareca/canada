@@ -342,7 +342,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Professional</h3>
                 <div className="price">
-                  $83.20(CAD)<span>Per User/Month</span>
+                $88.20(CAD)<span>per user/month</span>
                 </div>
                 <p className="small-tt">
                 Core sales force automation and Microsoft 365 integration
@@ -353,7 +353,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Enterprise</h3>
                 <div className="price">
-                  $121.60(CAD)<span>Per User/Month</span>
+                $128.90(CAD)<span> per user/month</span>
                 </div>
                 <p className="small-tt">
                 Industry-leading sales force automation with contextual insights and advanced customization capabilities
@@ -365,7 +365,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Premium</h3>
                 <div className="price">
-                  $172.80(CAD)<span>Per User/Month</span>
+                $183.20(CAD)<span>per user/month</span>
                 </div>
                 <p className="small-tt">Dynamics 365 Sales Enterprise plus prebuilt customizable intelligence solutions for sellers and managers</p>
               </div>
@@ -373,38 +373,7 @@ const Sales = () => {
 
            
           </div>
-          <div className="row justify-content-center">
-          <div className="col-lg-4">
-              <div className="box box-999">
-                <h3>Microsoft Relationship Sales</h3>
-                <div className="price">
-                  $179.13(CAD)<span>Per User/Month</span>
-                </div>
-                <p className="small-tt">Dynamics 365 Sales Enterprise plus LinkedIn Sales Navigator Enterprise</p>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-999">
-                <h3>Microsoft Viva Sales</h3>
-                <div className="price">
-                  $51.20(CAD)<span>Per User/Month</span>
-                </div>
-                <p className="small-tt">A seller experience application that lets sellers use Microsoft 365 and Microsoft Teams to automatically capture data into any CRM system, eliminating manual data entry and giving more time to focus on selling.</p>
-              </div>
-            </div>
-            <div className="col-lg-12 col-md-12">
-              <div className="price-btn price-btnasd d-flex justify-content-center" style={{marginTop:'30px'}}>
-                <a 
-                  data-bs-toggle="modal"
-                  href="#exampleModal"
-                  className="btn-get-red"
-                >
-                  <span>Get Started Now</span>
-                </a >
-              </div>
-            </div>
-          </div>
+       
         </div>
       </section>
       <section className="call-to-action-center hero-4">

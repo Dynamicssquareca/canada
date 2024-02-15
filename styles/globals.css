@@ -1336,6 +1336,9 @@ section {
 .pricing .box.box-099{
   height: 445px;
 }
+.pricing .box.box-999{
+height:auto
+}
 .pricing.price-cc .box-21{height: auto;}
 .pricing.price-cc ul{
   padding-left: 5px;

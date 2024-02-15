@@ -426,11 +426,11 @@ const Marketing = () => {
             <div className="col-lg-5 col-md-5">
               <div className="box box-22">
                 <h3>
-                Dynamics 365 Marketing
+                Dynamics 365 Customer Insights
                 </h3>
                 <p><b>For organizations without any other Dynamics 365 application</b></p>
                 <div className="price">
-                  $1,500<span>Per Tenant/Month</span>
+                $1700(CAD)<span>per tenant/month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -442,11 +442,11 @@ const Marketing = () => {
             <div className="col-lg-5 col-md-5">
               <div className="box box-22">
                 <h3>
-                Dynamics 365 Marketing Attach
+                Dynamics 365 Customer Insights attach
                 </h3>
                 <p><b>For organizations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
                 <div className="price">
-                  $750<span>Per Tenant/Month</span>
+                $1000(CAD)<span>per tenant/month</span>
                 </div>
                 <ul>
                   <li className="text-center">

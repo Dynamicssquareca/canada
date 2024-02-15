@@ -435,7 +435,7 @@ const FieldService = () => {
                 Dynamics 365 Field Service
                 </h3>
                 <div className="price">
-                $95<span>Per-User/Month</span>
+                $128.90(CAD)<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -444,6 +444,7 @@ const FieldService = () => {
                 </ul>
               </div>
             </div>
+            
             
 
             <div className="col-lg-12 col-md-12">

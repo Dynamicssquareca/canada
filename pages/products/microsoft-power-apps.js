@@ -385,15 +385,12 @@ const PowerApps = () => {
           </header>
             </div>
           </div>
-          <div className="row gy-4 p-9">
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                Best for businesses that want predictable user-based licensing - with the flexibility to license users to run one app at a time or run unlimited apps.
-                </p>
+          <div className="row gy-4 p-9 justify-content-center">
+            <div className="col-lg-5">
+              <div className="box box-999">
+                <h3>Power Apps Premium</h3>
                 <div className="price">
-                $6.40 (CAD)<span>Per-User/App/Month</span>
+                $27.10(CAD)<span>per user/month</span>
                 </div>
                 <p className="small-tt">Run one app per user, need more additional licenses to provide access for other users.</p>
                 <ul>
@@ -405,7 +402,7 @@ const PowerApps = () => {
               </div>
             </div>
 
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="box box-99">
                 <h3>Subscription Plans(Per user plan)</h3>
                 <p>Suitable for enterprises that need predictable user-based licensing along with the flexibility to license users to run one app at a time or run unlimited apps.</p>
@@ -434,7 +431,7 @@ const PowerApps = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">

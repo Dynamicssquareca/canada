@@ -461,7 +461,7 @@ const ProjectOperations = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                  $120<span>Per-User/Month</span>
+                $162.80(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li className="text-center">

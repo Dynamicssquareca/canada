@@ -402,7 +402,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources
                 </h3>
                 <div className="price">
-                  $120<span>Per-User/Per Month</span>
+                $162.80(CAD)<span>per user/monthh</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -417,7 +417,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources Self-Service
                 </h3>
                 <div className="price">
-                  $4<span>Per-User/Per Month</span>
+                $5.40(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li className="text-center">

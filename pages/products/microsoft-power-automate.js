@@ -354,16 +354,12 @@ const PowerAutomate = () => {
             <h2>Affordable Power Automate Pricing</h2>
             <p>Dynamics Square helps you with subscription plans that are best for you!</p>
           </header>
-          <div className="row gy-4 p-9">
+          <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by user
-                </p>
-                <span className="cs-colo">Per user plan</span>
+              <div className="box box-999">
+                <h3>Power Automate Premium</h3>
                 <div className="price">
-                $19.20 CAD<span>Per-User/Month</span>
+                $20.40(CAD)<span>per user/month</span>
                 </div>
                 <p className="small-tt">Automate cloud apps, services, and data by using digital process automation (DPA). Users can create and run unlimited flows with this plan.</p>
                 <ul>
@@ -373,39 +369,16 @@ const PowerAutomate = () => {
             </div>
 
             <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by user
-                </p>
-                <span className="cs-colo">Per user plan with attended RPA</span>
+              <div className="box box-999">
+                <h3>Power Automate Process</h3>
                 <div className="price">
-                $51.20 CAD<span>Per-User/Month</span>
+                $203.50(CAD)<span>Per-User/Month</span>
                 </div>
                 <p className="small-tt">Provides the same features as the base user plan, plus the ability to automate desktop legacy apps via robotic process automation (RPA).</p>
                 <ul>
                   <li>Cloud flows (DPA)</li>
                   <li>Desktop flows (RPA) in attended mode</li>
                   <li>5,000 AI Builder credits/month</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by flow
-                </p>
-                <span className="cs-colo">Per flow plan</span>
-                <div className="price">
-                $128 CAD<span>per flow/Month; minimum 5 flows1,2 </span>
-                </div>
-                <p className="small-tt">Streamline digital process automation (DPA) for unlimited users within an organization. </p>
-                <ul>
-                  <li>
-                  Cloud flows (DPA)
-                  </li>
                 </ul>
               </div>
             </div>
@@ -417,7 +390,7 @@ const PowerAutomate = () => {
                   href="#exampleModal"
                   className="btn-get-red"
                 >
-                  <span>Get Power Apps Now</span>
+                  <span>Get Power Automate Now</span>
                 </a>
               </div>
             </div>

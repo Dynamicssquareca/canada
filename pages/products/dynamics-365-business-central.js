@@ -2916,8 +2916,9 @@ const BusinessCentral = () => {
                   <br />
                   Essentials
                 </h3>
+                <p>From</p>
                 <div className="price">
-                  $89.60(CAD)<span>Per-User/Per Month</span>
+                $95(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>
@@ -2948,8 +2949,9 @@ const BusinessCentral = () => {
                   <br />
                   Premium
                 </h3>
+                <p>From</p>
                 <div className="price">
-                  $128(CAD)<span>Per-User/Month</span>
+                $135.70(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>
@@ -2989,8 +2991,9 @@ const BusinessCentral = () => {
                   <br />
                   Team Members
                 </h3>
+                <p>From</p>
                 <div className="price">
-                  $10.20(CAD)<span>Per-User/Month</span>
+                $10.90(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>
