@@ -279,7 +279,7 @@ const CustomerService = () => {
                 <h3>
                   Dynamics 365 Customer Service
                   <br />
-                  Essentials
+                  Enterprise
                 </h3>
                 <div className="price">
                 $128.90<span>per user/month</span>
