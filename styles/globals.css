@@ -1377,6 +1377,12 @@ height:auto
   font-size: 16px;
   font-weight: 500;
   display: block;
+  padding-top: 5px;
+}
+.pricing .price.price-sub sup{
+  font-size: 14px;
+  top: -6px;
+  left: 0px;
 }
 .pricing img {
   padding: 30px 40px;

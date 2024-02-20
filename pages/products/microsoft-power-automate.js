@@ -371,8 +371,8 @@ const PowerAutomate = () => {
             <div className="col-lg-4">
               <div className="box box-999">
                 <h3>Power Automate Process</h3>
-                <div className="price">
-                $203.50(CAD)<span>per bot/month(6)</span>
+                <div className="price price-sub">
+                $203.50(CAD)<span>per bot/month<sup>6</sup></span>
                 </div>
                 <p className="small-tt">Provides the same features as the base user plan, plus the ability to automate desktop legacy apps via robotic process automation (RPA).</p>
                 <ul>
