@@ -4,6 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Layouts from '../components/Layouts'
 import {useRouter} from 'next/router';
 import Header from '../components/Header';
+import CookieConsent from 'react-cookie-consent';
 import {useState, useEffect} from 'react'
 import LoadingBar from 'react-top-loading-bar'
 // function MyApp({ Component, pageProps }) {
@@ -49,6 +50,16 @@ setProgress(600)
       />
       <Header />
       <Component {...pageProps} />
+      <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          cookieName="myAwesomeCookieName2"
+        >
+          We use cookies on our website to give you the most relevant experience
+          by remembering your preferences and repeat visits. By clicking "Accept",
+          you consent to the use of ALL the cookies. Do not sell my personal
+          information.
+        </CookieConsent>
       </>
     )
    
@@ -65,6 +76,16 @@ setProgress(600)
   <Layouts>
   <Component {...pageProps} />
   </Layouts>
+  <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          cookieName="myAwesomeCookieName2"
+        >
+          We use cookies on our website to give you the most relevant experience
+          by remembering your preferences and repeat visits. By clicking "Accept",
+          you consent to the use of ALL the cookies. Do not sell my personal
+          information.
+        </CookieConsent>
   </>
 }
 
