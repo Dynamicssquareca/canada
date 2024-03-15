@@ -13,12 +13,11 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Your Microsoft Dynamics 365 Implementation Partner In Canada</title>
+        <title>Dynamics 365 Implementation Partner in Canada</title>
         <meta
           name="description"
           content="Dynamics Square is Canada's leading Microsoft Dynamics 365 Gold Partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/our-services/dynamics-365-implementation-services/"
@@ -28,10 +27,8 @@ const ImplementationServices = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>
-              Dynamics 365 Implementation Services In Canada
-              </h1>
-              <p>Implement a world-class <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft cloud ERP solution</a></Link> for your service and people-focused organization with <b>Dynamics Square</b>.</p>
+              <h1>Dynamics 365 <br /> Implementation Services</h1>
+              <p>Implement a world-class Microsoft cloud ERP solution for your service and people-focused organization with <b>Dynamics Square</b>.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
