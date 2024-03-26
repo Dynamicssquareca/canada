@@ -34,6 +34,8 @@ setProgress(600)
 
   const router = useRouter();
   if(router.asPath =='/contact-us/' ||
+  router.asPath =='/contact-us-old/' ||
+  
       router.asPath =='/thank-you/' ||
       router.asPath =='/schedule-a-demo/'  ||
       router.asPath =='/schedule-a-demo' 
