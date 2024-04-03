@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ContactForm from '../components/ContactForm';
 
 const Career = () => {
     return (
@@ -174,6 +175,7 @@ const Career = () => {
               </div>
             </div>
           </section>
+          <ContactForm />
         </main>
       </>
     );
