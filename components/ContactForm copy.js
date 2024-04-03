@@ -1,10 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import emailjs from 'emailjs-com';
-import { useRouter } from 'next/router';
 
 const ContactForm = () => {
-    const router = useRouter();
-
     const handleSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
@@ -25,20 +22,14 @@ const ContactForm = () => {
                 // Reset form fields manually
                 event.target.querySelectorAll('input, textarea').forEach((field) => {
                     field.value = '';
-                    // router.push('/thank-you/');
                 });
-
-                // Redirect to thank you page after 4 seconds
-                setTimeout(() => {
-                    router.push('/thank-you');
-                }, 4000);
             } else {
                 console.error('Failed to submit form:', response.statusText);
             }
         } catch (error) {
             console.error('Error submitting form:', error);
         }
-    };
+    }
 
     return (
         <div id='crmWebToEntityForm' className='main-form-wrper' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
