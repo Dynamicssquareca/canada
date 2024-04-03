@@ -1,4 +1,5 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
     const handleSubmit = async (event) => {
@@ -7,11 +8,15 @@ const ContactForm = () => {
         const url = 'https://crm.zoho.in/crm/WebToLeadForm';
         
         try {
+            // Send email using EmailJS
+            await emailjs.sendForm('service_fhump8w', 'template_vq0gu2g', event.target, 'K7wsWama116Jghyaq');
+
+            // Submit form data to Zoho CRM
             const response = await fetch(url, {
                 method: 'POST',
                 body: formData
             });
-    
+
             if (response.ok) {
                 console.log('Form submitted successfully!');
                 // Reset form fields manually
@@ -24,7 +29,7 @@ const ContactForm = () => {
         } catch (error) {
             console.error('Error submitting form:', error);
         }
-    };
+    }
 
     return (
         <div id='crmWebToEntityForm' className='main-form-wrper' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
