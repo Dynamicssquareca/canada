@@ -27,7 +27,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
+        <div id='crmWebToEntityForm' className='main-form-wrper' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
             <form id='webform583330000000339005' onSubmit={handleSubmit}>
                 <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ad5c4e51162238d204dc5b9178c4c687f9acbe466af2e0ae9e7ee4a13ae57565' />
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />
@@ -39,39 +39,39 @@ const ContactForm = () => {
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'><label htmlFor='First_Name'>First Name</label></div>
-                    <div className='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxLength='40' /></div>
+                    <div className='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxLength='40'  className="form-control" /></div>
                 </div>
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'><label htmlFor='Last_Name'>Last Name <span style={{ color: 'red' }}>*</span></label></div>
-                    <div className='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxLength='80' required /></div>
+                    <div className='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxLength='80' required  className="form-control" /></div>
                 </div>
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'><label htmlFor='Email'>Email</label></div>
-                    <div className='zcwf_col_fld'><input type='text' ftype='email' autoComplete='false' id='Email' name='Email' crmLabel='' maxLength='100' /></div>
+                    <div className='zcwf_col_fld'><input type='text' ftype='email' autoComplete='false' id='Email' name='Email' crmLabel='' maxLength='100'  className="form-control"  /></div>
                 </div>
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'><label htmlFor='Mobile'>Mobile</label></div>
-                    <div className='zcwf_col_fld'><input type='text' id='Mobile' name='Mobile' maxLength='30' /></div>
+                    <div className='zcwf_col_fld'><input type='text' id='Mobile' name='Mobile' maxLength='30'  className="form-control" /></div>
                 </div>
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'><label htmlFor='Designation'>Company</label></div>
-                    <div className='zcwf_col_fld'><input type='text' id='Designation' name='Designation' maxLength='100' /></div>
+                    <div className='zcwf_col_fld'><input type='text' id='Designation' name='Designation'  className="form-control"  maxLength='100' /></div>
                 </div>
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'><label htmlFor='Description'>Description</label></div>
-                    <div className='zcwf_col_fld'><textarea id='Description' name='Description'></textarea></div>
+                    <div className='zcwf_col_fld'><textarea  className="form-control" id='Description' name='Description'></textarea></div>
                 </div>
                 
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab'></div>
                     <div className='zcwf_col_fld'>
-                        <input type='submit' id='formsubmit' className='formsubmit zcwf_button' value='Submit' title='Submit' />
-                        <input type='reset' className='zcwf_button' name='reset' value='Reset' title='Reset' />
+                        <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' />
+                        <input type='reset' className='btn btn-primary fomr-submit zcwf_button' name='reset' value='Reset' title='Reset' />
                     </div>
                 </div>
             </form>
