@@ -72,8 +72,8 @@ const ContactForm2 = () => {
     let isValid = true;
 
     isValid = validateName(formData.get('Last Name')) && isValid;
-    isValid = validateCompanyName(formData.get('company_name')) && isValid;
-    isValid = validateMessage(formData.get('message')) && isValid;
+    isValid = validateCompanyName(formData.get('Company')) && isValid;
+    isValid = validateMessage(formData.get('Description')) && isValid;
 
     const email = formData.get('Email');
     if (!validateEmail(email)) {
@@ -119,10 +119,12 @@ const ContactForm2 = () => {
   return (
     <div className='rows-box-sh'>
       <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
-        <form id='webform583330000000357020' ref={form} onSubmit={sendEmail}>
-          <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='2a72b4a149ed6620110d638c61396c424e672abc75989b4dc172273b37e46467' />
+        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail}>
+          <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
+            value='054dee85f38846b982841bcec664930fb77a89e2e70a57a1b5a2667434198081' />
           <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-          <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='0e46e4b6357d8248d0b2a8db657dbba3586ad2e94032ac083c39ffd237fcce1f03df9985c285c21d1f1c60048512a4e0' />
+          <input type='text' style={{ display: 'none' }}  name='xmIwtLD'
+            value='9b15ed156671b403a5450062f5e895bbb0f9cbd383ae351cab8c435d35f0b730786829f97bd2656bb0a90f0b68cb0d61' />
           <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
           <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
           <div className='row'>
@@ -149,7 +151,7 @@ const ContactForm2 = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Job"
+                  name="LEADCF5"
                 />
                 <label htmlFor="Job">Job title</label>
               </div>
@@ -180,7 +182,7 @@ const ContactForm2 = () => {
                   type="tel"
                   className="form-control"
                   placeholder=""
-                  name="phone"
+                  name="Phone"
                   onBlur={(e) => validatePhone(e.target.value)}
                 />
                 <label htmlFor="phone">Phone Number</label>
@@ -193,8 +195,8 @@ const ContactForm2 = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="company_name"
-                  onBlur={() => validateCompanyName(form.current.company_name.value)}
+                  name="Company"
+                  onBlur={() => validateCompanyName(form.current.Company.value)}
                   onChange={() => setCompanyNameError("")}
                 />
                 <label htmlFor="Company Name">*Company Name</label>
@@ -203,10 +205,10 @@ const ContactForm2 = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select className="form-select" name="service" aria-label="Default select example">
+                <select className="form-select" name="LEADCF7" aria-label="Default select example">
                   <option disabled selected hidden>Looking For?</option>
                   <option value="Implementation">Implementation</option>
-                  <option value="Upgrade/Migration">Upgrade/Migration</option>
+                  <option value="Upgrade&#x2f;Migration">Upgrade/Migration</option>
                   <option value="Support">Support</option>
                 </select>
               </div>
@@ -218,8 +220,8 @@ const ContactForm2 = () => {
                   id="exampleFormControlTextarea1"
                   placeholder=""
                   rows="3"
-                  name="message"
-                  onBlur={() => validateMessage(form.current.message.value)}
+                  name="Description"
+                  onBlur={() => validateMessage(form.current.Description.value)}
                   onChange={() => setMessageError("")}
                 ></textarea>
                 <label htmlFor="message">*Any specific requirements or questions?</label>
