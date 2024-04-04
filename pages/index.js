@@ -995,7 +995,7 @@ export default function Home() {
                       disableOnInteraction: false,
                     }}
                     slidesPerView={1}
-                    spaceBetween={30}
+                    spaceBetween={0}
                     freeMode={true}
                     pagination={{
                       clickable: true,
