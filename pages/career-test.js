@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import ContactForm from '../components/ContactForm';
+import ContactForm2 from '../components/ContactForm2';
 
 const Career = () => {
     return (
@@ -175,7 +176,8 @@ const Career = () => {
               </div>
             </div>
           </section>
-          <ContactForm />
+          {/* <ContactForm /> */}
+          <ContactForm2 />
         </main>
       </>
     );
