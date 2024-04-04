@@ -71,7 +71,7 @@ const ContactForm2 = () => {
     const url = 'https://crm.zoho.in/crm/WebToLeadForm';
     let isValid = true;
   
-    isValid = validateName(formData.get('First Name')) && isValid;
+    isValid = validateName(formData.get('Last Name')) && isValid;
     isValid = validateCompanyName(formData.get('company_name')) && isValid;
     isValid = validateMessage(formData.get('message')) && isValid;
   
@@ -92,6 +92,7 @@ const ContactForm2 = () => {
       setIsSubmitting(true); // Start loading animation
   
       try {
+        await emailjs.sendForm('service_fhump8w', 'template_vq0gu2g', e.target, 'K7wsWama116Jghyaq');
         const response = await fetch(url, {
           method: 'POST',
           body: formData
@@ -118,12 +119,12 @@ const ContactForm2 = () => {
   return (
     <div className='rows-box-sh'>
       <div  id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
-      <form id='webform583330000000339005' ref={form} onSubmit={sendEmail}>
-      <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ad5c4e51162238d204dc5b9178c4c687f9acbe466af2e0ae9e7ee4a13ae57565' />
+      <form id='webform583330000000357020' ref={form} onSubmit={sendEmail}>
+      {/* <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ad5c4e51162238d204dc5b9178c4c687f9acbe466af2e0ae9e7ee4a13ae57565' />
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />
                 <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='19c0a3b5fa3815ccfa9f3584c4d2fd8b943b9eee353c8adad5a9ba467600b3dc4139560365218aa5dbf412848aa1df65' />
                 <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
-                <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
+                <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' /> */}
           <div className='row'>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -131,7 +132,7 @@ const ContactForm2 = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="First Name"
+                  name="Last Name"
                   id="name"
                   onBlur={() => validateName(form.current.name.value)}
                   onChange={() => setNameError("")}
