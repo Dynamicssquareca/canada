@@ -88,6 +88,12 @@ const ContactForm2 = () => {
           method: 'POST',
           body: formData
       });
+      e.target.querySelectorAll('input, textarea').forEach((field) => {
+        field.value = '';
+        // router.push('/thank-you/');
+    });
+
+      
         console.log('Email sent successfully');
         setTimeout(() => {
           router.push("/thank-you/");
@@ -148,7 +154,7 @@ const ContactForm2 = () => {
                   type="email"
                   className="form-control"
                   placeholder=""
-                  name="email"
+                  name="Email"
                   onBlur={(e) => {
                     if (!validateEmail(e.target.value)) {
                       setEmailError("Please enter a valid work email address.");
