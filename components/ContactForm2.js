@@ -60,54 +60,60 @@ const ContactForm2 = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-    const formData = new FormData(event.target);
+  
+    // Ensure that form.current is defined before accessing its properties
+    if (!form.current) {
+      console.error("Form reference is not set.");
+      return;
+    }
+  
+    const formData = new FormData(form.current);
     const url = 'https://crm.zoho.in/crm/WebToLeadForm';
     let isValid = true;
-
-    isValid = validateName(form.current.name.value) && isValid;
-    isValid = validateCompanyName(form.current.company_name.value) && isValid;
-    isValid = validateMessage(form.current.message.value) && isValid;
-
-    if (!validateEmail(form.current.email.value)) {
+  
+    isValid = validateName(formData.get('First Name')) && isValid;
+    isValid = validateCompanyName(formData.get('company_name')) && isValid;
+    isValid = validateMessage(formData.get('message')) && isValid;
+  
+    const email = formData.get('Email');
+    if (!validateEmail(email)) {
       setEmailError("Please enter a valid work email address.");
       isValid = false;
     } else {
       setEmailError(""); // Clear email error if email is valid
     }
-
-    if (form.current.phone.value && !validatePhone(form.current.phone.value)) {
+  
+    const phone = formData.get('phone');
+    if (phone && !validatePhone(phone)) {
       isValid = false;
     }
-
+  
     if (isValid) {
       setIsSubmitting(true); // Start loading animation
-
+  
       try {
-        // await emailjs.sendForm('service_7pxmyip', 'template_e4x6ryp', form.current, 'iOfmJhDFEupCGYBmx');
         const response = await fetch(url, {
           method: 'POST',
           body: formData
-      });
-      e.target.querySelectorAll('input, textarea').forEach((field) => {
-        field.value = '';
-        // router.push('/thank-you/');
-    });
-
-      
-        console.log('Email sent successfully');
+        });
+  
+        if (!response.ok) {
+          throw new Error('Failed to submit form');
+        }
+  
+        console.log('Form submitted successfully!');
         setTimeout(() => {
           router.push("/thank-you/");
         }, 500); // Redirect to thank-you page after 5 seconds
       } catch (error) {
-        console.error('Error sending email:', error);
-        // Handle error
+        console.error('Error sending form:', error);
+        // Handle error, e.g., display error message to user
       } finally {
-        setIsSubmitting(false); // Stop loading animation
-        form.current.reset(); // Reset form
+        setIsSubmitting(false); // Stop loading animation regardless of success or failure
       }
     }
   };
-
+  
 
   return (
     <div className='rows-box-sh'>
@@ -196,7 +202,7 @@ const ContactForm2 = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select class="form-select" name="service" aria-label="Default select example">
+                <select className="form-select" name="service" aria-label="Default select example">
                   <option disabled selected hidden>Looking For?</option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>
