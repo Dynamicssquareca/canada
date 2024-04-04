@@ -252,16 +252,19 @@ const ContactForm2 = () => {
                 </label>
               </div>
               <div className="spiner-wrper">
-                <button
+              <div className='zcwf_col_fld'>
+                        <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' />
+                    </div>
+                {/* <button
                   id='formsubmit'
                   type="submit"
                   title='Submit'
                   value='Submit'
                   className="btn btn-primary fomr-submit"
-                  disabled={isSubmitting} // Disable button while submitting
+                  disabled={isSubmitting} 
                 >
                   {isSubmitting ? 'Sending...' : 'Let’s Connect'}
-                </button>
+                </button> */}
               </div>
             </div>
 
