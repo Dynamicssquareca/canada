@@ -9,7 +9,7 @@ const ContactForm = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
         const url = 'https://crm.zoho.in/crm/WebToLeadForm';
-        
+
         try {
             // Send email using EmailJS
             await emailjs.sendForm('service_fhump8w', 'template_vq0gu2g', event.target, 'K7wsWama116Jghyaq');
@@ -41,7 +41,8 @@ const ContactForm = () => {
     };
 
     return (
-        <div id='crmWebToEntityForm' className='main-form-wrper' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
+        <>
+            {/* <div id='crmWebToEntityForm' className='main-form-wrper' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
             <form id='webform583330000000339005' onSubmit={handleSubmit}>
                 <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ad5c4e51162238d204dc5b9178c4c687f9acbe466af2e0ae9e7ee4a13ae57565' />
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />
@@ -89,7 +90,102 @@ const ContactForm = () => {
                     </div>
                 </div>
             </form>
-        </div>
+        </div> */}
+
+            <div id='crmWebToEntityForm' className='main-form-wrper'>
+                <form id='webform583330000000339005' onSubmit={handleSubmit}>
+                    <div className="mb-3">
+                        <input
+                            type="text"
+                            id="First_Name"
+                            className="form-control"
+                            placeholder="*Full Name"
+                            name="First Name"
+                            required
+                        />
+                        <input type="hidden" value={router.asPath} name="url" />
+                    </div>
+
+                    <div className="mb-3">
+                        <input
+                            type="email"
+                            id='Email'
+                            className="form-control"
+                            placeholder="* Work Email"
+                            name="Email"
+                            pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
+                            required
+                        />
+                    </div>
+                    <div className="mb-3">
+                        <input
+                            type="text"
+                            id='Designation'
+                            className="form-control"
+                            placeholder="*Company Name"
+                            name="Designation"
+                            required
+                        />
+                    </div>
+                    <div className="mb-3">
+                        <input
+                            type="tel"
+                            id="Mobile"
+                            className="form-control"
+                            placeholder="*Phone Number"
+                            name="Mobile"
+                            pattern="^\d{10,13}$"
+                            required
+                        />
+                    </div>
+                    <div className="mb-3">
+                        <textarea
+                            className="form-control"
+                            id='Description'
+                            placeholder="* How Can We Help You?"
+                            rows="3"
+                            name="Description"
+                            required
+                        ></textarea>
+                    </div>
+                    <div className="mb-3 form-check">
+                        <input
+                            type="checkbox"
+                            checked
+                            readOnly
+                            className="form-check-input"
+                        />
+                        <label className="form-check-label">
+                            I agree to the
+                            <a href="/privacy-policy/" target="_blank">
+                                {" "}
+                                Privacy Policy{" "}
+                            </a>
+                            and
+                            <a href="/terms-of-use/" target="_blank">
+                                {" "}
+                                Terms of Service{" "}
+                            </a>
+                            .
+                        </label>
+                    </div>
+
+                    <div className="spiner-wrper">
+                        <button
+                            id='formsubmit'
+                            type="submit"
+                            className="btn btn-primary fomr-submit"
+                            title='Submit'
+                        >
+                            Submit
+                        </button>
+                        {/* <div className={display} role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div> */}
+                    </div>
+                </form>
+            </div>
+        </>
     );
 };
 
