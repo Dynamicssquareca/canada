@@ -60,21 +60,21 @@ const ContactForm2 = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-  
+
     // Ensure that form.current is defined before accessing its properties
     if (!form.current) {
       console.error("Form reference is not set.");
       return;
     }
-  
+
     const formData = new FormData(form.current);
     const url = 'https://crm.zoho.in/crm/WebToLeadForm';
     let isValid = true;
-  
+
     isValid = validateName(formData.get('Last Name')) && isValid;
     isValid = validateCompanyName(formData.get('company_name')) && isValid;
     isValid = validateMessage(formData.get('message')) && isValid;
-  
+
     const email = formData.get('Email');
     if (!validateEmail(email)) {
       setEmailError("Please enter a valid work email address.");
@@ -82,26 +82,26 @@ const ContactForm2 = () => {
     } else {
       setEmailError(""); // Clear email error if email is valid
     }
-  
+
     const phone = formData.get('phone');
     if (phone && !validatePhone(phone)) {
       isValid = false;
     }
-  
+
     if (isValid) {
       setIsSubmitting(true); // Start loading animation
-  
+
       try {
         await emailjs.sendForm('service_fhump8w', 'template_vq0gu2g', e.target, 'K7wsWama116Jghyaq');
         const response = await fetch(url, {
           method: 'POST',
           body: formData
         });
-  
+
         if (!response.ok) {
           throw new Error('Failed to submit form');
         }
-  
+
         console.log('Form submitted successfully!');
         setTimeout(() => {
           router.push("/thank-you/");
@@ -114,17 +114,17 @@ const ContactForm2 = () => {
       }
     }
   };
-  
+
 
   return (
     <div className='rows-box-sh'>
-      <div  id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
-      <form id='webform583330000000357020' ref={form} onSubmit={sendEmail}>
-      {/* <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ad5c4e51162238d204dc5b9178c4c687f9acbe466af2e0ae9e7ee4a13ae57565' />
-                <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-                <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='19c0a3b5fa3815ccfa9f3584c4d2fd8b943b9eee353c8adad5a9ba467600b3dc4139560365218aa5dbf412848aa1df65' />
-                <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
-                <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' /> */}
+      <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
+        <form id='webform583330000000357020' ref={form} onSubmit={sendEmail}>
+          <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='2a72b4a149ed6620110d638c61396c424e672abc75989b4dc172273b37e46467' />
+          <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+          <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='0e46e4b6357d8248d0b2a8db657dbba3586ad2e94032ac083c39ffd237fcce1f03df9985c285c21d1f1c60048512a4e0' />
+          <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
+          <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
           <div className='row'>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -251,7 +251,7 @@ const ContactForm2 = () => {
               </div>
               <div className="spiner-wrper">
                 <button
-                 id='formsubmit'
+                  id='formsubmit'
                   type="submit"
                   title='Submit'
                   value='Submit'
@@ -262,10 +262,10 @@ const ContactForm2 = () => {
                 </button>
               </div>
             </div>
-          
+
           </div>
           <div className='row pa-43'>
-          <div className='col-lg-5'>
+            <div className='col-lg-5'>
               <div className='text-center text-center-ff'>
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
