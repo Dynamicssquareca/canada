@@ -12,7 +12,7 @@ const ContactForm = () => {
 
         try {
             // Send email using EmailJS
-            await emailjs.sendForm('service_fhump8ww', 'template_vq0gu2g', event.target, 'K7wsWama116Jghyaq');
+            // await emailjs.sendForm('service_fhump8w', 'template_vq0gu2g', event.target, 'K7wsWama116Jghyaq');
 
             // Submit form data to Zoho CRM
             const response = await fetch(url, {
@@ -176,6 +176,7 @@ const ContactForm = () => {
                             type="submit"
                             className="btn btn-primary fomr-submit"
                             title='Submit'
+                            value='Submit'
                         >
                             Submit
                         </button>
