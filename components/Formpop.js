@@ -10,7 +10,7 @@ const Formpop = () => {
     // Load the Zoho script after DOM content is fully loaded
     const loadScript = () => {
       const script = document.createElement('script');
-      script.src = `71ca64a1fe67db33666b60e6738e2b0e12110cfe01bd5448b4b480868c2e106c6645a91382b95de9744e2bb1d2c15c32gid073c63466c9273296fb4068383baeb645a9d2756e0cb91ceaf8afe45e000b736giddabedeb2a6c65b880d1e1ff667bbff8bba3e9dbed9be61f8c245aed2c9079fb5gid669e5b448523bde9cc318c8c7d98dfd7e73899fd5c333e46de26c7f858c59770&tw=abc2925aeb8aa7182cf0be03ba5ba4e7ecc9b45383c5dec09dbdb1c6916e6d67`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=71ca64a1fe67db33666b60e6738e2b0e12110cfe01bd5448b4b480868c2e106c6645a91382b95de9744e2bb1d2c15c32gid073c63466c9273296fb4068383baeb645a9d2756e0cb91ceaf8afe45e000b736giddabedeb2a6c65b880d1e1ff667bbff8bba3e9dbed9be61f8c245aed2c9079fb5gid669e5b448523bde9cc318c8c7d98dfd7e73899fd5c333e46de26c7f858c59770&tw=abc2925aeb8aa7182cf0be03ba5ba4e7ecc9b45383c5dec09dbdb1c6916e6d67`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
       script.async = true;
       document.body.appendChild(script);
     };
