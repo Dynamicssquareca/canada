@@ -14,14 +14,25 @@ const ContactForm2 = () => {
 
   useEffect(() => {
     // Load the Zoho script after DOM content is fully loaded
-    const script = document.createElement('script');
-    script.src = 'https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=948f4cd9be9bd0a0990742d73cae57054f6db4cf60fadf1c40179e618e27a154bc383e6d0864f0639a6bf156e9e0b82dgidcfca0836293a502444394c44154c5d181e2746b3c7b72fb2a29bbf5bd484edf3gid79441142bac69bf8063093608e61e40a0111ece3fbd86a8ba67d66f194a16099gidae57229cd5d755a9095560a43b789a9936b26d3eb67c9fc12f7c2a21479003b9&tw=e3f350a1f3532d71831c9cd9681bf1dca97bd3f0990fa5ae18c4613ed902cbb6'; // Replace ... with your script ID or other necessary parameters
-    script.async = true;
-    document.body.appendChild(script);
-    
+    const loadScript = () => {
+      const script = document.createElement('script');
+      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=948f4cd9be9bd0a0990742d73cae57054f6db4cf60fadf1c40179e618e27a154bc383e6d0864f0639a6bf156e9e0b82dgidcfca0836293a502444394c44154c5d181e2746b3c7b72fb2a29bbf5bd484edf3gid79441142bac69bf8063093608e61e40a0111ece3fbd86a8ba67d66f194a16099gidae57229cd5d755a9095560a43b789a9936b26d3eb67c9fc12f7c2a21479003b9&tw=e3f350a1f3532d71831c9cd9681bf1dca97bd3f0990fa5ae18c4613ed902cbb6`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    if (document.readyState === 'complete') {
+      loadScript();
+    } else {
+      window.addEventListener('DOMContentLoaded', loadScript);
+    }
+
     // Clean up function to remove the script when the component unmounts
     return () => {
-      document.body.removeChild(script);
+      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
+      if (script) {
+        script.remove();
+      }
     };
   }, []);
 
