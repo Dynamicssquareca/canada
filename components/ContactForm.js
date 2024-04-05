@@ -6,7 +6,9 @@ const ContactForm = () => {
     const router = useRouter();
 
     const handleSubmit = async (event) => {
+        setDisplay("spinner-border text-success");
         event.preventDefault();
+        setDisplay("spinner-border text-success");
         const formData = new FormData(event.target);
         const url = 'https://crm.zoho.in/crm/WebToLeadForm';
 
