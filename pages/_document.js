@@ -45,8 +45,6 @@ class MyDocument extends Document {
           <NextScript />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
           <script src="//code.jivosite.com/widget/ayximyoru5" async></script>
-
-          <script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=f4ae692f69047cfb5e521329e28eb92ad716190026f4f75a19e7fee95fa9303543e914ab68721f0d07610e8a4e1779ddgid7a6d634be08b0d742ffd61c20b6b5c31ff4c0724a243eb59967145b5768f1c11gid99cc806988ac712b27ff272419e91a99673c7f13378786badacfd22d69978821gidae4183e7dc1594ead21fccc02d9f0ddd49199502a80206099bde827efd876ca7&tw=c942952f908d26ee48f420d467d0b56ba030e54788e51af4b7c90a541bc70313'></script>    
         </body>
       </Html>
     )

@@ -114,15 +114,15 @@ const ContactForm2 = () => {
       }
     }
   };
-
+  
 
   return (
     <div className='rows-box-sh'>
       <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
-        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail}>
-          <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='d7b97fee29d36bfc1d787756bcf22f4bc9e5b4e9a966a37381cc1c6d62a20688' />
+        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads196947000014082029' method='POST' acceptCharset='UTF-8'>
+          <input type='text' style={{ display: 'none' }} name='xnQsjsdp' vvalue='7dd97cd6573848c1d3f988e72674f0db3d8b6f5b3c44bc4027d7e4ddeae5a866' />
           <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-          <input type='text' style={{ display: 'none' }}  name='xmIwtLD' value='e2d9c74b3cce3ef333f0dc16551829740de9c837f3be7bdd5f654459d26a7ce879db29e548230ddba1694b587b9c6af6' />
+          <input type='text' style={{ display: 'none' }}  name='xmIwtLD'  value='5003ccd8063a53aef0a9ec8e9d2ba1d57cb4198968d444c3bb755f18cb3cacb13613368ade1eca29db0da4ba1fe4650e' />
           <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
           <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
           <div className='row'>
@@ -309,7 +309,7 @@ const ContactForm2 = () => {
             </div>
           </div>
           {/* Do not remove this --- Analytics Tracking code starts */}
-        
+          <script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=40f5af88001e4da2b4b6c3586c4b8ac031f7247714d3ceed215be26031e767033562ceb3a70e2ee8f09cc6d57e92df5cgid187a6c52c312cf1b9ae288ea16d1ab59510bf1ff6ec311333f1ba8ef59dcfa82gide9e25cb7d73650421a79d57c7f8520c8481b2d3579a39d504244288458aafef6gid40fcd50c5be571e9cc0f7e63ac028e0a999541b267c4f25d9a366f584a6c7966&tw=e1c5c50bd7e5623c049cebcdfb2afc28949310643c32f1f6f05ce0bef5967715'></script>
         </form>
       </div>
     </div>
