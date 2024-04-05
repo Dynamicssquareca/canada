@@ -119,7 +119,7 @@ const ContactForm2 = () => {
   return (
     <div className='rows-box-sh'>
       <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
-        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads196947000014082029' method='POST' acceptCharset='UTF-8'>
+        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail} >
           <input type='text' style={{ display: 'none' }} name='xnQsjsdp'  value='a1a00862256473c05ffdc5b2ab45d22c35d98cf5f3192911a5aa4e3584a40088' />
           <input type='hidden' name='zc_gad' id='zc_gad' value='' />
           <input type='text' style={{ display: 'none' }}  name='xmIwtLD'  value='960498c331943c951ab6e22a7861d22dc2fe4eef98fcbad2e464b140f6afc743316eca01fa0934596fdfc4dfec77a30e' />
