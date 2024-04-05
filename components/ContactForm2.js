@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 
@@ -11,6 +11,19 @@ const ContactForm2 = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const form = useRef();
+
+  useEffect(() => {
+    // Load the Zoho script after DOM content is fully loaded
+    const script = document.createElement('script');
+    script.src = 'https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=...'; // Replace ... with your script ID or other necessary parameters
+    script.async = true;
+    document.body.appendChild(script);
+    
+    // Clean up function to remove the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   const validateEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
@@ -309,7 +322,7 @@ const ContactForm2 = () => {
             </div>
           </div>
           {/* Do not remove this --- Analytics Tracking code starts */}
-         
+          <script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=948f4cd9be9bd0a0990742d73cae57054f6db4cf60fadf1c40179e618e27a154bc383e6d0864f0639a6bf156e9e0b82dgidcfca0836293a502444394c44154c5d181e2746b3c7b72fb2a29bbf5bd484edf3gid79441142bac69bf8063093608e61e40a0111ece3fbd86a8ba67d66f194a16099gidae57229cd5d755a9095560a43b789a9936b26d3eb67c9fc12f7c2a21479003b9&tw=e3f350a1f3532d71831c9cd9681bf1dca97bd3f0990fa5ae18c4613ed902cbb6'></script>
         </form>
       </div>
     </div>
