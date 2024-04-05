@@ -110,7 +110,7 @@ const handleSubmit = async (event) => {
             </p>
             <div className="modal-body">
             <div className="main-form-wrper">
-             <form id='webform196947000014082098' onSubmit={handleSubmit}>
+             <form id='webform196947000014082098' onSubmit={handleSubmit} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082098' method='POST' acceptCharset='UTF-8'>
              <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
             value='dc3da275598c74f192988980ef0476a73d821628b83fb5cae53f7d150db103fa' />
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />

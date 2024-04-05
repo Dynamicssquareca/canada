@@ -68,7 +68,7 @@ const Form = () => {
     return (
         <div>
              <div className="main-form-wrper">
-             <form id='webform196947000014082124' onSubmit={handleSubmit}>
+             <form id='webform196947000014082124' onSubmit={handleSubmit} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082124' method='POST' acceptCharset='UTF-8'>
              <input type='text' style={{ display: 'none' }}name='xnQsjsdp' value='374376e66ef4f8e383a380ac3d4d470a77836bcfb86092aef107f9a10ed1fb02' />
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />
                 <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='068f8759fafa7a62e3bc6f68cd2fed1e30c410e2022a1b5cdf4e97e658a626637a9570abab2f51dc15b3e789f0625c65' />
