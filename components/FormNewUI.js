@@ -118,7 +118,7 @@ const FormNewUI = () => {
       setIsSubmitting(true); // Start loading animation
 
       try {
-        await emailjs.sendForm('service_fhump8w', 'template_vq0gu2g', e.target, 'K7wsWama116Jghyaq');
+        await emailjs.sendForm('service_7pxmyip', 'template_e4x6ryp', e.target, 'iOfmJhDFEupCGYBmx');
         const response = await fetch(url, {
           method: 'POST',
           body: formData
