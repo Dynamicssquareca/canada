@@ -277,8 +277,9 @@ const ContactForm2 = () => {
               </div>
               <div className="spiner-wrper">
               <div className='zcwf_col_fld'>
-                        <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' />
+                        <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' /> 
                     </div>
+                    
                 {/* <button
                   id='formsubmit'
                   type="submit"
