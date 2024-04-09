@@ -48,6 +48,7 @@ class MyDocument extends Document {
           {/* <script src="//code.jivosite.com/widget/ayximyoru5" async></script> */}
           <script
             id="zsiqchat"
+            async
             dangerouslySetInnerHTML={{
               __html: `
                 var $zoho=$zoho || {};
