@@ -13,10 +13,10 @@ const MicrosoftCloudForNonprofit = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Cloud for Nonprofits: A Fundraising Tool in Canada</title>
+        <title>Microsoft Cloud for Nonprofits Dynamics Square CA</title>
         <meta
           name="description"
-          content="Microsoft Cloud for Nonprofits is the ultimate tool to quickly provide help by reimagining team efforts across your nonprofit organization. Contact us for more."
+          content="Microsoft Cloud for Nonprofits is the ultimate tool to quickly provide help by reimagining team efforts across your nonprofit organization."
         />
         <link
           rel="canonical"

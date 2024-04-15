@@ -14,7 +14,7 @@ const Startup = () => {
     <>
       <Head>
       <meta charSet="utf-8" />
-        <title>Dynamics 365 for Food & Beverages Industry: Invent Future</title>
+        <title>Dynamics 365 for Food & Beverages Industry | Dynamics Square CA</title>
         <meta
           name="description"
           content="Microsoft Dynamics 365 is a suite of intelligent business apps to modernize the food, beverages, and processing industry. Get in touch with Dynamics Square."

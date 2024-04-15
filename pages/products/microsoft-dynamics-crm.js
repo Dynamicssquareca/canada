@@ -7,7 +7,7 @@ const MicrosoftDynamicsCrm = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics CRM: ERP & CRM Business Modules</title>
+        <title>Microsoft Dynamics CRM Solution|Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square."

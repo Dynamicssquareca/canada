@@ -5,10 +5,10 @@ const SupportServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics Square: Dynamics 365 Support Services In Canada</title>
+        <title>Dynamics 365 Support & Services | Dynamics Square CA</title>
         <meta
           name="description"
-          content="Dynamics Square is Canada's leading high-quality support for Dynamics 365, Dynamics NAV, Dynamics GP, & Managed Services. Contact us for instant help."/>
+          content="Dynamics Square is Canada's leading high-quality support for Dynamics 365, Dynamics NAV, AX,GP, & Managed Services. Contact us for instant help."/>
            <meta name="robots" content="index,follow" />
         <link
           rel="canonical"

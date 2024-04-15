@@ -10,14 +10,14 @@ const MicrosoftDynamicsNAV = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics NAV: An On-premises ERP Module</title>
+        <title>Microsoft Dynamics NAV (Navision) Support Partner | Dynamics Square CA</title>
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-nav/"
         />
         <meta
           name="description"
-          content="Microsoft Dynamics NAV is an older version of Dynamics 365 Business Central that seamlessly offers process automation features. Contact Dynamics Square."
+          content="Looking for a trusted Microsoft Dynamics NAV (Navision) support partner in Canada? Dynamics Square provides seamless assistance, ensuring smooth operations and optimal performance for your business."
         />
         <meta name="robots" content="index,follow" />
       </Head>

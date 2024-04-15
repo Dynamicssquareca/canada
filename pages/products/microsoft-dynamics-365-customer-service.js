@@ -9,10 +9,10 @@ const CustomerService = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Customer Service: Understand Customers Better</title>
+        <title>Dynamics 365 Customer Service Partner Canada</title>
         <meta
           name="description"
-          content="Implement Dynamics 365 Customer Service to better understand your customers and provide them with omnichannel experiences. Contact Dynamics Square."
+          content="Implement Dynamics 365 Customer Service CRM to better understand your customers and provide them with omnichannel experiences. Contact Dynamics Square."
         />
            <meta name="robots" content="index,follow" />
         <link

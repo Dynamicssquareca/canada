@@ -15,9 +15,7 @@ const BusinessCentral = () => {
   return (
     <>
       <Head>
-        <title>
-          Microsoft Dynamics 365 Business Central ERP Partner Vancouver
-        </title>
+        <title>Microsoft Dynamics 365 Business Central Partner Vancouver</title>
         <meta
           name="description"
           content="We are Canada's trusted Microsoft Dynamics 365 Business Central Partner in Vancouver. Call +1 289 807 0740 for demo, implementation, upgrades & support."

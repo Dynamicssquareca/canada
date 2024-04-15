@@ -13,10 +13,10 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Partner in Canada</title>
+        <title>Dynamics 365 Implementation Partner in Canada | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square is Canada's leading Microsoft Dynamics 365 Gold Partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help."
+          content="Dynamics Square is Canada's leading Microsoft Dynamics 365 implementation partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help."
         />
         <link
           rel="canonical"

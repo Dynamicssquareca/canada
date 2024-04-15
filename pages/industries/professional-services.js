@@ -14,7 +14,7 @@ const Startup = () => {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>Dynamics 365 for Professional Services: Practice the Best</title>
+        <title>Dynamics 365 for Professional Services: Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics 365 for Professional Services is a cloud-based business management module designed & developed by Microsoft to modernize SMEs/SMBs."

@@ -6,7 +6,7 @@ const MicrosoftDynamicsAX = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics AX: On-premises Finance ERP Module</title>
+        <title>Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module</title>
         <meta
           name="description"
           content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square."

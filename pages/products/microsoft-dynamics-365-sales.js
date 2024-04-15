@@ -9,7 +9,7 @@ const Sales = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Sales: Best Cloud CRM Solution</title>
+        <title> Dynamics 365 for Sales|Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now."

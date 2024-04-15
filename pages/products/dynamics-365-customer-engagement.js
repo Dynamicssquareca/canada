@@ -6,7 +6,7 @@ const Dynamics365CustomerEngagement = () => {
   return (
     <>
       <Head>
-      <title>Dynamics 365 Customer Engagement: A Cloud Marketing App</title>
+      <title>Dynamics 365 Customer Engagement Partner Canada</title>
 <meta name="description" content="Strengthen your relationships with customers via Dynamics 365 Customer Engagement - a cloud marketing solution. Connect with the Dynamics Square team."/>
 <meta name="robots" content="index,follow" />
 <link rel="canonical" href="https://www.dynamicssquare.ca/products/dynamics-365-customer-engagement/" />

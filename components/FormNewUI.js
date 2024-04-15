@@ -1,4 +1,4 @@
-import React, { useRef, useState ,useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 
@@ -37,7 +37,7 @@ const FormNewUI = () => {
     };
   }, []);
 
-  
+
   const validateEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
     return emailRegex.test(String(email).toLowerCase());
@@ -140,15 +140,15 @@ const FormNewUI = () => {
       }
     }
   };
-  
+
 
   return (
     <div className='rows-box-sh'>
       <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
         <form id='webform196947000014082029' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads196947000014082029' method='POST' acceptCharset='UTF-8'>
-          <input type='text' style={{ display: 'none' }} name='xnQsjsdp'  value='a1a00862256473c05ffdc5b2ab45d22c35d98cf5f3192911a5aa4e3584a40088' />
+          <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='a1a00862256473c05ffdc5b2ab45d22c35d98cf5f3192911a5aa4e3584a40088' />
           <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-          <input type='text' style={{ display: 'none' }}  name='xmIwtLD'  value='960498c331943c951ab6e22a7861d22dc2fe4eef98fcbad2e464b140f6afc743316eca01fa0934596fdfc4dfec77a30e' />
+          <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='960498c331943c951ab6e22a7861d22dc2fe4eef98fcbad2e464b140f6afc743316eca01fa0934596fdfc4dfec77a30e' />
           <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
           <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
           <div className='row'>
@@ -229,10 +229,10 @@ const FormNewUI = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select className="form-select" name="LEADCF7" aria-label="Default select example">
-                  <option disabled selected hidden>Looking For?</option>
+                <select className="form-select" name="LEADCF7" aria-label="Default select example" defaultValue="">
+                  <option disabled hidden value="">Looking For?</option>
                   <option value="Implementation">Implementation</option>
-                  <option value="Upgrade&#x2f;Migration">Upgrade/Migration</option>
+                  <option value="Upgrade/Migration">Upgrade/Migration</option>
                   <option value="Support">Support</option>
                 </select>
               </div>
@@ -276,7 +276,7 @@ const FormNewUI = () => {
                 </label>
               </div>
               <div className="spiner-wrper">
-              {/* <div className='zcwf_col_fld'>
+                {/* <div className='zcwf_col_fld'>
                         <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' />
                     </div> */}
                 <button
@@ -285,7 +285,7 @@ const FormNewUI = () => {
                   title='Submit'
                   value='Submit'
                   className="btn btn-primary fomr-submit"
-                  disabled={isSubmitting} 
+                  disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Sending...' : 'Let’s Connect'}
                 </button>

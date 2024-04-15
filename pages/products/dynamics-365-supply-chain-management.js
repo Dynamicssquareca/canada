@@ -10,10 +10,10 @@ const SupplyChainManagement = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Supply Chain Management in Canada</title>
+        <title>Dynamics 365 Supply Chain Management (SCM) | Dynamics Square</title>
         <meta
           name="description"
-          content="Microsoft Dynamics 365 Supply Chain Management helps you simplify, streamline, and smartly accelerate your supply chain practices. Contact us for help."
+          content="Dynamics 365 for Supply Chain Management enables agile adaptation, fostering resilient, sustainable supply chains through cloud-based predictive solutions."
         />
         <meta name="robots" content="index,follow" />
         <link

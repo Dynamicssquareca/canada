@@ -6,7 +6,7 @@ const FinanceOperations = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance and Operations: Dynamics Square</title>
+        <title>Dynamics 365 Finance and Operations Partner | Dynamics Square CA</title>
         <meta
           name="description"
           content="Microsoft Dynamics 365 Finance & Operations to seamlessly optimize your finances and gain increased visibility. Contact us for detailed pricing & licensing."

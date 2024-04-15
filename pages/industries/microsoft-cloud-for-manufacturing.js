@@ -14,7 +14,7 @@ const Startup = () => {
     <>
       <Head>
       <meta charSet="utf-8" />
-        <title>Microsoft Cloud for Manufacturing: Create A Resilient Future</title>
+        <title>Microsoft Cloud for Manufacturing Dynamics Square CA</title>
         <meta
           name="description"
           content="Microsoft Cloud for Manufacturing is a Microsoft initiative to help SMBs modernize manufacturing businesses. Contact Dynamics Square for more."

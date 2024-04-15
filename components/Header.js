@@ -944,6 +944,7 @@ return(
                     target="_self"
                     className="getstarted custtss"
                     href="tel:+12898070740"
+                    aria-selected="true" role="menuitem"
                   >
                     <i className="bi bi-telephone-fill"></i> +1 289 807 0740
                   </a>
@@ -958,6 +959,7 @@ return(
                     target="_self"
                     className="getstarted custtss"
                     href="tel:+12898070740"
+                    aria-selected="true" role="menuitem"
                   >
                     <i className="bi bi-telephone-fill"></i>
                     </a>

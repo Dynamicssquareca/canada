@@ -13,10 +13,10 @@ const Startup = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 for Startups: Ultimate Tool for Startups</title>
+        <title>Microsoft Dynamics 365 for Startups: Dynamics Square CA</title>
         <meta
           name="description"
-          content="Microsoft's Dynamics 365 for startups is an unmatched tool to quickly market your startups & mid-market-sized businesses. Contact Dynamics Square for more."
+          content="Microsoft's Dynamics 365 for startups is an unmatched tool to quickly market your startups & mid-market-sized businesses. Contact Dynamics Square for more"
         />
         <meta name="robots" content="index,follow" />
         <link

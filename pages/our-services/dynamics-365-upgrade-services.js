@@ -5,10 +5,10 @@ const UpgradeServices = () => {
   return (
     <>
       <Head>
-        <title>Upgrade Services for Dynamics 365 CRM and ERP in Canada</title>
+        <title>Dynamics 365 Upgrade Services | Dynamics Square CA</title>
         <meta
           name="description"
-          content="Dynamics Square is Canada's leading CRM and ERP upgrade services provider. Contact us for all Dynamics 365 support, including data migration services."
+          content="Dynamics Square is Canada's leading Dynamics 365 CRM and ERP upgrade services provider. Do Contact us Today!"
         />
            <meta name="robots" content="index,follow" />
         <link

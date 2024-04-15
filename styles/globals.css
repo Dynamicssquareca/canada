@@ -9510,6 +9510,10 @@ margin:0px 10px 10px 0px
     border-color: #d73d3d;
     margin-top: 20px;
 }
+.main_form-wrper_contact .btn-primary:focus{
+  background-color: var(--color-blue);
+  box-shadow:none
+}
 .coant-ii{
   justify-content:center;
   gap:40px
