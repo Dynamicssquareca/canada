@@ -113,7 +113,7 @@ const Inedex = () => {
                 <br />
                 <div className="text-lg-center">
                   <a
-                    href="/our-services/dynamics-365-implementation-services"
+                    href="/services/dynamics-365-implementation"
                     className="btn-get-started btn-sm scrollto"
                   >
                     <span>View More</span>
@@ -128,7 +128,7 @@ const Inedex = () => {
                 <br />
                 <div className="text-lg-center">
                   <a
-                    href="/our-services/dynamics-365-upgrade-services/"
+                    href="/services/dynamics-365-upgrade/"
                     className="btn-get-started btn-sm scrollto"
                   >
                     <span>View More</span>
@@ -144,7 +144,7 @@ const Inedex = () => {
                 <br />
                 <div className="text-lg-center">
                   <a
-                    href="/our-services/dynamics-365-support-services"
+                    href="/services/dynamics-365-support"
                     className="btn-get-started btn-sm scrollto"
                   >
                     <span>View More</span>
