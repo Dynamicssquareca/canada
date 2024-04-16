@@ -837,7 +837,7 @@ return(
                   </a>
                   <ul>
                     <li>
-                      <a href="/industries/startups/">Startups</a>
+                      <a href="/industries/dynamics-365-for-startups/">Startups</a>
                     </li>
                     <li>
                       <a href="/industries/microsoft-cloud-for-nonprofit/">
@@ -845,7 +845,7 @@ return(
                       </a>
                     </li>
                     <li>
-                      <a href="/industries/ecommerce/">Ecommerce</a>
+                      <a href="/industries/dynamics-365-for-ecommerce/">Ecommerce</a>
                     </li>
                     <li>
                       <a href="/industries/microsoft-cloud-for-manufacturing/">
@@ -853,12 +853,12 @@ return(
                       </a>
                     </li>
                     <li>
-                      <a href="/industries/professional-services/">
+                      <a href="/industries/dynamics-365-for-professional-services/">
                         Professional Services
                       </a>
                     </li>
                     <li>
-                      <a href="/industries/food-and-beverages/">
+                      <a href="/industries/dynamics-365-for-food-and-beverages/">
                         Food & Beverages
                       </a>
                     </li>
@@ -1252,7 +1252,7 @@ return(
                           <div className="iner-list">
                             <ul>
                               <li>
-                                <a href="/industries/startups/">
+                                <a href="/industries/dynamics-365-for-startups/">
                                   Startups
                                 </a>
                               </li>
@@ -1262,7 +1262,7 @@ return(
                                 </a>
                               </li>
                               <li>
-                                <a href="/industries/ecommerce/">
+                                <a href="/industries/dynamics-365-for-ecommerce/">
                                   Ecommerce
                                 </a>
                               </li>
@@ -1272,12 +1272,12 @@ return(
                                 </a>
                               </li>
                               <li>
-                                <a href="/industries/professional-services/">
+                                <a href="/industries/dynamics-365-for-professional-services/">
                                   Professional Services
                                 </a>
                               </li>
                               <li>
-                                <a href="/industries/food-and-beverages/">
+                                <a href="/industries/dynamics-365-for-food-and-beverages/">
                                   Food & Beverages
                                 </a>
                               </li>
