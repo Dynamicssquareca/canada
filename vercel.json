@@ -47,7 +47,11 @@
     { "source": "/products/microsoft-power-automate/", "destination": "/solutions/microsoft-power-automate/", "statusCode": 301 },
     { "source": "/products/microsoft-power-bi/", "destination": "/solutions/microsoft-power-bi/", "statusCode": 301 },
     { "source": "/products/microsoft-power-platform/", "destination": "/solutions/microsoft-power-platform/", "statusCode": 301 },
-    { "source": "/products/microsoft-power-virtual-agents/", "destination": "/solutions/microsoft-power-virtual-agents/", "statusCode": 301 }
+    { "source": "/products/microsoft-power-virtual-agents/", "destination": "/solutions/microsoft-power-virtual-agents/", "statusCode": 301 },
+    { "source": "/our-services/", "destination": "/services/", "statusCode": 301 },
+    { "source": "/our-services/dynamics-365-upgrade-services/", "destination": "/services/dynamics-365-upgrade-services/", "statusCode": 301 },
+    { "source": "/our-services/dynamics-365-support-services/", "destination": "/services/dynamics-365-support-services/", "statusCode": 301 },
+    { "source": "/our-services/dynamics-365-implementation-services/", "destination": "/services/dynamics-365-implementation-services/", "statusCode": 301 }
 
   ]
 }

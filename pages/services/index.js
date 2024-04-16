@@ -11,7 +11,7 @@ const Inedex = () => {
           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/our-services/"
+          href="https://www.dynamicssquare.ca/services/"
         />
         </Head>
         <section className="Solution-banner hero-1 hero">

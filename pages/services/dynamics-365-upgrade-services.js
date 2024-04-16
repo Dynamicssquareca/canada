@@ -13,7 +13,7 @@ const UpgradeServices = () => {
            <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/our-services/dynamics-365-upgrade-services/"
+          href="https://www.dynamicssquare.ca/services/dynamics-365-upgrade-services/"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

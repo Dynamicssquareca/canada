@@ -979,7 +979,7 @@ const ContactUs = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/our-services/">Our Services</a>
+                    <a href="/services/">Our Services</a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>

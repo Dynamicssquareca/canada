@@ -865,23 +865,23 @@ return(
                   </ul>
                 </li>
                 <li className="dropdown">
-                  <a href="/our-services/">
+                  <a href="/services/">
                     <span>Our Services</span>
                     <i className="bi bi-chevron-down"></i>
                   </a>
                   <ul>
                     <li>
-                      <a href="/our-services/dynamics-365-implementation-services/">
+                      <a href="/services/dynamics-365-implementation-services/">
                         Implementation Services
                       </a>
                     </li>
                     <li>
-                      <a href="/our-services/dynamics-365-support-services/">
+                      <a href="/services/dynamics-365-support-services/">
                         Support Services
                       </a>
                     </li>
                     <li>
-                      <a href="/our-services/dynamics-365-upgrade-services/">
+                      <a href="/services/dynamics-365-upgrade-services/">
                         Upgrade Services
                       </a>
                     </li>
@@ -1311,17 +1311,17 @@ return(
                           <div className="iner-list">
                             <ul>
                               <li>
-                                <a href="/our-services/dynamics-365-implementation-services/">
+                                <a href="/services/dynamics-365-implementation-services/">
                                   Implementation Services
                                 </a>
                               </li>
                               <li>
-                                <a href="/our-services/dynamics-365-support-services/">
+                                <a href="/services/dynamics-365-support-services/">
                                   Support Services
                                 </a>
                               </li>
                               <li>
-                                <a href="/our-services/dynamics-365-upgrade-services/">
+                                <a href="/services/dynamics-365-upgrade-services/">
                                   Upgrade Services
                                 </a>
                               </li>
