@@ -1,6 +1,5 @@
 {
   "redirects": [
-    { "source": "/dynamics-365-business-central-implementation/", "destination": "/dynamics-365-business-central-erp-system-implementation/", "statusCode": 301 },
     { "source": "/dynamics-365-business-central-support/", "destination": "/dynamics-365-business-central-erp-support/", "statusCode": 301 },
     { "source": "/products/microsoft-dynamics-365-mixed-reality/", "destination": "/solutions/microsoft-dynamics-365/mixed-reality/", "statusCode": 301 },
     { "source": "/products/field-service/", "destination": "/solutions/microsoft-dynamics-365-field-service/", "statusCode": 301 },
@@ -12,8 +11,8 @@
     { "source": "/industries/ecommerce/", "destination": "/industries/dynamics-365-for-ecommerce/", "statusCode": 301 },
     { "source": "/industries/professional-services/", "destination": "/industries/dynamics-365-for-professional-services/", "statusCode": 301 },
     { "source": "/industries/food-and-beverages/", "destination": "/industries/dynamics-365-for-food-and-beverages/", "statusCode": 301 },
-
     { "source": "/products/", "destination": "/solutions/", "statusCode": 301 },
+    
     { "source": "/products/microsoft-dynamics-365/", "destination": "/solutions/microsoft-dynamics-365/", "statusCode": 301 },
     { "source": "/products/azure-digital-twins/", "destination": "/solutions/azure-digital-twins/", "statusCode": 301 },
     { "source": "/products/azure-iot-central/", "destination": "/solutions/azure-iot-central/", "statusCode": 301 },
@@ -25,11 +24,9 @@
     { "source": "/products/dynamics-365-business-central/", "destination": "/solutions/dynamics-365-business-central/", "statusCode": 301 },
     { "source": "/products/dynamics-365-customer-engagement/", "destination": "/solutions/dynamics-365-customer-engagement/", "statusCode": 301 },
     { "source": "/products/dynamics-365-human-resources/", "destination": "/solutions/dynamics-365-human-resources/", "statusCode": 301 },
-    
-    { "source": "/products/dynamics-365-project-operations/", "destination": "/solutions//", "statusCode": 301 },
-    { "source": "/products//", "destination": "/solutions/dynamics-365-project-operations/", "statusCode": 301 },
-    { "source": "/products/dynamics-365-supply-chain-management/", "destination": "/solutions//", "statusCode": 301 },
-    { "source": "/products//", "destination": "/solutions/dynamics-365-supply-chain-management/", "statusCode": 301 },
+
+    { "source": "/products/dynamics-365-project-operations/", "destination": "/solutions/dynamics-365-project-operations/", "statusCode": 301 },
+    { "source": "/products/dynamics-365-supply-chain-management/", "destination": "/solutions/dynamics-365-supply-chain-management/", "statusCode": 301 },
     { "source": "/products/microsoft-azure/", "destination": "/solutions/microsoft-azure/", "statusCode": 301 },
     { "source": "/products/microsoft-dynamics-365-ai/", "destination": "/solutions/microsoft-dynamics-365-ai/", "statusCode": 301 },
     { "source": "/products/microsoft-dynamics-365-commerce/", "destination": "/solutions/microsoft-dynamics-365-commerce/", "statusCode": 301 },

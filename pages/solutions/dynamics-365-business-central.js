@@ -260,7 +260,10 @@ const BusinessCentral = () => {
                 <p>
                   <b>Microsoft D365 Business Central</b> is now available in{" "}
                   <b>130+</b> countries and regions. <b>Get Started</b> to{" "}
-                  <b>SAVE</b> up to <b>30%</b> for Business Central Implementation 
+                  <b>SAVE</b> up to <b>30%</b> for{" "}
+                  <Link href="/dynamics-365-business-central-erp-system-implementation/">
+                    <a>Business Central Implementation </a>
+                  </Link>
                 </p>
               </header>
             </div>
