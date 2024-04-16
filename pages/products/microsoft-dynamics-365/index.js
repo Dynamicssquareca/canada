@@ -295,7 +295,8 @@ const D360 = () => {
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left">
                 <h3>Transform your business with Dynamics 365's capabilities</h3>
-                <p>Dynamics Square is Canada's leading Microsoft Gold Partner, offering you a variety of <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft's cloud ERP solutions</a></Link> as well as legacy ERP systems' upgrade services. Get in touch with our experts to upgrade your NAV, GP, or AX into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, <Link  href="/products/microsoft-dynamics-365-finance/"><a>Finance</a></Link>, or <Link href="/products/dynamics-365-supply-chain-management/"><a>Supply Chain</a></Link>.</p>
+                {/* <p>Dynamics Square is Canada's leading Microsoft Gold Partner, offering you a variety of Microsoft's cloud ERP solutions as well as legacy ERP systems' upgrade services. Get in touch with our experts to upgrade your NAV, GP, or AX into Dynamics 365 Business Central, Finance, or Supply Chain.</p> */}
+                <p> Get in touch with our experts to upgrade your NAV, GP, or AX into Dynamics 365 Business Central, Finance, or Supply Chain.</p>
                 <div className="m-o-t m-o-t-inde">
                   <Link  href="#exampleModal"><a
                     data-bs-toggle="modal"
@@ -320,7 +321,7 @@ const D360 = () => {
             <p>Implement Tomorrow's Technology and Solutions Today with <Link href="/"><a>Dynamics Square</a></Link></p>
           </header>
           </div></div>
-          <div className="row g-5 pad2xyr">
+          <div className="row g-5 ">
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-content">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Head from 'next/head'
+import Head from "next/head";
 import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -9,36 +9,38 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 import Link from "next/link";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
-  // const [open, setsOpen] = useState(false);
+  const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-      <meta charSet="utf-8" />
-        <title>Dynamics 365 for Food & Beverages Industry | Dynamics Square CA</title>
+        <meta charSet="utf-8" />
+        <title>Dynamics 365 for Professional Services: Dynamics Square CA</title>
         <meta
           name="description"
-          content="Microsoft Dynamics 365 is a suite of intelligent business apps to modernize the food, beverages, and processing industry. Get in touch with Dynamics Square."
+          content="Dynamics 365 for Professional Services is a cloud-based business management module designed & developed by Microsoft to modernize SMEs/SMBs."
         />
-        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/industries/food-and-beverages/"
+          href="https://www.dynamicssquare.ca/industries/dynamics-365-for-professional-services/"
         />
+        <meta name="robots" content="index,follow" />
       </Head>
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="blXvCkDi1NI"
+        videoId="qLjfAsQRWaM"
         onClose={() => setOpen(false)}
-      />
-       <main>
+      /> 
+      <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Microsoft Dynamics 365 for Food & Beverage Industry</h1>
-                <p>Connect your data sources, people, and distribution system to an integrated platform and build an <b>intelligent supply chain</b> that auto-reacts to challenges and fosters business continuity.</p>
+                <h1>
+                Microsoft Dynamics 365 for Professional Services
+                </h1>
+                <p>Get real-time access and visibility into every project's cost and margin to remain profitable and deliver the highest quality projects on time and budget with <b>Dynamics 365 for Professional Services</b>.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
@@ -51,8 +53,8 @@ const Startup = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <img
-                  src="/img/food-and-beverages-banner.png"
-                  alt="Dynamics 365 For Food & Beverages"
+                  src="/img/professional service banner.png"
+                  alt="Dynamics 365 For Professional Services"
                 />
               </div>
             </div>
@@ -61,20 +63,21 @@ const Startup = () => {
         <section>
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-9">
-              <header className="section-header">
-              <h2>Why Choose Microsoft Dynamics 365 for Food and Beverage operations?</h2>
-              <p>Dynamics 365 is Microsoft's brilliant innovation for food beverage, and process manufacturers. Microsoft has every cloud solution that you need, or your business might need in the future to help you build a resilient and sustainable food and beverage supply chain. From <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link> for large groups to <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> for mid-market-sized businesses like FMCGs, you have everything in the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 store</a></Link>  - a suite of intelligent business management apps for your growing business. Harness its power by integrating Power BI, Power Apps, and Power Platform on Azure to drive higher outcomes for your investments.</p>
-              <div className="text-center">
+              <div className="col-lg-8 col-md-8">
+                <header className="section-header">
+                  <h2>Choose Dynamics 365 for Professional Services</h2>
+                  <p>Say goodbye to the complicated disparate time and expense entry systems. Start keeping track of your projects, and customers happy!</p>
+                  <p>Previously known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> or <Link href="/products/microsoft-dynamics-365-finance-operations/"><a> Dynamics 365 Finance and Operations</a></Link>, <b>Dynamics 365 for Professional Services</b> is a fully featured <b>enterprise resource planning (ERP) software</b> that enables organizations to monitor the execution of projects and allocate and distribute resources efficiently while increasing the efficiency of project teams.</p>
+                  <div className="text-center">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Request a Demo</span>
+                    <span>Get Started with Dynamics 365</span>
                   </a>
                 </div>
-            </header>
+                </header>
               </div>
             </div>
           </div>
@@ -83,8 +86,8 @@ const Startup = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>Bring Smoothness to your operational flows with Dynamics 365</h2>
-                <p>Fuel innovation, boost employee productivity, and attract real-time opportunities to run your business the way you want.</p>
+                <h2>Take your industrial and professional services to the next level with Dynamics 365 for Professional Services.</h2>
+                <p>Drive your organization's efficiency by strategically optimizing process flows, ensuring on-time delivery with business-centric <b>Dynamics 365 cloud solutions.</b></p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -95,7 +98,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Effectively manage your <b>warehousing, finance, accounting,</b> and <b>supply chain</b> with <b>Dynamics 365 Business Central</b> or <b>Dynamics 365 Supply Chain</b> if you are growing big.</p>
+                      <p>Track, manage, and control your entire business organization and its processes at your fingertip by accessing Dynamics 365 on your mobile devices anytime, anywhere.</p>
                     </div>
                   </div>
 
@@ -106,7 +109,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Leverage <b>Microsoft Dynamics 365</b> in the food processing and dairy industry to provide enhanced customer experience based on AI-driven insights.</p>
+                      <p>Ensure real-time reporting and invoicing and enable automation for repeated tasks to boost productivity and empower employees to do more with less using <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>.</p>
                     </div>
                   </div>
 
@@ -117,17 +120,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Attain visibility into your supply chain and boost margins with a single integrated platform like <b>Dynamics 365 for Supply Chain Management</b>.</p>
-                    </div>
-                  </div>
-                  <div className="content-inner-moil-1">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p>Use Microsoft 365/Office 365 products such as Teams, Exchange, SharePoint, <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, and Office integrated with <b>Dynamics 365</b> to foster strong collaboration among employees.</p>
+                      <p>Intelligently optimize your resources, not your IT practices. Boost your professional services now with <Link href="/products/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> - an intelligent suite of business apps.</p>
                     </div>
                   </div>
                 </div>
@@ -145,15 +138,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>Want technology experts at your service?</h3>
-                  <p><Link href="/contact-us/"><a>Connect with us</a></Link> and share your business requirements to grow your profitability on a scale with our <b>Dynamics 365 solutions</b>.</p>
+                  <h3>Empower your employees to maximize your professional capabilities</h3>
+                  <p>Talk to our experts for expert advice and discover a suitable <b>Dynamics 365 solution</b> for your professional services ranging from financial, accounting, and human resources to reporting, sales, or optimizing other business tasks.</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Meet Our Microsoft Experts</span>
+                      <span>Meet an Expert today!</span>
                     </a>
                   </div>
                 </div>
@@ -163,126 +156,115 @@ const Startup = () => {
         </section>
         <section className="industry_service_bottoms">
           <div className="container">
-          <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-9">
-              <header className="section-header">
-              <h2>See how you can ripe fruits for your business with Microsoft Dynamics 365 solutions</h2>
+           <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+              <h2>Microsoft cloud solutions for you!</h2>
+              <p><b>Boost your Professional Services with Dynamics 365 apps</b></p>
+              <p>Explore how <b>Dynamics 365 solutions</b> help you drive the successful execution of your projects and other professional services </p>
+              <br /> <br />
             </header>
-              </div>
             </div>
-            <div className="row position-relative g-4">
+           </div>
+            <div className="row position-relative">
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Distribution-Delivery.svg"
-                      alt="Distribution-Delivery"
+                      src="/img/icons-commerce_user-experience.svg"
+                      alt="icons-commerce_user-experienc.svg"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Intelligent Warehousing</h3>
-                    <p>Produce and procure with Azure ML, automate preventive and corrective maintenance, using embedded Microsoft techs like <b>Power Apps, Azure Data Warehouse,</b> and <b>Azure AI&ML</b>.</p>
+                    <h3>Real-time access to data</h3>
+                    <p>With access to real-time data & actionable insights, improve your customer experience and maximize customer engagement to increase profitability and growth.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Asset-Management.svg"
-                      alt="Asset-Management"
+                      src="/img/icons_Customer-Feedback- (1).svg"
+                      alt="Business Central Upgrade-icons"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Smart Marketing</h3>
-                    <p>Empower your marketing team by skilling them with the latest marketing tools, like <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>, and customer insights to drive product marketing strategies/campaigns.</p>
+                    <h3>Customized Solutions</h3>
+                    <p>Improve your process optimization, speed up service flows to accelerate growth, and maximize ROIs with our highly customized business-centric <b>Cloud ERP</b> and <b>Relationship Management Solutions</b>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Customer-Management.svg"
-                      alt="Customer-Management"
+                      src="/img/connect-collaborate-1.svg"
+                      alt="connect-collaborate-1"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Accelerated Sales</h3>
-                    <p>Employ Power BI-embedded integrated sales automation tools like Microsoft <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> to drive accelerated.</p>
+                    <h3>Intelligent Planning & Budgeting</h3>
+                    <p>Take the help of <b>Microsoft's AI-driven</b> actionable insights, forecast, and prepare reports and plans to drive maximized results.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Production-Mnagement.svg"
-                      alt="Production-Mnagement"
+                      src="/img/icons-implementation-service_Sales-.svg"
+                      alt="icons-implementation-service_Sales-"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Customer Engagement</h3>
-                    <p>Engage more and strengthen your relationships with customers using CRM tools like Customer <Link href="/products/dynamics-365-customer-engagement/"><a>Dynamics 365 Customer Engagement</a></Link> and improve your business to drive higher sales.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/predict-opportunity.svg"
-                      alt="predict-opportunity"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Manufacturing & Production</h3>
-                    <p>Manufacture an intelligent manufacturing environment to produce quality food and beverage goods to fulfill customer satisfaction and demand using <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Microsoft Cloud for Manufacturing</a></Link>.</p>
+                    <h3>Optimized HR & Payroll</h3>
+                    <p>Engage, recruit, and onboard the right talent. Optimize your human & financial resources and improve your human efficiency level at scale with <Link href="/products/dynamics-365-human-resources/"><a>Dynamics 365 for HRM (Human Resources Management)</a></Link>.</p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
-             
-
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Design-and-Training.svg"
-                      alt="Design-and-Training"
+                      src="/img/icons-implementation-service_HR.svg"
+                      alt="icons-implementation-service_HR"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Supply Chain Management</h3>
-                    <p>Take the next step and create an adaptive, resilient supply chain that automatically responds to challenges and helps you with agile planning for business continuity.</p>
+                    <h3>Employee Collaboration</h3>
+                    <p>Create opportunities for real-time communication and engagement across your organization to foster innovation, growth, and scalability with <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Service-Management.svg"
-                      alt="Service-Management"
+                      src="/img/Budgeting-Planning.svg"
+                      alt="Budgeting-Planning"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Analytics & Insights</h3>
-                    <p>Utilize analytics-driven insights to proactively reduce downtime, enhance inventory accuracy, automating cycle counts to maintain operational excellence and equipment automation.</p>
+                    <h3>Smart Business Intelligence</h3>
+                    <p>Leverage the combined power of <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> and <b>Dynamics 365</b> to achieve higher business intelligence (BI). Strengthen your workforce & start taking informed decisions.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/predict-opportunity.svg"
-                      alt="predict-opportunity"
+                      src="/img/Time-Expense-Management.svg"
+                      alt="Time-Expense-Management"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Financial Insights</h3>
-                    <p>Have a strategic impact and reduce costs by maximizing financial visibility and profitability with <Link href="/products/microsoft-dynamics-365-finance/"><a>Microsoft Dynamics 365 Finance</a></Link>.</p>
+                    <h3>Get Accurate Analytics</h3>
+                    <p>Smartly use past business data & gain accurate insights using built-in analytics capabilities in <Link href="/products/microsoft-dynamics-erp/"><a>cloud ERP solutions</a></Link> to achieve project success and maintain business continuity.</p>
                   </div>
                 </div>
 
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-ax-_sales-management.svg"
-                      alt="Sales-Management"
+                      src="/img/control-icon-analysis.svg"
+                      alt="control-icon-analysis"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Quality Control</h3>
-                    <p>Enhance the quality of your goods and services to improve your reputation in the market by configuring and customizing <b> Dynamics 365 apps</b> based on your business needs.</p>
+                    <h3>Better Manage Time and Expenses</h3>
+                    <p>Maximize the overall productivity of your organization by professionally managing your time, expenses, and resources.</p>
                   </div>
                 </div>
               </div>
@@ -294,15 +276,15 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>Take tomorrow's decisions today with Dynamics 365 solutions</h3>
-                  <p>Get in touch with our Microsoft products consultants, share your requirements, and find a suitable cloud solution for your food, beverage, and processing business.</p>
+                  <h3>Uplift your professional services to Uplift your Business</h3>
+                  <p>Help your business and employees help you make informed and productive decisions. Accelerate your business towards a productive path. Share your business requirements with our <Link href="/contact-us/"><a>Dynamics 365 consultants</a></Link> and find a suitable <b>cloud ERP solution</b>.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Contact Now!</span>
+                      <span>Get in Touch</span>
                     </a>
                   </div>
                 </div>
@@ -313,13 +295,13 @@ const Startup = () => {
         <section className="busine_service_bottom">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 align-items-center">
+              <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <img
-                      src="/img/food and beverages- side.png"
+                      src="/img/proffesional service side.png"
                       className="fix-im"
-                      alt="food and beverages- side"
+                      alt="proffesional service side"
                     />
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
@@ -328,8 +310,8 @@ const Startup = () => {
                           onClick={() => setOpen(true)}
                         >
                           <img
-                            src="/img/Video-Food And beerages.png"
-                            alt="Video-Food And beerages"
+                            src="/img/proffesional video-service.png"
+                            alt="proffesional video-service"
                           />
                           <span className="cente-icns">
                             <img
@@ -345,15 +327,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>Curious to go beyond the next level of manufacturing and distributing food, beverages, & processed goods?</h2>
-                  <p>Uplift the operational capability of your plant and attain a profitable business continuity with <b>Dynamics 365 business apps</b> for the food and beverage industry.</p>
-                  <div className="text-lg-start">
+                  <h2>Get long-term support and partnership with Dynamics Square</h2>
+                  <p>Our expert team has over 11+ years of professionally implementing Dynamics 365 solutions and provides top-notch IT services tailored to your business needs.</p>
+                  <div className="text-lg-start mm-t">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Connect with our team to Learn how!</span>
                     </a>
                   </div>
                 </div>
@@ -364,10 +346,10 @@ const Startup = () => {
 
         <section className="industry-more-sec">
           <div className="container">
-          <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-9">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
               <header className="section-header">
-              <h2>Explore Other Industries</h2>
+              <h2>Explore Other Industries & Discover More Dynamics 365 Solutions </h2>
             </header>
               </div>
             </div>
@@ -411,6 +393,25 @@ const Startup = () => {
                     >
                       <SwiperSlide>
                         <div className="swiper-slide">
+                          <div className="industries-list-more">
+                            <a href="/industries/food-and-beverages/">
+                              <div className="img-wrp">
+                                <img
+                                  src="/img/Food-and-beverage.svg"
+                                  alt="Food-and-beverage"
+                                />
+                              </div>
+                              <div className="text-wrp-content">
+                                <h3>Food & Beverages</h3>
+                                <p>Boost growth and exceed customer expectations by successfully building an intelligent supply chain with <b>Dynamics 365</b> for the food, beverage, and processing industry.</p>
+                                <span>Explore Now</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
                               <a href="/industries/microsoft-cloud-for-nonprofit/">
@@ -422,7 +423,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>Accelerate your fundraising by automating your daily nonprofit mission-related operations, assist the needy and drive efficiency at scale with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits Hubs</a></Link>.</p>
+                                  <p>Automate your fundraising by bringing people and data close to your nonprofit mission-related daily operations and drive efficiency with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits Hubs</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -443,7 +444,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>Unite your back office, in-store, call center, and eCommerce experiences to an integrated platform - <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link> - and deliver a unified buying experience at scale.</p>
+                                  <p>Provide customers with more unified buying experiences by bringing g your back office, in-store, call center, and eCommerce experiences on an integrated e-commerce platform and grow at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -451,27 +452,7 @@ const Startup = () => {
                           </div>
                         </div>
                       </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="swiper-slide">
-                          <div className="swiper-slide">
-                            <div className="industries-list-more">
-                              <a href="/industries/professional-services/">
-                                <div className="img-wrp">
-                                  <img
-                                    src="/img/proffesional-service.svg"
-                                    alt="proffesional-service"
-                                  />
-                                </div>
-                                <div className="text-wrp-content">
-                                  <h3>Professional Services</h3>
-                                  <p>Exceed the expectations of your customers by bringing data, people, and processes close to your business on a unified business management platform - <Link href="/industries/professional-services/"><a>Dynamics 365 for Professional Services</a></Link>.</p>
-                                  <span>Explore Now</span>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </SwiperSlide>
+
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <div className="swiper-slide">
@@ -485,7 +466,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>Build a more resilient and sustainable manufacturing environment by optimizing your manufacturing processes and strengthening customer relationships with <b>Microsoft Cloud for Manufacturing</b>.</p>
+                                  <p>Transform your manufacturing and distribution. Build a more resilient and sustainable future by driving innovation to improve manufacturing processes with <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Microsoft Cloud for Manufacturing</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -506,7 +487,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>Turn your growing startup into a brand or company by scaling business operations using Microsoft's numerous productivity and management tools such as Dynamics 365, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, and <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>. </p>
+                                  <p>Create a brand or company from your startup by scaling business operations with <b>Microsoft Dynamics 365</b>, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, <b>Microsoft 365</b>, and <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -528,4 +509,3 @@ const Startup = () => {
 };
 
 export default Startup;
-

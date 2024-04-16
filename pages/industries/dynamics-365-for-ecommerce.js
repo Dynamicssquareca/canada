@@ -7,28 +7,28 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import Link from "next/link";
-const Startup = () => {
+const Ecommerce = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 for Startups: Dynamics Square CA</title>
+        <title>Dynamics 365 Commerce: A Cloud E-Commerce Solution</title>
         <meta
           name="description"
-          content="Microsoft's Dynamics 365 for startups is an unmatched tool to quickly market your startups & mid-market-sized businesses. Contact Dynamics Square for more"
+          content="Microsoft Dynamics 365 Commerce-a cloud solution to unify your e-Commerce business processes to quickly market your products. Contact Dynamics Square."
         />
         <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/industries/startups/"
+          href="https://www.dynamicssquare.ca/industries/dynamics-365-for-ecommerce/"
         />
       </Head>
-     <ModalVideo
+      <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="qLjfAsQRWaM"
+        videoId="1gbGf0dXUNE"
         onClose={() => setOpen(false)}
       /> 
       <main>
@@ -36,22 +36,26 @@ const Startup = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Dynamics 365 for Startups & Mid-Market Sized Businesses</h1>
-                <p>Dynamics 365 for Startups brings Microsoft's ecosystem to startup founders and business decision-makers to employ low-cost yet highly innovative tools that increase productivity and ease developers' workloads. </p>
+                <h1>
+                  Microsoft Dynamics 365
+                  <br />
+                  For Ecommerce
+                </h1>
+                <p>Create an E-Commerce site and give people what they want. Bring data, customers, and <b>E-Commerce business partners</b> to a unified platform and deliver a personalized online shopping experience to drive sales with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get a Demo</span>
                   </a>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
                 <img
-                  src="/img/industry-startup-banner.png"
-                  alt="Dynamics 365 For Startups"
+                  src="/img/ecommerce banner.png"
+                  alt="Microsoft Dynamics 365 For Ecommerce"
                 />
               </div>
             </div>
@@ -62,34 +66,36 @@ const Startup = () => {
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>Microsoft's Dynamics 365 for Startups - Cultivate a Culture of Innovation</h2>
-              <p>Bring people, knowledge, and problem-solving ability together to solve tomorrow's challenges today!</p>
-              <p>Startups and mid-market-sized businesses are the hubs of innovation. They work on tight budgets and have complexities to manage. <b>Dynamics 365 for Startups</b> is not merely an idea but a flexible, easy-to-use, customizable, and low-cost yet highly productive business management platform that helps startups and mid-sized businesses (SMEs/SMBs) streamline operations, <Link href="/products/dynamics-365-customer-engagement/"><a>enhance customer engagement</a></Link>, save development time and cost & drive growth at scale. </p>
-              <div className="text-center">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get Started with Your Transformation Journey! </span>
-                  </a>
-                </div>
+              <h2>What is E-Commerce?</h2>
+              <p>Today's requirement to sustain your online business or say your e-commerce platform is a secure and scalable e-commerce solution that satisfies your customers and your business. Customize products and offers for customers, process transactions quickly and securely, and focus on delivering personalized customer service. To make it better and more efficient, take the help of an intuitive <b>E-Commerce management platform</b> like <b>Microsoft Dynamics 365 Commerce</b>.</p>
             </header>
               </div>
             </div>
-            
+           
+          </div>
+        </section>
+        <section style={{marginTop:'-90px'}}>
+          <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-9 col-md-9">
+              <header className="section-header">
+              <h2>What is Dynamics 365 Commerce?</h2>
+              <p>Microsoft's Dynamics 365 is a unique E-Commerce solution that helps you deliver highly personalized and seamless buying experiences for your customers and business partners. Implement this Microsoft cloud solution and start engaging across all your traditional and emerging channels, build loyalty, exceed customer expectations, and transform your online business into a brand. Microsoft Dynamics 365 Commerce not only helps you modernize your retail store but goes beyond and provides you with AI-driven insights to better streamline your operations.</p>
+            </header>
+              </div>
+            </div>
+           
           </div>
         </section>
         <section className="Solution-business-why custom-pd-1">
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>Why should I choose Dynamics 365 for my Startup or for my new business?</h2>
-                <p><b>Microsoft Dynamics 365 for Startups</b> is a platform that grows with you. With $150,000 free Azure credits, you can build solutions, productivity & dev tools at your own pace. Also, you get free access to various development and productivity tools, including GitHub and Microsoft 365.</p>
+                <h2>How can I accelerate my E-Commerce business with Dynamics 365 Commerce?</h2>
+                <p>By automating data, using solutions with built-in <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence) capabilities</a></Link>, and cloud platforms.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
-                  <p><b>Access startup-friendly offers & start building</b></p><br />
                   <div className="content-inner-moil-1">
                     <div className="icons-left">
                       <div className="ext-bord">
@@ -97,8 +103,9 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Ideate</b></p>
-                      <p>Get 1k in Azure credits to refine your startup idea, prototype your product, and increase the credits up to 150k as your usage and business grows to a brand or company.</p>
+                      <p>
+                      With the help of Dynamics 365 for eCommerce businesses, enterprises can automate their data, streamline their processes, and enable resource optimization to support process continuation and faster the entire e-commerce flow.
+                      </p>
                     </div>
                   </div>
 
@@ -109,8 +116,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Develop</b></p>
-                      <p>Since you know your idea has the potential to generate value, jump in to develop a minimum viable product (MVP) using $5k Azure credits, and increase this credit to $150k as your company grows.</p>
+                      <p>Built-in data automation tool helps you optimize your resources and support your business continuity while making your entire E-Commerce faster.</p>
                     </div>
                   </div>
 
@@ -121,11 +127,9 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Grow</b></p>
-                      <p>When you have launched your MVP, it is now time to focus on shipping features and start winning customers. Accelerate your company's growth with free $25k Azure credits and raise credits to $150k as your business grows.</p>
+                      <p>Using real-time analytics, AI-driven customer insights enable every employee in your organization to make decisions and drive sales by accelerating manufacturing and production.</p>
                     </div>
                   </div>
-
                   <div className="content-inner-moil-1">
                     <div className="icons-left">
                       <div className="ext-bord">
@@ -133,11 +137,9 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Scale</b></p>
-                      <p>Once you have set up a market fit for your product and you are ready to focus on scaling your company, get the advantage of $150k Azure credits.</p>
+                      <p><b>Microsoft Dynamics 365 Commerce</b> is not only an app but a full-fledged eCommerce solution that assists you in managing your stock level, tracking shipping, and faster product delivery along with a hassle-free return and refund process. </p>
                     </div>
                   </div>
-                 
                 </div>
               </div>
             </div>
@@ -153,15 +155,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>Run your Startup Business more efficiently with Microsoft Dynamics 365 for Startups</h3>
-                  <p>Speed up your development process and accelerate your business with expert guidance</p>
+                  <h3>Want to discuss your requirements with our Dynamics 365 Experts?</h3>
+                  <p>Connect, share your problems and ideas, and let our people execute the right solution for you to drive your eCommerce business.</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Meet Your Expert</span>
+                      <span>Schedule a Demo Now!</span>
                     </a>
                   </div>
                 </div>
@@ -169,118 +171,95 @@ const Startup = () => {
             </div>
           </div>
         </section>
-        <section className="industry_service_bottoms">
 
-    
+        <section className="industry_service_bottoms">
           <div className="container">
-          <div className="row justify-content-center g-5">
+          <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>Build More & Achieve More with Dynamics 365 for Startups</h2>
-              <p>Get the ultimate business management tool that facilitates the success of your every project and inspires you to accomplish more. </p>
+              <h2>Microsoft Dynamics 365 Commerce Features</h2>
+              <p>Re-imagine the way customers interact with your products, and improve direct sales to increase customer engagement before, after, and at the point of <Link href="/products/microsoft-dynamics-365-sales/"><a>sales with Microsoft Cloud</a></Link>, <Link href="/products/azure-iot-internet-of-things/"><a>Azure</a></Link>, and <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>. </p>
             </header>
               </div>
             </div>
-            <div className="row g-xxl-0">
+            <div className="row position-relative g-5">
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_seamless customisation.svg"
-                      alt="icons-_seamless customisation"
+                      src="/img/Distribution-Delivery.svg"
+                      alt="Distribution-Delivery"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Tailored Customization</h3>
-                    <p>Simplify your operations and solve startup challenges with an easy-to-customize business management tool that quickly adapts to your needs.</p>
+                    <h3>Personalize Shopping Experiences</h3>
+                    <p>Get people interested in buying your products and services by analyzing your e-commerce site's web traffic and browse-to-buy conversion rates, and defining offers, and new products on customers' behavior using <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
+                      src="/img/inventory-management-icon-01.svg"
+                      alt="inventory-management-icon-01"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Highly Innovative</h3>
-                    <p>Pull all your resources and processes together and proactively connect them with your development and sales team to drive collaboration, innovation, and efficiency.</p>
+                    <h3>Transact Sales Securely</h3>
+                    <p>Increase your transactions by increasing customers. Derive more customers and transactions by creating an easy-to-navigate e-commerce buying experience and deploying it using a more secure and compliant E-Commerce platform like <b>Dynamics 365 Commerce</b>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_manage customer.svg"
-                      alt="icons-_manage customer"
+                      src="/img/connect-collaborate.svg"
+                      alt="Customer Management"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Understands People</h3>
-                    <p>Understand your customer, open doors for engagement, and deliver an omnichannel experience by providing personalized solutions every step of their journey.</p>
+                    <h3>Meet Customer Demands</h3>
+                    <p>Adapt to the size and seasonality of your business to develop the ability to automatically handle increasing customer demand for your products and services using <b>Microsoft's PaaS (platform as a service)</b> and App services.</p>
                   </div>
                 </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_decison making.svg"
-                      alt="icons-_decison making"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Robust Analytics</h3>
-                    <p>Make use of real-time key analytics, customer data, and insights for better financial visibility with <b>Dynamics 365 Startups.</b></p>
-                  </div>
-                </div>
+            
               </div>
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_connect collobrate.svg"
-                      alt="icons-_connect collobrate"
+                      src="/img/Design-and-Training.svg"
+                      alt="Supply Chain Management"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Process Automation</h3>
-                    <p>Enable data and process automation using <Link href="/products/microsoft-dynamics-365-ai/"><a>built-in AI (Artificial Intelligence)</a></Link> practices and in-cloud environments. </p>
+                    <h3>Optimize Supply Chain</h3>
+                    <p>Save time and money by intelligently streamlining your supply chain, reduce support costs, and increase satisfaction with your sellers and suppliers by incorporating online self-service portals.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_drive automation.svg"
-                      alt="icons-_drive automation"
+                      src="/img/Service-Management.svg"
+                      alt="Production Management"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Enterprise Maneuverability</h3>
-                    <p>Leverage higher enterprise mobility by centralizing data, processes, and people on a single platform - <b>Dynamics 365 for Startups.</b></p>
+                    <h3>Drive Your Sales</h3>
+                    <p>Drive more sales by focusing on sales, not managing your IT infrastructure, because sales are the core of your business. Take advantage of Microsoft's pre-built services in the cloud and create an e-commerce solution to enhance your sales and increase profits.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_enterprise mobility.svg"
-                      alt="icons-_enterprise mobility"
+                      src="/img/icons-ax-_procurment.svg"
+                      alt="Procurement"
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Strategic Decision-making</h3>
-                    <p>Built-in real-time analytics, monitoring key metrics & customer data, and customer-journey orchestrating features empower teams to make informed decisions to defeat challenges.</p>
+                    <h3>Implement Scalable e-commerce</h3>
+                    <p>Using Azure services, architect a scalable e-commerce web page that includes simple order processing workflows. Build personalized experiences by introducing Azure Functions and Web Apps and leave IT infrastructure to Azure. </p>
                   </div>
                 </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Forecasting & Optimization</h3>
-                    <p>Optimize your operations, forecast sales, and start making an impact by connecting all your employees, data, and AI-driven insights.</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -288,17 +267,17 @@ const Startup = () => {
         <section className="call-to-action-center hero-4">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-8">
                 <div className="call-to-action-content">
-                  <h3>Tell Us About Your Start-Up! Both Dynamics Square and Microsoft are ready to help you develop at your own pace.</h3>
-                  <p>Our experts offer strategic help to startup founders who want to achieve more. See how we can help you minimize your inputs and maximize your outputs while boosting process flow automation.</p>
+                  <h3>Want to Build a simple, agile, and reliable eCommerce experience?</h3>
+                  <p>Discuss your requirements with our Microsoft consultants and reveal a game-changing highly relevant e-Commerce solution for your business or idea.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Contact Us</span>
+                      <span>Meet an Expert</span>
                     </a>
                   </div>
                 </div>
@@ -309,14 +288,15 @@ const Startup = () => {
         <section className="busine_service_bottom">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <img
-                      src="/img/startup-side.png"
+                      src="/img/Ecommerce side.png"
                       className="fix-im"
-                      alt="bisin_leftimg"
+                      alt="Ecommerce side"
                     />
+
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
                         <a
@@ -324,8 +304,8 @@ const Startup = () => {
                           onClick={() => setOpen(true)}
                         >
                           <img
-                            src="/img/videoForstartups.png"
-                            alt="videoForstartups"
+                            src="/img/video-Ecommerce.png"
+                            alt="video-Ecommerce"
                           />
                           <span className="cente-icns">
                             <img
@@ -341,23 +321,24 @@ const Startup = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                    How Dynamics 365
-                    <br />
-                    Can Enable Transformation
-                    <br />
-                    in Your Startup?
-                  </h2>
-                  <p>
-                  Enable maximum resource utilization and boost your process flow with simplified and highly configured Microsoft Dynamics 365 startup solutions.
-                  </p>
+                  <h2>Get the more unified retail commerce solution for you!</h2>
+                  <ul>
+                    <li>Derive Omnichannel Engagement</li>
+                    <li>Deliver Rich Personalization</li>
+                    <li>Earn Customer Loyalty for life</li>
+                    <li>Make your digital commerce more streamlined</li>
+                    <li>Build AI-driven intelligent commerce</li>
+                    <li>Maximize Customer Conversions</li>
+                    <li>Meet Global needs with API-first eCommerce solutions</li>
+                    <li>Proactively safeguard your data</li>
+                  </ul>
                   <div className="text-lg-start">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Request a Demo</span>
+                      <span>Get Started with Dynamics 365 Commerce</span>
                     </a>
                   </div>
                 </div>
@@ -365,21 +346,21 @@ const Startup = () => {
             </div>
           </div>
         </section>
-      
+
         <section className="industry-more-sec">
           <div className="container">
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
-                <header className="section-header">
-                    <h2>Explore Other Industries & Discover More Dynamics 365 Solutions</h2>
-                </header>
+              <header className="section-header">
+              <h2>Explore Other Industries & Discover More Dynamics 365 Solutions</h2>
+            </header>
               </div>
             </div>
             <div className="row mobile-margin-01">
               <div className="col-lg-12">
                 <div className="swiper mySwiper">
                   <div className="swiper-wrapper">
-                  <Swiper
+                    <Swiper
                       autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
@@ -425,7 +406,7 @@ const Startup = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>Employ an intelligent and <Link href="/products/dynamics-365-supply-chain-management/"><a>adaptive supply chain</a></Link> to help drive growth and fulfill customer expectations with <Link href="/industries/food-and-beverages/"><a>Dynamics 365 for the food & beverage industry</a></Link>. </p>
+                                <p>Create and deploy an adaptive and intelligent supply chain that automatically responds to evolving demands with <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> for your food, beverage, and processing industry.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -445,7 +426,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>Bring automation into your daily operations, help the needy, and drive efficiency in your non-profit mission with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits</a></Link> Hubs.</p>
+                                  <p>Drive your mission of helping people in need at scale and provide quick assistance by automating your daily operations with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits</a></Link> <b>Hubs</b>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -453,27 +434,7 @@ const Startup = () => {
                           </div>
                         </div>
                       </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="swiper-slide">
-                          <div className="swiper-slide">
-                            <div className="industries-list-more">
-                              <a href="/industries/ecommerce/">
-                                <div className="img-wrp">
-                                  <img
-                                    src="/img/Ecommerce.svg"
-                                    alt="Ecommerce"
-                                  />
-                                </div>
-                                <div className="text-wrp-content">
-                                  <h3>E-Commerce</h3>
-                                  <p>Unify your back office, in-store, call center, and e-commerce experiences and deliver more unified commerce to your customers at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
-                                  <span>Explore Now</span>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </SwiperSlide>
+
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <div className="swiper-slide">
@@ -487,7 +448,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Professional Services</h3>
-                                  <p>Bring data, people, and processes on a chosen unified business management platform in Dynamics 365 to deliver world-class professional services.</p>
+                                  <p>Bring people, data, and processes close to your business on a more unified business management platform with <Link href="/industries/professional-services/"><a>Dynamics 365 for Professional Services</a></Link> and deliver top-notch professional services.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -508,7 +469,28 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>Build more resilient and sustainable growth in manufacturing by driving innovation, optimizing manufacturing processes, & strengthening customer relationships.</p>
+                                  <p>Manufacture a more resilient and sustainable manufacturing environment by driving innovation, optimizing processes, and strengthening customer relationships with <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Microsoft Cloud for Manufacturing</a></Link>. </p>
+                                  <span>Explore Now</span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <div className="swiper-slide">
+                          <div className="swiper-slide">
+                            <div className="industries-list-more">
+                              <a href="/industries/startups/">
+                                <div className="img-wrp">
+                                  <img
+                                    src="/img/start-up.svg"
+                                    alt="start-up"
+                                  />
+                                </div>
+                                <div className="text-wrp-content">
+                                  <h3>Startups</h3>
+                                  <p>Utilize <Link href="/industries/startups/"><a>Dynamics 365 for Startups</a></Link> to manage all end-to-end processes and build a culture of innovation for your startup and gradually turn it into a growing company.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -524,12 +506,11 @@ const Startup = () => {
             </div>
           </div>
         </section>
-
         
       </main>
     </>
   );
 };
 
-export default Startup;
+export default Ecommerce;
 
