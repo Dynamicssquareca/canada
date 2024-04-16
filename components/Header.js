@@ -40,7 +40,7 @@ return(
               <ul>
                 <li className="dropdown megamenu">
                   <a href="#">
-                    <span>Solution</span>
+                    <span>Solutions</span>
                     <i className="bi bi-chevron-down"></i>
                   </a>
                   <div className="megamenu-list">
