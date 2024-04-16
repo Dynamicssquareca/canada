@@ -38,7 +38,7 @@ class MyDocument extends Document {
                (function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:3340940,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
                 `}
             </Script>
-            {/* <Script id='zsiqchat' strategy="beforeInteractive">
+            <Script id='zsiqchat' strategy="beforeInteractive">
               {
                 `
                 var $zoho=$zoho || {};
@@ -53,14 +53,14 @@ class MyDocument extends Document {
                 t.parentNode.insertBefore(s,t);
                 `
               }
-            </Script> */}
+            </Script>
           
         </Head>
         <body>
           <Main />
           <NextScript />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-          <script src="//code.jivosite.com/widget/ayximyoru5" async></script>
+          {/* <script src="//code.jivosite.com/widget/ayximyoru5" async></script> */}
           {/* <script
             id="zsiqchat"
             async
