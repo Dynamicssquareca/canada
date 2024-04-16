@@ -871,17 +871,17 @@ return(
                   </a>
                   <ul>
                     <li>
-                      <a href="/services/dynamics-365-implementation-services/">
+                      <a href="/services/dynamics-365-implementation/">
                         Implementation Services
                       </a>
                     </li>
                     <li>
-                      <a href="/services/dynamics-365-support-services/">
+                      <a href="/services/dynamics-365-support/">
                         Support Services
                       </a>
                     </li>
                     <li>
-                      <a href="/services/dynamics-365-upgrade-services/">
+                      <a href="/services/dynamics-365-upgrade/">
                         Upgrade Services
                       </a>
                     </li>
@@ -1311,17 +1311,17 @@ return(
                           <div className="iner-list">
                             <ul>
                               <li>
-                                <a href="/services/dynamics-365-implementation-services/">
+                                <a href="/services/dynamics-365-implementation/">
                                   Implementation Services
                                 </a>
                               </li>
                               <li>
-                                <a href="/services/dynamics-365-support-services/">
+                                <a href="/services/dynamics-365-support/">
                                   Support Services
                                 </a>
                               </li>
                               <li>
-                                <a href="/services/dynamics-365-upgrade-services/">
+                                <a href="/services/dynamics-365-upgrade/">
                                   Upgrade Services
                                 </a>
                               </li>
