@@ -67,7 +67,7 @@ const Startup = () => {
                 <header className="section-header">
                   <h2>Choose Dynamics 365 for Professional Services</h2>
                   <p>Say goodbye to the complicated disparate time and expense entry systems. Start keeping track of your projects, and customers happy!</p>
-                  <p>Previously known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> or <Link href="/products/microsoft-dynamics-365-finance-operations/"><a> Dynamics 365 Finance and Operations</a></Link>, <b>Dynamics 365 for Professional Services</b> is a fully featured <b>enterprise resource planning (ERP) software</b> that enables organizations to monitor the execution of projects and allocate and distribute resources efficiently while increasing the efficiency of project teams.</p>
+                  <p>Previously known as <Link href="/solutions/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> or <Link href="/solutions/microsoft-dynamics-365-finance-operations/"><a> Dynamics 365 Finance and Operations</a></Link>, <b>Dynamics 365 for Professional Services</b> is a fully featured <b>enterprise resource planning (ERP) software</b> that enables organizations to monitor the execution of projects and allocate and distribute resources efficiently while increasing the efficiency of project teams.</p>
                   <div className="text-center">
                   <a
                     data-bs-toggle="modal"
@@ -109,7 +109,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Ensure real-time reporting and invoicing and enable automation for repeated tasks to boost productivity and empower employees to do more with less using <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>.</p>
+                      <p>Ensure real-time reporting and invoicing and enable automation for repeated tasks to boost productivity and empower employees to do more with less using <Link href="/solutions/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>.</p>
                     </div>
                   </div>
 
@@ -120,7 +120,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Intelligently optimize your resources, not your IT practices. Boost your professional services now with <Link href="/products/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> - an intelligent suite of business apps.</p>
+                      <p>Intelligently optimize your resources, not your IT practices. Boost your professional services now with <Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> - an intelligent suite of business apps.</p>
                     </div>
                   </div>
                 </div>
@@ -213,7 +213,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Optimized HR & Payroll</h3>
-                    <p>Engage, recruit, and onboard the right talent. Optimize your human & financial resources and improve your human efficiency level at scale with <Link href="/products/dynamics-365-human-resources/"><a>Dynamics 365 for HRM (Human Resources Management)</a></Link>.</p>
+                    <p>Engage, recruit, and onboard the right talent. Optimize your human & financial resources and improve your human efficiency level at scale with <Link href="/solutions/dynamics-365-human-resources/"><a>Dynamics 365 for HRM (Human Resources Management)</a></Link>.</p>
                   </div>
                 </div>
               </div>
@@ -227,7 +227,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Employee Collaboration</h3>
-                    <p>Create opportunities for real-time communication and engagement across your organization to foster innovation, growth, and scalability with <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>.</p>
+                    <p>Create opportunities for real-time communication and engagement across your organization to foster innovation, growth, and scalability with <Link href="/solutions/dynamics-365-business-central/"><a>Business Central</a></Link>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -239,7 +239,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Smart Business Intelligence</h3>
-                    <p>Leverage the combined power of <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> and <b>Dynamics 365</b> to achieve higher business intelligence (BI). Strengthen your workforce & start taking informed decisions.</p>
+                    <p>Leverage the combined power of <Link href="/solutions/microsoft-power-bi/"><a>Power BI</a></Link> and <b>Dynamics 365</b> to achieve higher business intelligence (BI). Strengthen your workforce & start taking informed decisions.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -251,7 +251,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Get Accurate Analytics</h3>
-                    <p>Smartly use past business data & gain accurate insights using built-in analytics capabilities in <Link href="/products/microsoft-dynamics-erp/"><a>cloud ERP solutions</a></Link> to achieve project success and maintain business continuity.</p>
+                    <p>Smartly use past business data & gain accurate insights using built-in analytics capabilities in <Link href="/solutions/microsoft-dynamics-erp/"><a>cloud ERP solutions</a></Link> to achieve project success and maintain business continuity.</p>
                   </div>
                 </div>
 
@@ -444,7 +444,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>Provide customers with more unified buying experiences by bringing g your back office, in-store, call center, and eCommerce experiences on an integrated e-commerce platform and grow at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
+                                  <p>Provide customers with more unified buying experiences by bringing g your back office, in-store, call center, and eCommerce experiences on an integrated e-commerce platform and grow at scale with <Link href="/solutions/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -487,7 +487,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>Create a brand or company from your startup by scaling business operations with <b>Microsoft Dynamics 365</b>, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, <b>Microsoft 365</b>, and <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
+                                  <p>Create a brand or company from your startup by scaling business operations with <b>Microsoft Dynamics 365</b>, <Link href="/solutions/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, <b>Microsoft 365</b>, and <Link href="/solutions/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>

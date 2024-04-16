@@ -51,7 +51,7 @@ const SystemHealth = () => {
             <h2>
             Strategic Need of  Dynamics ERP/CRM Health Check</h2>
             <p>
-            Availing of advanced <Link  href="/products/microsoft-dynamics-erp/"><a>ERP/CRM implementation</a></Link> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<br /><br />At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p>
+            Availing of advanced <Link  href="/solutions/microsoft-dynamics-erp/"><a>ERP/CRM implementation</a></Link> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<br /><br />At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p>
           </header>
             </div>
           </div>
@@ -251,7 +251,7 @@ const SystemHealth = () => {
                 System Health Check experts at Dynamics Square can suggest the possible ways to remove unreliable data and to enable your system to create, process and share the quality reports & key analytics within your organization that serve the purpose and enable everyone in your enterprise to accurately create, analyze, and make informed decisions in real-time.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-dynamics-365-field-service/">Get Started</a>
+                  <a href="/solutions/microsoft-dynamics-365-field-service/">Get Started</a>
                 </div>
               </div>
             </div>
@@ -262,7 +262,7 @@ const SystemHealth = () => {
               <div className="commen-rit-info">
                 <h3>Analyzing Licensing Needs</h3>
                 <p>
-                Your licensing need may vary depending on your customized processes, operational consistency, data sets you involve, and more. There could be a possibility that you need a different functional facilitation than your competitors are leveraging. To reveal your licensing need, our team can evaluate based on your number of processes, resources involved in every practice area, market to target, and more. When you avail of our <a href="/products/microsoft-dynamics-365/">Dynamics 365</a> free health check for your system, we diagnose and let you know your ongoing as well as futuristic needs and come up with the actual yet cost-effective licensing need for your enterprise.
+                Your licensing need may vary depending on your customized processes, operational consistency, data sets you involve, and more. There could be a possibility that you need a different functional facilitation than your competitors are leveraging. To reveal your licensing need, our team can evaluate based on your number of processes, resources involved in every practice area, market to target, and more. When you avail of our <a href="/solutions/microsoft-dynamics-365/">Dynamics 365</a> free health check for your system, we diagnose and let you know your ongoing as well as futuristic needs and come up with the actual yet cost-effective licensing need for your enterprise.
                 </p>
               </div>
             </div>

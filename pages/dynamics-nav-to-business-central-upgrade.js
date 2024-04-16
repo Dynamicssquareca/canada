@@ -75,7 +75,7 @@ const MicrosoftDynamicsNAV = () => {
                       data-bs-parent="#accnewas"
                     >
                       <div className="accordion-body">
-                        <p><Link href="/products/dynamics-365-business-central/"><a>Upgrading to Business Central</a></Link> will simplify and automate your current business processes, making them adaptable for growth and scalability.</p>
+                        <p><Link href="/solutions/dynamics-365-business-central/"><a>Upgrading to Business Central</a></Link> will simplify and automate your current business processes, making them adaptable for growth and scalability.</p>
                       </div>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const MicrosoftDynamicsNAV = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>Business Intelligence (BI) powered by <Link href="/products/microsoft-power-bi/"><a>Microsoft Power BI</a></Link> helps you make real-time informed decisions for any process or operation whenever needed.</p>
+                        <p>Business Intelligence (BI) powered by <Link href="/solutions/microsoft-power-bi/"><a>Microsoft Power BI</a></Link> helps you make real-time informed decisions for any process or operation whenever needed.</p>
                       </div>
                     </div>
                   </div>
@@ -230,7 +230,7 @@ const MicrosoftDynamicsNAV = () => {
                 <div class="wr-in"><span class="number-st">1</span></div>
                 </div>
                 <div className="style-grid-content">
-                  <p>The <b>outdated <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> version</b> serves you no purpose and there are no updates from Microsoft.</p>
+                  <p>The <b>outdated <Link href="/solutions/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> version</b> serves you no purpose and there are no updates from Microsoft.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -316,7 +316,7 @@ const MicrosoftDynamicsNAV = () => {
             <div className="col-lg-8">
               <header className="section-header">
                 <h2>NAV to Business Central Upgrade Benefits </h2>
-                <p><b>Upgrade from Dynamics NAV to Business Central</b> for streamlined business processes. <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics Business Central</a></Link> offers you integrated management and customization across industries with a simple yet intuitive user interface (UI), advanced features, and rich functionalities to enhance efficiency and growth.</p>
+                <p><b>Upgrade from Dynamics NAV to Business Central</b> for streamlined business processes. <Link href="/solutions/dynamics-365-business-central/"><a>Microsoft Dynamics Business Central</a></Link> offers you integrated management and customization across industries with a simple yet intuitive user interface (UI), advanced features, and rich functionalities to enhance efficiency and growth.</p>
               </header>
             </div>
           </div>

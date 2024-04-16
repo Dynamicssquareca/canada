@@ -68,12 +68,12 @@ const BusinessCentralUpgrade = () => {
               <div className="commen-rit-info commen-rit-info-1">
                 <h2>Benefits of Dynamics 365 Business Central Upgrade </h2>
                 <p>
-                  <Link href="/products/dynamics-365-business-central/">
+                  <Link href="/solutions/dynamics-365-business-central/">
                     <a>Dynamics 365 Business Central</a>
                   </Link>{" "}
                   is now available in 100+ countries & regions, providing a
                   cloud solution to connect sales, service,{" "}
-                  <Link href="/products/microsoft-dynamics-365-finance-operations/">
+                  <Link href="/solutions/microsoft-dynamics-365-finance-operations/">
                     <a>finance and operations</a>
                   </Link>{" "}
                   teams for faster adaptation and results.{" "}
@@ -251,7 +251,7 @@ const BusinessCentralUpgrade = () => {
                       <div className="accordion-body">
                         Business Central is an all-in-one integrated solution
                         that can help you manage your <b>sales</b>, finance,{" "}
-                        <Link href="/products/dynamics-365-supply-chain-management/">
+                        <Link href="/solutions/dynamics-365-supply-chain-management/">
                           <a>dynamics 365 supply chain</a>
                         </Link>
                         , operations, and warehousing. This can help you
@@ -467,7 +467,7 @@ const BusinessCentralUpgrade = () => {
                     <div className="accordion-body">
                       <p>
                         Dynamics 365 Business Central is part of the{" "}
-                        <Link href="/products/microsoft-dynamics-365/">
+                        <Link href="/solutions/microsoft-dynamics-365/">
                           <a>Dynamics 365 family of business applications</a>
                         </Link>{" "}
                         that Microsoft offers for small to medium-sized
@@ -475,7 +475,7 @@ const BusinessCentralUpgrade = () => {
                       </p>
                       <p>
                         <b>Business Central</b> (formerly{" "}
-                        <Link href="/products/microsoft-dynamics-nav/">
+                        <Link href="/solutions/microsoft-dynamics-nav/">
                           <a>Dynamics NAV</a>
                         </Link>{" "}
                         up to Oct. 2018) is a cloud-based enterprise resource
@@ -541,7 +541,7 @@ const BusinessCentralUpgrade = () => {
                       <p>
                         As a <b>Microsoft Gold Partner</b>, we offer customized
                         upgrade quotes for{" "}
-                        <Link href="/products/dynamics-365-business-central/">
+                        <Link href="/solutions/dynamics-365-business-central/">
                           <a>Microsoft Dynamics 365 Business Central</a>
                         </Link>{" "}
                         based on factors like version, customization, and
@@ -721,7 +721,7 @@ const BusinessCentralUpgrade = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        <Link href="/products/microsoft-dynamics-365/">
+                        <Link href="/solutions/microsoft-dynamics-365/">
                           <a>Microsoft Dynamics 365</a>
                         </Link>{" "}
                         is a combined CRM and ERP product that helps you avoid
@@ -854,13 +854,13 @@ const BusinessCentralUpgrade = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        <Link href="/products/microsoft-dynamics-crm/">
+                        <Link href="/solutions/microsoft-dynamics-crm/">
                           <a>Dynamics CRM</a>
                         </Link>{" "}
                         is now called <b>Microsoft Dynamics 365</b>, which
                         combines <b>CRM</b> and <b>ERP</b> products, with the
                         on-premises application called{" "}
-                        <Link href="/products/microsoft-dynamics-365-sales/">
+                        <Link href="/solutions/microsoft-dynamics-365-sales/">
                           <a>Dynamics 365 for Sales</a>
                         </Link>
                         .

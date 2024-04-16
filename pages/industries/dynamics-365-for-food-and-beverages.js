@@ -64,7 +64,7 @@ const Startup = () => {
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>Why Choose Microsoft Dynamics 365 for Food and Beverage operations?</h2>
-              <p>Dynamics 365 is Microsoft's brilliant innovation for food beverage, and process manufacturers. Microsoft has every cloud solution that you need, or your business might need in the future to help you build a resilient and sustainable food and beverage supply chain. From <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link> for large groups to <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> for mid-market-sized businesses like FMCGs, you have everything in the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 store</a></Link>  - a suite of intelligent business management apps for your growing business. Harness its power by integrating Power BI, Power Apps, and Power Platform on Azure to drive higher outcomes for your investments.</p>
+              <p>Dynamics 365 is Microsoft's brilliant innovation for food beverage, and process manufacturers. Microsoft has every cloud solution that you need, or your business might need in the future to help you build a resilient and sustainable food and beverage supply chain. From <Link href="/solutions/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link> for large groups to <Link href="/solutions/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> for mid-market-sized businesses like FMCGs, you have everything in the <Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 store</a></Link>  - a suite of intelligent business management apps for your growing business. Harness its power by integrating Power BI, Power Apps, and Power Platform on Azure to drive higher outcomes for your investments.</p>
               <div className="text-center">
                   <a
                     data-bs-toggle="modal"
@@ -127,7 +127,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Use Microsoft 365/Office 365 products such as Teams, Exchange, SharePoint, <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, and Office integrated with <b>Dynamics 365</b> to foster strong collaboration among employees.</p>
+                      <p>Use Microsoft 365/Office 365 products such as Teams, Exchange, SharePoint, <Link href="/solutions/microsoft-power-bi/"><a>Power BI</a></Link>, and Office integrated with <b>Dynamics 365</b> to foster strong collaboration among employees.</p>
                     </div>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Smart Marketing</h3>
-                    <p>Empower your marketing team by skilling them with the latest marketing tools, like <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>, and customer insights to drive product marketing strategies/campaigns.</p>
+                    <p>Empower your marketing team by skilling them with the latest marketing tools, like <Link href="/solutions/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>, and customer insights to drive product marketing strategies/campaigns.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -205,7 +205,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Accelerated Sales</h3>
-                    <p>Employ Power BI-embedded integrated sales automation tools like Microsoft <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> to drive accelerated.</p>
+                    <p>Employ Power BI-embedded integrated sales automation tools like Microsoft <Link href="/solutions/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> to drive accelerated.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -217,7 +217,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Customer Engagement</h3>
-                    <p>Engage more and strengthen your relationships with customers using CRM tools like Customer <Link href="/products/dynamics-365-customer-engagement/"><a>Dynamics 365 Customer Engagement</a></Link> and improve your business to drive higher sales.</p>
+                    <p>Engage more and strengthen your relationships with customers using CRM tools like Customer <Link href="/solutions/dynamics-365-customer-engagement/"><a>Dynamics 365 Customer Engagement</a></Link> and improve your business to drive higher sales.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -269,7 +269,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Financial Insights</h3>
-                    <p>Have a strategic impact and reduce costs by maximizing financial visibility and profitability with <Link href="/products/microsoft-dynamics-365-finance/"><a>Microsoft Dynamics 365 Finance</a></Link>.</p>
+                    <p>Have a strategic impact and reduce costs by maximizing financial visibility and profitability with <Link href="/solutions/microsoft-dynamics-365-finance/"><a>Microsoft Dynamics 365 Finance</a></Link>.</p>
                   </div>
                 </div>
 
@@ -443,7 +443,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>Unite your back office, in-store, call center, and eCommerce experiences to an integrated platform - <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link> - and deliver a unified buying experience at scale.</p>
+                                  <p>Unite your back office, in-store, call center, and eCommerce experiences to an integrated platform - <Link href="/solutions/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link> - and deliver a unified buying experience at scale.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -506,7 +506,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>Turn your growing startup into a brand or company by scaling business operations using Microsoft's numerous productivity and management tools such as Dynamics 365, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, and <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>. </p>
+                                  <p>Turn your growing startup into a brand or company by scaling business operations using Microsoft's numerous productivity and management tools such as Dynamics 365, <Link href="/solutions/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, and <Link href="/solutions/microsoft-azure/"><a>Microsoft Azure</a></Link>. </p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>

@@ -20,7 +20,7 @@ const SupportServices = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>Microsoft Dynamics 365 Support Solutions</h1>
-              <p>Maintain, optimize, and re-invent your <Link href="/products/microsoft-dynamics-erp/"><a>Dynamics 365 ERP and CRM Systems</a></Link> with Dynamics Square's Support Services.</p>
+              <p>Maintain, optimize, and re-invent your <Link href="/solutions/microsoft-dynamics-erp/"><a>Dynamics 365 ERP and CRM Systems</a></Link> with Dynamics Square's Support Services.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -91,7 +91,7 @@ const SupportServices = () => {
             <div className="col-lg-5 align-self-center">
               <div className="side-heding-new">
                 <h3>What do we have in Dynamics 365 Support solutions for you?</h3>
-                <p>We have all you need to drive innovation. By intelligently connecting your processes, data sources, and people close to your business to a single intuitive business management platform like <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, <Link href="/products/microsoft-power-bi/"><a>Microsoft Power BI</a></Link>, <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link>, or other business-centric modules while providing training, customization, and tech consultancy we help you accelerate your business.</p>
+                <p>We have all you need to drive innovation. By intelligently connecting your processes, data sources, and people close to your business to a single intuitive business management platform like <Link href="/solutions/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, <Link href="/solutions/microsoft-power-bi/"><a>Microsoft Power BI</a></Link>, <Link href="/solutions/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link>, or other business-centric modules while providing training, customization, and tech consultancy we help you accelerate your business.</p>
               </div>
             </div>
             <div className="col-lg-1"></div>

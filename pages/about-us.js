@@ -375,37 +375,37 @@ const AboutUs = () => {
                       <p>With modern ERP systems powered by machine learning, artificial intelligence, and cloud technology, we ensure continuous business growth and sustainability.</p>
                       <ul className="new-com-list">
                         <li>
-                          <a href="/products/dynamics-365-business-central/">
+                          <a href="/solutions/dynamics-365-business-central/">
                           <img src="/img/group-2122.png" alt="group-2192" />
                           <span>Business <br /> Centeral</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-dynamics-365-finance/">
+                          <a href="/solutions/microsoft-dynamics-365-finance/">
                           <img src="/img/group-2123.png" alt="group-2192" />
                           <span>finance</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-dynamics-365-commerce/">
+                          <a href="/solutions/microsoft-dynamics-365-commerce/">
                           <img src="/img/group-2124.png" alt="group-2192" />
                           <span>commerce</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/dynamics-365-human-resources/">
+                          <a href="/solutions/dynamics-365-human-resources/">
                           <img src="/img/group-2125.png" alt="group-2192" />
                           <span>hr</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/dynamics-365-supply-chain-management/">
+                          <a href="/solutions/dynamics-365-supply-chain-management/">
                           <img src="/img/group-2126.png" alt="group-2192" />
                           <span>Supply <br /> chain</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/dynamics-365-project-operations/">
+                          <a href="/solutions/dynamics-365-project-operations/">
                           <img src="/img/group-2127.png" alt="group-2192" />
                           <span>project <br /> operation</span>
                           </a>
@@ -430,25 +430,25 @@ const AboutUs = () => {
                       <p>We help you understand your customers, build strong relationships, nurture clients and boost sales through Microsoft CRM solutions.</p>
                       <ul className="new-com-list">
                         <li>
-                          <a href="/products/microsoft-dynamics-365-sales/">
+                          <a href="/solutions/microsoft-dynamics-365-sales/">
                           <img src="/img/group-2138.png" alt="group-2192" />
                           <span>Sales</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-dynamics-365-marketing/">
+                          <a href="/solutions/microsoft-dynamics-365-marketing/">
                           <img src="/img/group-2139.png" alt="group-2192" />
                           <span>Marketing</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-dynamics-365-field-service/">
+                          <a href="/solutions/microsoft-dynamics-365-field-service/">
                           <img src="/img/group-2137.png" alt="group-2192" />
                           <span>Field <br /> Service</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-dynamics-365-customer-service/">
+                          <a href="/solutions/microsoft-dynamics-365-customer-service/">
                           <img src="/img/group-2136.png" alt="group-2192" />
                           <span>Customer <br /> Service</span>
                           </a>
@@ -471,25 +471,25 @@ const AboutUs = () => {
                       <p>Get a complete picture of your customers by analyzing data from various sources including social media, interactions, and communications with other Microsoft business apps that can be integrated seamlessly with Microsoft Dynamics 365 modules.</p>
                       <ul className="new-com-list">
                         <li>
-                          <a href="/products/microsoft-power-bi/">
+                          <a href="/solutions/microsoft-power-bi/">
                           <img src="/img/group-2214.png" alt="group-2192" />
                           <span>Power <br /> Bi</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-power-automate/">
+                          <a href="/solutions/microsoft-power-automate/">
                           <img src="/img/group-2213.png" alt="group-2192" />
                           <span>Power <br /> Automate</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-power-apps/">
+                          <a href="/solutions/microsoft-power-apps/">
                           <img src="/img/group-2211.png" alt="group-2192" />
                           <span>Power <br /> Apps</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-power-virtual-agents/">
+                          <a href="/solutions/microsoft-power-virtual-agents/">
                           <img src="/img/group-22101.png" alt="group-2192" />
                           <span>Virtual <br /> Agent</span>
                           </a>
@@ -512,19 +512,19 @@ const AboutUs = () => {
                       <p>Save time and money by connecting your business to an intelligent Microsoft Cloud Ecosystem, Mixed Reality, & AI/ML. With Microsoft Dynamics 365, you can gain insights into your customers, optimize business processes, and automate workflows to drive efficiency and growth.</p>
                       <ul className="new-com-list">
                         <li>
-                          <a href="/products/microsoft-dynamics-365/mixed-reality/">
+                          <a href="/solutions/microsoft-dynamics-365/mixed-reality/">
                           <img src="/img/group-1998.png" alt="group-2192" />
                           <span>Mixed <br /> Reality</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-azure/">
+                          <a href="/solutions/microsoft-azure/">
                           <img src="/img/group-2164.png" alt="group-2192" />
                           <span>Azure</span>
                           </a>
                         </li>
                         <li>
-                          <a href="/products/microsoft-dynamics-365-ai/">
+                          <a href="/solutions/microsoft-dynamics-365-ai/">
                           <img src="/img/group-1977.png" alt="group-2192" />
                           <span>AI</span>
                           </a>

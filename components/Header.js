@@ -116,7 +116,7 @@ return(
                               <div className="row">
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/dynamics-365-business-central/">
+                                    <a href="/solutions/dynamics-365-business-central/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-businesscentral.svg"
@@ -137,7 +137,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-finance/">
+                                    <a href="/solutions/microsoft-dynamics-365-finance/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-finance.svg"
@@ -155,7 +155,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/dynamics-365-supply-chain-management/">
+                                    <a href="/solutions/dynamics-365-supply-chain-management/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-supplychainmanagement.svg"
@@ -177,7 +177,7 @@ return(
 
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/dynamics-365-customer-engagement/">
+                                    <a href="/solutions/dynamics-365-customer-engagement/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-customer-engagement.svg"
@@ -197,7 +197,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-sales/">
+                                    <a href="/solutions/microsoft-dynamics-365-sales/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-sales.svg"
@@ -215,7 +215,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-customer-service/">
+                                    <a href="/solutions/microsoft-dynamics-365-customer-service/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-customer-service.svg"
@@ -235,7 +235,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-field-service/">
+                                    <a href="/solutions/microsoft-dynamics-365-field-service/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-fieldservice.svg"
@@ -256,7 +256,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-commerce/">
+                                    <a href="/solutions/microsoft-dynamics-365-commerce/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-commerce.svg"
@@ -277,7 +277,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/dynamics-365-project-operations/">
+                                    <a href="/solutions/dynamics-365-project-operations/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-project-management.svg"
@@ -297,7 +297,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-marketing/">
+                                    <a href="/solutions/microsoft-dynamics-365-marketing/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-marketing.svg"
@@ -317,7 +317,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/dynamics-365-human-resources/">
+                                    <a href="/solutions/dynamics-365-human-resources/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/dynamics-365-HRM.svg"
@@ -343,7 +343,7 @@ return(
                               <div className="row">
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/azure-iot-hub/">
+                                    <a href="/solutions/azure-iot-hub/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/iot-hub.svg"
@@ -364,7 +364,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/azure-iot-central/">
+                                    <a href="/solutions/azure-iot-central/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/iot-central.svg"
@@ -384,7 +384,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/azure-sphere/">
+                                    <a href="/solutions/azure-sphere/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/iot-sphere.svg"
@@ -405,7 +405,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/azure-iot-edge/">
+                                    <a href="/solutions/azure-iot-edge/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/iot-edge.svg"
@@ -426,7 +426,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/azure-digital-twins/">
+                                    <a href="/solutions/azure-digital-twins/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/digital-twins.svg"
@@ -446,7 +446,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/azure-machine-learning/">
+                                    <a href="/solutions/azure-machine-learning/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/machine-learning.svg"
@@ -473,7 +473,7 @@ return(
                               <div className="row">
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-power-bi/">
+                                    <a href="/solutions/microsoft-power-bi/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/power-bi.svg"
@@ -494,7 +494,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-power-apps/">
+                                    <a href="/solutions/microsoft-power-apps/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/power-apps.svg"
@@ -515,7 +515,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-power-automate/">
+                                    <a href="/solutions/microsoft-power-automate/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/power-automate.svg"
@@ -536,7 +536,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-power-virtual-agents/">
+                                    <a href="/solutions/microsoft-power-virtual-agents/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/virtual agent.svg"
@@ -563,7 +563,7 @@ return(
                               <div className="row">
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-nav/">
+                                    <a href="/solutions/microsoft-dynamics-nav/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/NAV.png"
@@ -581,7 +581,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-crm/">
+                                    <a href="/solutions/microsoft-dynamics-crm/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/CRM.png"
@@ -602,7 +602,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-ax/">
+                                    <a href="/solutions/microsoft-dynamics-ax/">
                                       <div className="pic">
                                         <img
                                           src="/img//menu-icons/AX.png"
@@ -623,7 +623,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-gp/">
+                                    <a href="/solutions/microsoft-dynamics-gp/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/GP.png"
@@ -643,7 +643,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-finance-operations/">
+                                    <a href="/solutions/microsoft-dynamics-365-finance-operations/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/F&Q.png"
@@ -661,7 +661,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-erp/">
+                                    <a href="/solutions/microsoft-dynamics-erp/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/ERP.png"
@@ -685,7 +685,7 @@ return(
                               <div className="row">
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-azure/">
+                                    <a href="/solutions/microsoft-azure/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/azure.svg"
@@ -706,7 +706,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365/mixed-reality/">
+                                    <a href="/solutions/microsoft-dynamics-365/mixed-reality/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/mixed-Reality-icons.svg"
@@ -727,7 +727,7 @@ return(
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365-ai/">
+                                    <a href="/solutions/microsoft-dynamics-365-ai/">
                                       <div className="pic">
                                         <img
                                           src="/img/menu-icons/AI.svg"
@@ -777,7 +777,7 @@ return(
                             </a>
                           </li>
                           <li>
-                            <a href="/products/dynamics-365-business-central/advantages-capabilities/">
+                            <a href="/solutions/dynamics-365-business-central/advantages-capabilities/">
                               Business Central - Advantages & Capabilities
                             </a>
                           </li>
@@ -808,23 +808,23 @@ return(
                   </a>
                   <ul>
                     <li>
-                      <a href="/products/dynamics-365-business-central/">Business Central</a>
+                      <a href="/solutions/dynamics-365-business-central/">Business Central</a>
                     </li>
                     <li>
-                      <a href="/products/microsoft-dynamics-365-finance/">
+                      <a href="/solutions/microsoft-dynamics-365-finance/">
                       Finance
                       </a>
                     </li>
                     <li>
-                      <a href="/products/dynamics-365-supply-chain-management">Supply Chain</a>
+                      <a href="/solutions/dynamics-365-supply-chain-management">Supply Chain</a>
                     </li>
                     <li>
-                      <a href="/products/microsoft-dynamics-365-sales/">
+                      <a href="/solutions/microsoft-dynamics-365-sales/">
                       Sales
                       </a>
                     </li>
                     <li>
-                      <a href="/products/microsoft-power-bi/">
+                      <a href="/solutions/microsoft-power-bi/">
                        Power BI
                       </a>
                     </li>
@@ -1024,119 +1024,119 @@ return(
                           <div className="iner-list">
                             <ul>
                               <li>
-                                <a href="/products/microsoft-dynamics-365/">
+                                <a href="/solutions/microsoft-dynamics-365/">
                                   <span>Microsoft Dynamics 365</span>
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/dynamics-365-business-central/">
+                                <a href="/solutions/dynamics-365-business-central/">
                                   Business Central
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/microsoft-dynamics-365-finance/">
+                                <a href="/solutions/microsoft-dynamics-365-finance/">
                                   Finance
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/dynamics-365-supply-chain-management/">
+                                <a href="/solutions/dynamics-365-supply-chain-management/">
                                   Supply Chain Management
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/microsoft-dynamics-365-sales/">
+                                <a href="/solutions/microsoft-dynamics-365-sales/">
                                   Sales
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/microsoft-dynamics-365-customer-service/">
+                                <a href="/solutions/microsoft-dynamics-365-customer-service/">
                                   Customer Service
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/microsoft-dynamics-365-field-service/">
+                                <a href="/solutions/microsoft-dynamics-365-field-service/">
                                   Field Service
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/dynamics-365-project-operations/">
+                                <a href="/solutions/dynamics-365-project-operations/">
                                   Project Operations
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/microsoft-dynamics-365-marketing/">
+                                <a href="/solutions/microsoft-dynamics-365-marketing/">
                                   Marketing
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/microsoft-dynamics-365-commerce/">
+                                <a href="/solutions/microsoft-dynamics-365-commerce/">
                                   Commerce
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/dynamics-365-human-resources/">
+                                <a href="/solutions/dynamics-365-human-resources/">
                                   Human Resource
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/azure-iot-internet-of-things/">
+                                <a href="/solutions/azure-iot-internet-of-things/">
                                   <span>Azure IoT</span>
                                 </a>
                                 <ul>
                                   <li>
-                                    <a href="/products/azure-iot-hub/">
+                                    <a href="/solutions/azure-iot-hub/">
                                       IoT Hub
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/azure-iot-central/">
+                                    <a href="/solutions/azure-iot-central/">
                                       IoT Central
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/azure-sphere/">
+                                    <a href="/solutions/azure-sphere/">
                                       Azure Sphere
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/azure-iot-edge/">
+                                    <a href="/solutions/azure-iot-edge/">
                                       IoT Edge
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/azure-digital-twins/">
+                                    <a href="/solutions/azure-digital-twins/">
                                       Digital Twins
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/azure-machine-learning/">
+                                    <a href="/solutions/azure-machine-learning/">
                                       Machine Learning
                                     </a>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <a href="/products/microsoft-power-platform/">
+                                <a href="/solutions/microsoft-power-platform/">
                                   <span>Power Platform</span>
                                 </a>
                                 <ul>
                                   <li>
-                                    <a href="/products/microsoft-power-bi/">
+                                    <a href="/solutions/microsoft-power-bi/">
                                       Power BI
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-power-apps/">
+                                    <a href="/solutions/microsoft-power-apps/">
                                       Power Apps
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-power-automate/">
+                                    <a href="/solutions/microsoft-power-automate/">
                                       Power Automate
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-power-virtual-agents/">
+                                    <a href="/solutions/microsoft-power-virtual-agents/">
                                       Power Virtual Agents
                                     </a>
                                   </li>
@@ -1149,27 +1149,27 @@ return(
                                 </a>
                                 <ul>
                                   <li>
-                                    <a href="/products/microsoft-dynamics-erp/">
+                                    <a href="/solutions/microsoft-dynamics-erp/">
                                       ERP Solutions (NAV/AX/GP)
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-dynamics-crm/">
+                                    <a href="/solutions/microsoft-dynamics-crm/">
                                       CRM Solutions
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-azure/">
+                                    <a href="/solutions/microsoft-azure/">
                                       Microsoft Azure
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-dynamics-365/mixed-reality/">
+                                    <a href="/solutions/microsoft-dynamics-365/mixed-reality/">
                                       Mixed Reality
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-dynamics-365-ai/">
+                                    <a href="/solutions/microsoft-dynamics-365-ai/">
                                       Artificial Intelligence (AI)
                                     </a>
                                   </li>

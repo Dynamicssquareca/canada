@@ -68,7 +68,7 @@ const MicrosoftCloudForNonprofit = () => {
             <div className="col-lg-8 col-md-8">
             <header className="section-header">
               <h2>Enable Accurate, Consistent, Rapid Yet Detailed, & Efficient Recording of Observations</h2>
-              <p>Dedicated to helping nonprofits and their partners, <b>Microsoft cloud for nonprofits</b> provides solutions that help you successfully centralize your data, people, and processes to impact millions of lives. Successfully drive higher social impact and industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data by integrating Dynamics 365 nonprofit accelerator or better known as Dynamics <b>365 NFP accelerator</b> to <b>Dynamics 365 Business Apps</b> like <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>, <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>, and <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> using <b>Azure services</b> and Microsoft's cloud security network.</p>
+              <p>Dedicated to helping nonprofits and their partners, <b>Microsoft cloud for nonprofits</b> provides solutions that help you successfully centralize your data, people, and processes to impact millions of lives. Successfully drive higher social impact and industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data by integrating Dynamics 365 nonprofit accelerator or better known as Dynamics <b>365 NFP accelerator</b> to <b>Dynamics 365 Business Apps</b> like <Link href="/solutions/dynamics-365-business-central/"><a>Business Central</a></Link>, <Link href="/solutions/microsoft-power-apps/"><a>Power Apps</a></Link>, and <Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> using <b>Azure services</b> and Microsoft's cloud security network.</p>
             </header>
             </div>
           </div>
@@ -522,7 +522,7 @@ const MicrosoftCloudForNonprofit = () => {
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
                                 <p>
-                                Enable a smart supply chain that reacts automatically to help you drive accelerated growth with <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> for your food, beverages, and processing business.
+                                Enable a smart supply chain that reacts automatically to help you drive accelerated growth with <Link href="/solutions/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> for your food, beverages, and processing business.
                                 </p>
                                 <span>Explore Now</span>
                               </div>
@@ -544,7 +544,7 @@ const MicrosoftCloudForNonprofit = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>Bring your back office, in-store, call center, & eCommerce to a single platform & deliver customer-centric buying experiences at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
+                                  <p>Bring your back office, in-store, call center, & eCommerce to a single platform & deliver customer-centric buying experiences at scale with <Link href="/solutions/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>

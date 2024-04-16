@@ -128,7 +128,7 @@ const CaseStudySpectra = () => {
         <div className="container">
           <header className="section-header">
             <h2>Business Solution Offered to the Company</h2>
-            <p>Implementation of EFT Module in <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV'13</a></Link> To Manage Payments</p>
+            <p>Implementation of EFT Module in <Link href="/solutions/microsoft-dynamics-nav/"><a>Dynamics NAV'13</a></Link> To Manage Payments</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -230,7 +230,7 @@ const CaseStudySpectra = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>The NAV'13 system (now <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link>) was configured to send automatic remittance advice via email to customers, allowing them to check payment status and identify errors.</p>
+                              <p>The NAV'13 system (now <Link href="/solutions/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link>) was configured to send automatic remittance advice via email to customers, allowing them to check payment status and identify errors.</p>
                             </div>
                           </div>
                         </div>

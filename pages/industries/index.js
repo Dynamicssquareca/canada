@@ -22,7 +22,7 @@ const IndustriesList = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Industries</h1>
-              <p>Accelerate your growth with the power of <Link href="/products/microsoft-dynamics-crm/"><a>cloud CRM</a></Link> and <Link href="/products/microsoft-dynamics-erp/"><a>ERP apps</a></Link> from <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>, bring agility to business operations and make a real impact.</p>
+              <p>Accelerate your growth with the power of <Link href="/solutions/microsoft-dynamics-crm/"><a>cloud CRM</a></Link> and <Link href="/solutions/microsoft-dynamics-erp/"><a>ERP apps</a></Link> from <Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>, bring agility to business operations and make a real impact.</p>
             </div>
             <div className="col-lg-6 align-self-center">
               <img

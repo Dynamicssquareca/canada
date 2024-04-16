@@ -63,7 +63,7 @@ const CaseStudyShimco = () => {
                   />
                 </div>
                 <div className="col-lg-9 align-self-center">
-                  <p>A technology leader and top manufacturer of small parts products has <b>Implemented Microsoft Dynamics Business Central</b> (Online) - an advanced version of <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>. With 30 years of experience in serving industries such as Defense, Aerospace, Medical, and more, the company is renowned for its best-in-class manufacturing capabilities, exceptional product quality, and high-precision manufacturing using high-tolerance horizontal lathes and CNC milling machines.</p>
+                  <p>A technology leader and top manufacturer of small parts products has <b>Implemented Microsoft Dynamics Business Central</b> (Online) - an advanced version of <Link href="/solutions/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>. With 30 years of experience in serving industries such as Defense, Aerospace, Medical, and more, the company is renowned for its best-in-class manufacturing capabilities, exceptional product quality, and high-precision manufacturing using high-tolerance horizontal lathes and CNC milling machines.</p>
                   <p>Their small parts products are supplied for both initial assembly and maintenance needs, and the <Link href="/dynamics-365-business-central-erp-system-implementation/"><a>implementation of Microsoft Dynamics 365 Business Central</a></Link> ERP (Enterprise Resource Planning) further enhanced their operational efficiency and streamlines their business processes.</p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ const CaseStudyShimco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>The enterprise needed to implement a new ERP solution on an urgent basis to manage departments such as inventory, <Link href="/products/microsoft-dynamics-365-finance/"><a>finance</a></Link>, manufacturing, and <b>supply chain</b> due to the unsatisfactory performance of their current <b>NAV</b> version (NAV'13) in terms of inventory management and valuation.</p>
+                    <p>The enterprise needed to implement a new ERP solution on an urgent basis to manage departments such as inventory, <Link href="/solutions/microsoft-dynamics-365-finance/"><a>finance</a></Link>, manufacturing, and <b>supply chain</b> due to the unsatisfactory performance of their current <b>NAV</b> version (NAV'13) in terms of inventory management and valuation.</p>
                   </div>
                 </div>
 
@@ -247,7 +247,7 @@ const CaseStudyShimco = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>To track employees' time for service, we developed a custom Time Collection Module and integrated it with <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>; an all-in-one ERP module from <b>Dynamics 365 Suite</b>.</p>
+                              <p>To track employees' time for service, we developed a custom Time Collection Module and integrated it with <Link href="/solutions/dynamics-365-business-central/"><a>Business Central</a></Link>; an all-in-one ERP module from <b>Dynamics 365 Suite</b>.</p>
                             </div>
                           </div>
                         </div>
@@ -322,7 +322,7 @@ const CaseStudyShimco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Dynamics Square</b> resolved inventory and <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain management</a></Link> issues the organization was facing.</p>
+                    <p><b>Dynamics Square</b> resolved inventory and <Link href="/solutions/dynamics-365-supply-chain-management/"><a>supply chain management</a></Link> issues the organization was facing.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -362,7 +362,7 @@ const CaseStudyShimco = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>As a leading Microsoft Gold Partner in Canada, <b>Dynamics Square</b> helped this manufacturer understand the working of <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> for scaled growth.</p>
+                    <p>As a leading Microsoft Gold Partner in Canada, <b>Dynamics Square</b> helped this manufacturer understand the working of <Link href="/solutions/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> for scaled growth.</p>
                   </div>
                 </div>
               </div>

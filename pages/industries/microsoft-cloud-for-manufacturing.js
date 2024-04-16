@@ -68,7 +68,7 @@ const Startup = () => {
             <div className="col-lg-8 col-md-8">
             <header className="section-header">
               <h2>Build a More Resilient and Sustainable Future</h2>
-              <p><b>Microsoft Cloud for Manufacturing</b> is designed and developed to support the manufacturing industry's core processes and delivers capabilities that fit the industry's business needs. These end-to-end cloud solutions powered by <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>, <b>Dynamics 365 & Power Platform, Microsoft 365,</b> <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, and Network Security are empowering organizations to be more resilient and sustainable.</p>
+              <p><b>Microsoft Cloud for Manufacturing</b> is designed and developed to support the manufacturing industry's core processes and delivers capabilities that fit the industry's business needs. These end-to-end cloud solutions powered by <Link href="/solutions/microsoft-azure/"><a>Microsoft Azure</a></Link>, <b>Dynamics 365 & Power Platform, Microsoft 365,</b> <Link href="/solutions/microsoft-power-bi/"><a>Power BI</a></Link>, and Network Security are empowering organizations to be more resilient and sustainable.</p>
               <div className="text-center">
                   <a
                     data-bs-toggle="modal"
@@ -89,7 +89,7 @@ const Startup = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>How can Choosing Microsoft Cloud for Manufacturing benefit my manufacturing company? </h2>
-                <p>Re-imagine your manufacturing by making new things happen using IoT-enabled AI-integrated devices, <Link href="/products/microsoft-dynamics-365/mixed-reality/"><a>Mixed Reality</a></Link>, predictive tech, and Microsoft's Azure services. Empower all people close to your manufacturing business to work remotely and transparently.</p>
+                <p>Re-imagine your manufacturing by making new things happen using IoT-enabled AI-integrated devices, <Link href="/solutions/microsoft-dynamics-365/mixed-reality/"><a>Mixed Reality</a></Link>, predictive tech, and Microsoft's Azure services. Empower all people close to your manufacturing business to work remotely and transparently.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -112,7 +112,7 @@ const Startup = () => {
                     </div>
                     <div className="cintent-right">
                       <p><b>Safe and Agile Operations</b></p>
-                      <p>Build and operate safe & smart, agile factories of the future with industrial IoT (IIoT), Microsoft cloud, <Link href="/products/microsoft-dynamics-365-ai/"><a>Artificial Intelligence</a></Link>, and mixed reality.</p>
+                      <p>Build and operate safe & smart, agile factories of the future with industrial IoT (IIoT), Microsoft cloud, <Link href="/solutions/microsoft-dynamics-365-ai/"><a>Artificial Intelligence</a></Link>, and mixed reality.</p>
                     </div>
                   </div>
                   <div className="content-inner-moil-1">
@@ -402,7 +402,7 @@ const Startup = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>Deploy <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> for the food, beverages, and processing industry to create an intelligent, adaptive supply chain that auto-reacts to evolution in demand while driving growth and fulfilling customer expectations at scale.</p>
+                                <p>Deploy <Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> for the food, beverages, and processing industry to create an intelligent, adaptive supply chain that auto-reacts to evolution in demand while driving growth and fulfilling customer expectations at scale.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -443,7 +443,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>Integrate back office, in-store, call center, and eCommerce experiences at a single platform with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link> and deliver more unified buying experiences to your customers at scale.</p>
+                                  <p>Integrate back office, in-store, call center, and eCommerce experiences at a single platform with <Link href="/solutions/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link> and deliver more unified buying experiences to your customers at scale.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -486,7 +486,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>Harnesses the power of Microsoft Dynamics 365, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, Microsoft 365, and Microsoft Azure to scale business operations. Turn your startup into a company or brand.</p>
+                                  <p>Harnesses the power of Microsoft Dynamics 365, <Link href="/solutions/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, Microsoft 365, and Microsoft Azure to scale business operations. Turn your startup into a company or brand.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>

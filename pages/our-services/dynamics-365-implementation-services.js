@@ -60,7 +60,7 @@ const ImplementationServices = () => {
                 <header className="section-header">
                   <h2>Take Your Business Ops to the Cloud with Microsoft Dynamics 365</h2>
                   <p>Secure your data, reduce hardware and IT costs, expand your business, and empower your employees to start working anywhere, anytime.</p>
-                  <p><b>Dynamics Square</b> is a <b>Microsoft Gold Partner</b> and is trusted around the world when it comes to <Link href="/products/microsoft-dynamics-crm/"><a>implementing ERP/CRM solutions</a></Link>. Powered by enthusiasm to help others, our ERP experts have been helping businesses of all sizes to compete and grow on a scale since 2011. We customize and implement industry-specific Microsoft's highly advanced ERP, CRM, and business intelligence tools with people who have first-hand industry experience, making it easier for you to achieve your goals.</p>
+                  <p><b>Dynamics Square</b> is a <b>Microsoft Gold Partner</b> and is trusted around the world when it comes to <Link href="/solutions/microsoft-dynamics-crm/"><a>implementing ERP/CRM solutions</a></Link>. Powered by enthusiasm to help others, our ERP experts have been helping businesses of all sizes to compete and grow on a scale since 2011. We customize and implement industry-specific Microsoft's highly advanced ERP, CRM, and business intelligence tools with people who have first-hand industry experience, making it easier for you to achieve your goals.</p>
                 </header>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const ImplementationServices = () => {
               <div className="custom-p-001">
                 <p>We, at <Link href="/"><a>Dynamics Square</a></Link>, empower you to achieve your highest goal with powerful Microsoft cloud technology. Dynamics Square has experts capable enough to understand you and provide the right answer to your problems.</p>
                 <p>Not only do our experts help you with customizing and implementing the right cloud solution for your business, but they also provide strategic and effective advisory on various business apps under Microsoft's suite of business applications - <b>Dynamics 365</b>.</p>
-                <p><Link href="/products/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> contains different software modules for your specific business needs, from finance, supply chain, project management, field service, and human resources to marketing, sales, warehouse management, and customer relationship management. </p>
+                <p><Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> contains different software modules for your specific business needs, from finance, supply chain, project management, field service, and human resources to marketing, sales, warehouse management, and customer relationship management. </p>
               </div>
               <div>
                 <div className="text-center text-lg-start">
@@ -139,7 +139,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Finance</h3>
-                  <p>Derive profit by automating all your financials with <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> - an AI-driven cloud solution infused with the power of embedded analytics and financial intelligence.</p>
+                  <p>Derive profit by automating all your financials with <Link href="/solutions/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> - an AI-driven cloud solution infused with the power of embedded analytics and financial intelligence.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -148,7 +148,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Sales</h3>
-                  <p>Connect your sales and marketing teams, foster collaboration via their preferred communication channels, and win more customers to derive your sales at scale with <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link>.</p>
+                  <p>Connect your sales and marketing teams, foster collaboration via their preferred communication channels, and win more customers to derive your sales at scale with <Link href="/solutions/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link>.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -160,7 +160,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Customer Service</h3>
-                  <p>Better understand your customers, track, and record all their issues and timely resolve them and share related information in the knowledge base for others in a unified platform - <Link href="/products/microsoft-dynamics-365-customer-service/"><a>Dynamics 365 Customer Service</a></Link>.</p>
+                  <p>Better understand your customers, track, and record all their issues and timely resolve them and share related information in the knowledge base for others in a unified platform - <Link href="/solutions/microsoft-dynamics-365-customer-service/"><a>Dynamics 365 Customer Service</a></Link>.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -172,7 +172,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Project Operations</h3>
-                  <p>Integrate your sales, resourcing, finance, and project-centric operations in a single platform to derive a profitable project-centric business with <Link href="/products/dynamics-365-project-operations/"><a>Dynamics 365 Project Operations</a></Link> - an intelligent project automation tool.</p>
+                  <p>Integrate your sales, resourcing, finance, and project-centric operations in a single platform to derive a profitable project-centric business with <Link href="/solutions/dynamics-365-project-operations/"><a>Dynamics 365 Project Operations</a></Link> - an intelligent project automation tool.</p>
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Supply Chain</h3>
-                  <p>Utilize <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management's</a></Link> predictive analytics to turn data into actionable insights for better decision-making in inventory, warehouse, logistics, service, and manufacturing.</p>
+                  <p>Utilize <Link href="/solutions/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management's</a></Link> predictive analytics to turn data into actionable insights for better decision-making in inventory, warehouse, logistics, service, and manufacturing.</p>
                 </div>
               </div>
 
@@ -199,7 +199,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Marketing</h3>
-                  <p><Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link> is the best cloud marketing solution to help your marketing and sales team personalize and orchestrate customer journeys to derive a profitable sales cycle.</p>
+                  <p><Link href="/solutions/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link> is the best cloud marketing solution to help your marketing and sales team personalize and orchestrate customer journeys to derive a profitable sales cycle.</p>
                 </div>
               </div>
 
@@ -212,7 +212,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Field Service</h3>
-                  <p>Provide exceptional field services to your customers and earn their loyalty for life using <Link href="/products/microsoft-dynamics-365-field-service/"><a>Dynamics 365 Field Service's</a></Link> actionable data insights and connected experiences.</p>
+                  <p>Provide exceptional field services to your customers and earn their loyalty for life using <Link href="/solutions/microsoft-dynamics-365-field-service/"><a>Dynamics 365 Field Service's</a></Link> actionable data insights and connected experiences.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -224,7 +224,7 @@ const ImplementationServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Commerce</h3>
-                  <p>With <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link>, you can deliver a seamless E-Commerce experience that builds customer loyalty and surpasses emerging online channels, helping you engage more customers and derive profits.</p>
+                  <p>With <Link href="/solutions/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link>, you can deliver a seamless E-Commerce experience that builds customer loyalty and surpasses emerging online channels, helping you engage more customers and derive profits.</p>
                 </div>
               </div>
             </div>
@@ -472,7 +472,7 @@ const ImplementationServices = () => {
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>Quality assurance is never compromised at <b>Dynamics Square</b>. Instead, we combine and seamlessly integrate your chosen module with other Microsoft Business Apps such as <b>Business Central and </b> <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>.</p>
+                  <p>Quality assurance is never compromised at <b>Dynamics Square</b>. Instead, we combine and seamlessly integrate your chosen module with other Microsoft Business Apps such as <b>Business Central and </b> <Link href="/solutions/microsoft-power-bi/"><a>Power BI</a></Link>.</p>
                 </div>
               </div>
             </div>

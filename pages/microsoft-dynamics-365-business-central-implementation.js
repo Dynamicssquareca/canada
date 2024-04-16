@@ -67,7 +67,7 @@ const BusinessCentralImplementation = () => {
                 </p>
                 <p>
                   <b>Microsoft Dynamics 365 Business Central</b> (earlier,{" "}
-                  <Link href="/products/microsoft-dynamics-nav/">
+                  <Link href="/solutions/microsoft-dynamics-nav/">
                     <a>Dynamics NAV</a>
                   </Link>{" "}
                   or Navision) is a cloud ERP system that offers you a range of
@@ -75,7 +75,7 @@ const BusinessCentralImplementation = () => {
                   yours simplify and streamline business operations and scale
                   business while improving productivity. These features include{" "}
                   <b>financial, supply chain,</b> project, and{" "}
-                  <Link href="/products/microsoft-dynamics-365-sales/">
+                  <Link href="/solutions/microsoft-dynamics-365-sales/">
                     <a>sales & service management</a>
                   </Link>
                   . With <b>Business Central</b>, you can easily automate
@@ -106,7 +106,7 @@ const BusinessCentralImplementation = () => {
               </div>
               <div className="custom-p-001 custom-p-003">
                 <p>
-                  <Link href="https://www.dynamicssquare.ca/products/dynamics-365-business-central/">
+                  <Link href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/">
                     <a>Business Central ERP</a>
                   </Link>{" "}
                   is Fully Integrable and Customizable, an ideal choice for SMBs
@@ -119,7 +119,7 @@ const BusinessCentralImplementation = () => {
                   You can customize <b>Business Central</b> to fit your unique
                   business needs and integrate it with other Microsoft tools,
                   such as{" "}
-                  <Link href="/products/microsoft-power-bi/">
+                  <Link href="/solutions/microsoft-power-bi/">
                     <a>Power BI</a>
                   </Link>{" "}
                   and Office 365, to provide you with a complete business
@@ -213,7 +213,7 @@ const BusinessCentralImplementation = () => {
                   <div className="overlay">
                     <p>
                       Get a complete view of your{" "}
-                      <Link href="/products/microsoft-dynamics-365-finance-operations/">
+                      <Link href="/solutions/microsoft-dynamics-365-finance-operations/">
                         <a>financial operations</a>
                       </Link>
                       , including customer insights, inventory management,
@@ -271,7 +271,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                      <Link href="/products/dynamics-365-supply-chain-management/">
+                      <Link href="/solutions/dynamics-365-supply-chain-management/">
                         <a>Optimize your supply chain</a>
                       </Link>{" "}
                       with <b> Business Central's</b> real-time monitoring &
@@ -295,7 +295,7 @@ const BusinessCentralImplementation = () => {
                       Automate your workflow with cloud implementation and
                       leverage real-time AI insights displayed on your
                       dashboards. Customize your{" "}
-                      <Link href="/products/dynamics-365-business-central/">
+                      <Link href="/solutions/dynamics-365-business-central/">
                         <a>Dynamics 365 Business Central with Microsoft</a>
                       </Link>{" "}
                       tools & business applications for quick query response
@@ -677,7 +677,7 @@ const BusinessCentralImplementation = () => {
                     <div className="accordion-body">
                       <p>
                         Implementing{" "}
-                        <Link href="/products/microsoft-dynamics-365/">
+                        <Link href="/solutions/microsoft-dynamics-365/">
                           <a>Microsoft Dynamics 365</a>
                         </Link>{" "}
                         is a seamless process that can be performed via the

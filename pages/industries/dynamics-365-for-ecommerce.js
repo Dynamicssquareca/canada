@@ -41,7 +41,7 @@ const Ecommerce = () => {
                   <br />
                   For Ecommerce
                 </h1>
-                <p>Create an E-Commerce site and give people what they want. Bring data, customers, and <b>E-Commerce business partners</b> to a unified platform and deliver a personalized online shopping experience to drive sales with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
+                <p>Create an E-Commerce site and give people what they want. Bring data, customers, and <b>E-Commerce business partners</b> to a unified platform and deliver a personalized online shopping experience to drive sales with <Link href="/solutions/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
@@ -92,7 +92,7 @@ const Ecommerce = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>How can I accelerate my E-Commerce business with Dynamics 365 Commerce?</h2>
-                <p>By automating data, using solutions with built-in <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence) capabilities</a></Link>, and cloud platforms.</p>
+                <p>By automating data, using solutions with built-in <Link href="/solutions/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence) capabilities</a></Link>, and cloud platforms.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -178,7 +178,7 @@ const Ecommerce = () => {
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
               <h2>Microsoft Dynamics 365 Commerce Features</h2>
-              <p>Re-imagine the way customers interact with your products, and improve direct sales to increase customer engagement before, after, and at the point of <Link href="/products/microsoft-dynamics-365-sales/"><a>sales with Microsoft Cloud</a></Link>, <Link href="/products/azure-iot-internet-of-things/"><a>Azure</a></Link>, and <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>. </p>
+              <p>Re-imagine the way customers interact with your products, and improve direct sales to increase customer engagement before, after, and at the point of <Link href="/solutions/microsoft-dynamics-365-sales/"><a>sales with Microsoft Cloud</a></Link>, <Link href="/solutions/azure-iot-internet-of-things/"><a>Azure</a></Link>, and <Link href="/solutions/microsoft-power-apps/"><a>Power Apps</a></Link>. </p>
             </header>
               </div>
             </div>
@@ -193,7 +193,7 @@ const Ecommerce = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Personalize Shopping Experiences</h3>
-                    <p>Get people interested in buying your products and services by analyzing your e-commerce site's web traffic and browse-to-buy conversion rates, and defining offers, and new products on customers' behavior using <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
+                    <p>Get people interested in buying your products and services by analyzing your e-commerce site's web traffic and browse-to-buy conversion rates, and defining offers, and new products on customers' behavior using <Link href="/solutions/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -406,7 +406,7 @@ const Ecommerce = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>Create and deploy an adaptive and intelligent supply chain that automatically responds to evolving demands with <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> for your food, beverage, and processing industry.</p>
+                                <p>Create and deploy an adaptive and intelligent supply chain that automatically responds to evolving demands with <Link href="/solutions/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> for your food, beverage, and processing industry.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>

@@ -348,47 +348,47 @@ const handleSubmit = async (event) => {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/dynamics-365-business-central/">
+                    <a href="/solutions/dynamics-365-business-central/">
                       Business Central
                     </a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/microsoft-dynamics-365-finance/">
+                    <a href="/solutions/microsoft-dynamics-365-finance/">
                       Finance
                     </a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/dynamics-365-supply-chain-management/">
+                    <a href="/solutions/dynamics-365-supply-chain-management/">
                       Supply Chain
                     </a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/microsoft-dynamics-365-sales/">
+                    <a href="/solutions/microsoft-dynamics-365-sales/">
                       Sales
                     </a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/microsoft-power-bi/">
+                    <a href="/solutions/microsoft-power-bi/">
                       Power BI
                     </a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/microsoft-azure/">Azure IoT</a>
+                    <a href="/solutions/microsoft-azure/">Azure IoT</a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/microsoft-dynamics-erp/">
+                    <a href="/solutions/microsoft-dynamics-erp/">
                       ERP (NAV/GP/AX)
                     </a>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/products/microsoft-dynamics-crm/">
+                    <a href="/solutions/microsoft-dynamics-crm/">
                       CRM
                     </a>
                   </li>

@@ -54,7 +54,7 @@ const BusinessCentralSupport = () => {
               <header className="section-header">
                 <h2>Drive a Seamless and Connected Experience</h2>
                 <p>Connect People, Data, and Processes to Make an Impact</p>
-                <p>Maximize the potential of your business with <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> <b>Support Services</b> from <b>Dynamics Square</b> in Canada. <b>Dynamics 365 Expert Support</b> services help you improve process optimization, demand planning, and analysis while enabling a seamless approach to your business operations. Experience the <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/"><a>benefits of Dynamics 365 Business Central</a></Link> Support Services and take your business to the next level today.</p>
+                <p>Maximize the potential of your business with <Link href="/solutions/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> <b>Support Services</b> from <b>Dynamics Square</b> in Canada. <b>Dynamics 365 Expert Support</b> services help you improve process optimization, demand planning, and analysis while enabling a seamless approach to your business operations. Experience the <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/"><a>benefits of Dynamics 365 Business Central</a></Link> Support Services and take your business to the next level today.</p>
               </header>
             </div>
           </div>
@@ -139,7 +139,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Ad-Hoc Support for <b>One-Time Assistance</b> - Get budget-friendly, flexible support from <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> team without any long-term commitment. The team assess your system's health and provide personalized quotes for your one-time or short-term needs. 
+                      Ad-Hoc Support for <b>One-Time Assistance</b> - Get budget-friendly, flexible support from <Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> team without any long-term commitment. The team assess your system's health and provide personalized quotes for your one-time or short-term needs. 
                       </div>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ const BusinessCentralSupport = () => {
                         Continuity
                       </h3>
                       <div className="overlay">
-                        <p>Adapt your ERP system to manage complexity and drive strategic growth. <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> Support Service Packages offer continuous and gradual improvement for smooth scalability and increased profitability.</p>
+                        <p>Adapt your ERP system to manage complexity and drive strategic growth. <Link href="/solutions/dynamics-365-business-central/"><a>Business Central</a></Link> Support Service Packages offer continuous and gradual improvement for smooth scalability and increased profitability.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">

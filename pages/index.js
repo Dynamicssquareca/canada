@@ -310,7 +310,7 @@ export default function Home() {
                 <ul className="list-n fist-m">
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/dynamics-365-business-central/">
+                      <a href="/solutions/dynamics-365-business-central/">
                         <img
                           src="/img/business-center-logo.svg"
                           alt="business-center-logo"
@@ -324,7 +324,7 @@ export default function Home() {
                   </li>
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-azure/">
+                      <a href="/solutions/microsoft-azure/">
                         <img
                           src="/img/azur-icons.svg"
                           alt="azur-icons"
@@ -337,7 +337,7 @@ export default function Home() {
                 <ul className="list-n fist-m-2">
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-power-apps/">
+                      <a href="/solutions/microsoft-power-apps/">
                         <img
                           src="/img/Powerapps_power-apps.svg"
                           alt="Powerapps_power-apps"
@@ -351,7 +351,7 @@ export default function Home() {
                   </li>
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-dynamics-365-finance/">
+                      <a href="/solutions/microsoft-dynamics-365-finance/">
                         <img
                           src="/img/finace-icons.svg"
                           alt="finace-icons"
@@ -362,7 +362,7 @@ export default function Home() {
                   </li>
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-dynamics-365-customer-service/">
+                      <a href="/solutions/microsoft-dynamics-365-customer-service/">
                         <img
                           src="/img/customer-service-icons.svg"
                           alt="customer-service-icons"
@@ -378,7 +378,7 @@ export default function Home() {
                 <ul className="list-n  fist-m-3">
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/dynamics-365-supply-chain-management/">
+                      <a href="/solutions/dynamics-365-supply-chain-management/">
                         <img
                           src="/img/supplychain-logo.svg"
                           alt="supplychain-logo"
@@ -393,7 +393,7 @@ export default function Home() {
                   </li>
                   <li className="list-n-wrp-size">
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-dynamics-365/">
+                      <a href="/solutions/microsoft-dynamics-365/">
                         <img
                           src="/img/ds-365.png"
                           alt="Microsoft Dynamics 365 Partner"
@@ -403,7 +403,7 @@ export default function Home() {
                   </li>
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-dynamics-365-field-service/">
+                      <a href="/solutions/microsoft-dynamics-365-field-service/">
                         <img
                           src="/img/feald-service-logo.svg"
                           alt="feald-service-logo"
@@ -418,7 +418,7 @@ export default function Home() {
                 <ul className="list-n  fist-m-2">
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-power-bi/">
+                      <a href="/solutions/microsoft-power-bi/">
                         <img
                           src="/img/powerbilogo.png"
                           alt="powerbilogo"
@@ -429,7 +429,7 @@ export default function Home() {
                   </li>
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-dynamics-365-marketing/">
+                      <a href="/solutions/microsoft-dynamics-365-marketing/">
                         <img src="/img/marketing.svg" alt="marketing" />
                         <span>Marketing</span>
                       </a>
@@ -437,7 +437,7 @@ export default function Home() {
                   </li>
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/microsoft-dynamics-365-sales/">
+                      <a href="/solutions/microsoft-dynamics-365-sales/">
                         <img
                           src="/img/Sales_scalable.svg"
                           alt="Sales_scalable"
@@ -450,7 +450,7 @@ export default function Home() {
                 <ul className="list-n fist-m">
                   <li>
                     <div className="list-n-wrp">
-                      <a href="/products/dynamics-365-human-resources/">
+                      <a href="/solutions/dynamics-365-human-resources/">
                         <img
                           src="/img/human-resource.svg"
                           alt="human-resource"
@@ -493,7 +493,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Connect and automate your finance and supply chain, drive customer engagement, unlock productivity and boost your sales with Dynamics 365 Business Central's strong abilities of analytics, reporting, and visualizations.</p>
-                <Link  href="/products/dynamics-365-business-central/">
+                <Link  href="/solutions/dynamics-365-business-central/">
                 <a
                  
                   className="read-more"
@@ -517,7 +517,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Automate all your financial practices and proactively minimize your investment costs and financial complexity with built-in AI-driven analytics, insights, and reporting capabilities using enterprise-grade Dynamics 365 Finance solution.</p>
-               <Link href="/products/microsoft-dynamics-365-finance/">
+               <Link href="/solutions/microsoft-dynamics-365-finance/">
                <a
                  
                   className="read-more"
@@ -543,7 +543,7 @@ export default function Home() {
                 <p>
                 Smoothen process flow, get real-time data storage & transfer mechanisms across your organization. Increase operational efficiency by automating your entire supply chain practices with D365 Supply Chain.
                 </p>
-                <Link href="/products/dynamics-365-supply-chain-management/">
+                <Link href="/solutions/dynamics-365-supply-chain-management/">
                 <a
                   
                   className="read-more"
@@ -573,7 +573,7 @@ export default function Home() {
                 <p>
                 Sales are not easy to manage. With D365 Sales' omnichannel facility, you can seamlessly drive innovation, maximize profit, predict, and manage your sales pipeline with real-time AI-driven insights, and close deals with lightning speed.
                 </p>
-                <Link href="/products/microsoft-dynamics-365-sales/">
+                <Link href="/solutions/microsoft-dynamics-365-sales/">
                 <a className="read-more"
                 >
                   <span>Learn More...</span>
@@ -599,7 +599,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Visual insights are the key to growth in today's business world. Streamline all your business processes and continuously monitor them with Power BI's real-time visual insights and key analytics to take decisions in advance.</p>
-               <Link href="/products/microsoft-power-bi/" >
+               <Link href="/solutions/microsoft-power-bi/" >
                <a className="read-more">
                   <span>Learn More...</span>
                 </a>
@@ -624,7 +624,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>IoT (internet of things) and IIoT (Industrial Internet of Things) are revolutionizing industries and businesses in every sector. Connect all your devices using Azure IoT for smoother data trade and ensure better productivity.</p>
-               <Link  href="/products/azure-iot-internet-of-things/">
+               <Link  href="/solutions/azure-iot-internet-of-things/">
                <a className="read-more">
                   <span>Learn More...</span>
                 </a>
