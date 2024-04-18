@@ -4,7 +4,7 @@ const AzureIoTHub = () => {
   return (
     <>
       <Head>
-        <title>Azure IoT Hub Services in Canada: Start Doing More with Less</title>
+      <title>Azure IoT Hub Services in Canada: Start Doing More with Less</title>
         <meta
           name="description"
           content="Connect, monitor and control your machines with IoT devices using Azure IoT Sphere. Contact Dynamics Square for pricing."
@@ -13,7 +13,69 @@ const AzureIoTHub = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/azure-iot-hub/"
         />
-         <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Azure IoT Hub Services in Canada: Start Doing More with Less" />
+        <meta property="og:description" content="Connect, monitor and control your machines with IoT devices using Azure IoT Sphere. Contact Dynamics Square for pricing." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-iot-hub/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Azure IoT Hub Services in Canada: Start Doing More with Less" />
+        <meta name="twitter:description" content="Connect, monitor and control your machines with IoT devices using Azure IoT Sphere. Contact Dynamics Square for pricing." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 Azure IOT hub",
+                "item": "https://www.dynamicssquare.ca/solutions/azure-iot-hub/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Azure IoT Hub",
+              "description": "Azure IoT Hub along with Azure Digital Twins form the building blocks for you to quickly construct need-specific solutions for your complex IoT scenarios. This amalgamation is the right cloud solution that seamlessly aligns with your management, control, and business management costs. Onboard devices and services by leveraging your in-house or partner-driven expertise. Or contact our in-house team to help you drive better products, optimize operations, and create breakthrough customer experiences.",
+              "operatingSystem": "All",
+              "applicationCategory": "Business application",
+              "url": "https://www.dynamicssquare.ca/solutions/azure-iot-hub/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

@@ -13,15 +13,28 @@ const AzureIoTCentral = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/azure-iot-central/"
         />
-          <meta name="robots" content="index,follow" />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Azure IoT Central: Most Secure IoT Offerings in Canada" />
+        <meta property="og:description" content="Connect and manage your IoT devices at scale using ready-made UX and API surfaces in Azure IoT Central. Contact Dynamics Square for pricing details." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-iot-central/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Azure IoT Central: Most Secure IoT Offerings in Canada" />
+        <meta name="twitter:description" content="Connect and manage your IoT devices at scale using ready-made UX and API surfaces in Azure IoT Central. Contact Dynamics Square for pricing details." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                Azure IoT 
+                Azure IoT
                 Central
               </h1>
               <p>Connect, manage, and operate fleets of devices at scale with Azure IoT Central - an application platform as a Service (aPaaS) that gives you ready-to-use UI (User Interface) and API (Application Programming Interface) surface to quickly develop IoT Solutions.</p>
@@ -49,23 +62,23 @@ const AzureIoTCentral = () => {
 
       <section>
         <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-lg-9 col-md-8">
-                    <header className="section-header">
-                    <h2>What is IoT Central?</h2>
-                    <p>IoT Central is your ready-made IoT Solutions development platform, which helps you go from proof of concepts to proof of value. With the power of Azure and PaaS services in your developers' hands, you can go from zero to live within five minutes. Get started with Microsoft's Azure Certified Devices that serve you the telemetry you need to build, model, and manage your custom IoT devices.</p>
-                    
-                    </header>
-                </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-8">
+              <header className="section-header">
+                <h2>What is IoT Central?</h2>
+                <p>IoT Central is your ready-made IoT Solutions development platform, which helps you go from proof of concepts to proof of value. With the power of Azure and PaaS services in your developers' hands, you can go from zero to live within five minutes. Get started with Microsoft's Azure Certified Devices that serve you the telemetry you need to build, model, and manage your custom IoT devices.</p>
+
+              </header>
             </div>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-9 col-md-9">
-                        <header className="section-header">
-                        <h2>See How Azure IoT Central Benefits You</h2>
-                        <p>Deploy enterprise-grade IoT solutions to reduce the burden and cost of developing, managing, and maintaining IoT solutions.</p>
-                        </header>
-                        </div>
-                      </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+              <header className="section-header">
+                <h2>See How Azure IoT Central Benefits You</h2>
+                <p>Deploy enterprise-grade IoT solutions to reduce the burden and cost of developing, managing, and maintaining IoT solutions.</p>
+              </header>
+            </div>
+          </div>
 
           <div className="row p-lg-6">
             <div className="col-lg-6">
@@ -97,7 +110,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <p>Use device templates to connect every device to IoT Central. Create device models using Visual Studio code and publish the model to a repository and use it to build a simple device template for you to add any cloud properties, customizations, and more.</p>
+                        <p>Use device templates to connect every device to IoT Central. Create device models using Visual Studio code and publish the model to a repository and use it to build a simple device template for you to add any cloud properties, customizations, and more.</p>
                       </div>
                     </div>
                   </div>
@@ -128,7 +141,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <p>Ease out the day-to-day interactions of your employees with the apps by configuring and customizing their user interfaces (UI) and help them discover insights to resolve issues faster.</p>
+                        <p>Ease out the day-to-day interactions of your employees with the apps by configuring and customizing their user interfaces (UI) and help them discover insights to resolve issues faster.</p>
                       </div>
                     </div>
                   </div>
@@ -138,7 +151,7 @@ const AzureIoTCentral = () => {
 
             <div className="col-lg-6">
               <div className="finace-acc">
-              <hr className="mob-disp" />
+                <hr className="mob-disp" />
                 <div className="accordion" id="accneww">
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
@@ -166,7 +179,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                    <p>Monitor and troubleshoot your devices using IoT Central to manage the existing devices, or provision new IoT devices. Redefine the custom rules and actions that work on data streaming to remediate device issues.</p>
+                        <p>Monitor and troubleshoot your devices using IoT Central to manage the existing devices, or provision new IoT devices. Redefine the custom rules and actions that work on data streaming to remediate device issues.</p>
                       </div>
                     </div>
                   </div>
@@ -197,7 +210,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      <p>Build custom IoT solutions and integrations with REST APIs to create goal-specific user roles that interact with an IoT Central application. And empower your administrator to better manage user roles and permissions within the built app.</p>
+                        <p>Build custom IoT solutions and integrations with REST APIs to create goal-specific user roles that interact with an IoT Central application. And empower your administrator to better manage user roles and permissions within the built app.</p>
                       </div>
                     </div>
                   </div>
@@ -212,9 +225,9 @@ const AzureIoTCentral = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>Azure IoT Central Features</h2>
-              <p>Evaluate your IoT scenarios and assess the opportunities to seamlessly create and build continually evolving IoT infrastructure with Dynamics Square. Call our experts today!</p>
+              <div className="wy-sultion-left-head">
+                <h2>Azure IoT Central Features</h2>
+                <p>Evaluate your IoT scenarios and assess the opportunities to seamlessly create and build continually evolving IoT infrastructure with Dynamics Square. Call our experts today!</p>
               </div>
             </div>
             <div className="col-lg-7">
@@ -223,7 +236,7 @@ const AzureIoTCentral = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Seamless Device
+                        Seamless Device
                         <br />
                         Connectivity
                       </h3>
@@ -233,8 +246,8 @@ const AzureIoTCentral = () => {
                     </div>
                     <div className="why-solution-wrapper-inner justify-self-center">
                       <h3>
-                      Secure & Scalable  <br />
-                      IoT Solutions
+                        Secure & Scalable  <br />
+                        IoT Solutions
                       </h3>
                       <div className="overlay">
                         <p>Maintain a 360-degree view of your device performance, failure, or reconfiguration requirements with a highly secure, reliable, and scalable device interaction system.</p>
@@ -246,7 +259,7 @@ const AzureIoTCentral = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Centralized Management
+                        Centralized Management
                         <br />
                         of Devices
                       </h3>
@@ -256,8 +269,8 @@ const AzureIoTCentral = () => {
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Azure IoT Plug<br /> 
-                      and Play 
+                        Azure IoT Plug<br />
+                        and Play
                       </h3>
                       <div className="overlay">
                         <p>Incorporate highly scalable IoT apps with less coding efforts using Azure IoT plug & play services to deploy IoT solutions faster by leveraging Azure Cloud and a simplified device-to-device integration facility.</p>
@@ -310,7 +323,7 @@ const AzureIoTCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                     How can I find information about my IoT Central application? 
+                      How can I find information about my IoT Central application?
                     </button>
                   </h3>
                   <div
@@ -319,11 +332,11 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>To get information about your IoT app, you can follow the following steps:</p>
-                    <p><b>Step 1: </b>Click the Help link on the top menu.</p>
-                    <p><b>Step 2:</b>Choose About your app</p>
-                    <p><b>Step 3:</b> The Step-2 will show the information about your Azure IoT application, as shown below:</p>
-                    <p>Finally, click on the Copy info button to copy. This info gets stored on your clipboard so that you can paste it on your destined text editor or wherever you want to save it for future reference.</p>
+                      <p>To get information about your IoT app, you can follow the following steps:</p>
+                      <p><b>Step 1: </b>Click the Help link on the top menu.</p>
+                      <p><b>Step 2:</b>Choose About your app</p>
+                      <p><b>Step 3:</b> The Step-2 will show the information about your Azure IoT application, as shown below:</p>
+                      <p>Finally, click on the Copy info button to copy. This info gets stored on your clipboard so that you can paste it on your destined text editor or wherever you want to save it for future reference.</p>
                     </div>
                   </div>
                 </div>
@@ -342,7 +355,7 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>Each subscription for an IoT solution has a default quota which could affect your Azure IoT solution. You can deploy up to 100 IoT Central Applications in one subscription, Dynamics Square for IoT solutions support, and Dynamics 365 suite of business apps.</p>
+                      <p>Each subscription for an IoT solution has a default quota which could affect your Azure IoT solution. You can deploy up to 100 IoT Central Applications in one subscription, Dynamics Square for IoT solutions support, and Dynamics 365 suite of business apps.</p>
                     </div>
                   </div>
                 </div>
@@ -361,13 +374,13 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>IoT Central uses the Azure IoT hub as a cloud gateway. The IoT hub from Microsoft is a powerful enabler that enables device connectivity, including: </p>
-                    <ul>
-                      <li>Ingestion of Data in the cloud at scale.</li>
-                      <li>Device management.</li>
-                      <li>Secure device connectivity.</li>
-                    </ul>
-                    <p>Learning is easy and healthy when you also bring information or knowledge into practice. Want to learn more about Azure IoT Hub? Click here.</p>
+                      <p>IoT Central uses the Azure IoT hub as a cloud gateway. The IoT hub from Microsoft is a powerful enabler that enables device connectivity, including: </p>
+                      <ul>
+                        <li>Ingestion of Data in the cloud at scale.</li>
+                        <li>Device management.</li>
+                        <li>Secure device connectivity.</li>
+                      </ul>
+                      <p>Learning is easy and healthy when you also bring information or knowledge into practice. Want to learn more about Azure IoT Hub? Click here.</p>
                     </div>
                   </div>
                 </div>
@@ -388,7 +401,7 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    As per the data retention policy, you can retain your data for 30-days. If you need to retain data out of this period, you are required to export your data at a regular period. To export your data, there is an export feature that you make use of whether to carry out your data insights, analytics, and more.
+                      As per the data retention policy, you can retain your data for 30-days. If you need to retain data out of this period, you are required to export your data at a regular period. To export your data, there is an export feature that you make use of whether to carry out your data insights, analytics, and more.
                     </div>
                   </div>
                 </div>
@@ -409,9 +422,9 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    If are willing to use the Azure IoT central for the very first time, you can enjoy 7-days of free trial that comes with the standard messaging size of 4KB. Later, you can continue using it by subscribing to its standard plans and that could be requirement specific. Out of the three available plans, you can continue your services either with Standard Tier 0, Standard Tier 1, or Standard Tier 2. Consult with our experts for plans and pricing suited to your exact IoT environmental needs.
+                      If are willing to use the Azure IoT central for the very first time, you can enjoy 7-days of free trial that comes with the standard messaging size of 4KB. Later, you can continue using it by subscribing to its standard plans and that could be requirement specific. Out of the three available plans, you can continue your services either with Standard Tier 0, Standard Tier 1, or Standard Tier 2. Consult with our experts for plans and pricing suited to your exact IoT environmental needs.
 
-                    See Also - <a href="/solutions/azure-iot-edge/">Azure IoT Edge</a>
+                      See Also - <a href="/solutions/azure-iot-edge/">Azure IoT Edge</a>
                     </div>
                   </div>
                 </div>

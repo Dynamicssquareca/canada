@@ -14,6 +14,15 @@ const BusinessCentralSupport = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/dynamics-365-business-central-erp-support/"
         />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        />
       </Head>
 
       <section className="Solution-banner hero-1 hero">

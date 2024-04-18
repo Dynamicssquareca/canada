@@ -19,7 +19,7 @@ const AboutUs = () => {
   return (
     <>
       <Head>
-        <title>About Microsoft Dynamics 365 In Canada: By Dynamics Square</title>
+      <title>About Microsoft Dynamics 365 In Canada: By Dynamics Square</title>
         <meta
           name="description"
           content="Dynamics Square is one of Canada's leading Microsoft Dynamics 365 implementation partners. Get in touch with us for low-cost CRM and ERP solutions."
@@ -28,7 +28,30 @@ const AboutUs = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/about-us/"
         />
-        <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="About Microsoft Dynamics 365 In Canada: By Dynamics Square" />
+        <meta property="og:description" content="Dynamics Square is one of Canada's leading Microsoft Dynamics 365 implementation partners. Get in touch with us for low-cost CRM and ERP solutions." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/about-us/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/group-2193.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="About Microsoft Dynamics 365 In Canada: By Dynamics Square" />
+        <meta name="twitter:description" content="Dynamics Square is one of Canada's leading Microsoft Dynamics 365 implementation partners. Get in touch with us for low-cost CRM and ERP solutions." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/group-2193.png" />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero about-banner">

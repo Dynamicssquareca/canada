@@ -4,16 +4,39 @@ const AzureDigitalTwins = () => {
   return (
     <>
       <Head>
-        <title>Azure Digital Twins Technology: Match Your Business Logic</title>
+      <title>Azure Digital Twins Technology: Match Your Business Logic</title>
         <meta
           name="description"
           content="Connect external resources - Azure Functions to flexibly drive data processing in customized ways. Contact Dynamics Square for more."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/solutions/azure-digital-twins/" />
-       <meta name="robots" content="index,follow" />
-        
+          href="https://www.dynamicssquare.ca/solutions/azure-digital-twins/"
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Azure Digital Twins Technology: Match Your Business Logic" />
+        <meta property="og:description" content="Connect external resources - Azure Functions to flexibly drive data processing in customized ways. Contact Dynamics Square for more." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-digital-twins/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-digital-twins-banner.webp" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Azure Digital Twins Technology: Match Your Business Logic" />
+        <meta name="twitter:description" content="Connect external resources - Azure Functions to flexibly drive data processing in customized ways. Contact Dynamics Square for more." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-digital-twins-banner.webp" />
+       {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

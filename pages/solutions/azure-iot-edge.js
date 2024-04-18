@@ -4,7 +4,7 @@ const AzureIoTEdge = () => {
   return (
     <>
       <Head>
-        <title>Azure IoT Edge Devices in Canada: Connect More to Build More</title>
+      <title>Azure IoT Edge Devices in Canada: Connect More to Build More</title>
         <meta
           name="description"
           content="Conquer the challenge of rising costs via connected devices & save the percentage of allocated resources using Azure IoT Edge. Contact Dynamics Square."
@@ -13,8 +13,30 @@ const AzureIoTEdge = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/azure-iot-edge/"
         />
-       <meta name="robots" content="index,follow" />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Azure IoT Edge Devices in Canada: Connect More to Build More" />
+        <meta property="og:description" content="Conquer the challenge of rising costs via connected devices & save the percentage of allocated resources using Azure IoT Edge. Contact Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-iot-edge/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-edge-banner.webp" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Azure IoT Edge Devices in Canada: Connect More to Build More" />
+        <meta name="twitter:description" content="Conquer the challenge of rising costs via connected devices & save the percentage of allocated resources using Azure IoT Edge. Contact Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-edge-banner.webp" />
+       {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

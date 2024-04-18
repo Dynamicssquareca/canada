@@ -9,16 +9,98 @@ const HumanResource = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Human Resources: A Self-Service HR Tool</title>
+      <title>Dynamics 365 Human Resources: A Self-Service HR Tool</title>
         <meta
           name="description"
-          content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help." />
-          <meta name="robots" content="index,follow" />
+          content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help."
+        />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/"
         />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Human Resources: A Self-Service HR Tool" />
+        <meta property="og:description" content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 Human Resources: A Self-Service HR Tool" />
+        <meta name="twitter:description" content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 Human Resource",
+                "item": "https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 Human Resources",
+              "description": "Microsoft Dynamics 365 Human Resources (formerly Microsoft Dynamics 365 Talent) is cloud-based human resources management (HRM) software. This app provides a set of tools on its modern dashboard to help HR teams transform the employee experience and support the company's long-term business goals and outcomes.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Human Resources",
+              "offers": {
+                "@type": "Offer",
+                "price": "162.80",
+                "priceCurrency": "CAD"
+                  }
+                },
+             {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Human Resources Self-Service",
+              "offers": {
+                "@type": "Offer",
+                "price": "5.40",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <ModalVideo
         channel="youtube"

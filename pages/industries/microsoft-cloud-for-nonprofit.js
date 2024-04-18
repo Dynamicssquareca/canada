@@ -13,7 +13,7 @@ const MicrosoftCloudForNonprofit = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Cloud for Nonprofits Dynamics Square CA</title>
+      <title>Microsoft Cloud for Nonprofits Dynamics Square CA</title>
         <meta
           name="description"
           content="Microsoft Cloud for Nonprofits is the ultimate tool to quickly provide help by reimagining team efforts across your nonprofit organization."
@@ -22,8 +22,30 @@ const MicrosoftCloudForNonprofit = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/microsoft-cloud-for-nonprofit/"
         />
-     <meta name="robots" content="index,follow" />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Cloud for Nonprofits Dynamics Square CA" />
+        <meta property="og:description" content="Microsoft Cloud for Nonprofits is the ultimate tool to quickly provide help by reimagining team efforts across your nonprofit organization." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/industries/microsoft-cloud-for-nonprofit/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Not-For-Profit-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Cloud for Nonprofits Dynamics Square CA" />
+        <meta name="twitter:description" content="Microsoft Cloud for Nonprofits is the ultimate tool to quickly provide help by reimagining team efforts across your nonprofit organization." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Not-For-Profit-banner.png" />
+     {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
     <ModalVideo
         channel="youtube"

@@ -16,6 +16,15 @@ const MicrosoftDynamicsNAV = () => {
           href="https://www.dynamicssquare.ca/dynamics-nav-to-business-central-upgrade/"
         />
         <meta name="robots" content="index,follow" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

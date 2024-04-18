@@ -7,14 +7,14 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import Link from "next/link";
-const Startup = () => {
+
+const Dynamics365ForProfessionalServices = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <title>Dynamics 365 for Professional Services: Dynamics Square CA</title>
+      <title>Dynamics 365 for Professional Services: Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics 365 for Professional Services is a cloud-based business management module designed & developed by Microsoft to modernize SMEs/SMBs."
@@ -23,7 +23,30 @@ const Startup = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/dynamics-365-for-professional-services/"
         />
-        <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 for Professional Services: Dynamics Square CA" />
+        <meta property="og:description" content="Dynamics 365 for Professional Services is a cloud-based business management module designed & developed by Microsoft to modernize SMEs/SMBs." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/industries/dynamics-365-for-professional-services/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/professional service banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 for Professional Services: Dynamics Square CA" />
+        <meta name="twitter:description" content="Dynamics 365 for Professional Services is a cloud-based business management module designed & developed by Microsoft to modernize SMEs/SMBs." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/professional service banner.png" />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <ModalVideo
         channel="youtube"
@@ -508,4 +531,4 @@ const Startup = () => {
   );
 };
 
-export default Startup;
+export default Dynamics365ForProfessionalServices;

@@ -15,6 +15,15 @@ const ContactUsOld = () => {
             href="https://www.dynamicssquare.ca/contact-us/"
           />
           <meta name="robots" content="noindex, nofollow" />
+          <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        />
         </Head>
         <main>
           <section className="Solution-banner hero-1 hero about-banner">

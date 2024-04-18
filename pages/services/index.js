@@ -6,13 +6,38 @@ const Inedex = () => {
         <>
         <Head>
         <title>Microsoft Dynamics 365 Services in Canada: Dynamics Square</title>
-        <meta name="description"
-          content="Take your business practices to a next level with Dynamics 365 and build a more sustainable & resilient future. Contact us for agile IT solutions & services." />
-          <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="Take your business practices to a next level with Dynamics 365 and build a more sustainable & resilient future. Contact us for agile IT solutions & services."
+        />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/services/"
+          href="https://www.dynamicssquare.ca/industries/services/"
         />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Services in Canada: Dynamics Square" />
+        <meta property="og:description" content="Take your business practices to a next level with Dynamics 365 and build a more sustainable & resilient future. Contact us for agile IT solutions & services." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/industries/services/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Services in Canada: Dynamics Square" />
+        <meta name="twitter:description" content="Take your business practices to a next level with Dynamics 365 and build a more sustainable & resilient future. Contact us for agile IT solutions & services." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
         </Head>
         <section className="Solution-banner hero-1 hero">
         <div className="container">

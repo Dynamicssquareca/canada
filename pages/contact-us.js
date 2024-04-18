@@ -22,7 +22,15 @@ const ContactUs = () => {
             rel="canonical"
             href="https://www.dynamicssquare.ca/contact-us/"
           />
+ <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
 
+
+            })
+          }}
+        />
       </Head>
       <main>
         <section className="Solution-banner about-banner">

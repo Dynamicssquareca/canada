@@ -6,31 +6,99 @@ const Dynamics365CustomerEngagement = () => {
   return (
     <>
       <Head>
-      <title>Dynamics 365 Customer Engagement Partner Canada</title>
-<meta name="description" content="Strengthen your relationships with customers via Dynamics 365 Customer Engagement - a cloud marketing solution. Connect with the Dynamics Square team."/>
-<meta name="robots" content="index,follow" />
-<link rel="canonical" href="https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/" />
+        <title>Dynamics 365 Customer Engagement Partner Canada</title>
+        <meta
+          name="description"
+          content="Strengthen your relationships with customers via Dynamics 365 Customer Engagement - a cloud marketing solution. Connect with the Dynamics Square team."
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/"
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Customer Engagement Partner Canada" />
+        <meta property="og:description" content="Strengthen your relationships with customers via Dynamics 365 Customer Engagement - a cloud marketing solution. Connect with the Dynamics Square team." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/customer-engagement-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 Customer Engagement Partner Canada" />
+        <meta name="twitter:description" content="Strengthen your relationships with customers via Dynamics 365 Customer Engagement - a cloud marketing solution. Connect with the Dynamics Square team." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/customer-engagement-banner.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 customer engagement",
+                "item": "https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 Customer Engagement",
+              "description": "Dynamics 365 customer engagement (formerly known as Microsoft Dynamics CRM) is a single cloud-based, analytics-driven robust customer engagement platform. Dynamics 365 Customer Engagement uniquely brings CRM (customer relationship management), CDP (customer data platforms), and CXM (customer experience management) into one entity, allowing you to manage the entire customer journey and lifecycle.Achieve more by simplifying your sales practices, enhancing customer experience, generating efficient marketing campaigns, boosting field service levels, and automating project services.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-              Microsoft Dynamics 365 Customer Engagement
+                Microsoft Dynamics 365 Customer Engagement
               </h1>
               <p>
-              Connect all your interactions with prospects and customers and unify your entire business with a comprehensive <b>cloud-based CRM solution</b>; Dynamics 365 Customer Engagement. 
+                Connect all your interactions with prospects and customers and unify your entire business with a comprehensive <b>cloud-based CRM solution</b>; Dynamics 365 Customer Engagement.
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                 <Link href="#exampleModal">
-                 <a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Click For Demo</span>
-                  </a>
-                 </Link>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Click For Demo</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -74,7 +142,7 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                Get Started with Dynamics 365 Customer Engagement
+                  Get Started with Dynamics 365 Customer Engagement
                 </h2>
               </div>
               <div className="custom-p-001">
@@ -91,7 +159,7 @@ const Dynamics365CustomerEngagement = () => {
               <header className="section-header">
                 <h2>Get Started with Dynamics 365 Customer Engagement</h2>
                 <p>
-                Extend your business capabilities, drive customer-oriented practices, and ensure improved agility to drive long-term growth and scalability.With Dynamics 365 Customer Engagement, you get flexible deployment options: <b>on-premises, on-cloud, or Hybrid implementation. Learn more about the Dynamics 365 Customer Engagement implementation</b> here.
+                  Extend your business capabilities, drive customer-oriented practices, and ensure improved agility to drive long-term growth and scalability.With Dynamics 365 Customer Engagement, you get flexible deployment options: <b>on-premises, on-cloud, or Hybrid implementation. Learn more about the Dynamics 365 Customer Engagement implementation</b> here.
                 </p>
               </header>
             </div>
@@ -109,14 +177,14 @@ const Dynamics365CustomerEngagement = () => {
               </div>
               <div className="custom002">
                 <div className="parten-more">
-                 <ul>
-                  <li>Boosting sales by creating positive, customized interactions with your customers.</li>
-                  <li>Providing customer service from any location and on any device.</li>
-                  <li>Leveraging easy-to-design processes to close more deals.</li>
-                  <li>Strengthening relationships with customers via social analytics</li>
-                  <li>Visualizing data and utilizing configurable dashboards within <b>Dynamics 365 CRM</b> to gain actionable insights.</li>
-                  <li>Encouraging collaboration and teamwork among the sales team members for a common goal.</li>
-                 </ul>
+                  <ul>
+                    <li>Boosting sales by creating positive, customized interactions with your customers.</li>
+                    <li>Providing customer service from any location and on any device.</li>
+                    <li>Leveraging easy-to-design processes to close more deals.</li>
+                    <li>Strengthening relationships with customers via social analytics</li>
+                    <li>Visualizing data and utilizing configurable dashboards within <b>Dynamics 365 CRM</b> to gain actionable insights.</li>
+                    <li>Encouraging collaboration and teamwork among the sales team members for a common goal.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -138,13 +206,13 @@ const Dynamics365CustomerEngagement = () => {
       </section>
       <section className="bg-333">
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-8">
-          <header className="section-header">
-            <h2>Why pick Dynamics Square as your partner for implementing Dynamics 365 Customer Engagement?</h2>
-            <p><Link href="/"><a>Dynamics Square in Canada</a></Link> - a trusted and certified <b>Microsoft Dynamics 365 Gold Partner</b> with 11+ years of industry experience & professionals at your service for simplified, stress-free, and exceptionally customized <Link href="/our-services/dynamics-365-support-services/">Dynamics 365 solutions and support</Link>.</p>
-          </header>
-          </div></div>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>Why pick Dynamics Square as your partner for implementing Dynamics 365 Customer Engagement?</h2>
+                <p><Link href="/"><a>Dynamics Square in Canada</a></Link> - a trusted and certified <b>Microsoft Dynamics 365 Gold Partner</b> with 11+ years of industry experience & professionals at your service for simplified, stress-free, and exceptionally customized <Link href="/our-services/dynamics-365-support-services/">Dynamics 365 solutions and support</Link>.</p>
+              </header>
+            </div></div>
           <div className="row pad15x">
             <div className="col-lg-4 align-self-center">
               <div className="commen-box-3">
@@ -168,7 +236,7 @@ const Dynamics365CustomerEngagement = () => {
                 <div className="icons">
                   <img src="/img/Group997.svg" alt="Group997.svg" />
                   <h3>
-                  Proficient <br />
+                    Proficient <br />
                     Team
                   </h3>
                 </div>
@@ -197,8 +265,8 @@ const Dynamics365CustomerEngagement = () => {
                 <div className="icons">
                   <img src="/img/Group1003.svg" alt="Group1003" />
                   <h3>
-                  Lower Implementation Cost <br />
-                  & Exclusive Offers
+                    Lower Implementation Cost <br />
+                    & Exclusive Offers
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
@@ -215,8 +283,8 @@ const Dynamics365CustomerEngagement = () => {
                     alt="proffesionalserviceicon"
                   />
                   <h3>
-                  Highly Customized<br />
-                  Solutions
+                    Highly Customized<br />
+                    Solutions
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
@@ -268,13 +336,13 @@ const Dynamics365CustomerEngagement = () => {
         <div className="container">
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
-            <header className="section-header">
-            <h2>
-              Dynamics 365 Customer <br />
-              Engagement Apps
-            </h2>
-            <p>Achieve more by simplifying your sales practices, enhancing customer experience, generating efficient marketing campaigns, boosting field service levels, and automating project services.</p>
-          </header>
+              <header className="section-header">
+                <h2>
+                  Dynamics 365 Customer <br />
+                  Engagement Apps
+                </h2>
+                <p>Achieve more by simplifying your sales practices, enhancing customer experience, generating efficient marketing campaigns, boosting field service levels, and automating project services.</p>
+              </header>
             </div>
           </div>
           <div className="row pad9x rever-1">
@@ -301,8 +369,8 @@ const Dynamics365CustomerEngagement = () => {
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Marketing</h3>
                 <p>
-                Engage and serve your customers in real-time through personalized experience using the intuitive interface of Dynamics 365 Customer Engagement - a unified and quickly adaptable user platform under the <Link href="/solutions/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing Module.</a>
-                </Link></p>
+                  Engage and serve your customers in real-time through personalized experience using the intuitive interface of Dynamics 365 Customer Engagement - a unified and quickly adaptable user platform under the <Link href="/solutions/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing Module.</a>
+                  </Link></p>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
@@ -359,15 +427,15 @@ const Dynamics365CustomerEngagement = () => {
 
       <section className="new-style-bg new-style-bg-1">
         <div className="container">
-         <div className='row justify-content-center'>
-          <div className='col-lg-8'>
-          <header className="section-header">
-            <h2>
-            How Dynamics 365 Customer Engagement Apps Can Further Boost Your Customer Engagement
-            </h2>
-          </header>
+          <div className='row justify-content-center'>
+            <div className='col-lg-8'>
+              <header className="section-header">
+                <h2>
+                  How Dynamics 365 Customer Engagement Apps Can Further Boost Your Customer Engagement
+                </h2>
+              </header>
+            </div>
           </div>
-         </div>
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -415,7 +483,7 @@ const Dynamics365CustomerEngagement = () => {
         <div className="container">
           <header className="section-header">
             <h2>
-            Dynamics 365 Customer Engagement FAQs  
+              Dynamics 365 Customer Engagement FAQs
             </h2>
           </header>
           <div className="row justify-content-center mar-top-7">
@@ -492,7 +560,7 @@ const Dynamics365CustomerEngagement = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                     How does the D365 Customer Engagement implementation process look?
+                      How does the D365 Customer Engagement implementation process look?
                     </button>
                   </h3>
                   <div
@@ -513,7 +581,7 @@ const Dynamics365CustomerEngagement = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                     I'm interested in getting a closer look at Dynamics 365 Customer Engagement, can you arrange a demo or trial?
+                      I'm interested in getting a closer look at Dynamics 365 Customer Engagement, can you arrange a demo or trial?
                     </button>
                   </h3>
                   <div

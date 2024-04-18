@@ -10,7 +10,7 @@ const Finance = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance| Dynamics Square CA</title>
+      <title>Dynamics 365 Finance| Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success."
@@ -19,7 +19,90 @@ const Finance = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/"
         />
-        <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Finance| Dynamics Square CA" />
+        <meta property="og:description" content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Financial-Management.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 Finance| Dynamics Square CA" />
+        <meta name="twitter:description" content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Financial-Management.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 finance",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/"  
+              }
+            ]
+            })
+          }}
+        />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "dynamics 365 business finance",
+              "description": "Microsoft Dynamics 365 Finance is an all-in-one ERP software application that drives automation, data transparency, and real-time financial insights for your organisation. With Dynamics 365 Finance, you can effectively improve your organization's financial capabilities. D365 Finance helps you maintain system monitoring, track and evaluate your financial processes with a 360-degree view, and anticipate financial results while ensuring smooth global compliance and risk management.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Finance",
+              "offers": {
+                "@type": "Offer",
+                "price": "244.20",
+                "priceCurrency": "CAD"
+                  }
+                },
+                {
+                  "@type": "softwareApplication",
+            "name": "Dynamics 365 Finance Premium",
+              "offers": {
+                "@type": "Offer",
+                "price": "407",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
+       
       </Head>
 
       <ModalVideo

@@ -20,6 +20,15 @@ const CaseStudyShimco = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/case-studies/nav13-to-d365-business-central-upgrade/"
         />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
 
       <section className="hero-1 hero">

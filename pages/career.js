@@ -4,13 +4,39 @@ const Career = () => {
     return (
       <>
         <Head>
-          <title>Career at Dynamics Square | Trusted Microsoft Gold Partners</title>
-          <meta
-            name="description"
-            content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product"
-          />
-          <link rel="canonical" href="https://www.dynamicssquare.ca/career/" />
-          <meta name="robots" content="index,follow" />
+        <title>Career at Dynamics Square | Trusted Microsoft Gold Partners</title>
+        <meta
+          name="description"
+          content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product"
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.ca/career/"
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Career at Dynamics Square | Trusted Microsoft Gold Partners" />
+        <meta property="og:description" content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product" />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/career/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/carrer-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Career at Dynamics Square | Trusted Microsoft Gold Partners" />
+        <meta name="twitter:description" content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/carrer-banner.png" />
+          {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
         </Head>
         <main>
           <section className="Solution-banner hero-1 hero about-banner carrer-into">

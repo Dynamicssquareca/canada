@@ -4,7 +4,7 @@ const MicrosoftAzure = () => {
   return (
     <>
       <Head>
-        <title>Explore Microsoft’s Azure Cloud Services: Dynamics Square</title>
+      <title>Explore Microsoft’s Azure Cloud Services: Dynamics Square</title>
         <meta
           name="description"
           content="Microsoft's Azure cloud-realize your ideas and purposefully invent cloud solutions that help save costs and make your business model more efficient."
@@ -13,7 +13,30 @@ const MicrosoftAzure = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-azure/"
         />
-                <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Explore Microsoft’s Azure Cloud Services: Dynamics Square" />
+        <meta property="og:description" content="Microsoft's Azure cloud-realize your ideas and purposefully invent cloud solutions that help save costs and make your business model more efficient." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-azure/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azurebanner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Explore Microsoft’s Azure Cloud Services: Dynamics Square" />
+        <meta name="twitter:description" content="Microsoft's Azure cloud-realize your ideas and purposefully invent cloud solutions that help save costs and make your business model more efficient." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azurebanner.png" />
+                {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

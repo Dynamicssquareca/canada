@@ -11,9 +11,19 @@ const CaseStudySpectra = () => {
   return (
     <>
       <Head>
-      <title>Dynamics NAV 2013 | Implement Custom EFT Module</title>
-<meta name="description" content="Learn how a custom EFT module was implemented in Dynamics NAV 2013 for an aluminum extrusion company, streamlining payment processing. "/>
-<link rel="canonical" href="https://www.dynamicssquare.ca/case-studies/dynamics-nav13-eft-implementation/" />
+        <title>Dynamics NAV 2013 | Implement Custom EFT Module</title>
+        <meta name="description" content="Learn how a custom EFT module was implemented in Dynamics NAV 2013 for an aluminum extrusion company, streamlining payment processing. " />
+        <link rel="canonical" href="https://www.dynamicssquare.ca/case-studies/dynamics-nav13-eft-implementation/" />
+        
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
 
       <section className="hero-1 hero">
@@ -48,7 +58,7 @@ const CaseStudySpectra = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                <img
+                  <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
                     width="160"
@@ -72,7 +82,7 @@ const CaseStudySpectra = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407}/>
+              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407} />
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -261,7 +271,7 @@ const CaseStudySpectra = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                    <strong>Payment transaction time</strong> is reduced with one-click processing and direct loading into the bank concerned.</p>
+                      <strong>Payment transaction time</strong> is reduced with one-click processing and direct loading into the bank concerned.</p>
                   </div>
                 </div>
 
@@ -273,7 +283,7 @@ const CaseStudySpectra = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                    <strong>Redundant tasks</strong> such as cheque printing and sending are eliminated with the EFT module implementation.</p>
+                      <strong>Redundant tasks</strong> such as cheque printing and sending are eliminated with the EFT module implementation.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -289,7 +299,7 @@ const CaseStudySpectra = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598}/>
+              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598} />
             </div>
           </div>
         </div>
@@ -325,9 +335,9 @@ const CaseStudySpectra = () => {
                   implement their unique needs.
                 </p>
                 <div className="m-o-t m-o-t-inde">
-                  <Link  href="#exampleModal"><a
+                  <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
-                  
+
                     className="btn-get-started scrollto"
                   >
                     <span>Schedule a Demo</span></a>

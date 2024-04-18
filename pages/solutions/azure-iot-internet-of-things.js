@@ -10,14 +10,36 @@ const AzureIoT = () => {
         <title>Microsoft Azure IoT Services in Canada: By Dynamics Square</title>
         <meta
           name="description"
-          content=" Azure IoT helps you build intelligent environments to connect, monitor, automate, and model devices and applications. Contact Dynamics Square."
+          content="Azure IoT helps you build intelligent environments to connect, monitor, automate, and model devices and applications. Contact Dynamics Square."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/azure-iot-internet-of-things/"
         />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Azure IoT Services in Canada: By Dynamics Square" />
+        <meta property="og:description" content="Azure IoT helps you build intelligent environments to connect, monitor, automate, and model devices and applications. Contact Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-iot-internet-of-things/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Azure IoT Services in Canada: By Dynamics Square" />
+        <meta name="twitter:description" content="Azure IoT helps you build intelligent environments to connect, monitor, automate, and model devices and applications. Contact Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <ModalVideo
         channel="youtube"

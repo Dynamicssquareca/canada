@@ -8,7 +8,7 @@ const PowerAutomate = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Automate: Build Low-code Automations</title>
+      <title>Microsoft Power Automate: Build Low-code Automations</title>
         <meta
           name="description"
           content="Empower your team to build low-cost low-code automation using Microsoft Power Automate. Reduce lead times & increase output. Contact Dynamics Square."
@@ -17,8 +17,30 @@ const PowerAutomate = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-power-automate/"
         />
-        <meta name="robots" content="index,follow" />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Power Automate: Build Low-code Automations" />
+        <meta property="og:description" content="Empower your team to build low-cost low-code automation using Microsoft Power Automate. Reduce lead times & increase output. Contact Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-automate/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/power%20automate-side.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Power Automate: Build Low-code Automations" />
+        <meta name="twitter:description" content="Empower your team to build low-cost low-code automation using Microsoft Power Automate. Reduce lead times & increase output. Contact Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/power%20automate-side.png" />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <ModalVideo
         channel="youtube"

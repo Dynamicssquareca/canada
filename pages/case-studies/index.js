@@ -6,9 +6,18 @@ const CaseStudyList = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics 365 Case Studies | Dynamics Square</title>
-<meta name="description" content="Discover our client's case studies and see how we care about them from start to finish. We have worked with them to provide long lasting Dynamics 365 Support."/>
-<link rel="canonical" href="https://www.dynamicssquare.ca/case-studies/" />
+        <title>Microsoft Dynamics 365 Case Studies | Dynamics Square</title>
+        <meta name="description" content="Discover our client's case studies and see how we care about them from start to finish. We have worked with them to provide long lasting Dynamics 365 Support." />
+        <link rel="canonical" href="https://www.dynamicssquare.ca/case-studies/" />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -98,7 +107,7 @@ const CaseStudyList = () => {
             </div>
             <div className="col-lg-9">
               <div className="tab-content" id="v-pills-tabContent">
-              <div
+                <div
                   className="tab-pane fade show active"
                   id="v-pills-profiless"
                   role="tabpanel"
@@ -115,7 +124,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                          Implemented Custom EFT Module to improvise Payment Methods
+                            Implemented Custom EFT Module to improvise Payment Methods
                           </p>
                         </div>
                         <div className="btn-003">
@@ -128,7 +137,7 @@ const CaseStudyList = () => {
                         </div>
                       </div>
                     </div>
-              
+
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -136,7 +145,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                          Implementation of Microsoft Dynamics Business Central Cloud
+                            Implementation of Microsoft Dynamics Business Central Cloud
                           </p>
                         </div>
                         <div className="btn-003">
@@ -157,7 +166,7 @@ const CaseStudyList = () => {
                   role="tabpanel"
                   aria-labelledby="v-pills-home-tab"
                 >
-                
+
                 </div>
                 <div
                   className="tab-pane fade"
@@ -176,7 +185,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                          Implemented Custom EFT Module to improvise Payment Methods
+                            Implemented Custom EFT Module to improvise Payment Methods
                           </p>
                         </div>
                         <div className="btn-003">
@@ -205,7 +214,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                          Implementation of Microsoft Dynamics Business Central Cloud
+                            Implementation of Microsoft Dynamics Business Central Cloud
                           </p>
                         </div>
                         <div className="btn-003">
@@ -241,7 +250,7 @@ const CaseStudyList = () => {
           </div>
         </div>
       </section>
-      
+
     </>
   );
 };

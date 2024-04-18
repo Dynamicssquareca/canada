@@ -6,7 +6,7 @@ const MicrosoftDynamicsAX = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module</title>
+      <title>Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module</title>
         <meta
           name="description"
           content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square."
@@ -15,7 +15,30 @@ const MicrosoftDynamicsAX = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/"
         />
-         <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module" />
+        <meta property="og:description" content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module" />
+        <meta name="twitter:description" content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
 
       <section className="Solution-banner hero-1 hero">

@@ -5,17 +5,39 @@ const IndustriesList = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 for Industries: Explore Your Solution</title>
+      <title>Microsoft Dynamics 365 for Industries: Explore Your Solution</title>
         <meta
           name="description"
           content="Microsoft Dynamics 365 is a suite of intelligent business apps devised to help large and mid-market-sized industries. Contact Dynamics Square for more info."
         />
-        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/"
         />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics 365 for Industries: Explore Your Solution" />
+        <meta property="og:description" content="Microsoft Dynamics 365 is a suite of intelligent business apps devised to help large and mid-market-sized industries. Contact Dynamics Square for more info." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/industries/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-for-professional-services.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 for Industries: Explore Your Solution" />
+        <meta name="twitter:description" content="Microsoft Dynamics 365 is a suite of intelligent business apps devised to help large and mid-market-sized industries. Contact Dynamics Square for more info." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-for-professional-services.png" />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

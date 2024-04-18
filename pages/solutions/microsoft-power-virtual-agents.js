@@ -8,7 +8,7 @@ const PowerVirtualAgents = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Virtual Agents: Enhance CRM Capabilities</title>
+      <title>Microsoft Power Virtual Agents: Enhance CRM Capabilities</title>
         <meta
           name="description"
           content="Power Virtual Agents is a platform that helps you build smart chatbots, & instant actions to boost your CRM and sales. Reach out to the Dynamics Square team."
@@ -17,8 +17,30 @@ const PowerVirtualAgents = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-power-virtual-agents/"
         />
-      <meta name="robots" content="index,follow" />
-       
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Power Virtual Agents: Enhance CRM Capabilities" />
+        <meta property="og:description" content="Power Virtual Agents is a platform that helps you build smart chatbots, & instant actions to boost your CRM and sales. Reach out to the Dynamics Square team." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-virtual-agents/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/virtual-agent-side.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Power Virtual Agents: Enhance CRM Capabilities" />
+        <meta name="twitter:description" content="Power Virtual Agents is a platform that helps you build smart chatbots, & instant actions to boost your CRM and sales. Reach out to the Dynamics Square team." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/virtual-agent-side.png" />
+      {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <ModalVideo
         channel="youtube"

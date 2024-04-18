@@ -18,13 +18,75 @@ const PowerBI = () => {
       <title>Trusted Microsoft Power BI Partner | Power BI Experts & Support</title>
         <meta
           name="description"
-          content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing."
+          content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing. "
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-power-bi/"
-        />     
-        <meta name="robots" content="index,follow" />
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Trusted Microsoft Power BI Partner | Power BI Experts & Support" />
+        <meta property="og:description" content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-bi/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/sideshp-1.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Trusted Microsoft Power BI Partner | Power BI Experts & Support" />
+        <meta name="twitter:description" content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/sideshp-1.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "microsoft power bi",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-power-bi/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Power BI",
+              "description": "Power BI is a set of Business Intelligence tools that simplify the process of collecting, analyzing, visualizing, and integrating data for making data-driven decisions.It's not just a digitalization move but a business transformation strategy. Power BI offers easy-to-use dashboards, interactive visualizations, and insightful reports.",
+              "operatingSystem": "All",
+              "applicationCategory": "Business application",
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-power-bi/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <ModalVideo
         channel="youtube"

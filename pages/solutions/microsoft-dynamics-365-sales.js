@@ -9,7 +9,7 @@ const Sales = () => {
   return (
     <>
       <Head>
-        <title> Dynamics 365 for Sales|Dynamics Square CA</title>
+      <title>Dynamics 365 for Sales|Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now."
@@ -18,8 +18,99 @@ const Sales = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/"
         />
-         <meta name="robots" content="index,follow" />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Customer Engagement Partner Canada" />
+        <meta property="og:description" content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Sales-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 Customer Engagement Partner Canada" />
+        <meta name="twitter:description" content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Sales-banner.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 sales",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft's Dynamics 365 Sales",
+              "description": "Microsoft's Dynamics 365 Sales (formerly, Dynamics CRM) is an AI-driven sales management application that helps you win new customers through teamwork and manage your day-to-day business operations through its modern customer relationship management (CRM) capabilities. Integrating preferred communication channels like Microsoft Teams to Dynamics 365 Sales, you can better connect sellers to customers, accelerate your revenue generation, and close sales faster.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Sales Professional",
+              "offers": {
+                "@type": "Offer",
+                "price": "88.20",
+                "priceCurrency": "CAD"
+                  }
+                },
+                {
+                  "@type": "softwareApplication",
+            "name": "Dynamics 365 Sales Enterprise",
+              "offers": {
+                "@type": "Offer",
+                "price": "128.90",
+                "priceCurrency": "CAD"
+                  }
+                },
+             {
+                  "@type": "softwareApplication",
+            "name": "Dynamics 365 Sales Premium",
+              "offers": {
+                "@type": "Offer",
+                "price": "183.20",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
+       
       </Head>
       <ModalVideo
         channel="youtube"

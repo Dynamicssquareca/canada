@@ -7,6 +7,15 @@ const CookiePolicy = () => {
 <meta name="description" content="Read Dynamics Square Cookie Policy - Our cookie policy page explains why and how cookies are used to serve the optimal website experience to our readers."/>
 <link rel="canonical" href="https://www.dynamicssquare.ca/cookie-policy/" />
 <meta name="robots" content="index,follow" />
+<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero custom-pd-4">
         <div className="container">

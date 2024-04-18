@@ -11,15 +11,88 @@ const FieldService = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Field Service: AI-Enabled Service Tool</title>
+      <title>Microsoft Dynamics 365 Field Service: AI-Enabled Service Tool</title>
         <meta
           name="description"
           content="Explore Dynamics 365 for Field Service and Transform your field services to deliver customer-preferred end-to-end field service. Contact support for more info."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/"
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Field Service: AI-Enabled Service Tool" />
+        <meta property="og:description" content="Explore Dynamics 365 for Field Service and Transform your field services to deliver customer-preferred end-to-end field service. Contact support for more info." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/FieldServicebanner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Field Service: AI-Enabled Service Tool" />
+        <meta name="twitter:description" content="Explore Dynamics 365 for Field Service and Transform your field services to deliver customer-preferred end-to-end field service. Contact support for more info." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/FieldServicebanner.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 field service",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 field service",
+              "description": "Dynamics 365 for field Service help you become more proactive with this field service employees can attain better response time, accurate data, effective communication, with less hectic collaboration. It uses real-time data insights for highly connected field service experience.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Field Service",
+              "offers": {
+                "@type": "Offer",
+                "price": "128.90",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
         />
       </Head>
       <ModalVideo

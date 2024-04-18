@@ -7,23 +7,47 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import Link from "next/link";
-const Startup = () => {
+
+
+const Dynamics365ForFoodAndBeverages = () => {
   const [isOpen, setOpen] = useState(false);
   // const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-      <meta charSet="utf-8" />
-        <title>Dynamics 365 for Food & Beverages Industry | Dynamics Square CA</title>
+      <title>Dynamics 365 for Food & Beverages Industry | Dynamics Square CA</title>
         <meta
           name="description"
           content="Microsoft Dynamics 365 is a suite of intelligent business apps to modernize the food, beverages, and processing industry. Get in touch with Dynamics Square."
         />
-        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/dynamics-365-for-food-and-beverages/"
         />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 for Food & Beverages Industry | Dynamics Square CA" />
+        <meta property="og:description" content="Microsoft Dynamics 365 is a suite of intelligent business apps to modernize the food, beverages, and processing industry. Get in touch with Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/industries/dynamics-365-for-food-and-beverages/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 for Food & Beverages Industry | Dynamics Square CA" />
+        <meta name="twitter:description" content="Microsoft Dynamics 365 is a suite of intelligent business apps to modernize the food, beverages, and processing industry. Get in touch with Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <ModalVideo
         channel="youtube"
@@ -527,5 +551,5 @@ const Startup = () => {
   );
 };
 
-export default Startup;
+export default Dynamics365ForFoodAndBeverages;
 

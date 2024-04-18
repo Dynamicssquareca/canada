@@ -67,61 +67,140 @@ const BusinessCentral = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              
+
               "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "Why should small businesses use Microsoft Dynamics Business Central?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Business Central is one of the best cloud-based ERP available today, which has the following features that can help small businesses stop guessing and start making the most out of their existing operations:<ul><li>Simple and flexible to use.</li><li>Integration with other online Microsoft services, business and productivity apps for increased productivity and better performance.</li><li>Available in more than 130 countries and regions, and in multiple languages and currency modes.</li><li>Business Central is now powered by Dynamics 365 Copilot (Chat GPT4-based, AI-powered language tool) to help users start leveraging its capabilities for more connected and collaborated experiences.</li><li>Ability to manage end-to-end process flows, from finance and supply chain to warehousing, sales, reporting & analytics, HR and payrolls.</li></ul>"
-        }
-      }, {
-        "@type": "Question",
-        "name": "How Business Central and Dynamics NAV are related?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dynamics 365 Business Central is the upgraded version of Dynamics NAV (better known as Navision). The difference lies in advanced features and navigations in Business Central than in NAV. Microsoft Dynamics Business Central is designed to help businesses of today and tomorrow across various industries.Important: Existing Dynamics NAV users can get support services but not the mainstream support from Microsoft.We, at Dynamics Square, offer reliable, cost-efficient NAV and Business Central Support Services. Get in touch for Business Central implementation to discuss your business problems in 1:1 meet-ups."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What is the ROI of Dynamics 365 Business Central Implementation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Implementing Dynamics 365 Business Central is expected to yield a Return on Investment (ROI) of 162% over three years. The benefits of using Microsoft Dynamics Business Central are expected to outweigh the costs of implementing and maintaining the software.Plus, it can lead to a 10% reduction in finance and operations hiring needs, which could translate to cost savings for the organization. Download the study by Gartner to explore the whole report.Get in touch with your canadian business central partner like Dynamics Square for effortless, successful Business Central ERP implementation."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How to upgrade your NAV to Dynamics 365 Business Central?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "If you are ready to upgrade your legacy systems like NAV to a cloud-based intelligent business application - Dynamics 365 Business Central, we're always a call away. Our team of Dynamics 365 experts and proficient consultants can help implement a highly configured solution for your business and fulfilling all your customized business needs.For more details or to avail our free system health check, get in touch with us today."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Who can use Dynamics 365 Business Central Support?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":"The size and niche don't matter with Business Central. This business application can help businesses of all sizes across industries: from e-Commerce, food & beverages, Manufacturing & Distribution, Healthhcare and Professional Services to Non-Profit hubs.Also, if you are just starting out, Microsoft Dynamics Business Central is a pro app for Startups and Microsoft is supporting new small businesses by giving FREE Azure CREDITS to make an impact.Curious to know how Business Central can get implemented for your growing business? We're your best Business Central Implementation partners across Canada. Contact us today!"
-       }
-     }, {
-        "@type": "Question",
-        "name": "What is the Dynamics 365 Business Central implementation cost?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Business Central is a cloud-based ERP system. It takes about 6 to 8 months for its implementation. This is why Dynamics 365 Business Central Implementation cost varies. Thus, pricing may vary depending on your requirements and the complexity of your business process flows. Below are the standard plans available for your business:<ul><li>Essential - Starts at CAD 89.60 per user/month</li><li>Premium - From CAD 128 per user/month</li><li>Team Member - It's available at CAD 10.20 per user/month</li></ul>Still not sure which business central implementation cost plan would best suit your business, call our experts today. We're are always eager to extend help."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How to get quick support for Dynamics 365 Business Central?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Reach out to your canadian Business Central partner for quick support. If your current partner is not listening to your problems, contact Dynamics Square. We have a dedicated support system and an expert team you provide timely, efficient, and flexible Dynamics 365 Support to our clients.Get in touch with us now to discover the power of Business Central Online ERP"
-        }
-        }]
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "Why should small businesses use Microsoft Dynamics Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Business Central is one of the best cloud-based ERP available today, which has the following features that can help small businesses stop guessing and start making the most out of their existing operations:<ul><li>Simple and flexible to use.</li><li>Integration with other online Microsoft services, business and productivity apps for increased productivity and better performance.</li><li>Available in more than 130 countries and regions, and in multiple languages and currency modes.</li><li>Business Central is now powered by Dynamics 365 Copilot (Chat GPT4-based, AI-powered language tool) to help users start leveraging its capabilities for more connected and collaborated experiences.</li><li>Ability to manage end-to-end process flows, from finance and supply chain to warehousing, sales, reporting & analytics, HR and payrolls.</li></ul>"
+                }
+              }, {
+                "@type": "Question",
+                "name": "How Business Central and Dynamics NAV are related?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dynamics 365 Business Central is the upgraded version of Dynamics NAV (better known as Navision). The difference lies in advanced features and navigations in Business Central than in NAV. Microsoft Dynamics Business Central is designed to help businesses of today and tomorrow across various industries.Important: Existing Dynamics NAV users can get support services but not the mainstream support from Microsoft.We, at Dynamics Square, offer reliable, cost-efficient NAV and Business Central Support Services. Get in touch for Business Central implementation to discuss your business problems in 1:1 meet-ups."
+                }
+              }, {
+                "@type": "Question",
+                "name": "What is the ROI of Dynamics 365 Business Central Implementation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Implementing Dynamics 365 Business Central is expected to yield a Return on Investment (ROI) of 162% over three years. The benefits of using Microsoft Dynamics Business Central are expected to outweigh the costs of implementing and maintaining the software.Plus, it can lead to a 10% reduction in finance and operations hiring needs, which could translate to cost savings for the organization. Download the study by Gartner to explore the whole report.Get in touch with your canadian business central partner like Dynamics Square for effortless, successful Business Central ERP implementation."
+                }
+              }, {
+                "@type": "Question",
+                "name": "How to upgrade your NAV to Dynamics 365 Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If you are ready to upgrade your legacy systems like NAV to a cloud-based intelligent business application - Dynamics 365 Business Central, we're always a call away. Our team of Dynamics 365 experts and proficient consultants can help implement a highly configured solution for your business and fulfilling all your customized business needs.For more details or to avail our free system health check, get in touch with us today."
+                }
+              }, {
+                "@type": "Question",
+                "name": "Who can use Dynamics 365 Business Central Support?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The size and niche don't matter with Business Central. This business application can help businesses of all sizes across industries: from e-Commerce, food & beverages, Manufacturing & Distribution, Healthhcare and Professional Services to Non-Profit hubs.Also, if you are just starting out, Microsoft Dynamics Business Central is a pro app for Startups and Microsoft is supporting new small businesses by giving FREE Azure CREDITS to make an impact.Curious to know how Business Central can get implemented for your growing business? We're your best Business Central Implementation partners across Canada. Contact us today!"
+                }
+              }, {
+                "@type": "Question",
+                "name": "What is the Dynamics 365 Business Central implementation cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Business Central is a cloud-based ERP system. It takes about 6 to 8 months for its implementation. This is why Dynamics 365 Business Central Implementation cost varies. Thus, pricing may vary depending on your requirements and the complexity of your business process flows. Below are the standard plans available for your business:<ul><li>Essential - Starts at CAD 89.60 per user/month</li><li>Premium - From CAD 128 per user/month</li><li>Team Member - It's available at CAD 10.20 per user/month</li></ul>Still not sure which business central implementation cost plan would best suit your business, call our experts today. We're are always eager to extend help."
+                }
+              }, {
+                "@type": "Question",
+                "name": "How to get quick support for Dynamics 365 Business Central?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Reach out to your canadian Business Central partner for quick support. If your current partner is not listening to your problems, contact Dynamics Square. We have a dedicated support system and an expert team you provide timely, efficient, and flexible Dynamics 365 Support to our clients.Get in touch with us now to discover the power of Business Central Online ERP"
+                }
+              }]
 
             }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Dynamicssquare CA",
+                  "item": "https://www.dynamicssquare.ca/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "solutions",
+                  "item": "https://www.dynamicssquare.ca/solutions/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "/dynamics 365 business central",
+                  "item": "https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/"
+                }
+              ]
+            }
+            )
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "dynamics 365 business central",
+              "description": "Dynamics 365 Business Central (formerly Dynamics NAV) is a comprehensive online ERP system. It is designed and developed for small and medium-sized businesses (SMBs) and subsidiaries of large international groups.With Business Central, small businesses across canada can manage sales, finance services, supply chain operations, HR, Payroll, and other departments.Plus, companies from manufacturing industry can automate, accelerate, and simplify their processes to increase revenue and nurture scalability.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP Software",
+              "version": [
+                {
+                  "@type": "softwareApplication",
+                  "name": "Dynamics 365 Business Central Essentials",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "95",
+                    "priceCurrency": "CAD"
+                  }
+                },
+                {
+                  "@type": "softwareApplication",
+                  "name": "Dynamics 365 Business Central Premium",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "135",
+                    "priceCurrency": "CAD"
+                  }
+                },
+                {
+                  "@type": "softwareApplication",
+                  "name": "Dynamics 365 Business Central Team Members",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "10.90",
+                    "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            }
+            )
           }}
         />
       </Head>
@@ -2916,7 +2995,7 @@ const BusinessCentral = () => {
                 </h3>
                 <p>From</p>
                 <div className="price">
-                $95(CAD)<span>per user/month</span>
+                  $95(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>
@@ -2949,7 +3028,7 @@ const BusinessCentral = () => {
                 </h3>
                 <p>From</p>
                 <div className="price">
-                $135.70(CAD)<span>per user/month</span>
+                  $135.70(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>
@@ -2991,7 +3070,7 @@ const BusinessCentral = () => {
                 </h3>
                 <p>From</p>
                 <div className="price">
-                $10.90(CAD)<span>per user/month</span>
+                  $10.90(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li>

@@ -10,18 +10,41 @@ const D360 = () => {
           name="description"
           content="Dynamics Square is Canada's leading Dynamics 365 partner, helping small & mid-market size businesses win customers & earn their loyalty for life."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365/"
         />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Implement Microsoft Dynamics 365 with Dynamics Square" />
+        <meta property="og:description" content="Dynamics Square is Canada's leading Dynamics 365 partner, helping small & mid-market size businesses win customers & earn their loyalty for life." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/d360-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Implement Microsoft Dynamics 365 with Dynamics Square" />
+        <meta name="twitter:description" content="Dynamics Square is Canada's leading Dynamics 365 partner, helping small & mid-market size businesses win customers & earn their loyalty for life." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/d360-banner.png" />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-              Microsoft Dynamics 365 
+                Microsoft Dynamics 365
               </h1>
               <p>Never lose the trail of your business. Modernize your business operations through Microsoft's innovative enterprise-grade business management apps that foster collaboration using Microsoft Teams, LinkedIn, and Azure Cloud.</p>
               <div>
@@ -44,14 +67,14 @@ const D360 = () => {
       </section>
       <section>
         <div className="container">
-        <div className="row justify-content-center"> 
-        <div className="col-lg-9 col-md-9"> 
-        <header className="section-header"> 
-        <h2>What is Microsoft Dynamics 365?</h2> 
-        <p>Microsoft Dynamics 365 is a suite of second-to-none ERP/Financials, CRM (Customer Relationship Management), and eCommerce cloud solutions to manage your business effectively and efficiently. Microsoft launched this suite of unified business management modules in 2016. It has evolved since then into a full-fledged cloud solution that caters to your core business operations by intelligently learning new and emerging social or market trends.</p>
-       </header> 
-      </div>
-      </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+              <header className="section-header">
+                <h2>What is Microsoft Dynamics 365?</h2>
+                <p>Microsoft Dynamics 365 is a suite of second-to-none ERP/Financials, CRM (Customer Relationship Management), and eCommerce cloud solutions to manage your business effectively and efficiently. Microsoft launched this suite of unified business management modules in 2016. It has evolved since then into a full-fledged cloud solution that caters to your core business operations by intelligently learning new and emerging social or market trends.</p>
+              </header>
+            </div>
+          </div>
 
         </div>
       </section>
@@ -73,20 +96,20 @@ const D360 = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>
-                Why Implement Dynamics 365? 
+                  Why Implement Dynamics 365?
                 </h2>
               </div>
               <div className="custom002">
                 <p>Customer relationships matter! Because of poor resource planning or relationships with your customers, or low collaboration among employees, it can become arduous to meet customer requests. So, rethink and implement Dynamics 365 to re-invent your business to start making waves.</p>
                 <p><b>Here is how Dynamics 365 boosts your business:</b></p>
-                  <ul>
-                    <li>By connecting people, data, and business operations to a unified platform, it is easy to see and control everything about your business.</li>
-                    <li>Built-in <Link href="/solutions/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence)</a></Link>, advanced analytics, and guided actions to make tomorrow's decisions today.</li>
-                    <li>Seamless integration among different models of Dynamics 365 and other Microsoft business apps like <Link href="/solutions/microsoft-power-bi/"><a>Power BI (a business intelligence tool)</a></Link>, <Link href="/solutions/microsoft-power-platform/"><a>Power Platform</a></Link>, <Link href="/solutions/microsoft-power-automate/"><a>Power Automate</a></Link>, Microsoft Team, Outlook, and SharePoint.</li>
-                    <li>Ease of access and smooth to operate; you can run any module of Dynamics 365 using a device that has the latest web browser and an internet connection.</li>
-                  </ul>
-                  <p><Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> is an opportunity to modernize your business operations since it comes packed with the <Link href="/solutions/microsoft-azure/"><a>power of Microsoft Cloud</a></Link>, Azure Services, <Link href="/solutions/microsoft-dynamics-365/mixed-reality/"><a>Mixed Reality</a></Link>, AI/ML, <Link href="/solutions/azure-iot-internet-of-things/"><a>Azure IoT (Internet of Things)</a></Link>, and a lot more intelligent business management stuff.</p>
-                  <div className="text-center text-lg-start">
+                <ul>
+                  <li>By connecting people, data, and business operations to a unified platform, it is easy to see and control everything about your business.</li>
+                  <li>Built-in <Link href="/solutions/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence)</a></Link>, advanced analytics, and guided actions to make tomorrow's decisions today.</li>
+                  <li>Seamless integration among different models of Dynamics 365 and other Microsoft business apps like <Link href="/solutions/microsoft-power-bi/"><a>Power BI (a business intelligence tool)</a></Link>, <Link href="/solutions/microsoft-power-platform/"><a>Power Platform</a></Link>, <Link href="/solutions/microsoft-power-automate/"><a>Power Automate</a></Link>, Microsoft Team, Outlook, and SharePoint.</li>
+                  <li>Ease of access and smooth to operate; you can run any module of Dynamics 365 using a device that has the latest web browser and an internet connection.</li>
+                </ul>
+                <p><Link href="/solutions/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> is an opportunity to modernize your business operations since it comes packed with the <Link href="/solutions/microsoft-azure/"><a>power of Microsoft Cloud</a></Link>, Azure Services, <Link href="/solutions/microsoft-dynamics-365/mixed-reality/"><a>Mixed Reality</a></Link>, AI/ML, <Link href="/solutions/azure-iot-internet-of-things/"><a>Azure IoT (Internet of Things)</a></Link>, and a lot more intelligent business management stuff.</p>
+                <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
@@ -104,12 +127,12 @@ const D360 = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
-            <header className="section-header">
-            <h2>Microsoft Dynamics 365</h2>
-            <p>The Right Choice For Large and Mid-Market Size Businesses</p>
-            <p>Stability and sustainability are the keys to the success of all small and mid-sized businesses (SMBs). Hence, they require an affordable yet efficient business management solution. By understanding what employees in SMBs and enterprises go through, Microsoft transformed its all-legacy ERPs such as <Link href="/solutions/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>, <Link href="/solutions/microsoft-dynamics-gp/"><a>Dynamics GP (Great Plains)</a></Link>, and <Link href="/solutions/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> and brought them into a suite called Dynamics 365 - a robust cloud solution.</p>
-            <p><b>Capabilities and Features of Dynamics 365 That Speak Result</b></p>
-          </header>
+              <header className="section-header">
+                <h2>Microsoft Dynamics 365</h2>
+                <p>The Right Choice For Large and Mid-Market Size Businesses</p>
+                <p>Stability and sustainability are the keys to the success of all small and mid-sized businesses (SMBs). Hence, they require an affordable yet efficient business management solution. By understanding what employees in SMBs and enterprises go through, Microsoft transformed its all-legacy ERPs such as <Link href="/solutions/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>, <Link href="/solutions/microsoft-dynamics-gp/"><a>Dynamics GP (Great Plains)</a></Link>, and <Link href="/solutions/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> and brought them into a suite called Dynamics 365 - a robust cloud solution.</p>
+                <p><b>Capabilities and Features of Dynamics 365 That Speak Result</b></p>
+              </header>
             </div>
           </div>
           <div className="row p-lg-6">
@@ -151,7 +174,7 @@ const D360 = () => {
                         aria-expanded="false"
                         aria-controls="fin2"
                       >
-                        
+
                         <span>Scheduling</span>
                       </button>
                     </h3>
@@ -162,7 +185,7 @@ const D360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Centralize your customer issues and resolve them quickly using a built-in calendar and share it with other employees.</p>
+                        <p>Centralize your customer issues and resolve them quickly using a built-in calendar and share it with other employees.</p>
                       </div>
                     </div>
                   </div>
@@ -177,7 +200,7 @@ const D360 = () => {
                         aria-expanded="false"
                         aria-controls="fin3"
                       >
-                        
+
                         <span>Analytics</span>
                       </button>
                     </h3>
@@ -210,7 +233,7 @@ const D360 = () => {
                         aria-expanded="false"
                         aria-controls="fin5"
                       >
-                        
+
                         <span>Integration</span>
                       </button>
                     </h3>
@@ -221,7 +244,7 @@ const D360 = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Integrate Microsoft .NET framework, web services, Outlook, Teams, Excel, and other business apps to help your employees manage data effectively.</p>
+                        <p>Integrate Microsoft .NET framework, web services, Outlook, Teams, Excel, and other business apps to help your employees manage data effectively.</p>
                       </div>
                     </div>
                   </div>
@@ -236,7 +259,7 @@ const D360 = () => {
                         aria-expanded="false"
                         aria-controls="fin6"
                       >
-                       
+
                         <span>Data</span>
                       </button>
                     </h3>
@@ -247,7 +270,7 @@ const D360 = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Microsoft cloud is the most secure platform because of its Azure cloud services, leaving no way for data leaks and cyber threats.</p>
+                        <p>Microsoft cloud is the most secure platform because of its Azure cloud services, leaving no way for data leaks and cyber threats.</p>
                       </div>
                     </div>
                   </div>
@@ -262,7 +285,7 @@ const D360 = () => {
                         aria-expanded="false"
                         aria-controls="fin7"
                       >
-                        
+
                         <span>Customers</span>
                       </button>
                     </h3>
@@ -273,7 +296,7 @@ const D360 = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      <p>Understand your customers with powerful built-in tools that provide you with a customer's unified view to engage and serve more customers.</p>
+                        <p>Understand your customers with powerful built-in tools that provide you with a customer's unified view to engage and serve more customers.</p>
                       </div>
                     </div>
                   </div>
@@ -298,9 +321,9 @@ const D360 = () => {
                 {/* <p>Dynamics Square is Canada's leading Microsoft Gold Partner, offering you a variety of Microsoft's cloud ERP solutions as well as legacy ERP systems' upgrade services. Get in touch with our experts to upgrade your NAV, GP, or AX into Dynamics 365 Business Central, Finance, or Supply Chain.</p> */}
                 <p> Get in touch with our experts to upgrade your NAV, GP, or AX into Dynamics 365 Business Central, Finance, or Supply Chain.</p>
                 <div className="m-o-t m-o-t-inde">
-                  <Link  href="#exampleModal"><a
+                  <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
-                  
+
                     className="btn-get-started scrollto"
                   >
                     <span>Contact Us</span></a>
@@ -314,13 +337,13 @@ const D360 = () => {
 
       <section className="new-style-bg">
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9 col-md-8">
-          <header className="section-header">
-            <h2>Take your business to new heights with Dynamics 365 - a suite of intelligent business apps</h2>
-            <p>Implement Tomorrow's Technology and Solutions Today with <Link href="/"><a>Dynamics Square</a></Link></p>
-          </header>
-          </div></div>
+              <header className="section-header">
+                <h2>Take your business to new heights with Dynamics 365 - a suite of intelligent business apps</h2>
+                <p>Implement Tomorrow's Technology and Solutions Today with <Link href="/"><a>Dynamics Square</a></Link></p>
+              </header>
+            </div></div>
           <div className="row g-5 ">
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -370,14 +393,14 @@ const D360 = () => {
 
       <section className="bg-shape">
         <div className="container">
-         <div className="row justify-content-center">
-          <div className="col-lg-9">
-          <header className="section-header">
-            <h2>Have You Got Data Security Concerns about Dynamics 365? No need to worry!</h2>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Have You Got Data Security Concerns about Dynamics 365? No need to worry!</h2>
+              </header>
+            </div>
           </div>
-         </div>
-          
+
 
           <div className="row">
             <div className="col-lg-7 align-self-center">
@@ -405,30 +428,30 @@ const D360 = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
-            <header className="section-header">
-            <h2>Microsoft Dynamics 365 Licensing and Cost?</h2>
-            <p>Microsoft offers affordable and flexible pricing and licensing for all Microsoft Dynamics 365 modules. You can opt for the most suitable business app that solves your business problems or buy different apps and integrate them with our help to manage and run your business the way you want.</p>
-          </header>
+              <header className="section-header">
+                <h2>Microsoft Dynamics 365 Licensing and Cost?</h2>
+                <p>Microsoft offers affordable and flexible pricing and licensing for all Microsoft Dynamics 365 modules. You can opt for the most suitable business app that solves your business problems or buy different apps and integrate them with our help to manage and run your business the way you want.</p>
+              </header>
             </div>
           </div>
           <div className="row g-5 justify-content-center">
-          
+
             <div className="col-lg-8">
               {/* <div className="parten-more parten-more-ss text-center">
               <p>Contact Dynamics Square for the latest details on Dynamics 365 about licensing and cost. Or you can download our comprehensive guide on pricing and licensing for different apps under Dynamics 365 suite. </p>
               </div>
               <br /> */}
               <div className="text-center m-o-t new-btn-nn">
-                  <Link   href="#exampleModal"><a
-                    data-bs-toggle="modal"
-                  
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Explore Dynamics 365 pricing and Licensing Guide</span></a>
-                  </Link>
-                </div>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+
+                  className="btn-get-started scrollto"
+                >
+                  <span>Explore Dynamics 365 pricing and Licensing Guide</span></a>
+                </Link>
+              </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -440,9 +463,9 @@ const D360 = () => {
               <div className="call-to-action-content">
                 <h3>Is Your Dynamics 365 Partner not listening to your problems, connect with our experts to get the job done now!</h3>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link     href="#exampleModal"><a
+                  <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
-               
+
                     className="btn-get-started scrollto"
                   >
                     <span>Meet our Expert</span></a>
@@ -458,11 +481,11 @@ const D360 = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
-            <header className="section-header">
-            <h2>Why should Dynamics Square be your Dynamics 365 implementation partner?</h2>
-            <p>We as a company and our experts are certified by Microsoft to help you deliver innovative, highly integrated business-centric solutions at affordable pricing.</p>
-            <p><b>Why Choose Dynamics Square:</b></p>
-          </header>
+              <header className="section-header">
+                <h2>Why should Dynamics Square be your Dynamics 365 implementation partner?</h2>
+                <p>We as a company and our experts are certified by Microsoft to help you deliver innovative, highly integrated business-centric solutions at affordable pricing.</p>
+                <p><b>Why Choose Dynamics Square:</b></p>
+              </header>
             </div>
           </div>
           <div className="row">
@@ -499,7 +522,7 @@ const D360 = () => {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -507,12 +530,12 @@ const D360 = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
-            <header className="section-header">
-            <h2>
-            Have you got questions about Microsoft Dynamics 365?   
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
-          </header>
+              <header className="section-header">
+                <h2>
+                  Have you got questions about Microsoft Dynamics 365?
+                </h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
             </div>
           </div>
           <div className="row justify-content-center mar-top-7">
@@ -526,7 +549,7 @@ const D360 = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                  What is the use of Dynamics 365? 
+                      What is the use of Dynamics 365?
                     </button>
                   </h3>
                   <div
@@ -547,7 +570,7 @@ const D360 = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                    How to differentiate between Microsoft Dynamics 365 and Microsoft 365? 
+                      How to differentiate between Microsoft Dynamics 365 and Microsoft 365?
                     </button>
                   </h3>
                   <div
@@ -568,7 +591,7 @@ const D360 = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                   What is the Difference between Salesforce and Microsoft Dynamics 365? 
+                      What is the Difference between Salesforce and Microsoft Dynamics 365?
                     </button>
                   </h3>
                   <div
@@ -586,7 +609,7 @@ const D360 = () => {
           </div>
         </div>
       </section>
-      
+
     </>
   );
 };

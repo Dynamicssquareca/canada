@@ -13,12 +13,85 @@ const ProjectOperations = () => {
         <title>Microsoft Dynamics 365 Project Operations: Lead Your Projects</title>
         <meta
           name="description"
-          content="Deliver more with less to lead a profitable project-centric business with Dynamics 365 Human Resources. Get more deals. Contact Dynamics Square."
+          content="Dynamics 365 Project Operations integrates sales, resource, project, and accounting teams for seamless collaboration and visibility, boosting agility across the business cycle."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/"
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Project Operations: Lead Your Projects" />
+        <meta property="og:description" content="Dynamics 365 Project Operations integrates sales, resource, project, and accounting teams for seamless collaboration and visibility, boosting agility across the business cycle." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Project Operations: Lead Your Projects" />
+        <meta name="twitter:description" content="Dynamics 365 Project Operations integrates sales, resource, project, and accounting teams for seamless collaboration and visibility, boosting agility across the business cycle." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Dynamicssquare CA",
+                  "item": "https://www.dynamicssquare.ca/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "solutions",
+                  "item": "https://www.dynamicssquare.ca/solutions/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "dynamics 365 project operations",
+                  "item": "https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/"
+                }
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 project operation",
+              "description": "Dynamics 365 Project Operations is a leading project-centric business management app that helps you lead a profitable project-centric business.Implementing this powerful business app empowers teams to win more contracts, optimize resource utilization, accelerate project delivery, and get business insights from sales to project financials. With this single unified SaaS (Software as a Service) project management platform, you can bring your team together and win the game of driving collaboration, faster project delivery, and maximizing growth potential.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "version": [
+                {
+                  "@type": "softwareApplication",
+                  "name": "Dynamics 365 Project Operations",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "162.80",
+                    "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
         />
       </Head>
       <ModalVideo
@@ -35,7 +108,7 @@ const ProjectOperations = () => {
               <h1>
                 Dynamics 365
                 <br />
-                 Project Operations
+                Project Operations
               </h1>
               <p>Connect more with your people, bring all your projects to a unified project management application and drive profitability with Dynamics 365 Project Operations.</p>
               <div>
@@ -51,25 +124,25 @@ const ProjectOperations = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/project-operation-banner.png" alt="project-operation-banner" width={778} height={506}/>
+              <Image src="/img/project-operation-banner.png" alt="project-operation-banner" width={778} height={506} />
             </div>
           </div>
         </div>
       </section>
 
       <section>
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9 col-md-9">
-            <header className="section-header">
-              <h2>What Is Dynamics 365 Project Operations?</h2>
-              <p>Dynamics 365 Project Operations is a leading project-centric business management app that helps you lead a profitable project-centric business.</p><br />
-              <p>Implementing this powerful business app empowers teams to win more contracts, optimize resource utilization, accelerate project delivery, and get business insights from sales to project financials. With this single unified SaaS (Software as a Service) project management platform, you can bring your team together and win the game of driving collaboration, faster project delivery, and maximizing growth potential.</p>
-              <p><b>Start deriving visibility, collaboration, and agility across your project-centric business! </b></p>
-            </header>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+              <header className="section-header">
+                <h2>What Is Dynamics 365 Project Operations?</h2>
+                <p>Dynamics 365 Project Operations is a leading project-centric business management app that helps you lead a profitable project-centric business.</p><br />
+                <p>Implementing this powerful business app empowers teams to win more contracts, optimize resource utilization, accelerate project delivery, and get business insights from sales to project financials. With this single unified SaaS (Software as a Service) project management platform, you can bring your team together and win the game of driving collaboration, faster project delivery, and maximizing growth potential.</p>
+                <p><b>Start deriving visibility, collaboration, and agility across your project-centric business! </b></p>
+              </header>
+            </div>
           </div>
-        </div>
-         
+
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -102,7 +175,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Improve your project quotes, forecasts, estimations, and scope to win more bids. Deliver outstanding deal management experiences with intuitive KPI dashboards.</p>
+                        <p>Improve your project quotes, forecasts, estimations, and scope to win more bids. Deliver outstanding deal management experiences with intuitive KPI dashboards.</p>
                       </div>
                     </div>
                   </div>
@@ -135,7 +208,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Dynamics 365 Project Operations uses a configurable CPQ engine to help you succeed in project tracking via invoicing, revenue recognition, and project accounting.</p>
+                        <p>Dynamics 365 Project Operations uses a configurable CPQ engine to help you succeed in project tracking via invoicing, revenue recognition, and project accounting.</p>
                       </div>
                     </div>
                   </div>
@@ -168,7 +241,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>In <Link href="/solutions/dynamics-365-project-operations/"><a>Microsoft Dynamics Project Operations</a></Link>, you can manage projects flexibly with easy-to-use Microsoft Project features such as Kanban boards and Gantt charts.</p>
+                        <p>In <Link href="/solutions/dynamics-365-project-operations/"><a>Microsoft Dynamics Project Operations</a></Link>, you can manage projects flexibly with easy-to-use Microsoft Project features such as Kanban boards and Gantt charts.</p>
                       </div>
                     </div>
                   </div>
@@ -178,7 +251,7 @@ const ProjectOperations = () => {
 
             <div className="col-lg-6">
               <div className="finace-acc">
-              <hr className="mob-disp" />
+                <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
                     <h3 className="accordion-header" >
@@ -208,7 +281,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Maximize profitability by streamlining project finances and complying with International Financial Reporting Standards while managing your project accounting.</p>
+                        <p>Maximize profitability by streamlining project finances and complying with International Financial Reporting Standards while managing your project accounting.</p>
                       </div>
                     </div>
                   </div>
@@ -241,7 +314,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Utilize resources efficiently using resource insights, scheduling, governance, and skills matching, & by ensuring that the intended person is on the right project(s).  </p>
+                        <p>Utilize resources efficiently using resource insights, scheduling, governance, and skills matching, & by ensuring that the intended person is on the right project(s).  </p>
                       </div>
                     </div>
                   </div>
@@ -274,7 +347,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Enhance your business acumen by utilizing consolidated financial and sales data to rapidly adapt to market demands and achieve desired success. </p>
+                        <p>Enhance your business acumen by utilizing consolidated financial and sales data to rapidly adapt to market demands and achieve desired success. </p>
                       </div>
                     </div>
                   </div>
@@ -289,9 +362,9 @@ const ProjectOperations = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>Dynamics 365 Project Operations</h2>
-              <h3>Start Transforming Your Project-centric Business Today!</h3>
+              <div className="wy-sultion-left-head">
+                <h2>Dynamics 365 Project Operations</h2>
+                <h3>Start Transforming Your Project-centric Business Today!</h3>
               </div>
             </div>
             <div className="col-lg-7">
@@ -300,8 +373,8 @@ const ProjectOperations = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Streamline <br />
-                      Data
+                        Streamline <br />
+                        Data
                       </h3>
                       <div className="overlay">
                         <p>Accelerate project delivery, drive quality assurance, and achieve success with real-time access to your data.</p>
@@ -309,8 +382,8 @@ const ProjectOperations = () => {
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Manage <br />
-                      Finance
+                        Manage <br />
+                        Finance
                       </h3>
                       <div className="overlay">
                         <p>Get complete visibility into each project status while simplifying your project costing, budgeting, invoicing, billing, revenue recognition, and compliance management.</p>
@@ -322,8 +395,8 @@ const ProjectOperations = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Automate <br />
-                      Projects
+                        Automate <br />
+                        Projects
                       </h3>
                       <div className="overlay">
                         <p>Project automation allows everyone to stay informed of the project status in real-time so that they can ensure that it is being planned and executed accordingly.</p>
@@ -331,8 +404,8 @@ const ProjectOperations = () => {
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Ensure <br />
-                      Delivery
+                        Ensure <br />
+                        Delivery
                       </h3>
                       <div className="overlay">
                         <p>Optimize your project delivery process by ensuring the right talent is aligned with the right projects while controlling the entire project development cycle, and meeting deadlines.</p>
@@ -345,7 +418,7 @@ const ProjectOperations = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -366,7 +439,7 @@ const ProjectOperations = () => {
                         onClick={() => setOpen(true)}
                       >
                         <Image src="/img/Video-Video-Project-Operation.png" alt="Project-Operation-video" width={390}
-                    height={259} />
+                          height={259} />
                         <span className="cente-icns">
                           <img
                             src="/img/play_icons.svg"
@@ -455,17 +528,17 @@ const ProjectOperations = () => {
               </header>
             </div>
           </div>
-         
+
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6">
               <div className="box box-22">
                 <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                $162.80(CAD)<span>per user/month</span>
+                  $162.80(CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                  Get the accessibility, teamwork, and agility needed to drive success across your project-centric business.
+                    Get the accessibility, teamwork, and agility needed to drive success across your project-centric business.
                   </li>
                 </ul>
               </div>
@@ -506,13 +579,13 @@ const ProjectOperations = () => {
         </div>
       </section>
 
-     
+
       <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
-              <h2>Want to Explore more about Dynamics 365 Project Operations?</h2>
+                <h2>Want to Explore more about Dynamics 365 Project Operations?</h2>
                 <p>Click through FAQs tailored for you!</p>
               </header>
             </div>
@@ -535,7 +608,7 @@ const ProjectOperations = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Streamlining projects while reducing errors, and efficiently managing them via automation is the primary goal of Dynamics 365 Project Operations. If you want to optimize your resources for optimum productivity or gain maximum with minimum efforts, then this software application is the right choice for you.</p>
+                      <p>Streamlining projects while reducing errors, and efficiently managing them via automation is the primary goal of Dynamics 365 Project Operations. If you want to optimize your resources for optimum productivity or gain maximum with minimum efforts, then this software application is the right choice for you.</p>
                     </div>
                   </div>
                 </div>
@@ -554,7 +627,7 @@ const ProjectOperations = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Yes! You can integrate <Link href="/solutions/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> and other add-ons to Dynamics 365 Project Operations to enhance its features. That is because all such business apps and third-party apps are part of <Link href="/solutions/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, hence integrable. Some modules that you can integrate are - <b>Dynamics 365 Human Resources, Sales, Marketing, Customer Service, Power BI, and other data sources.</b></p>
+                      <p>Yes! You can integrate <Link href="/solutions/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> and other add-ons to Dynamics 365 Project Operations to enhance its features. That is because all such business apps and third-party apps are part of <Link href="/solutions/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, hence integrable. Some modules that you can integrate are - <b>Dynamics 365 Human Resources, Sales, Marketing, Customer Service, Power BI, and other data sources.</b></p>
                     </div>
                   </div>
                 </div>
@@ -591,7 +664,7 @@ const ProjectOperations = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                    What essential components of Dynamics 365 Project Operations are there?
+                      What essential components of Dynamics 365 Project Operations are there?
                     </button>
                   </h3>
                   <div
@@ -602,16 +675,16 @@ const ProjectOperations = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>Project sales management</li>
-                        <li>Project accounting</li> 
-                        <li>Modern approvals</li> 
-                        <li>Billing</li> 
-                        <li>Resource planning</li>  
-                        <li>Lead management</li> 
-                        <li>Time and expense management</li> 
-                        <li>Teams' collaboration</li> 
+                        <li>Project accounting</li>
+                        <li>Modern approvals</li>
+                        <li>Billing</li>
+                        <li>Resource planning</li>
+                        <li>Lead management</li>
+                        <li>Time and expense management</li>
+                        <li>Teams' collaboration</li>
                         <li>Upgrade from Dynamics 365 PSA</li>
-                        <li>Project Accounting</li> 
-                        <li>External project operations planning</li> 
+                        <li>Project Accounting</li>
+                        <li>External project operations planning</li>
                         <li>Comprehensive project operations</li>
                       </ul>
                     </div>

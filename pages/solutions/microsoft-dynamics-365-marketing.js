@@ -6,17 +6,98 @@ const Marketing = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Marketing: AI-Powered Marketing Tool</title>
+      <title>Microsoft Dynamics 365 Marketing: AI-Powered Marketing Tool</title>
         <meta
           name="description"
           content="Design, predict, & deliver the right content for personalized journeys with AI-driven insights using Dynamics 365 for Marketing. Contact Dynamics Square team."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/"
         />
-        
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Marketing: AI-Powered Marketing Tool" />
+        <meta property="og:description" content="Design, predict, & deliver the right content for personalized journeys with AI-driven insights using Dynamics 365 for Marketing. Contact Dynamics Square team." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Marketing: AI-Powered Marketing Tool" />
+        <meta name="twitter:description" content="Design, predict, & deliver the right content for personalized journeys with AI-driven insights using Dynamics 365 for Marketing. Contact Dynamics Square team." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 marketing",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 marketing",
+              "description": "Dynamics 365 for Marketing integrates two crucial components of an organization - Sales and Marketing. Using this customer relationship management (CRM) app, you can offer personalized buying experiences across all touchpoints for your customers and partners. Start attracting customers today with Microsoft Dynamics 365 Marketing.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Customer Insights",
+              "offers": {
+                "@type": "Offer",
+                "price": "1700",
+                "priceCurrency": "CAD"
+                  }
+                },
+             {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Customer Insights attach",
+              "offers": {
+                "@type": "Offer",
+                "price": "1000",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

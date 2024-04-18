@@ -9,7 +9,7 @@ const PowerApps = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Apps: Build Low-Code Apps Quickly</title>
+      <title>Microsoft Power Apps: Build Low-Code Apps Quickly</title>
         <meta
           name="description"
           content="Microsoft Power Apps is a platform that helps your team quickly build need-specific business management apps. To learn more, speak with Dynamics Square."
@@ -18,7 +18,80 @@ const PowerApps = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-power-apps/"
         />
-     <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Power Apps: Build Low-Code Apps Quickly" />
+        <meta property="og:description" content="Microsoft Power Apps is a platform that helps your team quickly build need-specific business management apps. To learn more, speak with Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-apps/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/power%20apps-side.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Power Apps: Build Low-Code Apps Quickly" />
+        <meta name="twitter:description" content="Microsoft Power Apps is a platform that helps your team quickly build need-specific business management apps. To learn more, speak with Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/power%20apps-side.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "microsoft power apps",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-power-apps/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Power Apps",
+              "description": "Power Apps is a powerful platform to help you build custom applications using apps, connectors, a data platform, and services. It offers an effortless and effective platform for businesses to use drag-and-drop features to quickly and efficiently build an app. Also, using pre-built templates, users can quickly deploy the apps to create new business opportunities while enhancing business growth.",
+              "operatingSystem": "All",
+              "applicationCategory": "Business application",
+             "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Power Apps Premium",
+              "offers": {
+                "@type": "Offer",
+                "price": "27.10",
+                "priceCurrency": "CAD"
+                  }
+                }
+            ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-power-apps/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <ModalVideo
         channel="youtube"
@@ -61,10 +134,10 @@ const PowerApps = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-9">
-            <header className="section-header">
-            <h2>What are Power Apps?</h2>
-            <p>Power Apps is a powerful platform to help you build custom applications using apps, connectors, a data platform, and services. It offers an effortless and effective platform for businesses to use drag-and-drop features to quickly and efficiently build an app. Also, using pre-built templates, users can quickly deploy the apps to create new business opportunities while enhancing business growth.</p>
-          </header>
+              <header className="section-header">
+                <h2>What are Power Apps?</h2>
+                <p>Power Apps is a powerful platform to help you build custom applications using apps, connectors, a data platform, and services. It offers an effortless and effective platform for businesses to use drag-and-drop features to quickly and efficiently build an app. Also, using pre-built templates, users can quickly deploy the apps to create new business opportunities while enhancing business growth.</p>
+              </header>
             </div>
           </div>
           <div className="row p-lg-6">
@@ -97,7 +170,7 @@ const PowerApps = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>The process of <b>developing and deploying an application</b> using <b>Power Apps</b> is pretty easy using pre-built tools and templates.</p>
+                        <p>The process of <b>developing and deploying an application</b> using <b>Power Apps</b> is pretty easy using pre-built tools and templates.</p>
                       </div>
                     </div>
                   </div>
@@ -159,7 +232,7 @@ const PowerApps = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>You can explore different opportunities with <b>Microsoft Power Apps</b> to build a desired application. Users are free to build apps based on unique requirements and specific business needs.</p>
+                        <p>You can explore different opportunities with <b>Microsoft Power Apps</b> to build a desired application. Users are free to build apps based on unique requirements and specific business needs.</p>
                       </div>
                     </div>
                   </div>
@@ -169,7 +242,7 @@ const PowerApps = () => {
 
             <div className="col-lg-6">
               <div className="finace-acc">
-              <hr className="mob-disp" />
+                <hr className="mob-disp" />
                 <div className="accordion" id="acccm">
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
@@ -243,8 +316,8 @@ const PowerApps = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>Re-imagine Your Business with Microsoft Power Apps</h2>
+              <div className="wy-sultion-left-head">
+                <h2>Re-imagine Your Business with Microsoft Power Apps</h2>
               </div>
             </div>
             <div className="col-lg-7">
@@ -253,7 +326,7 @@ const PowerApps = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Empower Anyone
+                        Empower Anyone
                         <br />
                         to Build Apps
                       </h3>
@@ -263,7 +336,7 @@ const PowerApps = () => {
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Create Apps
+                        Create Apps
                         <br />
                         from Data
                       </h3>
@@ -277,7 +350,7 @@ const PowerApps = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Build Smart
+                        Build Smart
                         <br />
                         Apps
                       </h3>
@@ -287,7 +360,7 @@ const PowerApps = () => {
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Integrate & Extend
+                        Integrate & Extend
                         <br /> Your Apps
                       </h3>
                       <div className="overlay">
@@ -379,10 +452,10 @@ const PowerApps = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-9">
-            <header className="section-header">
-            <h2>Microsoft Power Apps Pricing</h2>
-            <p>Investigate the most cost-effective Power Apps Pricing and Licensing options.</p>
-          </header>
+              <header className="section-header">
+                <h2>Microsoft Power Apps Pricing</h2>
+                <p>Investigate the most cost-effective Power Apps Pricing and Licensing options.</p>
+              </header>
             </div>
           </div>
           <div className="row gy-4 p-9 justify-content-center">
@@ -390,12 +463,12 @@ const PowerApps = () => {
               <div className="box box-999">
                 <h3>Power Apps Premium</h3>
                 <div className="price">
-                $27.10(CAD)<span>per user/month</span>
+                  $27.10(CAD)<span>per user/month</span>
                 </div>
                 <p className="small-tt">Run one app per user, need more additional licenses to provide access for other users.</p>
                 <ul>
                   <li>
-                  Includes 250 AI Builder service credits per month.<sup>1</sup>
+                    Includes 250 AI Builder service credits per month.<sup>1</sup>
                   </li>
                   <li>Requires access to the Microsoft 365 admin center with global administrator or billing administrator roles.</li>
                 </ul>
@@ -473,12 +546,12 @@ const PowerApps = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-9">
-            <header className="section-header">
-            <h2>
-            Have You Got Questions About Microsoft Power Apps?
-            </h2>
-            <p>Click through FAQs Tailored for You! </p>
-          </header>
+              <header className="section-header">
+                <h2>
+                  Have You Got Questions About Microsoft Power Apps?
+                </h2>
+                <p>Click through FAQs Tailored for You! </p>
+              </header>
             </div>
           </div>
           <div className="row justify-content-center mar-top-7">

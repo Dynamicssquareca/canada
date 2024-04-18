@@ -9,16 +9,99 @@ const CustomerService = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Customer Service Partner Canada</title>
+      <title>Dynamics 365 Customer Service Partner Canada</title>
         <meta
           name="description"
           content="Implement Dynamics 365 Customer Service CRM to better understand your customers and provide them with omnichannel experiences. Contact Dynamics Square."
         />
-           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/"
         />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Customer Engagement Partner Canada" />
+        <meta property="og:description" content="Implement Dynamics 365 Customer Service CRM to better understand your customers and provide them with omnichannel experiences. Contact Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/customer-service-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 Customer Engagement Partner Canada" />
+        <meta name="twitter:description" content="Implement Dynamics 365 Customer Service CRM to better understand your customers and provide them with omnichannel experiences. Contact Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/customer-service-banner.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 customer service",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/"  
+              }
+            ]
+            })
+          }}
+        />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft's Dynamics 365 customer service",
+              "description": "With the Dynamics 365 customer service CRM solution, you empower your employees with a single, unified view of the customer to successfully drive omnichannel efficiency. Increase time-to-value for all your business investments by integrating this cloud-based customer relationship management (CRM) system and unlock new revenue streams, reduce waste, and accelerate inefficiencies.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Customer Service Professional",
+              "offers": {
+                "@type": "Offer",
+                "price": "67.80",
+                "priceCurrency": "CAD"
+                  }
+                },
+                {
+                  "@type": "softwareApplication",
+            "name": "Dynamics 365 Customer Service Enterprise",
+              "offers": {
+                "@type": "Offer",
+                "price": "128.90",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
+       
       </Head>
       <ModalVideo
         channel="youtube"

@@ -13,7 +13,7 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Partner in Canada | Dynamics Square</title>
+      <title>Dynamics 365 Implementation Partner in Canada | Dynamics Square</title>
         <meta
           name="description"
           content="Dynamics Square is Canada's leading Microsoft Dynamics 365 implementation partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help."
@@ -22,6 +22,30 @@ const ImplementationServices = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/services/dynamics-365-implementation/"
         />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Implementation Partner in Canada | Dynamics Square" />
+        <meta property="og:description" content="Dynamics Square is Canada's leading Microsoft Dynamics 365 implementation partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/services/dynamics-365-implementation/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Dynamics 365 Implementation Partner in Canada | Dynamics Square" />
+        <meta name="twitter:description" content="Dynamics Square is Canada's leading Microsoft Dynamics 365 implementation partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
+         {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
         </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

@@ -9,16 +9,100 @@ const Commerce = () => {
   return (
     <>
       <Head>
-        <title>Use Dynamics 365 for Commerce to Boost your Retail Business</title>
+      <title>Use Dynamics 365 for Commerce to Boost your Retail Business</title>
         <meta
           name="description"
           content="With Dynamics 365 Commerce, you can provide your customers and partners with a more unified, personalized, seamless buying experience. Take a free trial."
         />
-        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/"
         />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Use Dynamics 365 for Commerce to Boost your Retail Business" />
+        <meta property="og:description" content="With Dynamics 365 Commerce, you can provide your customers and partners with a more unified, personalized, seamless buying experience. Take a free trial." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/commerce-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Use Dynamics 365 for Commerce to Boost your Retail Business" />
+        <meta name="twitter:description" content="With Dynamics 365 Commerce, you can provide your customers and partners with a more unified, personalized, seamless buying experience. Take a free trial." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/commerce-banner.png" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "dynamics 365 commerce",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/"  
+              }
+            ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 commerce",
+              "description": "The Dynamics 365 for Commerce platform provides a seamless, personalized, and scalable e-commerce shopping experience for your customers and partners. Implementing Dynamics 365 Commerce will help you build consumer loyalty and exceed their expectations.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP Software",
+              "version": [
+                {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Commerce",
+              "offers": {
+                "@type": "Offer",
+                "price": "244.20",
+                "priceCurrency": "CAD"
+                  }
+                },
+             {
+                 "@type": "softwareApplication",
+            "name": "Dynamics 365 Commerce",
+              "offers": {
+                "@type": "Offer",
+                "price": "5427.20",
+                "priceCurrency": "CAD"
+                  }
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
+
+
       </Head>
       <ModalVideo
         channel="youtube"

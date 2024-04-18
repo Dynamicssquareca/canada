@@ -7,7 +7,7 @@ const MicrosoftDynamicsCrm = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics CRM Solution|Dynamics Square CA</title>
+      <title>Microsoft Dynamics CRM Solution|Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square."
@@ -16,7 +16,30 @@ const MicrosoftDynamicsCrm = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/"
         />
-        <meta name="robots" content="index,follow" />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics CRM Solution|Dynamics Square CA" />
+        <meta property="og:description" content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Dynamics CRM Solution|Dynamics Square CA" />
+        <meta name="twitter:description" content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+            })
+          }}
+        /> */}
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
