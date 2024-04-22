@@ -69,28 +69,22 @@ const Finance = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "dynamics 365 business finance",
-              "description": "Microsoft Dynamics 365 Finance is an all-in-one ERP software application that drives automation, data transparency, and real-time financial insights for your organisation. With Dynamics 365 Finance, you can effectively improve your organization's financial capabilities. D365 Finance helps you maintain system monitoring, track and evaluate your financial processes with a 360-degree view, and anticipate financial results while ensuring smooth global compliance and risk management.",
+              "name": "Dynamics 365 Business Finance",
+              "description": "Microsoft Dynamics 365 Finance is an all-in-one ERP software application that drives automation, data transparency, and real-time financial insights for your organization. With Dynamics 365 Finance, you can effectively improve your organization's financial capabilities. D365 Finance helps you maintain system monitoring, track and evaluate your financial processes with a 360-degree view, and anticipate financial results while ensuring smooth global compliance and risk management.",
               "operatingSystem": "All",
               "applicationCategory": "ERP Software",
-              "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Finance",
-              "offers": {
-                "@type": "Offer",
-                "price": "244.20",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Finance",
+                  "price": "244.20",
+                  "priceCurrency": "CAD"
                 },
                 {
-                  "@type": "softwareApplication",
-            "name": "Dynamics 365 Finance Premium",
-              "offers": {
-                "@type": "Offer",
-                "price": "407",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Finance Premium",
+                  "price": "407",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/",
