@@ -166,6 +166,7 @@ const FormNewUI = () => {
                 />
                 <label htmlFor="name">*Name</label>
                 <input type="hidden" value={router.asPath} name="url" />
+                <input type="hidden" value={router.asPath} name="Source_URL" />
               </div>
               {nameError && <small className="text-danger">{nameError}</small>}
             </div>
