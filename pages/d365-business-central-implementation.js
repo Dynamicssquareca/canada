@@ -12,13 +12,13 @@ const BusinessCentralImplementation = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/microsoft-dynamics-365-business-central-implementation/"
+          href="https://www.dynamicssquare.ca/d365-business-central-implementation/"
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Business Central Implementation Partners in Canada" />
         <meta property="og:description" content="Need Dynamics 365 Business Central implementation Partner in Canada? Get customized solutions and support from Dynamics Square for all business needs." />
-        <meta property="og:url" content="https://www.dynamicssquare.ca/microsoft-dynamics-365-business-central-implementation/" />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/d365-business-central-implementation/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
         <meta property="og:image:width" content="200" />

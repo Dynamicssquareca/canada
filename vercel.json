@@ -51,7 +51,8 @@
     { "source": "/our-services/", "destination": "/services/", "statusCode": 301 },
     { "source": "/our-services/dynamics-365-upgrade-services/", "destination": "/services/dynamics-365-upgrade/", "statusCode": 301 },
     { "source": "/our-services/dynamics-365-support-services/", "destination": "/services/dynamics-365-support/", "statusCode": 301 },
-    { "source": "/our-services/dynamics-365-implementation-services/", "destination": "/services/dynamics-365-implementation/", "statusCode": 301 }
+    { "source": "/our-services/dynamics-365-implementation-services/", "destination": "/services/dynamics-365-implementation/", "statusCode": 301 },
+    { "source": "/microsoft-dynamics-365-business-central-implementation/", "destination": "/d365-business-central-implementation/", "statusCode": 301 }
 
   ] 
 }
