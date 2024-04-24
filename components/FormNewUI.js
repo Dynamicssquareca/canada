@@ -94,7 +94,7 @@ const FormNewUI = () => {
     }
 
     const formData = new FormData(form.current);
-    const url = 'https://crm.zoho.in/crm/WebToLeadForm';
+    // const url = 'https://crm.zoho.in/crm/WebToLeadForm';
     let isValid = true;
 
     isValid = validateName(formData.get('Last Name')) && isValid;
