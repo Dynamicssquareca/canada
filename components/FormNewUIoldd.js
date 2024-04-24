@@ -1,8 +1,8 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 
-const FormNewUIold = () => {
+const FormNewUIoldd = () => {
   const router = useRouter();
   const [nameError, setNameError] = useState("");
   const [emailError, setEmailError] = useState("");
@@ -11,6 +11,32 @@ const FormNewUIold = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const form = useRef();
+
+
+  useEffect(() => {
+    // Load the Zoho script after DOM content is fully loaded
+    const loadScript = () => {
+      const script = document.createElement('script');
+      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=948f4cd9be9bd0a0990742d73cae57054f6db4cf60fadf1c40179e618e27a154bc383e6d0864f0639a6bf156e9e0b82dgidcfca0836293a502444394c44154c5d181e2746b3c7b72fb2a29bbf5bd484edf3gid79441142bac69bf8063093608e61e40a0111ece3fbd86a8ba67d66f194a16099gidae57229cd5d755a9095560a43b789a9936b26d3eb67c9fc12f7c2a21479003b9&tw=e3f350a1f3532d71831c9cd9681bf1dca97bd3f0990fa5ae18c4613ed902cbb6`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    if (document.readyState === 'complete') {
+      loadScript();
+    } else {
+      window.addEventListener('DOMContentLoaded', loadScript);
+    }
+
+    // Clean up function to remove the script when the component unmounts
+    return () => {
+      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
+      if (script) {
+        script.remove();
+      }
+    };
+  }, []);
+
 
   const validateEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
@@ -60,20 +86,31 @@ const FormNewUIold = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
+
+    // Ensure that form.current is defined before accessing its properties
+    if (!form.current) {
+      console.error("Form reference is not set.");
+      return;
+    }
+
+    const formData = new FormData(form.current);
+    const url = 'https://crm.zoho.in/crm/WebToLeadForm';
     let isValid = true;
 
-    isValid = validateName(form.current.name.value) && isValid;
-    isValid = validateCompanyName(form.current.company_name.value) && isValid;
-    isValid = validateMessage(form.current.message.value) && isValid;
+    isValid = validateName(formData.get('Last Name')) && isValid;
+    isValid = validateCompanyName(formData.get('Company')) && isValid;
+    isValid = validateMessage(formData.get('Description')) && isValid;
 
-    if (!validateEmail(form.current.email.value)) {
+    const email = formData.get('Email');
+    if (!validateEmail(email)) {
       setEmailError("Please enter a valid work email address.");
       isValid = false;
     } else {
       setEmailError(""); // Clear email error if email is valid
     }
 
-    if (form.current.phone.value && !validatePhone(form.current.phone.value)) {
+    const phone = formData.get('phone');
+    if (phone && !validatePhone(phone)) {
       isValid = false;
     }
 
@@ -81,17 +118,25 @@ const FormNewUIold = () => {
       setIsSubmitting(true); // Start loading animation
 
       try {
-        await emailjs.sendForm('service_7pxmyip', 'template_e4x6ryp', form.current, 'iOfmJhDFEupCGYBmx');
-        console.log('Email sent successfully');
+        await emailjs.sendForm('service_7pxmyip', 'template_e4x6ryp', e.target, 'iOfmJhDFEupCGYBmx');
+        const response = await fetch(url, {
+          method: 'POST',
+          body: formData
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to submit form');
+        }
+
+        console.log('Form submitted successfully!');
         setTimeout(() => {
           router.push("/thank-you/");
         }, 500); // Redirect to thank-you page after 5 seconds
       } catch (error) {
-        console.error('Error sending email:', error);
-        // Handle error
+        console.error('Error sending form:', error);
+        // Handle error, e.g., display error message to user
       } finally {
-        setIsSubmitting(false); // Stop loading animation
-        form.current.reset(); // Reset form
+        setIsSubmitting(false); // Stop loading animation regardless of success or failure
       }
     }
   };
@@ -99,8 +144,13 @@ const FormNewUIold = () => {
 
   return (
     <div className='rows-box-sh'>
-      <div className="main-form-wrper main_form-wrper_contact">
-        <form ref={form} onSubmit={sendEmail}>
+      <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
+        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads196947000014082029' method='POST' acceptCharset='UTF-8'>
+          <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='a1a00862256473c05ffdc5b2ab45d22c35d98cf5f3192911a5aa4e3584a40088' />
+          <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+          <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='960498c331943c951ab6e22a7861d22dc2fe4eef98fcbad2e464b140f6afc743316eca01fa0934596fdfc4dfec77a30e' />
+          <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
+          <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
           <div className='row'>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -108,7 +158,7 @@ const FormNewUIold = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Name"
+                  name="Last Name"
                   id="name"
                   onBlur={() => validateName(form.current.name.value)}
                   onChange={() => setNameError("")}
@@ -116,6 +166,7 @@ const FormNewUIold = () => {
                 />
                 <label htmlFor="name">*Name</label>
                 <input type="hidden" value={router.asPath} name="url" />
+                <input type="hidden" value={router.asPath} name="LEADCF1" />
               </div>
               {nameError && <small className="text-danger">{nameError}</small>}
             </div>
@@ -125,7 +176,7 @@ const FormNewUIold = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Job"
+                  name="LEADCF5"
                 />
                 <label htmlFor="Job">Job title</label>
               </div>
@@ -137,7 +188,7 @@ const FormNewUIold = () => {
                   type="email"
                   className="form-control"
                   placeholder=""
-                  name="email"
+                  name="Email"
                   onBlur={(e) => {
                     if (!validateEmail(e.target.value)) {
                       setEmailError("Please enter a valid work email address.");
@@ -156,7 +207,7 @@ const FormNewUIold = () => {
                   type="tel"
                   className="form-control"
                   placeholder=""
-                  name="phone"
+                  name="Phone"
                   onBlur={(e) => validatePhone(e.target.value)}
                 />
                 <label htmlFor="phone">Phone Number</label>
@@ -169,8 +220,8 @@ const FormNewUIold = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="company_name"
-                  onBlur={() => validateCompanyName(form.current.company_name.value)}
+                  name="Company"
+                  onBlur={() => validateCompanyName(form.current.Company.value)}
                   onChange={() => setCompanyNameError("")}
                 />
                 <label htmlFor="Company Name">*Company Name</label>
@@ -179,8 +230,8 @@ const FormNewUIold = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select class="form-select" name="service" aria-label="Default select example">
-                  <option disabled selected hidden>Looking For?</option>
+                <select className="form-select" name="LEADCF7" aria-label="Default select example" defaultValue="">
+                  <option disabled hidden value="">Looking For?</option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>
                   <option value="Support">Support</option>
@@ -194,8 +245,8 @@ const FormNewUIold = () => {
                   id="exampleFormControlTextarea1"
                   placeholder=""
                   rows="3"
-                  name="message"
-                  onBlur={() => validateMessage(form.current.message.value)}
+                  name="Description"
+                  onBlur={() => validateMessage(form.current.Description.value)}
                   onChange={() => setMessageError("")}
                 ></textarea>
                 <label htmlFor="message">*Any specific requirements or questions?</label>
@@ -226,19 +277,25 @@ const FormNewUIold = () => {
                 </label>
               </div>
               <div className="spiner-wrper">
+                {/* <div className='zcwf_col_fld'>
+                        <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' />
+                    </div> */}
                 <button
+                  id='formsubmit'
                   type="submit"
+                  title='Submit'
+                  value='Submit'
                   className="btn btn-primary fomr-submit"
-                  disabled={isSubmitting} // Disable button while submitting
+                  disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Sending...' : 'Let’s Connect'}
                 </button>
               </div>
             </div>
-          
+
           </div>
           <div className='row pa-43'>
-          <div className='col-lg-5'>
+            <div className='col-lg-5'>
               <div className='text-center text-center-ff'>
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
@@ -278,11 +335,12 @@ const FormNewUIold = () => {
               </div>
             </div>
           </div>
-
+          {/* Do not remove this --- Analytics Tracking code starts */}
+          {/* <script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=948f4cd9be9bd0a0990742d73cae57054f6db4cf60fadf1c40179e618e27a154bc383e6d0864f0639a6bf156e9e0b82dgidcfca0836293a502444394c44154c5d181e2746b3c7b72fb2a29bbf5bd484edf3gid79441142bac69bf8063093608e61e40a0111ece3fbd86a8ba67d66f194a16099gidae57229cd5d755a9095560a43b789a9936b26d3eb67c9fc12f7c2a21479003b9&tw=e3f350a1f3532d71831c9cd9681bf1dca97bd3f0990fa5ae18c4613ed902cbb6'></script> */}
         </form>
       </div>
     </div>
   );
 }
 
-export default FormNewUIold;
+export default FormNewUIoldd;
