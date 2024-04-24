@@ -1,7 +1,7 @@
 import React, { useRef ,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
-const Form = () => {
+const FormOldd = () => {
   const router = useRouter();
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
@@ -116,4 +116,4 @@ const Form = () => {
     );
 }
 
-export default Form;
+export default FormOldd;
