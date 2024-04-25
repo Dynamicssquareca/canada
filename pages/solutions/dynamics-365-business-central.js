@@ -160,37 +160,28 @@ const BusinessCentral = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "dynamics 365 business central",
-              "description": "Dynamics 365 Business Central (formerly Dynamics NAV) is a comprehensive online ERP system. It is designed and developed for small and medium-sized businesses (SMBs) and subsidiaries of large international groups.With Business Central, small businesses across canada can manage sales, finance services, supply chain operations, HR, Payroll, and other departments.Plus, companies from manufacturing industry can automate, accelerate, and simplify their processes to increase revenue and nurture scalability.",
+              "name": "Dynamics 365 Business Central",
+              "description": "Dynamics 365 Business Central (formerly Dynamics NAV) is a comprehensive online ERP system. It is designed and developed for small and medium-sized businesses (SMBs) and subsidiaries of large international groups. With Business Central, small businesses across Canada can manage sales, finance services, supply chain operations, HR, Payroll, and other departments. Plus, companies from the manufacturing industry can automate, accelerate, and simplify their processes to increase revenue and nurture scalability.",
               "operatingSystem": "All",
               "applicationCategory": "ERP Software",
-              "version": [
+              "offers": [
                 {
-                  "@type": "softwareApplication",
+                  "@type": "Offer",
                   "name": "Dynamics 365 Business Central Essentials",
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "95",
-                    "priceCurrency": "CAD"
-                  }
+                  "price": "95",
+                  "priceCurrency": "CAD"
                 },
                 {
-                  "@type": "softwareApplication",
+                  "@type": "Offer",
                   "name": "Dynamics 365 Business Central Premium",
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "135",
-                    "priceCurrency": "CAD"
-                  }
+                  "price": "135",
+                  "priceCurrency": "CAD"
                 },
                 {
-                  "@type": "softwareApplication",
+                  "@type": "Offer",
                   "name": "Dynamics 365 Business Central Team Members",
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "10.90",
-                    "priceCurrency": "CAD"
-                  }
+                  "price": "10.90",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/",
@@ -203,6 +194,7 @@ const BusinessCentral = () => {
             )
           }}
         />
+
       </Head>
       <ModalVideo
         channel="youtube"
