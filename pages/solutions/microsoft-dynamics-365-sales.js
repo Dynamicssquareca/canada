@@ -65,49 +65,43 @@ const Sales = () => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "Microsoft's Dynamics 365 Sales",
-              "description": "Microsoft's Dynamics 365 Sales (formerly, Dynamics CRM) is an AI-driven sales management application that helps you win new customers through teamwork and manage your day-to-day business operations through its modern customer relationship management (CRM) capabilities. Integrating preferred communication channels like Microsoft Teams to Dynamics 365 Sales, you can better connect sellers to customers, accelerate your revenue generation, and close sales faster.",
-              "operatingSystem": "All",
-              "applicationCategory": "CRM Software",
-              "version": [
-                {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Sales Professional",
-              "offers": {
-                "@type": "Offer",
-                "price": "88.20",
-                "priceCurrency": "CAD"
+            __html: JSON.stringify(
+              {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "Microsoft's Dynamics 365 Sales",
+                "description": "Microsoft's Dynamics 365 Sales (formerly, Dynamics CRM) is an AI-driven sales management application that helps you win new customers through teamwork and manage your day-to-day business operations through its modern customer relationship management (CRM) capabilities. Integrating preferred communication channels like Microsoft Teams to Dynamics 365 Sales, you can better connect sellers to customers, accelerate your revenue generation, and close sales faster.",
+                "operatingSystem": "All",
+                "applicationCategory": "CRM Software",
+                "offers": [
+                  {
+                    "@type": "Offer",
+                    "name": "Dynamics 365 Sales Professional",
+                    "price": "88.20",
+                    "priceCurrency": "CAD"
+                  },
+                  {
+                    "@type": "Offer",
+                    "name": "Dynamics 365 Sales Enterprise",
+                    "price": "128.90",
+                    "priceCurrency": "CAD"
+                  },
+                  {
+                    "@type": "Offer",
+                    "name": "Dynamics 365 Sales Premium",
+                    "price": "183.20",
+                    "priceCurrency": "CAD"
                   }
-                },
-                {
-                  "@type": "softwareApplication",
-            "name": "Dynamics 365 Sales Enterprise",
-              "offers": {
-                "@type": "Offer",
-                "price": "128.90",
-                "priceCurrency": "CAD"
-                  }
-                },
-             {
-                  "@type": "softwareApplication",
-            "name": "Dynamics 365 Sales Premium",
-              "offers": {
-                "@type": "Offer",
-                "price": "183.20",
-                "priceCurrency": "CAD"
-                  }
+                ],
+                "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Dynamicssquare CA",
+                  "url": "https://www.dynamicssquare.ca/"
                 }
-              ],
-              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Dynamicssquare CA",
-                "url": "https://www.dynamicssquare.ca/"
               }
-            })
+              
+            )
           }}
         />
        

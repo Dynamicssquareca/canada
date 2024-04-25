@@ -72,17 +72,14 @@ const PowerApps = () => {
               "description": "Power Apps is a powerful platform to help you build custom applications using apps, connectors, a data platform, and services. It offers an effortless and effective platform for businesses to use drag-and-drop features to quickly and efficiently build an app. Also, using pre-built templates, users can quickly deploy the apps to create new business opportunities while enhancing business growth.",
               "operatingSystem": "All",
               "applicationCategory": "Business application",
-             "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Power Apps Premium",
-              "offers": {
-                "@type": "Offer",
-                "price": "27.10",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Power Apps Premium",
+                  "price": "27.10",
+                  "priceCurrency": "CAD"
                 }
-            ],
+              ],
               "url": "https://www.dynamicssquare.ca/solutions/microsoft-power-apps/",
               "publisher": {
                 "@type": "Organization",

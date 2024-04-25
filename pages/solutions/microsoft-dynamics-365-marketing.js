@@ -65,28 +65,22 @@ const Marketing = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Microsoft Dynamics 365 marketing",
+              "name": "Microsoft Dynamics 365 Marketing",
               "description": "Dynamics 365 for Marketing integrates two crucial components of an organization - Sales and Marketing. Using this customer relationship management (CRM) app, you can offer personalized buying experiences across all touchpoints for your customers and partners. Start attracting customers today with Microsoft Dynamics 365 Marketing.",
               "operatingSystem": "All",
               "applicationCategory": "CRM Software",
-              "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Customer Insights",
-              "offers": {
-                "@type": "Offer",
-                "price": "1700",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Customer Insights",
+                  "price": "1700",
+                  "priceCurrency": "CAD"
                 },
-             {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Customer Insights attach",
-              "offers": {
-                "@type": "Offer",
-                "price": "1000",
-                "priceCurrency": "CAD"
-                  }
+                {
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Customer Insights attach",
+                  "price": "1000",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/",
@@ -95,7 +89,8 @@ const Marketing = () => {
                 "name": "Dynamicssquare CA",
                 "url": "https://www.dynamicssquare.ca/"
               }
-            })
+            }
+            )
           }}
         />
       </Head>

@@ -28,15 +28,54 @@ const Erp = () => {
         <meta name="twitter:title" content="Microsoft Dynamics ERP: Modern ERP Tool for Enterprises" />
         <meta name="twitter:description" content="Microsoft Dynamics ERP is a powerful ERP tool to help your mid-market-sized businesses thrive in all domains. Contact Dynamics Square for more." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/ERP-banner.png" />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "Microsoft dynamics ERP",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-erp/"  
+              }
+            ]
             })
           }}
-        /> */}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics ERP",
+              "description": "Dynamics ERP is an enterprise resource planning (ERP) software that helps businesses, manufacturers, and process industry leaders intelligently plan demand, supply, order fulfillment, and production while fostering smartness in the supply chain, collaboration among employees, and end-to-end business processes to increase service, reduce disruptions, and minimize inputs/costs.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP software",
+              "url": "https://www.dynamicssquare.ca/products/microsoft-dynamics-erp/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

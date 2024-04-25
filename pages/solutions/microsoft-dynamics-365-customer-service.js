@@ -68,28 +68,22 @@ const CustomerService = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Microsoft's Dynamics 365 customer service",
+              "name": "Microsoft's Dynamics 365 Customer Service",
               "description": "With the Dynamics 365 customer service CRM solution, you empower your employees with a single, unified view of the customer to successfully drive omnichannel efficiency. Increase time-to-value for all your business investments by integrating this cloud-based customer relationship management (CRM) system and unlock new revenue streams, reduce waste, and accelerate inefficiencies.",
               "operatingSystem": "All",
               "applicationCategory": "CRM Software",
-              "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Customer Service Professional",
-              "offers": {
-                "@type": "Offer",
-                "price": "67.80",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Customer Service Professional",
+                  "price": "67.80",
+                  "priceCurrency": "CAD"
                 },
                 {
-                  "@type": "softwareApplication",
-            "name": "Dynamics 365 Customer Service Enterprise",
-              "offers": {
-                "@type": "Offer",
-                "price": "128.90",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Customer Service Enterprise",
+                  "price": "128.90",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/",
@@ -98,7 +92,8 @@ const CustomerService = () => {
                 "name": "Dynamicssquare CA",
                 "url": "https://www.dynamicssquare.ca/"
               }
-            })
+            }
+            )
           }}
         />
        

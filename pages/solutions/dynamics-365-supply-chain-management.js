@@ -70,20 +70,14 @@ const SupplyChainManagement = () => {
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
               "name": "Dynamics 365 Supply Chain Management",
-              "description": "Dynamics 365 Supply Chain Management is a cloud-based ERP solution designed and developed by Microsoft. It helps large and mid-sized organizations mitigate supply chain issues through automation and seamlessly accelerates process execution while continuously monitoring end-to-end supply chain practices, from inventory and warehouse operations to the distribution and flow of your goods and services.With Dynamics 365 Supply Chain Implementation at your premises, you can quickly create an intelligent and resilient supply chain that can automatically react to challenges using real-time visibility, agile planning, and accuracy.",
+              "description": "Dynamics 365 Supply Chain Management is a cloud-based ERP solution designed and developed by Microsoft. It helps large and mid-sized organizations mitigate supply chain issues through automation and seamlessly accelerates process execution while continuously monitoring end-to-end supply chain practices, from inventory and warehouse operations to the distribution and flow of your goods and services. With Dynamics 365 Supply Chain Implementation at your premises, you can quickly create an intelligent and resilient supply chain that can automatically react to challenges using real-time visibility, agile planning, and accuracy.",
               "operatingSystem": "All",
               "applicationCategory": "ERP Software",
-              "version": [
-                {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Supply Chain Management",
               "offers": {
                 "@type": "Offer",
                 "price": "244.20",
                 "priceCurrency": "CAD"
-                  }
-                }
-              ],
+              },
               "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-supply-chain-management/",
               "publisher": {
                 "@type": "Organization",

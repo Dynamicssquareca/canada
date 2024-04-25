@@ -68,28 +68,22 @@ const Commerce = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Microsoft Dynamics 365 commerce",
+              "name": "Microsoft Dynamics 365 Commerce",
               "description": "The Dynamics 365 for Commerce platform provides a seamless, personalized, and scalable e-commerce shopping experience for your customers and partners. Implementing Dynamics 365 Commerce will help you build consumer loyalty and exceed their expectations.",
               "operatingSystem": "All",
               "applicationCategory": "ERP Software",
-              "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Commerce",
-              "offers": {
-                "@type": "Offer",
-                "price": "244.20",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Commerce",
+                  "price": "244.20",
+                  "priceCurrency": "CAD"
                 },
-             {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Commerce",
-              "offers": {
-                "@type": "Offer",
-                "price": "5427.20",
-                "priceCurrency": "CAD"
-                  }
+                {
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Commerce Enterprise",
+                  "price": "5427.20",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/",

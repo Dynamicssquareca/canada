@@ -31,15 +31,54 @@ const MicrosoftDynamicsCrm = () => {
         <meta name="twitter:title" content="Microsoft Dynamics CRM Solution|Dynamics Square CA" />
         <meta name="twitter:description" content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "microsoft dynamics CRM",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/"  
+              }
+            ]
             })
           }}
-        /> */}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Dynamics CRM",
+              "description": "Dynamics CRM is a collaborative, insight-based sales solution. With this customer relationship management software, you can simplify managing your sales by bringing different teams to a unified platform and accelerate your sales by using customer, sales, and marketing data and visual insights on Power BI Charts to discover targets and take the next best actions.",
+              "operatingSystem": "All",
+              "applicationCategory": "CRM Software",
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

@@ -30,15 +30,55 @@ const MicrosoftDynamicsAX = () => {
         <meta name="twitter:title" content="Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module" />
         <meta name="twitter:description" content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
-         {/* <script
+         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "microsoft dynamics AX",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/"  
+              }
+            ]
             })
           }}
-        /> */}
+        />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Dynamics AX",
+              "description": "Organize, automate, and better optimize your finances and operations using on-premises or in the cloud or the hybrid deployment of Dynamics AX - a modern enterprise resource planning (ERP) software package for global enterprises to effectively and efficiently manage their finance and operations.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP Software",
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            }
+            )
+          }}
+        />
       </Head>
 
       <section className="Solution-banner hero-1 hero">

@@ -69,19 +69,16 @@ const ProjectOperations = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Microsoft Dynamics 365 project operation",
-              "description": "Dynamics 365 Project Operations is a leading project-centric business management app that helps you lead a profitable project-centric business.Implementing this powerful business app empowers teams to win more contracts, optimize resource utilization, accelerate project delivery, and get business insights from sales to project financials. With this single unified SaaS (Software as a Service) project management platform, you can bring your team together and win the game of driving collaboration, faster project delivery, and maximizing growth potential.",
+              "name": "Microsoft Dynamics 365 Project Operations",
+              "description": "Dynamics 365 Project Operations is a leading project-centric business management app that helps you lead a profitable project-centric business. Implementing this powerful business app empowers teams to win more contracts, optimize resource utilization, accelerate project delivery, and get business insights from sales to project financials. With this single unified SaaS (Software as a Service) project management platform, you can bring your team together and win the game of driving collaboration, faster project delivery, and maximizing growth potential.",
               "operatingSystem": "All",
               "applicationCategory": "CRM Software",
-              "version": [
+              "offers": [
                 {
-                  "@type": "softwareApplication",
+                  "@type": "Offer",
                   "name": "Dynamics 365 Project Operations",
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "162.80",
-                    "priceCurrency": "CAD"
-                  }
+                  "price": "162.80",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/",

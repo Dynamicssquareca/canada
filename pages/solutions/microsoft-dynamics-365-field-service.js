@@ -70,19 +70,16 @@ const FieldService = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Microsoft Dynamics 365 field service",
-              "description": "Dynamics 365 for field Service help you become more proactive with this field service employees can attain better response time, accurate data, effective communication, with less hectic collaboration. It uses real-time data insights for highly connected field service experience.",
+              "name": "Microsoft Dynamics 365 Field Service",
+              "description": "Dynamics 365 for Field Service helps you become more proactive. With this field service solution, employees can attain better response times, accurate data, effective communication, and less hectic collaboration. It uses real-time data insights for a highly connected field service experience.",
               "operatingSystem": "All",
               "applicationCategory": "CRM Software",
-              "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Field Service",
-              "offers": {
-                "@type": "Offer",
-                "price": "128.90",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Field Service",
+                  "price": "128.90",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/",

@@ -10,7 +10,7 @@ const MicrosoftDynamicsNAV = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics NAV (Navision) Support Partner | Dynamics Square CA</title>
+        <title>Microsoft Dynamics NAV (Navision) Support Partner | Dynamics Square CA</title>
         <meta
           name="description"
           content="Looking for a trusted Microsoft Dynamics NAV (Navision) support partner in Canada? Dynamics Square provides seamless assistance, ensuring smooth operations and optimal performance for your business."
@@ -34,15 +34,55 @@ const MicrosoftDynamicsNAV = () => {
         <meta name="twitter:title" content="Microsoft Dynamics NAV (Navision) Support Partner | Dynamics Square CA" />
         <meta name="twitter:description" content="Looking for a trusted Microsoft Dynamics NAV (Navision) support partner in Canada? Dynamics Square provides seamless assistance, ensuring smooth operations and optimal performance for your business." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/nav-banner.png" />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Dynamicssquare CA",
+                  "item": "https://www.dynamicssquare.ca/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "solutions",
+                  "item": "https://www.dynamicssquare.ca/solutions/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "microsoft dynamics nav",
+                  "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-nav/"
+                }
+              ]
             })
           }}
-        /> */}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Dynamics NAV",
+              "description": "Navision or Dynamics NAV (now Dynamics 365 Business Central) is a unique business management software package that seamlessly streamlines and optimizes your core business processes. Dynamics NAV is among the top Microsoft ERP (Enterprise Resource Planning) solutions that offer a 360-degree view of your business activities and provide you with functionalities built for connecting all your departments, such as finance, accounting, operations, sales, inventory, warehousing, supply chain, customer services, and other business-related areas.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP software",
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-nav/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            }
+            )
+          }}
+        />
       </Head>
       <ModalVideo
         channel="youtube"
@@ -559,7 +599,7 @@ const MicrosoftDynamicsNAV = () => {
                     </div>
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </div>

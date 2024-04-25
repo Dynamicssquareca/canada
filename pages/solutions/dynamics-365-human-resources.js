@@ -72,24 +72,18 @@ const HumanResource = () => {
               "description": "Microsoft Dynamics 365 Human Resources (formerly Microsoft Dynamics 365 Talent) is cloud-based human resources management (HRM) software. This app provides a set of tools on its modern dashboard to help HR teams transform the employee experience and support the company's long-term business goals and outcomes.",
               "operatingSystem": "All",
               "applicationCategory": "CRM Software",
-              "version": [
+              "offers": [
                 {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Human Resources",
-              "offers": {
-                "@type": "Offer",
-                "price": "162.80",
-                "priceCurrency": "CAD"
-                  }
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Human Resources",
+                  "price": "162.80",
+                  "priceCurrency": "CAD"
                 },
-             {
-                 "@type": "softwareApplication",
-            "name": "Dynamics 365 Human Resources Self-Service",
-              "offers": {
-                "@type": "Offer",
-                "price": "5.40",
-                "priceCurrency": "CAD"
-                  }
+                {
+                  "@type": "Offer",
+                  "name": "Dynamics 365 Human Resources Self-Service",
+                  "price": "5.40",
+                  "priceCurrency": "CAD"
                 }
               ],
               "url": "https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/",

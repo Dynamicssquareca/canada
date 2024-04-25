@@ -32,15 +32,69 @@ const PowerAutomate = () => {
         <meta name="twitter:title" content="Microsoft Power Automate: Build Low-code Automations" />
         <meta name="twitter:description" content="Empower your team to build low-cost low-code automation using Microsoft Power Automate. Reduce lead times & increase output. Contact Dynamics Square." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/power%20automate-side.png" />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "microsoft power automate",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-power-automate/"  
+              }
+            ]
             })
           }}
-        /> */}
+        /> 
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Power Automate",
+              "description": "With Power Automate, your team can automate, build useful apps, and build workflows quickly, saving time and development costs. You can utilize hundreds of apps and services to enhance productivity, streamline business operations and solve issues with numerous no-code approaches.",
+              "operatingSystem": "All",
+              "applicationCategory": "Business application",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Power Automate Premium",
+                  "price": "20.40",
+                  "priceCurrency": "CAD"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Power Automate Process",
+                  "price": "203.50",
+                  "priceCurrency": "CAD"
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-power-automate/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            }
+            )
+          }}
+        /> 
       </Head>
       <ModalVideo
         channel="youtube"

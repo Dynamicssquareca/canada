@@ -30,15 +30,54 @@ const MicrosoftDynamicsGP = () => {
         <meta name="twitter:title" content="Microsoft Dynamics GP: Finance & ERP Tool for SMBs" />
         <meta name="twitter:description" content="Microsoft Dynamics GP is an ERP app that uses Microsoft SQL Server 2022 to help mid-market-sized businesses manage operations. Contact us for more." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solution",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "Microsoft dynamics GP",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-gp/"  
+              }
+            ]
             })
           }}
-        /> */}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics GP",
+              "description": "Dynamics GP is the most suited complete financial management app that can be deployed on your private servers/on-premises, cloud, or as a hybrid solution (combining both private servers and cloud). This application uses Microsoft SQL (which easily gets installed and even nonprofessionals can understand) which seamlessly improves performance, security, and more.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP software",
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-gp/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

@@ -30,15 +30,81 @@ const FinanceOperations = () => {
         <meta name="twitter:title" content="Dynamics 365 Finance and Operations Partner | Dynamics Square CA" />
         <meta name="twitter:description" content="Microsoft Dynamics 365 Finance & Operations to seamlessly optimize your finances and gain increased visibility. Contact us for detailed pricing & licensing." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/microosoft-partner.png" />
-          {/* <script
+          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-
-
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [
+            {
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Dynamicssquare CA",
+                "item": "https://www.dynamicssquare.ca/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "solutions",
+                "item": "https://www.dynamicssquare.ca/solutions/"  
+              },
+            {
+                "@type": "ListItem", 
+                "position": 3, 
+                "name": "Dynamics 365 Finance & Operations",
+                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance-operations/"  
+              }
+            ]
             })
           }}
-        /> */}
+        />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Microsoft Dynamics 365 F&O",
+              "description": "Microsoft Dynamics 365 Finance and Operations is a modern business solution for organizations to view their financial data comprehensively and meet unexpected challenges with minimal effort. Dynamics 365 F&O empowers your teams to re-invent business processes and provides them with an environment to innovate and find innovative solutions at their pace anytime, anywhere.",
+              "operatingSystem": "All",
+              "applicationCategory": "ERP Software",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Team Member License",
+                  "price": "10.20",
+                  "priceCurrency": "CAD"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Operations Activity License",
+                  "price": "64",
+                  "priceCurrency": "CAD"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Full User License",
+                  "price": "230.40",
+                  "priceCurrency": "CAD"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Device License",
+                  "price": "96",
+                  "priceCurrency": "CAD"
+                }
+              ],
+              "url": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance-operations/",
+              "publisher": {
+                "@type": "Organization",
+                "name": "Dynamicssquare CA",
+                "url": "https://www.dynamicssquare.ca/"
+              }
+            })
+          }}
+        />
+       
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
