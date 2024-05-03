@@ -9819,3 +9819,8 @@ border-radius: 10px;
 @media (max-width: 768px) {
   
 }
+
+
+.blog-content-container{}
+.blog-content-container .inner{}
+.blog-content-container .inner a{}
