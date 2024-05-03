@@ -8987,6 +8987,9 @@ ul.checkmark li {
  .pageLink {
   cursor: pointer;
  }
+ .blog-content-container{}
+.blog-content-container .inner{}
+.blog-content-container .inner a{}
  
  /* pagination pageItem */
  .pageItem {
@@ -9821,6 +9824,3 @@ border-radius: 10px;
 }
 
 
-.blog-content-container{}
-.blog-content-container .inner{}
-.blog-content-container .inner a{}
