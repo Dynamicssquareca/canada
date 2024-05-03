@@ -1,410 +1,428 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://www.dynamicssquare.ca/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-supply-chain-management/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-iot-hub/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-iot-central/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-sphere/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-iot-edge/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-digital-twins/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-machine-learning/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-bi/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-apps/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-automate/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-virtual-agents/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-nav/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-gp/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance-operations/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-erp/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-azure/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365/mixed-reality/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-ai/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-startups/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/microsoft-cloud-for-nonprofit/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-ecommerce/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/microsoft-cloud-for-manufacturing/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-professional-services/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-food-and-beverages/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/services/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/services/dynamics-365-implementation/</loc>
-  <lastmod>2024-03-15T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/services/dynamics-365-support/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/services/dynamics-365-upgrade/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/about-us/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/why-us/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/partner/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/career/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/case-studies/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/contact-us/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/azure-iot-internet-of-things/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-platform/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/free-dynamics-365-system-health-check/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/privacy-policy/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/terms-of-use/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/cookie-policy/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/d365-business-central-implementation/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/dynamics-365-business-central-upgrade/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/dynamics-365-business-central-erp-support/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/d365-business-central-vs-other-cloud-erps/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-benefits/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-overview/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-minor-update/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/upgrade-from-nav-gp-ax-to-business-central/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/business-central-vs-sap-business-one-comparison/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/whats-new-in-power-bi/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/dynamics-nav-vs-business-central-are-they-different/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/business-central-and-dynamics-gp-comparison/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/case-studies/dynamics-nav13-eft-implementation/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/case-studies/nav13-to-d365-business-central-upgrade/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/schedule-a-demo/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/dynamics-nav-to-business-central-upgrade/</loc>
-  <lastmod>2023-06-13T12:39:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/how-can-microsoft-dynamics-erp-help-construction-businesses/</loc>
-  <lastmod>2023-07-03T19:39:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/enterprises-choose-supply-chain-management-in-dynamics-365/</loc>
-  <lastmod>2023-07-03T19:39:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/key-metrics-to-improve-customer-experience/</loc>
-  <lastmod>2023-07-03T19:39:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.dynamicssquare.ca/blog/ways-to-reduce-resource-planning-costs/</loc>
-  <lastmod>2023-07-03T19:39:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-      <url>
-  <loc>https://www.dynamicssquare.ca/blog/top-erp-systems-for-business/</loc>
-  <lastmod>2023-09-19T12:40:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-       <url>
-  <loc>https://www.dynamicssquare.ca/blog/dynamics-gp-to-business-central-migration/</loc>
-  <lastmod>2023-09-19T12:40:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-      <url>
-  <loc>https://www.dynamicssquare.ca/blog/how-generative-ai-transforming-businesses/</loc>
-  <lastmod>2023-09-19T12:40:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-      <url>
-  <loc>https://www.dynamicssquare.ca/blog/warehouse-management-solutions-in-dynamics-365/</loc>
-  <lastmod>2023-09-19T12:40:21+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-supply-chain-management/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-customer-engagement/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-customer-service/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-commerce/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-project-operations/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-iot-hub/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-iot-central/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-sphere/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-iot-edge/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-digital-twins/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-machine-learning/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-bi/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-apps/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-automate/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-virtual-agents/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-nav/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-gp/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance-operations/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-erp/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-azure/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365/mixed-reality/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-ai/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-startups/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/microsoft-cloud-for-nonprofit/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-ecommerce/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/microsoft-cloud-for-manufacturing/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-professional-services/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/industries/dynamics-365-for-food-and-beverages/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/services/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/services/dynamics-365-implementation/</loc>
+    <lastmod>2024-03-15T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/services/dynamics-365-support/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/services/dynamics-365-upgrade/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/about-us/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/why-us/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/partner/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/career/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/case-studies/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/contact-us/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/azure-iot-internet-of-things/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/microsoft-power-platform/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/free-dynamics-365-system-health-check/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/privacy-policy/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/terms-of-use/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/cookie-policy/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/d365-business-central-implementation/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/dynamics-365-business-central-upgrade/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/dynamics-365-business-central-erp-support/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/d365-business-central-vs-other-cloud-erps/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-benefits/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-overview/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-minor-update/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/upgrade-from-nav-gp-ax-to-business-central/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/business-central-vs-sap-business-one-comparison/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/whats-new-in-power-bi/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-nav-vs-business-central-are-they-different/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/business-central-and-dynamics-gp-comparison/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/case-studies/dynamics-nav13-eft-implementation/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/case-studies/nav13-to-d365-business-central-upgrade/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/schedule-a-demo/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/dynamics-nav-to-business-central-upgrade/</loc>
+    <lastmod>2023-06-13T12:39:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/how-can-microsoft-dynamics-erp-help-construction-businesses/</loc>
+    <lastmod>2023-07-03T19:39:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/enterprises-choose-supply-chain-management-in-dynamics-365/</loc>
+    <lastmod>2023-07-03T19:39:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/key-metrics-to-improve-customer-experience/</loc>
+    <lastmod>2023-07-03T19:39:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/ways-to-reduce-resource-planning-costs/</loc>
+    <lastmod>2023-07-03T19:39:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/top-erp-systems-for-business/</loc>
+    <lastmod>2023-09-19T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-gp-to-business-central-migration/</loc>
+    <lastmod>2023-09-19T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/how-generative-ai-transforming-businesses/</loc>
+    <lastmod>2023-09-19T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/warehouse-management-solutions-in-dynamics-365/</loc>
+    <lastmod>2023-09-19T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/clean-up-transform-and-load-data-into-power-bi/</loc>
+    <lastmod>2024-05-03T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/finding-erp-implementation-partner/</loc>
+    <lastmod>2024-05-03T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/erp-systems-for-manufacturing-distribution-challenges/</loc>
+    <lastmod>2024-05-03T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/blog/microsoft-d365-business-central-vs-quickbooks/</loc>
+    <lastmod>2024-05-03T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
 </urlset>
