@@ -8988,7 +8988,11 @@ ul.checkmark li {
   cursor: pointer;
  }
  .blog-content-container{}
-.blog-content-container .inner{}
+.blog-content-container .inner{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .blog-content-container .inner a{}
  
  /* pagination pageItem */
