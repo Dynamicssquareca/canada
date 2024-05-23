@@ -54,7 +54,8 @@
     { "source": "/our-services/dynamics-365-implementation-services/", "destination": "/services/dynamics-365-implementation/", "statusCode": 301 },
     { "source": "/microsoft-dynamics-365-business-central-implementation/", "destination": "/d365-business-central-implementation/", "statusCode": 301 },
     { "source": "/blog/dynamics-365-business-central-pricing-plan-guide/", "destination": "/blog/business-central-pricing-guide-canada/", "statusCode": 301 },
-    { "source": "/blog/dynamics-365-business-central-benefits/", "destination": "/blog/dynamics-365-business-central-functionalities-and-benefits/", "statusCode": 301 }
+    { "source": "/blog/dynamics-365-business-central-benefits/", "destination": "/blog/dynamics-365-business-central-functionalities-and-benefits/", "statusCode": 301 },
+    { "source": "/blog/dynamics-365-business-central-implementation-step-by-step-plan/", "destination": "/blog/dynamics-365-business-central-implementation-step-by-step/", "statusCode": 301 }
 
   ] 
 }
