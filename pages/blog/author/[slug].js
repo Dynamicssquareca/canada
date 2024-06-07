@@ -85,9 +85,9 @@ function Authors({authorslist, blgsbyauthorslist }) {
                   {authorslist &&
                     authorslist.map((authorsitem, i) => (
                       <li className={router.query.slug ==`${authorsitem.name.split(" ").join("-")}`? "active" :"Hello"}>
-                        <Link href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
-                          <a><img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span></a>
-                        </Link>
+                        <a href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
+                          <img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span>
+                        </a>
                       </li>
                     ))}
                 </ul>

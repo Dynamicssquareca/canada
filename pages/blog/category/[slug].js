@@ -81,9 +81,9 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                   {categoryblogs &&
                     categoryblogs.map((cateitem, i) => (
                       <li className={router.query.slug ==`${cateitem.category_slug}`? "active" :"Hello"}>
-                        <Link href={`/blog/category/${cateitem.category_slug}`}>
-                          <a>{cateitem.category_name}</a>
-                        </Link>
+                        <a href={`/blog/category/${cateitem.category_slug}`}>
+                          {cateitem.category_name}
+                        </a>
                       </li>
                     ))}
                 </ul>
