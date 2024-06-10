@@ -56,7 +56,8 @@
     { "source": "/blog/dynamics-365-business-central-pricing-plan-guide/", "destination": "/blog/business-central-pricing-guide-canada/", "statusCode": 301 },
     { "source": "/blog/dynamics-365-business-central-benefits/", "destination": "/blog/dynamics-365-business-central-functionalities-and-benefits/", "statusCode": 301 },
     { "source": "/blog/dynamics-365-business-central-implementation-step-by-step-plan/", "destination": "/blog/dynamics-365-business-central-implementation-step-by-step/", "statusCode": 301 },
-    { "source": "/blog/business-central-and-dynamics-gp-comparison/", "destination": "/blog/dynamics-gp-vs-dynamics-365-business-central/", "statusCode": 301 }
+    { "source": "/blog/business-central-and-dynamics-gp-comparison/", "destination": "/blog/dynamics-gp-vs-dynamics-365-business-central/", "statusCode": 301 },
+    { "source": "/blog/top-erp-systems-for-business/", "destination": "/blog/top-15-erp-systems-for-businesses/", "statusCode": 301 }
 
   ] 
 }
