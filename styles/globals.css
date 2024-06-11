@@ -7711,7 +7711,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
     left: 0;
   }
 }
-@media (min-width: 300px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 1200px) {
   .industry-more-sec .industries-list-more .text-wrp-content p {
     font-size: 14px;
   }
@@ -8101,7 +8101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
     right: 0;
   }
 }
-@media (min-width: 300px) and (max-width: 833px) {
+@media (min-width: 0px) and (max-width: 833px) {
   .aboot-erp,
   .top-m {
     margin-top: 0;
