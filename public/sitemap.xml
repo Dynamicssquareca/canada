@@ -386,7 +386,7 @@
     <priority>0.51</priority>
   </url>
   <url>
-    <loc>https://www.dynamicssquare.ca/blog/top-15-erp-systems-for-businesses/</loc>
+    <loc>https://www.dynamicssquare.ca/blog/top-11-erp-systems-for-businesses/</loc>
     <lastmod>2023-06-10T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
@@ -427,8 +427,8 @@
   </url>
   
     <url>
-    <loc>https://www.dynamicssquare.ca/blog/microsoft-dynamics-365-business-central-for-manufacturing-industry/</loc>
-    <lastmod>2024-05-07T12:40:21+00:00</lastmod>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-for-manufacturing/</loc>
+    <lastmod>2024-06-11T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
   <url>
@@ -473,11 +473,15 @@
     <lastmod>2024-06-07T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-
   <url>
     <loc>https://www.dynamicssquare.ca/blog/dynamics-gp-vs-dynamics-365-business-central/
  </loc>
     <lastmod>2024-06-07T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+   <url>
+    <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-in-smb/</loc>
+    <lastmod>2024-06-11T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
 </urlset>
