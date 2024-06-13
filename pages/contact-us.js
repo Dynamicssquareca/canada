@@ -7,22 +7,22 @@ import FormNewUI from "../components/FormNewUI";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination,Autoplay,FreeMode } from "swiper";
+import { Pagination, Autoplay, FreeMode } from "swiper";
 
 const ContactUs = () => {
   return (
     <>
       <Head>
-      <title>Contact Dynamics Square | Book Free Consultation</title>
-          <meta
-            name="description"
-            content="Contact Dynamics Square experts for Dynamics 365 CRM/ERP implementation, Support and Upgrade benefits. Book a free online consultation to know more."
-          />
-          <link
-            rel="canonical"
-            href="https://www.dynamicssquare.ca/contact-us/"
-          />
- <script
+        <title>Contact Dynamics Square | Book Free Consultation</title>
+        <meta
+          name="description"
+          content="Contact Dynamics Square experts for Dynamics 365 CRM/ERP implementation, Support and Upgrade benefits. Book a free online consultation to know more."
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.ca/contact-us/"
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -65,8 +65,8 @@ const ContactUs = () => {
                         <img src="/img/chronic.png" alt="chronic" />
                       </div>
                       <div className="right">
-                      <span>Assured 24/7 Support!</span>
-                       
+                        <span>Assured 24/7 Support!</span>
+
                       </div>
                     </div>
                     <div className="new-flex-se">
@@ -74,7 +74,7 @@ const ContactUs = () => {
                         <img src="/img/diversity-3.png" alt="diversity-3" />
                       </div>
                       <div className="right">
-                      <span>2x Boost in Business Operations!</span>
+                        <span>2x Boost in Business Operations!</span>
                       </div>
                     </div>
                   </div>
@@ -95,14 +95,14 @@ const ContactUs = () => {
                 <div className="col-lg-4 col-sm-12">
                   <div className="addre-left">
                     <h4>Ontario</h4>
-                    <p>800 Steeles Ave. W. #B10155 <br/>Thornhill, ON. L4J 7L2</p>
+                    <p>800 Steeles Ave. W. #B10155 <br />Thornhill, ON. L4J 7L2</p>
                     <p>+1 289 807 0740</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-sm-12">
                   <div className="addre-left addre-left-border">
                     <h4>British Columbia</h4>
-                    <p>398-2416 Main St. Vancouver <br/>BC V5T 3E2</p>
+                    <p>398-2416 Main St. Vancouver <br />BC V5T 3E2</p>
                     <p>+1 778 381 5388</p>
                   </div>
                 </div>
@@ -124,74 +124,74 @@ const ContactUs = () => {
         </section>
 
         <section id="casestudys" className="casestudys ">
-        <div className="container" data-aos="fade-up">
-          <div className="row  gy-4">
-            <div className="col-lg-5 align-self-center">
-              <Image
-                src="/img/case-study-side-banner.png"
-                alt="case-study-side-banner"
-                width={640}
-                height={592}
-              />
-            </div>
-            <div className="col-lg-1 align-self-center"></div>
-            <div className="col-lg-6 align-self-center">
-              <div className="sec-title">
-                <h2>Glimpse Of What We Delivered</h2>
-                <p>Dynamics 365 Case Stories</p>
+          <div className="container" data-aos="fade-up">
+            <div className="row  gy-4">
+              <div className="col-lg-5 align-self-center">
+                <Image
+                  src="/img/case-study-side-banner.png"
+                  alt="case-study-side-banner"
+                  width={640}
+                  height={592}
+                />
               </div>
-              <Swiper
-                autoplay={{
-                  delay: 10000,
-                  disableOnInteraction: false,
-                }}
-                slidesPerView={1}
-                spaceBetween={30}
-                freeMode={true}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[Pagination, Autoplay]}
-                className="mySwiper casestudys-sled-1"
-              >
-                <SwiperSlide>
-                  <div className="casestudys-slider-item">
-                    <div className="profile mt-auto">
-                      
-                      <p>Implemented Custom EFT Module to improvise Payment Methods</p>
-                      <div className="case-button">
-                        <a
-                          href="/case-studies/dynamics-nav13-eft-implementation/"
-                          className="btn btn-md btn-custom-1"
-                        >
-                          Read More
-                        </a>
+              <div className="col-lg-1 align-self-center"></div>
+              <div className="col-lg-6 align-self-center">
+                <div className="sec-title">
+                  <h2>Glimpse Of What We Delivered</h2>
+                  <p>Dynamics 365 Case Stories</p>
+                </div>
+                <Swiper
+                  autoplay={{
+                    delay: 10000,
+                    disableOnInteraction: false,
+                  }}
+                  slidesPerView={1}
+                  spaceBetween={30}
+                  freeMode={true}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  modules={[Pagination, Autoplay]}
+                  className="mySwiper casestudys-sled-1"
+                >
+                  <SwiperSlide>
+                    <div className="casestudys-slider-item">
+                      <div className="profile mt-auto">
+
+                        <p>Implemented Custom EFT Module to improvise Payment Methods</p>
+                        <div className="case-button">
+                          <a
+                            href="/case-studies/dynamics-nav13-eft-implementation/"
+                            className="btn btn-md btn-custom-1"
+                          >
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="casestudys-slider-item">
-                    <div className="profile mt-auto">
-                      
-                      <p>Implementation of Microsoft Dynamics Business Central Cloud</p>
-                     
-                      <div className="case-button">
-                        <a
-                          href="/case-studies/nav13-to-d365-business-central-upgrade/"
-                          className="btn btn-md btn-custom-1"
-                        >
-                          Read More
-                        </a>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="casestudys-slider-item">
+                      <div className="profile mt-auto">
+
+                        <p>Implementation of Microsoft Dynamics Business Central Cloud</p>
+
+                        <div className="case-button">
+                          <a
+                            href="/case-studies/nav13-to-d365-business-central-upgrade/"
+                            className="btn btn-md btn-custom-1"
+                          >
+                            Read More
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
+                  </SwiperSlide>
+                </Swiper>
+              </div>
             </div>
           </div>
-        </div>
-      </section> 
+        </section>
 
         <section className="hero-bgs">
           <div className="container">

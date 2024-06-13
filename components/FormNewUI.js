@@ -179,7 +179,7 @@ const FormNewUI = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select class="form-select" name="service" aria-label="Default select example">
+                <select className="form-select" name="service" aria-label="Default select example">
                   <option disabled selected hidden>Looking For?</option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>

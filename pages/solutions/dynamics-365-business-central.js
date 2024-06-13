@@ -2841,123 +2841,123 @@ const BusinessCentral = () => {
                     <tr>
                       <td>Unlimited users</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Customization and extensibility</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Multiple environments</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Multiple companies</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Finance management</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Sales and marketing</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Fulfillment and delivery</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Purchasing and payables</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Inventory</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Supply planning and availability</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Project management</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Warehouse management</td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Service management</td>
                       <td></td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                     <tr>
                       <td>Manufacturing</td>
                       <td></td>
                       <td>
-                        <i class="bi bi-circle-fill"></i>
+                        <i className="bi bi-circle-fill"></i>
                       </td>
                     </tr>
                   </tbody>
