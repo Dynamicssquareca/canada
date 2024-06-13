@@ -6,7 +6,7 @@ const MicrosoftDynamicsNAV = () => {
   return (
     <>
       <Head>
-        <title>Upgrade Dynamics Nav to Dynamics 365 Business central</title>
+        <title>Upgrade Dynamics NAV to Dynamics 365 Business Central</title>
         <meta
           name="description"
           content="Need assistance for a hassle-free Dynamics NAV to Business Central Upgrade? Get your NAV upgrade offerings by scheduling a free consultation now."
