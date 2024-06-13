@@ -30,7 +30,7 @@ const MicrosoftDynamicsNAV = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Upgrade Dynamics Nav to Dynamics 365 Business central</h1>
+              <h1>Upgrade Dynamics NAV to D365 Business Central</h1>
               <p>Uncertain about how to upgrade your Dynamics NAV to D365 Business Central without facing errors? We, at Dynamics Square, are ready to assist you at every step in upgrading your Navision/NAV journey with a seamless and hassle-free software upgrade process.</p>
               <div>
                 <div className="text-center text-lg-start">
