@@ -1,6 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+
+
 
 const FormNewUI = () => {
   const router = useRouter();
@@ -11,22 +15,65 @@ const FormNewUI = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const form = useRef();
+  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); // Default to 'us'
+  const [formData, setFormData] = useState({
+    phone: ''
+  });
+  const [errors, setErrors] = useState({});
+/*auto fetch*/
+useEffect(() => {
+  // Fetch IP information when the component mounts
+  fetchCountryCodeByIP();
+}, []);
+
+const fetchCountryCodeByIP = () => {
+  fetch(`https://api.ipdata.co?api-key=481c4d32f20be30420f3d2b39e39c6a7cbe770c3fa3776f37ea89df4`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to fetch IP information');
+      }
+      return response.json();
+    })
+    .then(data => {
+      let countryCode = data.country_code.toLowerCase();
+      console.log("Country Code:", countryCode); // 
+      setDefaultCountryCode(countryCode);
+      console.log("Default Country Code:", defaultCountryCode);
+    })
+    .catch(error => {
+      console.error('Error fetching IP information:', error);
+      setDefaultCountryCode('us');
+    });
+};
+  
 
   const validateEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
     return emailRegex.test(String(email).toLowerCase());
   };
 
-  const validatePhone = (phone) => {
-    const phoneRegex = /^\d{10,13}$/;
-    const isValid = phoneRegex.test(phone);
-    if (!isValid && phone.length > 0) {
-      setPhoneError("Please enter a valid phone number (10-13 digits).");
-    } else {
-      setPhoneError("");
-    }
-    return isValid;
+
+  const handlePhoneChange = (phone) => {
+    setFormData({ ...formData, phone });
+    // Clear error message for the phone field
+    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
+  const isValidPhoneNumber = (phone) => {
+    // Phone number should be between 10 to 13 characters
+    return /^\d{10,15}$/.test(phone);
+  };
+
+
+  // const validatePhone = (phone) => {
+  //   const phoneRegex = /^\d{10,13}$/;
+  //   const isValid = phoneRegex.test(phone);
+  //   if (!isValid && phone.length > 0) {
+  //     setPhoneError("Please enter a valid phone number (10-13 digits).");
+  //   } else {
+  //     setPhoneError("");
+  //   }
+  //   return isValid;
+  // };
 
   const validateName = (name) => {
     if (!name) {
@@ -63,7 +110,7 @@ const FormNewUI = () => {
     let isValid = true;
 
     isValid = validateName(form.current.name.value) && isValid;
-    isValid = validateCompanyName(form.current.company_name.value) && isValid;
+    isValid = validateCompanyName(form.current.companyname.value) && isValid;
     isValid = validateMessage(form.current.message.value) && isValid;
 
     if (!validateEmail(form.current.email.value)) {
@@ -73,9 +120,9 @@ const FormNewUI = () => {
       setEmailError(""); // Clear email error if email is valid
     }
 
-    if (form.current.phone.value && !validatePhone(form.current.phone.value)) {
-      isValid = false;
-    }
+    // if (form.current.phone.value && !validatePhone(form.current.phone.value)) {
+    //   isValid = false;
+    // }
 
     if (isValid) {
       setIsSubmitting(true); // Start loading animation
@@ -108,7 +155,7 @@ const FormNewUI = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Name"
+                  name="name"
                   id="name"
                   onBlur={() => validateName(form.current.name.value)}
                   onChange={() => setNameError("")}
@@ -125,7 +172,7 @@ const FormNewUI = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Job"
+                  name="job"
                 />
                 <label htmlFor="Job">Job title</label>
               </div>
@@ -152,16 +199,43 @@ const FormNewUI = () => {
             </div>
             <div className='col-lg-12'>
               <div className="mb-3 form-group">
-                <input
+                {/* <input
                   type="tel"
                   className="form-control"
                   placeholder=""
                   name="phone"
                   onBlur={(e) => validatePhone(e.target.value)}
                 />
-                <label htmlFor="phone">Phone Number</label>
+                <label htmlFor="phone">Phone Number</label> */}
+                  <PhoneInput inputStyle={{ width: '100%', height: 'auto',paddingLeft:"60px" }}
+                  country={defaultCountryCode}
+                  type="tel" // Set default country code
+                  value={formData.phone}
+                  onChange={handlePhoneChange}
+                  placeholder=""
+                  inputClass="form-control" // CSS class for the input
+                  inputProps={{
+                    name: 'phone',
+                    required: false,
+                    autoFocus: false,
+                    onBlur: () => {
+                      if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
+                        if (!isValidPhoneNumber(formData.phone)) {
+                          setErrors({ ...errors, phone: 'Invalid phone number format' });
+                        } else {
+                          delete errors.phone; // Clear error if phone number is valid
+                        }
+                      } else {
+                        delete errors.phone; // Clear error if phone number is empty
+                      }
+                    }
+                  }}
+                  countryCodeEditable={false}
+                  // onlyCountries={['us', 'ca', 'mx', 'gb']}
+                  excludeCountries={['pk']}
+                />
               </div>
-              {phoneError && <small className="text-danger">{phoneError}</small>}
+              {errors.phone && <div className="text-danger">{errors.phone}</div>}
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -169,8 +243,8 @@ const FormNewUI = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="company_name"
-                  onBlur={() => validateCompanyName(form.current.company_name.value)}
+                  name="companyname"
+                  onBlur={() => validateCompanyName(form.current.companyname.value)}
                   onChange={() => setCompanyNameError("")}
                 />
                 <label htmlFor="Company Name">*Company Name</label>
@@ -179,7 +253,7 @@ const FormNewUI = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select className="form-select" name="service" aria-label="Default select example">
+                <select className="form-select" name="service">
                   <option disabled selected hidden>Looking For?</option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>
@@ -243,7 +317,7 @@ const FormNewUI = () => {
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
                   <div className='icns-boxx'>
-                    <a href="tel:+12898070740" target="_self">
+                    <a href="tel:+12818990865" target="_self">
                       <img src="/img/group_call.png" alt="group_call" />
                       <span>Call</span>
                     </a>
@@ -263,7 +337,13 @@ const FormNewUI = () => {
                   <span>
                     Sales Support:{" "}
                   </span>
-                  <span>+1 289 807 0740</span>
+                  <span>+1-281-899-0865 </span>
+                </div>
+                <div className="cont-info">
+                  <span>
+                    Technical Support:{" "}
+                  </span>
+                  <span>+1-281-899-0716</span>
                 </div>
                 <div className="cont-info">
                   <span>
@@ -271,7 +351,7 @@ const FormNewUI = () => {
                       Email Us:{" "}
                     </span>
                     <a href="mailto:info@dynamicssquare.com">
-                      info@dynamicssquare.com
+                    info@dynamicssquare.com
                     </a>
                   </span>
                 </div>

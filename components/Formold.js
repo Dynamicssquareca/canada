@@ -1,86 +1,39 @@
-import React, { useRef ,useState ,useEffect } from 'react';
+import React, { useRef ,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
-const Formoldd = () => {
+const FormOld = () => {
   const router = useRouter();
+  const [display, setDisplay] = useState("dspn");
+  const form = useRef();
+  const sendEmail = (e) => {
+    setDisplay("spinner-border text-success");
+    e.preventDefault();
 
-  useEffect(() => {
-    // Load the Zoho script after DOM content is fully loaded
-    const loadScript = () => {
-      const script = document.createElement('script');
-      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=2c5936cf1b13e2557f047af1137e75ab2c2394b10051200cd01339553d3eb4cbc6b688c8563100587be6ff5e7f265aaagid253c6e50e2d546a9a5c47bf7e5835c8b3746eb98abe43a3341867560ca07e5b6gid92f76bfefff98e356dfb74dd8e90a75ee5b8b082c68228da98bb2c21a5751c7egidf15eb6e6ab4994b733a549883d96f3689126c705bb5474ac92df68037231fe5f&tw=baef35bd0b82caad0797da01246cfc68d28961878249ffa504fccf881a08d7dc`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
-      script.async = true;
-      document.body.appendChild(script);
-    };
-  
-    if (document.readyState === 'complete') {
-      loadScript();
-    } else {
-      window.addEventListener('DOMContentLoaded', loadScript);
-    }
-  
-    // Clean up function to remove the script when the component unmounts
-    return () => {
-      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
-      if (script) {
-        script.remove();
-      }
-    };
-  }, []);
-
-  const handleSubmit = async (event) => {
-      event.preventDefault();
-      const formData = new FormData(event.target);
-      const url = 'https://crm.zoho.in/crm/WebToLeadForm';
-
-      try {
-          // Send email using EmailJS
-          await emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', event.target, 'K7wsWama116Jghyaq');
-
-          // Submit form data to Zoho CRM
-          const response = await fetch(url, {
-              method: 'POST',
-              body: formData
-          });
-
-          if (response.ok) {
-              console.log('Form submitted successfully!');
-              // Reset form fields manually
-              event.target.querySelectorAll('input, textarea').forEach((field) => {
-                  field.value = '';
-                  // router.push('/thank-you/');
-              });
-
-              // Redirect to thank you page after 4 seconds
-              setTimeout(() => {
-                event.target.reset();
-                  router.push('/thank-you/');
-              }, 100);
-          } else {
-              console.error('Failed to submit form:', response.statusText);
-          }
-      } catch (error) {
-          console.error('Error submitting form:', error);
-      }
+    emailjs.sendForm('service_fhump8w', 'template_t7vfgzg', form.current, 'K7wsWama116Jghyaq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+     
+      setTimeout(function() {
+        e.target.reset();
+        router.push("/thank-you/");
+      }, 500);
+      
   };
 
 
     return (
         <div>
              <div className="main-form-wrper">
-             <form id='webform196947000014082124' onSubmit={handleSubmit} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082124' method='POST' acceptCharset='UTF-8'>
-             <input type='text' style={{ display: 'none' }}name='xnQsjsdp' value='374376e66ef4f8e383a380ac3d4d470a77836bcfb86092aef107f9a10ed1fb02' />
-                <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-                <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='068f8759fafa7a62e3bc6f68cd2fed1e30c410e2022a1b5cdf4e97e658a626637a9570abab2f51dc15b3e789f0625c65' />
-                <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
-                <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.ca/thank-you/' />
+             <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3">
                     <input
                       type="text"
-                      id='Last_Name'
                       className="form-control"
                       placeholder="*Full Name"
-                      name="Last Name"
+                      name="name"
                       required
                     />
                     <input type="hidden" value={router.asPath} name="url" />
@@ -88,11 +41,10 @@ const Formoldd = () => {
 
                   <div className="mb-3">
                     <input
-                      id='Email'
                       type="email"
                       className="form-control"
                       placeholder="*Work Email"
-                      name="Email"
+                      name="email"
                       pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
@@ -100,20 +52,18 @@ const Formoldd = () => {
                   <div className="mb-3">
                     <input
                       type="text"
-                      id='Company'
                       className="form-control"
                       placeholder="*Company Name"
-                      name="Company"
+                      name="company_name"
                       required
                     />
                   </div>
                   <div className="mb-3">
                     <input
                       type="tel"
-                      id='Phone'
                       className="form-control"
                       placeholder="*Phone Number"
-                      name="Phone"
+                      name="phone"
                       pattern="^\d{10,13}$"
                       required
                     />
@@ -121,10 +71,9 @@ const Formoldd = () => {
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      id='Description'
-                      placeholder="*How Can We Help You?"
+                      placeholder="* How Can We Help You?"
                       rows="3"
-                      name="Description"
+                      name="message"
                       required
                     ></textarea>
                   </div>
@@ -167,4 +116,4 @@ const Formoldd = () => {
     );
 }
 
-export default Formoldd;
+export default FormOld;

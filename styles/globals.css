@@ -3872,6 +3872,7 @@ height:auto
   -moz-box-shadow: 0 10px 25px 0 rgb(0 19 48 / 35%);
   -webkit-box-shadow: 0 10px 25px 0 rgb(0 19 48 / 35%);
   border-radius: 10px;
+  background-color:#ffffff
 }
 .zcwf_lblTopBottom .zcwf_col_fld input[type="text"],
 .zcwf_lblTopBottom .zcwf_col_fld textarea {
@@ -7628,7 +7629,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
     opacity: 1;
   }
   .extra-height {
-    height: 530px;
     overflow: hidden;
   }
 }
@@ -9732,6 +9732,19 @@ border-radius: 10px;
 .test-slider-contant .swiper-button-next:after, .test-slider-contant .swiper-button-prev:after {
   color: #bcafe7;
 }
+
+form .error {
+  color: #bb2b36;
+  font-size: 12px;
+  margin-top: 0.25em;
+}
+
+.spinner-wrapper{
+  display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
 @media (max-width: 1400px) {
 }
 
