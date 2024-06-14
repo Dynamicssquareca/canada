@@ -15,7 +15,7 @@ const FormNewUI = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const form = useRef();
-  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); // Default to 'us'
+  const [defaultCountryCode, setDefaultCountryCode] = useState('ca'); // Default to 'ca'
   const [formData, setFormData] = useState({
     phone: ''
   });
@@ -42,7 +42,7 @@ const fetchCountryCodeByIP = () => {
     })
     .catch(error => {
       console.error('Error fetching IP information:', error);
-      setDefaultCountryCode('us');
+      setDefaultCountryCode('ca');
     });
 };
   

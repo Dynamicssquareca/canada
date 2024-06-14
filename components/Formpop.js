@@ -7,7 +7,7 @@ const Formpop = () => {
   const router = useRouter();
   const [display, setDisplay] = useState(false);
   const [errors, setErrors] = useState({});
-  const [defaultCountryCode, setDefaultCountryCode] = useState('us');
+  const [defaultCountryCode, setDefaultCountryCode] = useState('ca');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -40,7 +40,7 @@ const Formpop = () => {
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
-        setDefaultCountryCode('us');
+        setDefaultCountryCode('ca');
       });
   };
 
