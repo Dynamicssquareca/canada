@@ -59,7 +59,8 @@
     { "source": "/blog/business-central-and-dynamics-gp-comparison/", "destination": "/blog/dynamics-gp-vs-dynamics-365-business-central/", "statusCode": 301 },
     { "source": "/blog/top-erp-systems-for-business/", "destination": "/blog/top-15-erp-systems-for-businesses/", "statusCode": 301 },
     { "source": "/blog/microsoft-dynamics-365-business-central-for-manufacturing-industry/", "destination": "/blog/dynamics-365-business-central-for-manufacturing/", "statusCode": 301 },
-    { "source": "/blog/top-15-erp-systems-for-businesses/", "destination": "/blog/top-11-erp-systems-for-businesses/", "statusCode": 301 }
+    { "source": "/blog/top-15-erp-systems-for-businesses/", "destination": "/blog/top-11-erp-systems-for-businesses/", "statusCode": 301 },
+    { "source": "/assets/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf", "destination": "/blog/business-central-pricing-guide-canada/", "statusCode": 301 }
 
   ] 
 }
