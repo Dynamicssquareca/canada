@@ -209,6 +209,7 @@ const BusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <h1>Microsoft Dynamics 365 Business Central ERP Partner Vancouver</h1>
               <p>Simplify daily operations, connect teams, unify business data, and automate complex tasks with Microsoft Dynamics 365 Business Central.</p>
+              <p style={{ marginTop: '-20px' }}><b>Accelerate growth, break data silos, boost ROI, and access your system from anywhere with an all-in-one ERP solution.</b></p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -604,7 +605,7 @@ const BusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin1"
                       >
-                        <span>Finance</span>
+                        <span>Finance Management</span>
                       </button>
                     </h3>
                     <div
@@ -740,7 +741,7 @@ const BusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin2"
                       >
-                        <span>Sales</span>
+                        <span>Sales Management</span>
                       </button>
                     </h3>
                     <div
@@ -1166,6 +1167,7 @@ const BusinessCentral = () => {
                               </div>
                               <div className="content">
                                 <h4>Item Categorization</h4>
+                                <p>Categorize items based on type, brand, or other criteria to classify items. </p>
                               </div>
                             </div>
                           </div>
@@ -1533,7 +1535,7 @@ const BusinessCentral = () => {
                   aria-controls="v-pills-Finance"
                   aria-selected="true"
                 >
-                  <h3>Finance</h3>
+                  <h3>Finance Management</h3>
                 </div>
                 <div
                   className="nav-link"
@@ -1544,7 +1546,7 @@ const BusinessCentral = () => {
                   aria-controls="v-pills-Banking"
                   aria-selected="false"
                 >
-                  <h3>Sales</h3>
+                  <h3>Sales Management</h3>
                 </div>
                 <div
                   className="nav-link"
@@ -1723,6 +1725,18 @@ const BusinessCentral = () => {
                         </div>
                       </div>
                     </div>
+
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -1842,6 +1856,17 @@ const BusinessCentral = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -1937,6 +1962,17 @@ const BusinessCentral = () => {
                           <h4>Improve Sustainability </h4>
                           <p>Use sustainability entries to track emissions and follow best practices. </p>
                         </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -2058,6 +2094,17 @@ const BusinessCentral = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -2096,6 +2143,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Categorization</h4>
+                          <p>Categorize items based on type, brand, or other criteria to classify items. </p>
                         </div>
                       </div>
                     </div>
@@ -2185,6 +2233,17 @@ const BusinessCentral = () => {
                           <h4>Item Tracking</h4>
                           <p>Monitor the movement of your inventory using a serial or lot number.</p>
                         </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -2282,6 +2341,17 @@ const BusinessCentral = () => {
                           <h4>Inventory Replenishment</h4>
                           <p>Maintain optimum inventory levels to meet customer demands.</p>
                         </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -2403,6 +2473,17 @@ const BusinessCentral = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="col-lg-12">
+                      <div className="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          href="#exampleModal"
+                          className="btn-get-started scrollto"
+                        >
+                          <span>Let’s Get Started!</span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -2417,7 +2498,7 @@ const BusinessCentral = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Switch to Microsoft Business Central Today! <br/>Your Gateway to Immeasurable Success.</h3>
+                <h3>Switch to Microsoft Business Central Today! <br />Your Gateway to Immeasurable Success.</h3>
                 <p>Simplify, automate, and succeed by leveraging the limitless capabilities of Business Central.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
@@ -2457,14 +2538,14 @@ const BusinessCentral = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      AI-Powered <br/> Assistant
+                        AI-Powered <br /> Assistant
                       </h3>
                       <div className="overlay">
                         <p>Business Central comes embedded with Microsoft Copilot, which works as an AI assistant to help you with daily tasks. It helps you eliminate recurring tasks, leverage automation functionalities, and streamline diverse operations.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
-                      <h3>Unified and <br/>Modern Approach</h3>
+                      <h3>Unified and <br />Modern Approach</h3>
                       <div className="overlay">
                         <p>Business Central ERP offers a centralized data repository that lets you access data of different solutions from anywhere and anytime. You can utilize all tools efficiently using an attractive user-interface and easy navigation.</p>
                       </div>
@@ -2474,13 +2555,13 @@ const BusinessCentral = () => {
                 <div className="col-lg-6 col-md-6 top-m">
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
-                      <h3>Integration <br/> Capabilities</h3>
+                      <h3>Integration <br /> Capabilities</h3>
                       <div className="overlay">
                         <p>Microsoft Dynamics 365 offers strong integration capabilities with Business Central Extension technology. It lets you connect with different solutions of Microsoft Dynamics Ecosystem with a click.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
-                      <h3>Cloud-enabled<br/> technology</h3>
+                      <h3>Cloud-enabled<br /> technology</h3>
                       <div className="overlay">
                         <p>The cloud empowers you to connect with the world instantly. It is cost-effective, very low maintenance, and offers great accessibility. Even so, it enables Business Central to receive automatic installation of updates and upgrades for free.</p>
                       </div>
@@ -2770,12 +2851,13 @@ const BusinessCentral = () => {
         </div>
       </section>
 
-          <section className="new-style-bg" style={{ background: "#f7f7f7" }}>
+      <section className="new-style-bg" style={{ background: "#f7f7f7" }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-8">
               <header className="section-header">
                 <h2>Move to Business Central and Drive Digitalization</h2>
+                <p>Moving to Microsoft Business Central can open up the doors of limitless opportunities and push your business towards sustainable growth.</p>
               </header>
             </div>
           </div>
@@ -2786,9 +2868,9 @@ const BusinessCentral = () => {
                   <h3>Dynamics NAV to BC Upgrade</h3>
                   <p>Struggling with data silos, downtime, and system complexities? Go for a Dynamics NAV to BC upgrade to simplify processes, avail AI-enabled automation, and limitless scalability.</p>
                   <div className="price-btn-newx">
-                      <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-whits">Schedule a Demo</a>
+                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-whits">Schedule a Free Demo</a>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
@@ -2798,12 +2880,12 @@ const BusinessCentral = () => {
                   <h3>Dynamics GP to BC Migration</h3>
                   <p>Dealing with limited support and customization intricacies? Opt for Dynamics GP to BC migration to eliminate complexities, centralize data, and customize your system as per requirements.</p>
                   <div className="price-btn-newx">
-                      <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-whits">Schedule a Demo</a>
+                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-whits">Schedule a Free Demo</a>
                   </div>
-                
+
                 </div>
               </div>
-  
+
             </div>
           </div>
         </div>
@@ -2814,7 +2896,7 @@ const BusinessCentral = () => {
           <div className="row justify-content-center">
             <header className="section-header">
               <h2>Compare Business Central Licensing options </h2>
-              <p>Choose the Plan That Fits Right To Your Business Needs! </p>
+              <p>Choose the plan that fits right to your business needs! </p>
             </header>
             <div className="col-lg-12">
               <div>
@@ -3155,8 +3237,8 @@ const BusinessCentral = () => {
                   />
                 </div>
                 <div className="rig">
-                  <h3>Team of Certified Dynamics 365 Experts</h3>
-                  <p>We are a team of over 150 Microsoft-certified Dynamics 365 consultants. At Dynamics Square, the best industry minds are on your side to tackle any challenge and craft growth-oriented strategies.</p>
+                  <h3>Team of Dynamics 365 Experts</h3>
+                  <p>With a team of 135+ Dynamics 365 consultants, we are available on your side to tackle any challenge and craft growth-oriented strategies for your business.</p>
                 </div>
               </div>
             </div>
@@ -3171,8 +3253,8 @@ const BusinessCentral = () => {
                   />
                 </div>
                 <div className="rig">
-                  <h3>Adequate Resources Available</h3>
-                  <p>We have adequate resources and infrastructure to empower businesses of all sizes. With our robust Dynamics 365 Business Central support services, you can match your ambition to scale.</p>
+                  <h3>Best-in-class Infrastructure</h3>
+                  <p>We have adequate resources and perfect infrastructure to empower businesses of all sizes achieve goals and grow with a rapid speed.</p>
                 </div>
               </div>
             </div>
