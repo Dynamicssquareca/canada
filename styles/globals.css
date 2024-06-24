@@ -9848,7 +9848,20 @@ form .error {
     align-items: center;
     gap: 20px;
 }
-
+.cut-ul{}
+.cut-ul li{
+  color: var(--color-grey);
+  margin-bottom: 13px;
+}
+.content-inner-moil-22 {
+  align-items: center;
+}
+.content-inner-moil-22 .ext-bord{
+  margin-top:0px
+}
+.content-inner-moil-22 .cintent-right p{
+  margin-bottom:0px
+}
 @media (max-width: 1400px) {
 }
 
