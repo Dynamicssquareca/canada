@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay, FreeMode } from "swiper";
 import ModalVideo from "react-modal-video";
 
-const BusinessCentral = () => {
+const Index = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
 
@@ -3831,4 +3831,4 @@ const BusinessCentral = () => {
   );
 };
 
-export default BusinessCentral;
+export default Index;

@@ -1,25 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import Head from 'next/head'
 import Link from "next/link";
-const MicrosoftDynamics365BusinessCentralForEducation = () => {
+
+const Manufacturing = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Business Central for Education Institutions</title>
+        <title>Dynamics 365 Business Central for Manufacturing | Dynamics 365</title>
         <meta
           name="description"
-          content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today."
+          content="Business Central in manufacturing optimizes production, ensures consistent quality, reduces waste, understands production demand, and simplifies process scheduling for effective inventory management."
         />
         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/microsoft-dynamics-365-business-central-for-education/"
+          href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/manufacturing/"
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dynamics 365 Business Central for Education Institutions" />
-        <meta property="og:description" content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today." />
-        <meta property="og:url" content="https://www.dynamicssquare.ca/microsoft-dynamics-365-business-central-for-education/" />
+        <meta property="og:title" content="Dynamics 365 Business Central for Manufacturing | Dynamics 365" />
+        <meta property="og:description" content="Business Central in manufacturing optimizes production, ensures consistent quality, reduces waste, understands production demand, and simplifies process scheduling for effective inventory management." />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/manufacturing/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
         <meta property="og:image:width" content="200" />
@@ -27,8 +28,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_ca" />
-        <meta name="twitter:title" content="Dynamics 365 Business Central for Education Institutions" />
-        <meta name="twitter:description" content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today." />
+        <meta name="twitter:title" content="Dynamics 365 Business Central for Manufacturing | Dynamics 365" />
+        <meta name="twitter:description" content="Business Central in manufacturing optimizes production, ensures consistent quality, reduces waste, understands production demand, and simplifies process scheduling for effective inventory management." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
         {/* <script
           type="application/ld+json"
@@ -45,8 +46,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Microsoft Dynamics 365 Business Central for Education </h1>
-                <p>Simplify admission process, automate administrative operations, reduce paperwork, and improve resource management with <b>Microsoft Dynamics 365 for education</b>.</p>
+                <h1>Microsoft Dynamics 365 Business Central for Manufacturing</h1>
+                <p>Access data in real-time, improve production quality, make data-driven decisions, and strengthen customer relationships with Microsoft <b>Business Central for Manufacturing</b>.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
@@ -71,9 +72,9 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
                 <header className="section-header">
-                  <h2>Transform and Streamline Educational Operation</h2>
-                  <p><b>Microsoft Dynamics 365 ERP</b> helps educational institutions reduce their operational stress by offering financial, HR, payroll, and scheduling functionalities. </p>
-                  <p>Being an all-in-one solution, D365 BC comes with ERP and CRM features to help you streamline communication with students, provide performance data in real-time, utilize resources, and schedule classes from a single screen. </p>
+                  <h2>Boost Production Quality and Profits with Business Central for Manufacturing</h2>
+                  <p>The Microsoft Dynamics Business Central Manufacturing module helps manufacturers streamline workflows and reduce errors. It offers real-time data, allowing you to make informed decisions.</p>
+                  <p>With Dynamics BC functionality, you can optimize production and ensure consistent quality throughout the production process, resulting in reduced waste. </p>
                   <div className="text-center">
                     <a
                       data-bs-toggle="modal"
@@ -93,8 +94,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>Digitalize Your Institution and Simplify Complex Processes</h2>
-                <p>Digitalization is the simplest route of business growth in this competitive world. Business Central for education institutions comes with absolute tools that can help you digitalize different processes and leverage automation. It will help you eliminate duplication, automate core processes, and build a streamlined communication channel.</p>
+                <h2>The Business Central Advantage: Rev Up Your Production</h2>
+                <p>Business Central offers numerous benefits to businesses to improve product quality and derive profitability. Let's dive into such benefits in detail:</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -105,8 +106,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Automate Administrative Processes </b></p>
-                      <p>Automate student enrollment, performance management, budget tracking, maintaining attendance, generate real-time insights, and collect fees to let workforce focus on essential tasks.</p>
+                      <p><b>Agile Manufacturing</b></p>
+                      <p>It brings agility to your business while automatically replanting the production sequence, optimizing raw material stock, and producing exactly what the customer wants.</p>
                     </div>
                   </div>
 
@@ -117,8 +118,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Personalized Learning Experience </b></p>
-                      <p>Educational institutions can leverage data-driven insights to identify areas for improvement, allowing them to create personalized learning strategies. </p>
+                      <p><b>Effective Inventory Management</b></p>
+                      <p>Managing inventory with Dynamics BC is much easier. Track the list of stored items, understand production demand, and simplify process scheduling to effectively manage inventory.</p>
                     </div>
                   </div>
 
@@ -129,20 +130,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><b>Track Student Performance </b></p>
-                      <p>Monitor student growth with easy-to-access dashboards. Such data empowers teachers to provide additional support to weak students and set up communication with parents. </p>
-                    </div>
-                  </div>
-
-                  <div className="content-inner-moil-1">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p><b>Scale</b></p>
-                      <p>Once you have set up a market fit for your product and you are ready to focus on scaling your company, get the advantage of $150k Azure credits.</p>
+                      <p><b>Maintaining Quality Control</b></p>
+                      <p>Microsoft Dynamics 365 Business Central helps track defective products, manage quality control processes, and take proactive action to ensure product quality. </p>
                     </div>
                   </div>
 
@@ -156,15 +145,15 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>Manage student demands while powering administrative staff with Microsoft Business Central</h3>
-                  <p>Utilize the powerful tools and capabilities to streamline diverse student demands while simplifying the demands of the administration. </p>
+                  <h3>Optimize your manufacturing processes with a cost-effective method</h3>
+                  <p>Streamline your manufacturing workflow, reduce errors, and improve production quality with Business Central!</p>
                   <div className="text-center m-o-t new-btn-nn">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Contact a Business Central Expert Now! </span>
+                      <span>Contact Manufacturing ERP Experts Now!</span>
                     </a>
                   </div>
                 </div>
@@ -179,8 +168,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
             <div className="row justify-content-center g-5">
               <div className="col-lg-9 col-md-9">
                 <header className="section-header">
-                  <h2>Empower Your Institutions with Adaptive and Flexible Functionalities </h2>
-                  <p>Educational institutions need to offer unparalleled learning experience to students, manage financial transactions, and update parents with real-time data. Some other Business Central features that can help institutions or schools are:</p>
+                  <h2>Achieve Goals Leveraging Efficient Business Central Functionality</h2>
+                  <p>Microsoft Dynamics BC offers various functionalities in manufacturing modules, helping businesses fulfill their requirements. Let's delve into each function:</p>
                 </header>
               </div>
             </div>
@@ -194,8 +183,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>K-12 Parent and Student Portal </h3>
-                    <p>K–12 Parent and student portals allow institutions to share important information, such as grades, school forms, and attendance, to strengthen communication.</p>
+                    <h3>Bills of Materials</h3>
+                    <p>Specify raw materials, manage thousands of components, communicate with the production floor, and create new BOMs for various requirements.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -206,8 +195,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Student Management </h3>
-                    <p>Manage students’ data for a centralized approach. Such information includes enrollment details, academic performance, schedule learning sessions and attendance history.</p>
+                    <h3>Assembly Management</h3>
+                    <p>Utilize assembly management to specify material lists, track machine components, ensure quality products, maintain finished goods, and deliver on promised delivery dates.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -218,8 +207,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Financial Management </h3>
-                    <p>Track education resources, manage staff salaries, and reduce errors in finance. Allocate realistic budgets across different departments and track the budget’s usage.</p>
+                    <h3>Basic Capacity Planning</h3>
+                    <p>Create strategies to meet client expectations, get product visibility, understand your resource constraints, fulfill delivery expectations, and accept new orders accordingly.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -230,22 +219,11 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Seamless Integration </h3>
-                    <p>Dynamics 365 facilitates robust integration capabilities, allowing you to integrate with different solutions of Microsoft Dynamics Ecosystem, like Power BI with Business Central. </p>
+                    <h3>Version Management</h3>
+                    <p>Track production processes, changes in customer demand, limited raw materials, manage project changes, manage transparency & precision in work, and record files.</p>
                   </div>
                 </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_connect collobrate.svg"
-                      alt="icons-_connect collobrate"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Efficient Resource Management</h3>
-                    <p>Educational entities can track expenses, manage budgets, track inventory, schedule class routines, and manage staff to leverage resources effectively. </p>
-                  </div>
-                </div>
+
               </div>
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
@@ -256,8 +234,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Student Information System Integration</h3>
-                    <p>Streamline data management, access data in real-time, easily integrate with student information systems (SIS), and improve student engagement studies. </p>
+                    <h3>Finite Loading</h3>
+                    <p>Optimizes manufacturing processes to prevent overloading on resources such as labor, machines, and materials, ensuring no extra work is assigned to anyone in a given period.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -268,8 +246,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Reporting and Analytics</h3>
-                    <p>Generate comprehensive reports and leverage advanced analytics to gain valuable insights into student performance and overall institutional effectiveness.</p>
+                    <h3>Standard Cost Worksheet</h3>
+                    <p>Manage inventory and maintain the standard cost of finished items along with different components. Identify overruns and inefficiencies by correcting mistakes in the worksheet.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -280,8 +258,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Project Management</h3>
-                    <p>Efficiently plan, execute, and monitor various academic and administrative projects to ensure timely delivery and optimal resource allocation.</p>
+                    <h3>Machine Centers</h3>
+                    <p>Manage capacity for each machine, store default information about manufacturing processes, optimize manufacturing operations, and allocate resources efficiently.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -292,22 +270,11 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Human Capital Management</h3>
-                    <p>Human Capital Management integrates HR operations, including employee records, performance appraisals, benefits, training, and collective agreements for streamlined management.</p>
+                    <h3>Proactive demand management</h3>
+                    <p>Use in-built AI capabilities to predict demand, optimize production schedules, and improve inventory management to streamline the procurement process. </p>
                   </div>
                 </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Payroll Management</h3>
-                    <p>Payroll administration includes capabilities, such as advance calculation, direct deposits, indirect cost allocation, and compensation journal validation to streamline payroll processes.</p>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
@@ -317,15 +284,15 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>Empower your school with data-driven decisions for elevated growth</h3>
-                  <p>Schedule a call with us and personalize Business Central to meet unique needs. </p>
+                  <h3>Do you want to drive efficiency, productivity, and achieve business goals?</h3>
+                  <p>Choose a reliable Business Central partner in Canada and revolutionize your business to achieve high goals. </p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Free Business Central Trial </span>
+                      <span>Schedule a free Business Central Demo!</span>
                     </a>
                   </div>
                 </div>
@@ -333,6 +300,20 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
             </div>
           </div>
         </section>
+
+        <div style={{ paddingTop: '60px' }}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9 col-md-9">
+                <header className="section-header">
+                  <h2>Manufacturing Types and Their Different Aspects</h2>
+                  <p>Business Central caters its capabilities to various manufacturing types to fulfill different demands. In this section, we are going to discuss various manufacturing types and the capabilities D365 BC offers.</p>
+                </header>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section className="busine_service_bottom">
           <div className="container">
             <div className="row">
@@ -349,13 +330,66 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>Types of Educational Institutions That Can Use Dynamics BC </h2>
-                  <p>Dynamics 365 BC can be beneficial for a wide range of educational entities. </p>
+                  <h2>Engineer to Order (ETO): Customize Products to Meet Specific Customer Requirements  </h2>
+                  <p>ETO is a kind of manufacturing process where a manufacturer produces a customized product based on a specific requirement. Production starts when the manufacturer receives an order for a certain quantity.</p>
+                  <p>However, such manufacturers face challenges due to variant bills of materials (BOMs), complex projects, and engineering revisions. Let's see how Business Central solves such complex issues:</p>
                   <ul className="cut-ul">
-                    <li>K-12 Schools: Use Dynamics 365 Business Central to streamline administrative tasks </li>
-                    <li>Universities and colleges: Grant and manage funding for research and development. </li>
-                    <li>Training Institutions: Monitor students’ growth in their chosen field. </li>
-                    <li>Private Schools and Tuition: Ensure seamless communication with students, parents, and stakeholders. </li>
+                    <li>Agile Bill of Materials (BOM) management</li>
+                    <li>Real time cost tracking</li>
+                    <li>Track and manage capacity for your assembly teams</li>
+                    <li>Streamline accounting processes for work in progress</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-6 d-flex align-items-center">
+                <div className="side-heading">
+                  <h2>Make to Stock (MTS): Stock Desired Inventory for Future Sales</h2>
+                  <p>MTS is a production strategy where production takes place without having any customer orders. It aims to make products available to customers whenever they want. </p>
+                  <p>However, businesses can face overstocking or understocking due to not having a clear picture of customers' demand. Here, these features are essential for make-to-stock:</p>
+                  <ul className="cut-ul">
+                    <li>Inventory & warehouse management</li>
+                    <li>Material resource planning (MRP)</li>
+                    <li>Master production scheduling (MPS)</li>
+                    <li>Demand & sales forecasting</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="busine_service_bottom-left">
+                  <div className="busine_service_bottom-right">
+                    <img
+                      src="/img/startup-side.png"
+                      className="fix-im"
+                      alt="bisin_leftimg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="busine_service_bottom-left">
+                  <div className="busine_service_bottom-right">
+                    <img
+                      src="/img/startup-side.png"
+                      className="fix-im"
+                      alt="bisin_leftimg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 d-flex align-items-center">
+                <div className="side-heading">
+                  <h2>Make to Order (MTO): Manufacture on Demand</h2>
+                  <p>Make-to-order is a kind of manufacturing where businesses produce goods when they receive orders from customers. Once the business receives orders, they will start the production process from scratch. It is generally used when the product specification varies from one order to another.</p>
+                  <p>MTO Manufactures faces challenges in maintaining efficient production flow, managing configurations, and streamlining order fulfillment. Hence, Business Central offers various features to handle manufacturing:</p>
+                  <ul className="cut-ul">
+                    <li>Production order tracking</li>
+                    <li>Material resource planning (MRP)</li>
+                    <li>Warehouse visibility</li>
+                    <li>Customer contract pricing</li>
                   </ul>
                 </div>
               </div>
@@ -366,8 +400,8 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>Get Help with Dynamics Square </h2>
-                <p>We are a popular Business Central Partner in Ontario, helping institutions get the most out of their investments. We are a team of 135+ Business Central consultants with over a decade of experience and competency in all Microsoft applications. Our offerings are: </p>
+                <h2>Get Unmatched Expertise from Dynamics Square</h2>
+                <p>We are a leading Microsoft Solutions Partner, helping businesses like yours become smarter, more efficient, and more productive.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -378,7 +412,7 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Microsoft certified implementation methodology </p>
+                      <p>14+ years of industrial experience</p>
                     </div>
                   </div>
 
@@ -389,7 +423,7 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Post implementation support to all businesses</p>
+                      <p>135+ highly skilled Microsoft consultants</p>
                     </div>
                   </div>
 
@@ -400,7 +434,7 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Customize Business Central to meet your unique demands</p>
+                      <p>250+ trusted worldwide clients</p>
                     </div>
                   </div>
 
@@ -411,7 +445,29 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>24*7 availability of dedicated Business Central support</p>
+                      <p>Offer trusted and reliable Business Central support</p>
+                    </div>
+                  </div>
+
+                  <div className="content-inner-moil-1 content-inner-moil-22">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>Provide post-implementation support and training</p>
+                    </div>
+                  </div>
+
+                  <div className="content-inner-moil-1 content-inner-moil-22">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>Facilitates training, maintenance and innovation</p>
                     </div>
                   </div>
 
@@ -427,5 +483,5 @@ const MicrosoftDynamics365BusinessCentralForEducation = () => {
   );
 };
 
-export default MicrosoftDynamics365BusinessCentralForEducation;
+export default Manufacturing;
 
