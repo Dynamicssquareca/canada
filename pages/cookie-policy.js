@@ -148,8 +148,8 @@ const CookiePolicy = () => {
                 users aware of how cookies work and how we leverage cookies just
                 to improve our user experience. If you have queries, please
                 write to us at{" "}
-                <a href="mailto:info@dynamicssquare.com.">
-                <b>info@dynamicssquare.com</b>
+                <a href="mailto:info@dynamicssquare.ca">
+                <b>iinfo@dynamicssquare.ca</b>
                 </a>
                 .
               </p>

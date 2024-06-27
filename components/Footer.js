@@ -382,7 +382,7 @@ const fetchCountryCodeByIP = () => {
                 <div className="icons-left">
                   <i className="bi bi-envelope"></i>
                 </div>
-                <div className="content-right">info@dynamicssquare.com</div>
+                <div className="content-right">info@dynamicssquare.ca</div>
               </div>
             </div>
             <div className="col-lg-4">
@@ -409,7 +409,7 @@ const fetchCountryCodeByIP = () => {
                 <div className="icons-left">
                   <i className="bi bi-envelope"></i>
                 </div>
-                <div className="content-right">info@dynamicssquare.com</div>
+                <div className="content-right">info@dynamicssquare.ca</div>
               </div>
             </div>
           </div>

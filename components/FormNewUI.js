@@ -350,8 +350,8 @@ const fetchCountryCodeByIP = () => {
                     <span>
                       Email Us:{" "}
                     </span>
-                    <a href="mailto:info@dynamicssquare.com">
-                    info@dynamicssquare.com
+                    <a href="mailto:info@dynamicssquare.ca">
+                    info@dynamicssquare.ca
                     </a>
                   </span>
                 </div>

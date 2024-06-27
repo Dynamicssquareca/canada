@@ -38,7 +38,7 @@ const TermsOfUse = () => {
                     <h3>Governing Law</h3>
                     <p>Our Terms of Use is governed by US Law (English Law). If any sort of claim or controversy comes ahead will belong to Dynamics Square's Terms of Service and will be governed by the applicable law in the USA. The US court will have exclusive jurisdiction.</p>
                     <h3>Business Information </h3>
-                    <p>Dynamics Square is fully operated by the MPG Business Information Pvt. Ltd. We have our registered office at 10101 Southwest Freeway Houston, TX 77074. For digital communication, you can reach us at <strong>info@dynamicssquare.com</strong>, and for voice communication, call us on 0281 899 0865.
+                    <p>Dynamics Square is fully operated by the MPG Business Information Pvt. Ltd. We have our registered office at 10101 Southwest Freeway Houston, TX 77074. For digital communication, you can reach us at <strong>info@dynamicssquare.ca</strong>, and for voice communication, call us on 0281 899 0865.
 
 Alternatively, contact us using any of the details listed on our <a href="/contact-us/" >contact us page</a>.</p>
                 </div>
