@@ -73,7 +73,7 @@ const Manufacturing = () => {
               <div className="col-lg-9 col-md-9">
                 <header className="section-header">
                   <h2>Boost Production Quality and Profits with Business Central for Manufacturing</h2>
-                  <p>The Microsoft Dynamics Business Central Manufacturing module helps manufacturers streamline workflows and reduce errors. It offers real-time data, allowing you to make informed decisions.</p>
+                  <p>The Microsoft Dynamics Business Central <b>Manufacturing module</b> helps manufacturers streamline workflows and reduce errors. It offers real-time data, allowing you to make informed decisions.</p>
                   <p>With Dynamics BC functionality, you can optimize production and ensure consistent quality throughout the production process, resulting in reduced waste. </p>
                   <div className="text-center">
                     <a
@@ -95,7 +95,7 @@ const Manufacturing = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>The Business Central Advantage: Rev Up Your Production</h2>
-                <p>Business Central offers numerous benefits to businesses to improve product quality and derive profitability. Let's dive into such benefits in detail:</p>
+                <p><Link href="/solutions/dynamics-365-business-central/"><a>Business Central</a></Link> offers numerous benefits to businesses to improve product quality and derive profitability. Let's dive into such benefits in detail:</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -107,7 +107,7 @@ const Manufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p><b>Agile Manufacturing</b></p>
-                      <p>It brings agility to your business while automatically replanting the production sequence, optimizing raw material stock, and producing exactly what the customer wants.</p>
+                      <p>It brings agility to your business while automatically replanting the production sequence, optimizing <b>raw material stock</b>, and producing exactly what the customer wants.</p>
                     </div>
                   </div>
 
@@ -119,7 +119,7 @@ const Manufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p><b>Effective Inventory Management</b></p>
-                      <p>Managing inventory with Dynamics BC is much easier. Track the list of stored items, understand production demand, and simplify process scheduling to effectively manage inventory.</p>
+                      <p>Managing inventory with Dynamics BC is much easier. Track the list of stored items, understand production demand, and simplify process scheduling to <Link href="/solutions/dynamics-365-supply-chain-management/"><a>effectively manage inventory</a></Link>.</p>
                     </div>
                   </div>
 
@@ -131,7 +131,7 @@ const Manufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p><b>Maintaining Quality Control</b></p>
-                      <p>Microsoft Dynamics 365 Business Central helps track defective products, manage quality control processes, and take proactive action to ensure product quality. </p>
+                      <p><b>Microsoft Dynamics 365 Business Central</b> helps track defective products, manage quality control processes, and take proactive action to ensure product quality. </p>
                     </div>
                   </div>
 
@@ -169,7 +169,7 @@ const Manufacturing = () => {
               <div className="col-lg-9 col-md-9">
                 <header className="section-header">
                   <h2>Achieve Goals Leveraging Efficient Business Central Functionality</h2>
-                  <p>Microsoft Dynamics BC offers various functionalities in manufacturing modules, helping businesses fulfill their requirements. Let's delve into each function:</p>
+                  <p>Microsoft Dynamics BC offers various functionalities in <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>manufacturing modules</a></Link>, helping businesses fulfill their requirements. Let's delve into each function:</p>
                 </header>
               </div>
             </div>
@@ -184,7 +184,7 @@ const Manufacturing = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Bills of Materials</h3>
-                    <p>Specify raw materials, manage thousands of components, communicate with the production floor, and create new BOMs for various requirements.</p>
+                    <p>Specify raw materials, manage thousands of components, communicate with the production floor, and create new <b>BOMs</b> for various requirements.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -208,7 +208,7 @@ const Manufacturing = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Basic Capacity Planning</h3>
-                    <p>Create strategies to meet client expectations, get product visibility, understand your resource constraints, fulfill delivery expectations, and accept new orders accordingly.</p>
+                    <p>Create strategies to meet client expectations, get product visibility, understand your resource constraints, fulfill delivery expectations, and accept <b>new orders accordingly</b>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -220,7 +220,7 @@ const Manufacturing = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Version Management</h3>
-                    <p>Track production processes, changes in customer demand, limited raw materials, manage project changes, manage transparency & precision in work, and record files.</p>
+                    <p>Track production processes, changes in customer demand, limited raw materials, manage project changes, <b>manage transparency & precision</b> in work, and record files.</p>
                   </div>
                 </div>
 
@@ -247,7 +247,7 @@ const Manufacturing = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Standard Cost Worksheet</h3>
-                    <p>Manage inventory and maintain the standard cost of finished items along with different components. Identify overruns and inefficiencies by correcting mistakes in the worksheet.</p>
+                    <p><Link href="/solutions/dynamics-365-supply-chain-management/"><a>Manage inventory</a></Link> and maintain the standard cost of finished items along with different components. Identify overruns and inefficiencies by correcting mistakes in the worksheet.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -271,7 +271,7 @@ const Manufacturing = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Proactive demand management</h3>
-                    <p>Use in-built AI capabilities to predict demand, optimize production schedules, and improve inventory management to streamline the procurement process. </p>
+                    <p>Use in-built <b>AI capabilities</b> to predict demand, optimize production schedules, and improve inventory management to streamline the procurement process. </p>
                   </div>
                 </div>
 
@@ -331,8 +331,8 @@ const Manufacturing = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>Engineer to Order (ETO): Customize Products to Meet Specific Customer Requirements  </h2>
-                  <p>ETO is a kind of manufacturing process where a manufacturer produces a customized product based on a specific requirement. Production starts when the manufacturer receives an order for a certain quantity.</p>
-                  <p>However, such manufacturers face challenges due to variant bills of materials (BOMs), complex projects, and engineering revisions. Let's see how Business Central solves such complex issues:</p>
+                  <p><b>ETO</b> is a kind of manufacturing process where a <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>manufacturer produces</a></Link> a customized product based on a specific requirement. Production starts when the manufacturer receives an order for a certain quantity.</p>
+                  <p>However, such manufacturers face challenges due to variant bills of materials <b>(BOMs)</b>, complex projects, and engineering revisions. Let's see how Business Central solves such complex issues:</p>
                   <ul className="cut-ul">
                     <li>Agile Bill of Materials (BOM) management</li>
                     <li>Real time cost tracking</li>
@@ -346,12 +346,14 @@ const Manufacturing = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>Make to Stock (MTS): Stock Desired Inventory for Future Sales</h2>
-                  <p>MTS is a production strategy where production takes place without having any customer orders. It aims to make products available to customers whenever they want. </p>
-                  <p>However, businesses can face overstocking or understocking due to not having a clear picture of customers' demand. Here, these features are essential for make-to-stock:</p>
+                  <p><b>MTS</b> is a production strategy where production takes place without having any customer orders. It aims to make products available to customers whenever they want. </p>
+                  <p>However, businesses can face overstocking or understocking due to not having a clear picture of customers' demand. Here, these features are essential for <b>make-to-stock</b>:</p>
                   <ul className="cut-ul">
                     <li>Inventory & warehouse management</li>
-                    <li>Material resource planning (MRP)</li>
-                    <li>Master production scheduling (MPS)</li>
+                    <li>Material resource planning(MRP)</li>
+                    <li>Master production schedulingb
+                    (MPS)
+                    </li>
                     <li>Demand & sales forecasting</li>
                   </ul>
                 </div>
@@ -383,11 +385,11 @@ const Manufacturing = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>Make to Order (MTO): Manufacture on Demand</h2>
-                  <p>Make-to-order is a kind of manufacturing where businesses produce goods when they receive orders from customers. Once the business receives orders, they will start the production process from scratch. It is generally used when the product specification varies from one order to another.</p>
+                  <p><b>Make-to-order</b> is a kind of manufacturing where businesses produce goods when they receive orders from customers. Once the business receives orders, they will start the production process from scratch. It is generally used when the product specification varies from one order to another.</p>
                   <p>MTO Manufactures faces challenges in maintaining efficient production flow, managing configurations, and streamlining order fulfillment. Hence, Business Central offers various features to handle manufacturing:</p>
                   <ul className="cut-ul">
                     <li>Production order tracking</li>
-                    <li>Material resource planning (MRP)</li>
+                    <li>Material resource planning<b>(MRP)</b></li>
                     <li>Warehouse visibility</li>
                     <li>Customer contract pricing</li>
                   </ul>
@@ -401,7 +403,7 @@ const Manufacturing = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>Get Unmatched Expertise from Dynamics Square</h2>
-                <p>We are a leading Microsoft Solutions Partner, helping businesses like yours become smarter, more efficient, and more productive.</p>
+                <p>We are a leading <Link href="/"><a>Microsoft Solutions Partner</a></Link>, helping businesses like yours become smarter, more efficient, and more productive.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -412,7 +414,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>14+ years of industrial experience</p>
+                      <p><b>14+ years</b> of industrial experience</p>
                     </div>
                   </div>
 
@@ -423,7 +425,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>135+ highly skilled Microsoft consultants</p>
+                      <p><b>135+</b> highly skilled Microsoft consultants</p>
                     </div>
                   </div>
 
@@ -434,7 +436,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>250+ trusted worldwide clients</p>
+                      <p><b>250+</b> trusted worldwide clients</p>
                     </div>
                   </div>
 
@@ -445,7 +447,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Offer trusted and reliable Business Central support</p>
+                      <p>Offer trusted and reliable <Link href="/dynamics-365-business-central-erp-support/"><a>Business Central support</a></Link></p>
                     </div>
                   </div>
 
