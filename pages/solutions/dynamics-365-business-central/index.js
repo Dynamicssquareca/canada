@@ -259,8 +259,8 @@ const Index = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="new-sol-con-side">
-                <p>Dynamics 365 Business Central, formerly known as Dynamics NAV, is a comprehensive cloud ERP solution embedded with modern technologies of AI and BI to streamline the diverse processes of SMBs.</p>
-                <p>Microsoft Business Central is a powerful solution that comes with advanced capabilities and business-centric functionalities for businesses. It connects, manages, and streamlines different departments that include finance, sales, supply chain operations, and HR.</p>
+                <p>Dynamics 365 Business Central, formerly known as <a href="/solutions/microsoft-dynamics-nav/" ><b>Dynamics NAV</b></a>, is a comprehensive cloud ERP solution embedded with modern technologies of AI and BI to streamline the diverse processes of <b>SMBs</b>.</p>
+                <p>Microsoft Business Central is a powerful solution that comes with advanced capabilities and business-centric functionalities for businesses. It connects, manages, and streamlines different departments that include finance, sales, <a href="/solutions/dynamics-365-supply-chain-management/"><b>supply chain</b></a> operations, and HR.</p>
                 <p>D365 BC offers the power of AI enabled Copilot assistance to enhance productivity, get real-time insights to make data-driven decisions, and simplify processes to enhance overall efficiency with improved visibility. </p>
               </div>
             </div>
@@ -1171,17 +1171,7 @@ const Index = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="col-lg-6">
-                            <div className="busines-service-list">
-                              <div className="icons">
-                                <i className="bi bi-check-lg"></i>
-                              </div>
-                              <div className="content">
-                                <h4>Item Attributes</h4>
-                                <p>Categorize items based on type, brand, or other criteria to classify items.</p>
-                              </div>
-                            </div>
-                          </div>
+                          
                           <div className="col-lg-6">
                             <div className="busines-service-list">
                               <div className="icons">
@@ -2147,17 +2137,7 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Item Attributes</h4>
-                          <p>Categorize items based on type, brand, or other criteria to classify items.</p>
-                        </div>
-                      </div>
-                    </div>
+                   
                     <div className="col-lg-6">
                       <div className="busines-service-list">
                         <div className="icons">
