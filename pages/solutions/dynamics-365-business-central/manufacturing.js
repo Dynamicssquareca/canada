@@ -1,7 +1,7 @@
 import React from "react";
 import Head from 'next/head'
 import Link from "next/link";
-
+import Image from "next/image";
 const Manufacturing = () => {
   return (
     <>
@@ -11,7 +11,6 @@ const Manufacturing = () => {
           name="description"
           content="Business Central in manufacturing optimizes production, ensures consistent quality, reduces waste, understands production demand, and simplifies process scheduling for effective inventory management."
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/manufacturing/"
@@ -22,7 +21,7 @@ const Manufacturing = () => {
         <meta property="og:description" content="Business Central in manufacturing optimizes production, ensures consistent quality, reduces waste, understands production demand, and simplifies process scheduling for effective inventory management." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/manufacturing/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Business-Central-for-Manufacturing.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +29,7 @@ const Manufacturing = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central for Manufacturing | Dynamics 365" />
         <meta name="twitter:description" content="Business Central in manufacturing optimizes production, ensures consistent quality, reduces waste, understands production demand, and simplifies process scheduling for effective inventory management." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Business-Central-for-Manufacturing.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -59,9 +58,12 @@ const Manufacturing = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/industry-startup-banner.png"
-                  alt="Dynamics 365 For Startups"
+                <Image
+                  src="/img/Business-Central-for-Manufacturing.png"
+                  alt="Business-Central-for-Manufacturing"
+                  width={659}
+                  height={447}
+                  priority={true}
                 />
               </div>
             </div>
@@ -178,8 +180,10 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_seamless customisation.svg"
-                      alt="icons-_seamless customisation"
+                      src="/img/Bills-of-Materials.png"
+                      alt="Bills-of-Materials"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -189,9 +193,11 @@ const Manufacturing = () => {
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
+                  <img
+                      src="/img/Assembly--Management.png"
+                      alt="Assembly--Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -201,9 +207,11 @@ const Manufacturing = () => {
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_manage customer.svg"
-                      alt="icons-_manage customer"
+                  <img
+                      src="/img/Basic-Capacity-Planning.png"
+                      alt="Basic-Capacity-Planning"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -213,9 +221,11 @@ const Manufacturing = () => {
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_decison making.svg"
-                      alt="icons-_decison making"
+                  <img
+                      src="/img/Version-Management.png"
+                      alt="Version-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -228,9 +238,11 @@ const Manufacturing = () => {
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_drive automation.svg"
-                      alt="icons-_drive automation"
+                  <img
+                      src="/img/Finite-Loading.png"
+                      alt="Finite-Loading"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -240,9 +252,11 @@ const Manufacturing = () => {
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_enterprise mobility.svg"
-                      alt="icons-_enterprise mobility"
+                  <img
+                      src="/img/Standard-Cost-Worksheet.png"
+                      alt="Standard-Cost-Worksheet"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -252,9 +266,11 @@ const Manufacturing = () => {
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                  <img
+                      src="/img/Machine-Centers.png"
+                      alt="Machine-Centers"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -264,9 +280,11 @@ const Manufacturing = () => {
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                  <img
+                      src="/img/Proactive-demand-management.png"
+                      alt="Proactive-demand-management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -317,13 +335,15 @@ const Manufacturing = () => {
         <section className="busine_service_bottom">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/startup-side.png"
-                      className="fix-im"
+                    <Image
+                      src="/img/ETO-report.png"
+                      className="ETO-report"
                       alt="bisin_leftimg"
+                      width={445}
+                      height={359}
                     />
                   </div>
                 </div>
@@ -358,26 +378,30 @@ const Manufacturing = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/startup-side.png"
-                      className="fix-im"
+                    <Image
+                      src="/img/MTS-report.png"
+                      className="MTS-report"
                       alt="bisin_leftimg"
+                      width={488}
+                      height={359}
                     />
                   </div>
                 </div>
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/startup-side.png"
-                      className="fix-im"
+                    <Image
+                      src="/img/MTO-report.png"
+                      className="MTO-report"
                       alt="bisin_leftimg"
+                      width={456}
+                      height={327}
                     />
                   </div>
                 </div>

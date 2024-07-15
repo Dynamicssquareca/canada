@@ -1,7 +1,7 @@
 import React from "react";
 import Head from 'next/head'
 import Link from "next/link";
-
+import Image from "next/image";
 const Education = () => {
   return (
     <>
@@ -11,7 +11,6 @@ const Education = () => {
           name="description"
           content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today. "
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/education/"
@@ -22,7 +21,7 @@ const Education = () => {
         <meta property="og:description" content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/education/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Business-Central-for-Education.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +29,7 @@ const Education = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central for Education Institutions" />
         <meta name="twitter:description" content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Business-Central-for-Education.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -59,9 +58,12 @@ const Education = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/industry-startup-banner.png"
-                  alt="Dynamics 365 For Startups"
+                <Image
+                  src="/img/Business-Central-for-Education.png"
+                  alt="Business-Central-for-Education"
+                  width={659}
+                  height={447}
+                  priority={true}
                 />
               </div>
             </div>
@@ -177,8 +179,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_seamless customisation.svg"
-                      alt="icons-_seamless customisation"
+                      src="/img/K-12-Parent-and-Student-Portal.png"
+                      alt="K-12-Parent-and-Student-Portal"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -189,8 +193,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
+                      src="/img/Student-Management.png"
+                      alt="Student-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -201,8 +207,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_manage customer.svg"
-                      alt="icons-_manage customer"
+                      src="/img/Financial--Management.png"
+                      alt="Financial--Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -213,8 +221,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_decison making.svg"
-                      alt="icons-_decison making"
+                      src="/img/Seamless--Integration.png"
+                      alt="Seamless--Integration"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -225,8 +235,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_connect collobrate.svg"
-                      alt="icons-_connect collobrate"
+                      src="/img/Efficient-Resource-Management.png"
+                      alt="Efficient-Resource-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -239,8 +251,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_drive automation.svg"
-                      alt="icons-_drive automation"
+                      src="/img/Student-Information-System-Integration.png"
+                      alt="Student-Information-System-Integration"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -251,8 +265,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_enterprise mobility.svg"
-                      alt="icons-_enterprise mobility"
+                      src="/img/Reporting-and--Analytics.png"
+                      alt="Reporting-and--Analytics"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -263,8 +279,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                      src="/img/Project--Management.png"
+                      alt="Project--Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -275,8 +293,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                      src="/img/Human-Capital-Management.png"
+                      alt="Human-Capital-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -287,8 +307,10 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                      src="/img/Payroll-Management.png"
+                      alt="Payroll-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -327,10 +349,12 @@ const Education = () => {
               <div className="col-lg-6">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/startup-side.png"
-                      className="fix-im"
+                    <Image
+                      src="/img/Business-Central-for-Education-side.png"
+                      className="Business-Central-for-Education-side"
                       alt="bisin_leftimg"
+                      width={439}
+                      height={435}
                     />
                   </div>
                 </div>

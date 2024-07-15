@@ -1,7 +1,7 @@
 import React from "react";
 import Head from 'next/head'
 import Link from "next/link";
-
+import Image from "next/image";
 const Warehouse = () => {
   return (
     <>
@@ -11,7 +11,6 @@ const Warehouse = () => {
           name="description"
           content="Business Central offers a comprehensive WMS to optimize inventory, improve warehouse efficiency, and boost customer satisfaction with real-time insights. Call +1 778 381 5388 for a demo or get in touch with our team today. "
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/warehouse-management/"
@@ -22,7 +21,7 @@ const Warehouse = () => {
         <meta property="og:description" content="Business Central offers a comprehensive WMS to optimize inventory, improve warehouse efficiency, and boost customer satisfaction with real-time insights. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/warehouse-management/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Warehouse-Management-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +29,7 @@ const Warehouse = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Warehouse Management in Dynamics 365 Business Central" />
         <meta name="twitter:description" content="Business Central offers a comprehensive WMS to optimize inventory, improve warehouse efficiency, and boost customer satisfaction with real-time insights. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Warehouse-Management-banner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -59,9 +58,12 @@ const Warehouse = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/industry-startup-banner.png"
-                  alt="Dynamics 365 For Startups"
+                <Image
+                  src="/img/Warehouse-Management-banner.png"
+                  alt="Warehouse-Management-banner"
+                  width={659}
+                  height={447}
+                  priority={true}
                 />
               </div>
             </div>
@@ -177,8 +179,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_seamless customisation.svg"
-                      alt="icons-_seamless customisation"
+                      src="/img/Inbuilt-AI.png"
+                      alt="Inbuilt-AI"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -189,8 +193,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
+                      src="/img/Item-Receiving.png"
+                      alt="Item-Receiving"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -201,8 +207,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
+                      src="/img/Item-Shipping.png"
+                      alt="Item-Shipping"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -213,8 +221,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_manage customer.svg"
-                      alt="icons-_manage customer"
+                      src="/img/Cross-Docking.png"
+                      alt="Cross-Docking"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -225,8 +235,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_decison making.svg"
-                      alt="icons-_decison making"
+                      src="/img/Inventory-Put-Away-and-Replenishment.png"
+                      alt="Inventory-Put-Away-and-Replenishment"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -234,14 +246,16 @@ const Warehouse = () => {
                     <p>Organize your warehouse for optimal efficiency with designated storage locations for received items. Automated inventory replenishment helps fulfill orders smoothly.</p>
                   </div>
                 </div>
-               
+
               </div>
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_drive automation.svg"
-                      alt="icons-_drive automation"
+                      src="/img/Inventory---Movement.png"
+                      alt="Inventory---Movement"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -252,8 +266,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_enterprise mobility.svg"
-                      alt="icons-_enterprise mobility"
+                      src="/img/Bin-Management.png"
+                      alt="Bin-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -264,8 +280,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                      src="/img/Barcode-Scanning.png"
+                      alt="Barcode-Scanning"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -276,8 +294,10 @@ const Warehouse = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
+                      src="/img/Real-time-Inventory-Visibility.png"
+                      alt="Real-time-Inventory-Visibility"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -285,7 +305,7 @@ const Warehouse = () => {
                     <p>Gain a clear picture of your inventory levels across all locations in real time. This empowers data-driven decisions regarding <b>stock replenishment and purchasing</b>. </p>
                   </div>
                 </div>
-              
+
               </div>
             </div>
           </div>
@@ -317,10 +337,12 @@ const Warehouse = () => {
               <div className="col-lg-6">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/startup-side.png"
-                      className="fix-im"
+                    <Image
+                      src="/img/Warehouse-Management-side.png"
+                      className="Warehouse-Management-side"
                       alt="bisin_leftimg"
+                      width={482}
+                      height={513}
                     />
                   </div>
                 </div>

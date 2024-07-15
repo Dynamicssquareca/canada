@@ -425,8 +425,8 @@
     <lastmod>2024-05-03T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-  
-    <url>
+
+  <url>
     <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-for-manufacturing/</loc>
     <lastmod>2024-06-11T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
@@ -436,7 +436,7 @@
     <lastmod>2024-05-23T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.dynamicssquare.ca/blog/business-central-pricing-guide-canada/</loc>
     <lastmod>2024-05-07T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
@@ -475,11 +475,11 @@
   </url>
   <url>
     <loc>https://www.dynamicssquare.ca/blog/dynamics-gp-vs-dynamics-365-business-central/
- </loc>
+    </loc>
     <lastmod>2024-06-07T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.dynamicssquare.ca/blog/dynamics-365-business-central-in-smb/</loc>
     <lastmod>2024-06-11T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
@@ -499,14 +499,29 @@
     <lastmod>2024-06-28T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.dynamicssquare.ca/blog/best-crm-software-for-smbs-and-large-enterprises/</loc>
     <lastmod>2024-07-02T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-     <url>
+  <url>
     <loc>https://www.dynamicssquare.ca/blog/top-erp-solution-for-healthcare/</loc>
     <lastmod>2024-07-04T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/education/</loc>
+    <lastmod>2024-07-15T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/warehouse-management/</loc>
+    <lastmod>2024-07-15T12:40:21+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/manufacturing/</loc>
+    <lastmod>2024-07-15T12:40:21+00:00</lastmod>
     <priority>0.51</priority>
   </url>
 </urlset>
