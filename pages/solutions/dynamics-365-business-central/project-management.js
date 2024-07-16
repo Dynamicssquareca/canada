@@ -371,7 +371,7 @@ const ProjectManagement = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p><a href="/services/dynamics-365-support/"><b>Post implementation support</b></a></p>
+                      <p>Post implementation support</p>
                     </div>
                   </div>
 
