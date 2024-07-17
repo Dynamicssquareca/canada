@@ -9916,14 +9916,15 @@ form .error {
 .box-dd-1 h3{
   font-size: 16px;
   color: #30475e;
-  line-height: 1.5;
+  line-height: 1.5 !important;
   font-weight:600;
   margin-bottom:20px
 }
 .box-dd-1 p{
   font-size: 16px;
   color: #30475e;
-  line-height: 1.5;
+  line-height: 1.5 !important;
+  margin-bottom: 0;
 }
 .flex-11{
   flex:1 1 auto
@@ -9933,7 +9934,7 @@ form .error {
   font-size: 48px;
   font-weight: 600;
   color: #30475e;
-  margin-bottom:30px;
+  margin-bottom:20px;
   line-height: 1.5 !important;
 }
 .case-new-hedaing h4{
@@ -9945,12 +9946,43 @@ form .error {
 }
 .case-new-hedaing p{
   color: #30475e;
-  margin-bottom: 25  px;
+  margin-bottom: 25px;
   line-height: 1.5 !important;
 }
 .case-new-hedaing ul li{
   color: #30475e;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 1.5 !important;
+}
+.box-dd-11{
+  margin-top:30px
+}
+.box-dd-11 p{
+  color: #30475e;
+}
+.bg-g-blue{
+  background-color: #30475e;
+}
+.box-dd-1.flex-11-colo h3,.box-dd-1.flex-11-colo p{
+  color:#ffffff;
+  margin-bottom: 10px;
+}
+.box-dd-1.flex-11-colo {
+  background-color: #3a526b;
+  margin-bottom:25px
+}
+.tt-heading{
+padding-bottom:44px
+}
+.tt-heading h2{
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.tt-heading p{
+  color: #fff;
+  margin-bottom: 0;
   line-height: 1.5 !important;
 }
 @media (max-width: 1400px) {
