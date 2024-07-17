@@ -10040,17 +10040,22 @@ line-height: 1.5rem;
 .blog-content.active {
   background-color: #fff;
 }
-.blog-content.active .blog-content-text {
-  font-size: 16px !important;
-  color:#273266;
-}
+
 .blog-content.active .blog-content-text {
   display: block;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+color:var(--color-red); 
+}
+.blog-content.active .blog-content-text:hover{
+  color: #273266;
 }
 .inner a{
 text-decoration: none;
  
+}
+.blog-content.active ul{
+  margin-bottom: 15px;
 }
 
 
