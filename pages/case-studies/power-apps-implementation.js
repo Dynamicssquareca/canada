@@ -1,21 +1,31 @@
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { Autoplay, FreeMode, Pagination } from "swiper";
 const CaseStudySpectra = () => {
   return (
     <>
       <Head>
-        <title>Dynamics NAV 2013 | Implement Custom EFT Module</title>
-        <meta name="robots" content="noindex, nofollow" />
-        <meta name="description" content="Learn how a custom EFT module was implemented in Dynamics NAV 2013 for an aluminum extrusion company, streamlining payment processing. " />
-        <link rel="canonical" href="https://www.dynamicssquare.ca/case-studies/dynamics-nav13-eft-implementation/" />
-        <meta name="robots" content="noindex, nofollow" />
+        <title>Microsoft Power Apps Implementation</title>
+        <meta name="description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability. " />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.ca/case-studies/power-apps-implementation/"
+        />
+        <meta property="og:locale" content="CAD" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Power Apps Implementation" />
+        <meta property="og:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability. " />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/case-studies/power-apps-implementation/" />
+        <meta property="og:site_name" content="Dynamics Square CA" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_ca" />
+        <meta name="twitter:title" content="Microsoft Power Apps Implementation" />
+        <meta name="twitter:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
+
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -48,7 +58,7 @@ const CaseStudySpectra = () => {
         </div>
       </div>
 
-      <section>
+      <section className="cu-pfd-30">
         <div className="container">
           <div className="row p-20-3">
             <div className="col-lg-6">
@@ -97,7 +107,7 @@ const CaseStudySpectra = () => {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="box-dd-1 flex-11">
-                <h3>Inefficient <br />Issue Tracking:</h3>
+                <h3>Inefficient Issue Tracking:</h3>
                 <p>Their existing application for logging and storing issues resided on an SQL server, requiring significant manual effort for data maintenance and updates.</p>
               </div>
             </div>
@@ -113,7 +123,7 @@ const CaseStudySpectra = () => {
       </section>
 
 
-      <section>
+      <section className="cu-pfd-30">
         <div className="container">
           <div className="row">
 
@@ -137,7 +147,7 @@ const CaseStudySpectra = () => {
         </div>
       </section>
 
-      <section style={{ backgroundColor: '#f7f7f7' }}>
+      <section style={{ backgroundColor: '#f7f7f7' }} >
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
@@ -161,7 +171,7 @@ const CaseStudySpectra = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="cu-pfd-30">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -184,7 +194,7 @@ const CaseStudySpectra = () => {
       </section>
 
 
-      <section>
+      <section className="cu-pfd-30">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -220,7 +230,7 @@ const CaseStudySpectra = () => {
       </section>
 
 
-      <section className="bg-g-blue">
+      <section className="bg-g-blue cu-pfd-30">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

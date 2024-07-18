@@ -9900,13 +9900,13 @@ form .error {
   color: #30475e;
 }
 .p-20-3{
-  padding: 30px 0px 60px;
+  padding: 30px 0px 30px;
 }
 .p-20-4{
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .p-20-5{
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .box-dd-1{
@@ -9918,7 +9918,7 @@ form .error {
   color: #30475e;
   line-height: 1.5 !important;
   font-weight:600;
-  margin-bottom:20px
+  margin-bottom:15px
 }
 .box-dd-1 p{
   font-size: 16px;
@@ -9984,6 +9984,9 @@ padding-bottom:44px
   color: #fff;
   margin-bottom: 0;
   line-height: 1.5 !important;
+}
+.cu-pfd-30{
+  padding: 30px 0px;
 }
 /*rajnish code*/
 /*rajnish code*/
@@ -10101,7 +10104,7 @@ text-decoration: none;
   padding: 30px 0px 30px;
 }
 .p-20-4 {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .p-20-5 {
   padding-bottom: 30px;

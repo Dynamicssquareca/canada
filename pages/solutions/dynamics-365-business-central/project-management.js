@@ -22,7 +22,7 @@ const ProjectManagement = () => {
         <meta property="og:description" content="Dynamics 365 Business Central Project Management module offers collaboration across different departments, from sales to finance, to maximize profitability and embrace real-time project management. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/project-management/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Warehouse-Management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Warehouse-Management-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +30,7 @@ const ProjectManagement = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="D365 Business Central for Project Management" />
         <meta name="twitter:description" content="Dynamics 365 Business Central Project Management module offers collaboration across different departments, from sales to finance, to maximize profitability and embrace real-time project management." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Warehouse-Management-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Warehouse-Management-banner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
