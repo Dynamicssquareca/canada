@@ -216,7 +216,7 @@ const CaseStudySpectra = () => {
             </div>
             <div className="col-lg-4 d-flex">
               <div className="box-dd-1 flex-11">
-                <h3>Inefficient <br />Issue Tracking:</h3>
+                <h3>Inefficient Issue Tracking:</h3>
                 <p>Their existing application for logging and storing issues resided on an SQL server, requiring significant manual effort for data maintenance and updates.</p>
               </div>
             </div>
