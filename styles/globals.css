@@ -11097,7 +11097,7 @@ transform:translateY(-15px)
   display:none
 }
 .row-d .swiper-wrapper{
-  margin-left:auto
+  margin-left:-20px
 }
 .navs-list {
   display: flex;
