@@ -11099,5 +11099,32 @@ transform:translateY(-15px)
 .row-d .swiper-wrapper{
   margin-left:auto
 }
+.navs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navs-list ul{
+  flex: 100%;
+  margin-left: 0;
+}
+.navs-list .content{
+  flex: 100%;
+}
+.col-pd-22 {
+  background: #30475e;
+  margin-top: -60px;
+  position: relative;
+  padding: 70px 15px;
+}
+.navs-list ul li:nth-child(1),.navs-list ul li:nth-child(2),.navs-list ul li:nth-child(3),.navs-list ul li:nth-child(4),.navs-list ul li:nth-child(5),.navs-list ul li:nth-child(6){
+  position: relative;
+  left: inherit;
+  right: inherit;
+  top: inherit;
+  bottom: inherit;
+}
+.navs-list .content h3 .tit-1 {
+  font-size: 46px;
+}
 }
 /*home page new*/
