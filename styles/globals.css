@@ -11037,6 +11037,49 @@ transform:translateY(-15px)
 .poster-card,.home-bottom-card-one {
   margin-bottom: 20px;
 }
+.navs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navs-list ul{
+  flex: 100%;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.navs-list .content{
+  flex: 100%;
+}
+.col-pd-22 {
+  background: #30475e;
+  margin-top: -60px;
+  position: relative;
+  padding: 30px 15px;
+}
+.navs-list ul li:nth-child(1),.navs-list ul li:nth-child(2),.navs-list ul li:nth-child(3),.navs-list ul li:nth-child(4),.navs-list ul li:nth-child(5),.navs-list ul li:nth-child(6){
+  position: relative;
+  left: inherit;
+  right: inherit;
+  top: inherit;
+  bottom: inherit;
+  padding: 10px;
+}
+.navs-list .content h3 .tit-2 {
+  font-size: 28px;
+}
+.navs-list .content h3 .tit-3{
+  font-size: 20px;
+}
+.navs-list .content h3 sup {
+  top: -1em;
+}
+.navs-list .nav svg,.navs-list .nav.active svg, .navs-list .nav:hover svg {
+  width: 30px;
+  height: 30px;
+  color: #9AAAB9;
+}
+.navs-list .content h3 .tit-1 {
+  font-size: 40px;
+}
 }
 @media (max-width: 768px){
   .video-conte h1, .video-conte h2{
@@ -11097,50 +11140,16 @@ transform:translateY(-15px)
   display:none
 }
 .row-d .swiper-wrapper{
-  margin-left:-20px
+  margin-left:-35px
 }
-.navs-list {
-  display: flex;
-  flex-wrap: wrap;
+
+.bc-bg .swiper-slide {
+  padding-left: 40px;
+  margin-right: -30px !important;
 }
-.navs-list ul{
-  flex: 100%;
-  margin-left: 0;
-  margin-bottom: 10px;
-}
-.navs-list .content{
-  flex: 100%;
-}
-.col-pd-22 {
-  background: #30475e;
-  margin-top: -60px;
-  position: relative;
-  padding: 30px 15px;
-}
-.navs-list ul li:nth-child(1),.navs-list ul li:nth-child(2),.navs-list ul li:nth-child(3),.navs-list ul li:nth-child(4),.navs-list ul li:nth-child(5),.navs-list ul li:nth-child(6){
-  position: relative;
-  left: inherit;
-  right: inherit;
-  top: inherit;
-  bottom: inherit;
-  padding: 10px;
-}
-.navs-list .content h3 .tit-2 {
-  font-size: 28px;
-}
-.navs-list .content h3 .tit-3{
-  font-size: 20px;
-}
-.navs-list .content h3 sup {
-  top: -1em;
-}
-.navs-list .nav svg,.navs-list .nav.active svg, .navs-list .nav:hover svg {
-  width: 30px;
-  height: 30px;
-  color: #9AAAB9;
-}
-.navs-list .content h3 .tit-1 {
-  font-size: 40px;
+.navs-list .content a {
+  padding: 11px 25px;
+  font-size: 14px;
 }
 }
 /*home page new*/
