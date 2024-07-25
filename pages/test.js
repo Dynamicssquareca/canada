@@ -405,11 +405,32 @@ const Test = () => {
           </div>
           <div className="row-d">
             <Swiper
-              slidesPerView={4}
               spaceBetween={30}
               centeredSlides={true}
               pagination={{
                 clickable: false,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                1300: {
+                  slidesPerView: 3,
+                  spaceBetween: 10,
+                },
+                1400: {
+                  slidesPerView: 4,
+                  spaceBetween: 10,
+                },
               }}
 
               className="mySwiper"
@@ -673,7 +694,8 @@ const Test = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="new-main-heading">
-                  <h2>Why Dynamics Square?</h2>
+                  <h2>Partner with a Passionate Team: The Dynamics Square Advantage </h2>
+                  <p>We are a team of <b>135+</b> Microsoft-certified Dynamics consultants with a proven track record of offering reliable and trustworthy services to <b>350+</b> global clients. Our superior infrastructure enables us to offer cost-effective services around the clock. For the last <b>14+ years</b>, Dynamics Square has been transforming businesses with futuristic solutions and an exceptional customer experience. </p>
                 </div>
               </div>
             </div>
@@ -683,27 +705,27 @@ const Test = () => {
                 <div className="home-bottom-card-one flex-aa">
                     <div className="top-tr">
                       <i class="bi bi-check-lg"></i>
-                      <h3>Integrated Business Processes</h3>
+                      <h3>Accelerated ROI </h3>
                     </div>
-                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                    <p>Our customized solutions deliver great ROI by streamlining operations, enhancing efficiency, and boosting productivity. </p>
                 </div>
               </div>
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
                     <div className="top-tr">
                       <i class="bi bi-check-lg"></i>
-                      <h3>Integrated Business Processes</h3>
+                      <h3>Industry Expertise </h3>
                     </div>
-                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                    <p>We have experts with deep understanding of different industries that enable them to find your business challenges and eliminate them with the perfect solution. </p>
                 </div>
               </div>
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
                     <div className="top-tr">
                       <i class="bi bi-check-lg"></i>
-                      <h3>Integrated Business Processes</h3>
+                      <h3>End-to-End Support</h3>
                     </div>
-                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                    <p>From business audits to post-implementation support, our dedicated team ensures the smooth functioning of your Dynamics 365 solution. </p>
                 </div>
               </div>
             </div>
