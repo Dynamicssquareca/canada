@@ -10552,7 +10552,7 @@ text-decoration: none;
   box-shadow: 5px 5px 25px 0 rgba(58, 105, 173, 0.15);
   background-color: #fff;
   padding: 30px;
-  height: 330px;
+  /* height: 330px; */
 }
 .poster-card .card-body .card-title {
   font-family: Inter;
@@ -10772,6 +10772,7 @@ height:50px;
   /* margin-top: -160px; */
   position: relative;
   z-index: 1;
+  margin-bottom:-60px
 }
 .mySwiper.mySwiper-testi .swiper-button-next,.mySwiper.mySwiper-testi .swiper-button-prev{
   width: 36px;
@@ -10899,6 +10900,33 @@ transform:translateY(-15px)
   40%, 60% {
     transform: translate3d(2px, 0, 0);
 }
+}
+
+.home-bottom-card-one{
+  padding:40px;
+  -webkit-box-shadow: 5px 5px 25px 0 rgba(58, 105, 173, 0.15);
+  -moz-box-shadow: 5px 5px 25px 0 rgba(58, 105, 173, 0.15);
+  box-shadow: 5px 5px 25px 0 rgba(58, 105, 173, 0.15);
+}
+.home-bottom-card-one .top-tr{
+  display: flex;
+  gap: 20px;
+  
+}
+.home-bottom-card-one .top-tr .bi{
+  color: #30475e;
+}
+.home-bottom-card-one .top-tr h3{
+  font-size: 18px;
+  font-weight: 600;
+  color: #30475e;
+  padding-bottom: 20px;
+}
+.home-bottom-card-one p{
+  margin-bottom:0px
+}
+.flex-aa{
+  flex:1 1 auto
 }
 
 
