@@ -413,7 +413,7 @@ const Test = () => {
               breakpoints={{
                 640: {
                   slidesPerView: 1,
-                  spaceBetween: 20,
+                  spaceBetween: 30,
                 },
                 768: {
                   slidesPerView: 1,

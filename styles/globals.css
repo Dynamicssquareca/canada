@@ -11034,6 +11034,9 @@ transform:translateY(-15px)
 .mySwiper.mySwiper-testi .testn-inner {
   padding: 36px 40px;
 }
+.poster-card,.home-bottom-card-one {
+  margin-bottom: 20px;
+}
 }
 @media (max-width: 768px){
   .video-conte h1, .video-conte h2{
@@ -11092,6 +11095,9 @@ transform:translateY(-15px)
 }
 .back-dd{
   display:none
+}
+.row-d .swiper-wrapper{
+  margin-left:auto
 }
 }
 /*home page new*/
