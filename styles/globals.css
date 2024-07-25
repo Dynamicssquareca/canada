@@ -11106,7 +11106,7 @@ transform:translateY(-15px)
 .navs-list ul{
   flex: 100%;
   margin-left: 0;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 .navs-list .content{
   flex: 100%;
@@ -11140,7 +11140,7 @@ transform:translateY(-15px)
   color: #9AAAB9;
 }
 .navs-list .content h3 .tit-1 {
-  font-size: 46px;
+  font-size: 40px;
 }
 }
 /*home page new*/
