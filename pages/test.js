@@ -1,3 +1,4 @@
+import { useState,useEffect } from 'react';
 import Head from "next/head";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -6,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation,Mousewheel } from "swiper";
 import Link from "next/link";
 import VideoPlayer from "../components/VideoPlayer";
 import LinkWithFadeOut from "../components/LinkWithFadeOut";
@@ -14,6 +15,39 @@ import ROIPage from "../components/ROIPage";
 
 
 const Test = () => {
+
+  const [swiperInstance, setSwiperInstance] = useState(null);
+  const [isLastSlide, setIsLastSlide] = useState(false);
+
+  useEffect(() => {
+    if (swiperInstance) {
+      swiperInstance.on('slideChange', () => {
+        setIsLastSlide(swiperInstance.isEnd);
+      });
+    }
+  }, [swiperInstance]);
+
+  const handleWheel = (event) => {
+    if (isLastSlide) {
+      event.preventDefault(); // Prevent default scrolling
+      document.querySelector('#next-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleKeyDown = (event) => {
+    if (isLastSlide && (event.key === 'PageUp' || event.key === 'ArrowUp')) {
+      event.preventDefault(); // Prevent default scrolling
+      document.querySelector('#next-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isLastSlide]);
+
 
   return (
     <>
@@ -403,13 +437,20 @@ const Test = () => {
               </div>
             </div>
           </div>
-          <div className="row-d">
+          <div className="row-d" onWheel={handleWheel}>
             <Swiper
+            onSwiper={setSwiperInstance}
               spaceBetween={30}
               centeredSlides={true}
+              grabCursor={true}
+              mousewheel={{
+                enabled: !isLastSlide, // Disable mousewheel if on the last slide
+                sensitivity: 1,
+              }}
               pagination={{
                 clickable: false,
               }}
+              modules={[Mousewheel]}
               breakpoints={{
                 640: {
                   slidesPerView: 1,
@@ -573,7 +614,7 @@ const Test = () => {
         </section>
 
 
-        <section className="col-pd-22">
+        <section className="col-pd-22" id="next-section">
           <div className="container">
             <LinkWithFadeOut />
 
