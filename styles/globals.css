@@ -9869,7 +9869,7 @@ form .error {
   background-size:cover
 }
 .banner-case-info .g-color{
-  background-color:#30475e;
+  background-color:#19376d;
   padding: 60px 70px;
   color: #ffffff;
   margin-top: -170px;
@@ -9893,11 +9893,11 @@ form .error {
 .case-s-heading h2{
   font-size: 48px;
   font-weight: 600;
-  color: #30475e;
+  color: #19376d;
 }
 .case-s-paragraph p{
   font-size: 16px;
-  color: #30475e;
+  color: #19376d;
 }
 .p-20-3{
   padding: 30px 0px 30px;
@@ -9915,14 +9915,14 @@ form .error {
 }
 .box-dd-1 h3{
   font-size: 16px;
-  color: #30475e;
+  color: #19376d;
   line-height: 1.5 !important;
   font-weight:600;
   margin-bottom:15px
 }
 .box-dd-1 p{
   font-size: 16px;
-  color: #30475e;
+  color: #19376d;
   line-height: 1.5 !important;
   margin-bottom: 0;
 }
@@ -9933,24 +9933,24 @@ form .error {
 .case-new-hedaing h3{
   font-size: 48px;
   font-weight: 600;
-  color: #30475e;
+  color: #19376d;
   margin-bottom:20px;
   line-height: 1.5 !important;
 }
 .case-new-hedaing h4{
-  color: #30475e;
+  color: #19376d;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 8px;
     line-height: 1.5 !important;
 }
 .case-new-hedaing p{
-  color: #30475e;
+  color: #19376d;
   margin-bottom: 25px;
   line-height: 1.5 !important;
 }
 .case-new-hedaing ul li{
-  color: #30475e;
+  color: #19376d;
   margin-bottom: 15px;
   line-height: 1.5 !important;
 }
@@ -9958,10 +9958,10 @@ form .error {
   margin-top:30px
 }
 .box-dd-11 p{
-  color: #30475e;
+  color: #19376d;
 }
 .bg-g-blue{
-  background-color: #30475e;
+  background-color: #19376d;
 }
 .box-dd-1.flex-11-colo h3,.box-dd-1.flex-11-colo p{
   color:#ffffff;
@@ -10223,7 +10223,7 @@ text-decoration: none;
 .slider-banner:after {
   content: "";
   position: absolute;
-  background: rgb(48 71 94 / 44%);
+  background: rgb(25 55 109 / 58%);
   width: 100%;
   height: 100%;
   opacity: 0.7;
@@ -10292,7 +10292,7 @@ text-decoration: none;
   font-size: 15px;
 }
 .into-banner-bottom {
-  background-color: #30475e;
+  background-color: #19376d;
   padding: 40px 0px;
   margin-top: -6px;
 }
@@ -10361,13 +10361,13 @@ text-decoration: none;
 .new-main-heading h2 {
   font-size: 48px;
   font-weight: 600;
-  color: #30475e;
+  color: #19376d;
   margin-bottom: 20px;
 }
 .new-main-heading p {
   font-size: 18px;
   line-height: 1.5 !important;
-  color: #30475e;
+  color: #19376d;
   font-weight: 400;
 }
 .new-counter-wraper {
@@ -10399,7 +10399,7 @@ text-decoration: none;
 .new-counter-wraper .new-counter p {
   font-size: 18px;
   font-weight: normal;
-  color: #30475e;
+  color: #19376d;
 }
 .new-counter-wraper .new-counter:nth-child(1) h3 {
   color: #f15124;
@@ -10522,7 +10522,7 @@ text-decoration: none;
 }
 .tab-inner-heading h3 {
   font-size: 32px;
-  color: #30475e;
+  color: #19376d;
   font-weight: 400;
 }
 .vide-bg {
@@ -10558,7 +10558,7 @@ text-decoration: none;
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
-  color: #30475e;
+  color: #19376d;
   line-height: 1.2;
   margin-bottom: 15px;
 }
@@ -10566,7 +10566,7 @@ text-decoration: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #30475e;
+  color: #19376d;
   margin-bottom: 15px;
 }
 .poster-card .card-body a {
@@ -10587,7 +10587,7 @@ text-decoration: none;
   height: auto;
 }
 .col-pd-22 {
-  background: #30475e;
+  background: #19376d;
   margin-top: -335px;
   position: relative;
   padding: 450px 0px 300px;
@@ -10688,11 +10688,11 @@ height:50px;
 }
 .navs-list {
   display: flex;
-  align-items: center;
 }
 .navs-list ul {
   flex: 50%;
   position: relative;
+  margin-top:218px
 }
 .navs-list ul li {
   position:relative
@@ -10777,12 +10777,12 @@ height:50px;
 .mySwiper.mySwiper-testi .swiper-button-next,.mySwiper.mySwiper-testi .swiper-button-prev{
   width: 36px;
     height: 36px;
-    border: 2px solid #30475e;
+    border: 2px solid #19376d;
     border-radius: 50%;
 }
 .mySwiper.mySwiper-testi .swiper-button-next:after, .mySwiper.mySwiper-testi .swiper-button-prev:after {
   font-size: 15px;
-  color:#30475e;
+  color:#19376d;
   font-weight: 600;
 }
 .mySwiper.mySwiper-testi .swiper-button-next.swiper-button-disabled, .mySwiper.mySwiper-testi .swiper-button-prev.swiper-button-disabled {
@@ -10805,7 +10805,7 @@ height:50px;
 
 }
 .mySwiper.mySwiper-testi .testn-inner .client-info h3{
-  color:#30475e;
+  color:#19376d;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -10813,7 +10813,7 @@ height:50px;
 .mySwiper.mySwiper-testi .testn-inner .client-info p{
   font-size: 18px;
   line-height: 1.5 !important;
-  color:#30475e;
+  color:#19376d;
   font-weight:400
 }
 .mySwiper.mySwiper-testi .testn-inner .client-info span{
@@ -10914,12 +10914,12 @@ transform:translateY(-15px)
   
 }
 .home-bottom-card-one .top-tr .bi{
-  color: #30475e;
+  color: #19376d;
 }
 .home-bottom-card-one .top-tr h3{
   font-size: 18px;
   font-weight: 600;
-  color: #30475e;
+  color: #19376d;
   padding-bottom: 20px;
 }
 .home-bottom-card-one p{
@@ -11045,12 +11045,13 @@ transform:translateY(-15px)
   flex: 100%;
   margin-left: 0;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 .navs-list .content{
   flex: 100%;
 }
 .col-pd-22 {
-  background: #30475e;
+  background: #19376d;
   margin-top: -60px;
   position: relative;
   padding: 30px 15px;

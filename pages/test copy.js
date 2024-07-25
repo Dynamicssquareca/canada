@@ -12,8 +12,19 @@ import VideoPlayer from "../components/VideoPlayer";
 import LinkWithFadeOut from "../components/LinkWithFadeOut";
 import ROIPage from "../components/ROIPage";
 
+export async function getServerSideProps() {
+  
 
-const Test = () => {
+  const blograndom = await fetch(`${process.env.BACKEND_URL}`+"/api/random/allblog");
+  const blograndomblogs = await blograndom.json();
+
+  
+  return { props: { blograndomblogs} };
+}
+
+
+function Test ({blograndomblogs}) {
+ 
 
   return (
     <>
@@ -42,7 +53,7 @@ const Test = () => {
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper mySwipe-home-slider"
           >
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
                   <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
@@ -73,18 +84,18 @@ const Test = () => {
                   </Link>
                 </div>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
             <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
                   <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
                 </div>
                 <div className="video-conte">
-                  <h1>Canda’s Trusted Microsoft Dynamics 365 Partner </h1>
+                  <h2>Canda’s Trusted Microsoft Dynamics 365 Partner </h2>
                   <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies that drive the digital transformation of business. </p>
-                  <Link href="#exampleModal">
-                    <a className="btn"  data-bs-toggle="modal"
-                    >Talk to Expert <i class="bi bi-arrow-right"></i>
+                  <Link href="/about/">
+                    <a className="btn">
+                      About Us <i class="bi bi-arrow-right"></i>
                     </a>
                   </Link>
                 </div>
@@ -592,32 +603,34 @@ const Test = () => {
             </div>
 
             <div className="row">
-              <div className="col-lg-4 d-flex">
-                <div className="card poster-card">
-                  <a href="#">
-                    {" "}
-                    <img
-                      className="card-img-top"
-                      src="/img/poster-1.jpg"
-                      alt="Card image cap"
-                    />
-                  </a>
-                  <div className="card-body">
-                    <h3 className="card-title">Up To 15% Increase In Microsoft Cloud Solution Prices: What You Need To Know</h3>
-                    <p className="card-text">We at Dynamics Square believe in seamless Microsoft dynamics implementation along with long-term assistance</p>
-                    <a href="#">
-                      Know More <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+            {blograndomblogs && blograndomblogs.slice(0, 3).map((randomitem, i) => (
+  <div className="col-lg-4 d-flex" key={i}>
+    <article className="card poster-card">
+      <a href={`/blog/${randomitem.title_slug}`}>
+        <img
+          className="card-img-top"
+          src={randomitem.image || "/img/default-poster.jpg"} // Ensure image URL is dynamic
+          alt={`Image for ${randomitem.title}`}
+        />
+      </a>
+      <div className="card-body">
+        <h2 className="card-title">{randomitem.title}</h2>
+        <p className="card-text">{randomitem.short_description.substring(0, 180)}...</p>
+        <a href={`/blog/${randomitem.title_slug}`}>
+          Know More <i className="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </article>
+  </div>
+))}
 
 
 
 
 
-              
-              <div className="col-lg-4 d-flex">
+
+
+              {/* <div className="col-lg-4 d-flex">
                 <div className="card poster-card">
                   <a href="#">
                     {" "}
@@ -654,7 +667,7 @@ const Test = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
