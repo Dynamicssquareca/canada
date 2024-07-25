@@ -11106,6 +11106,7 @@ transform:translateY(-15px)
 .navs-list ul{
   flex: 100%;
   margin-left: 0;
+  margin-bottom: 35px;
 }
 .navs-list .content{
   flex: 100%;
@@ -11114,7 +11115,7 @@ transform:translateY(-15px)
   background: #30475e;
   margin-top: -60px;
   position: relative;
-  padding: 70px 15px;
+  padding: 30px 15px;
 }
 .navs-list ul li:nth-child(1),.navs-list ul li:nth-child(2),.navs-list ul li:nth-child(3),.navs-list ul li:nth-child(4),.navs-list ul li:nth-child(5),.navs-list ul li:nth-child(6){
   position: relative;
@@ -11122,6 +11123,21 @@ transform:translateY(-15px)
   right: inherit;
   top: inherit;
   bottom: inherit;
+  padding: 10px;
+}
+.navs-list .content h3 .tit-2 {
+  font-size: 28px;
+}
+.navs-list .content h3 .tit-3{
+  font-size: 20px;
+}
+.navs-list .content h3 sup {
+  top: -1em;
+}
+.navs-list .nav svg,.navs-list .nav.active svg, .navs-list .nav:hover svg {
+  width: 30px;
+  height: 30px;
+  color: #9AAAB9;
 }
 .navs-list .content h3 .tit-1 {
   font-size: 46px;
