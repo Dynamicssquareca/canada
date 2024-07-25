@@ -11,8 +11,8 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import Link from "next/link";
 import VideoPlayer from "../components/VideoPlayer";
-import VideoPlayeside from "../components/VideoPlayeside";
 import LinkWithFadeOut from "../components/LinkWithFadeOut";
+import ROIPage from "../components/ROIPage";
 
 
 const Test = () => {
@@ -53,7 +53,7 @@ const Test = () => {
             spaceBetween={0}
             centeredSlides={true}
             autoplay={{
-              delay: 66666,
+              delay: 555555,
               disableOnInteraction: false,
             }}
             // pagination={{
@@ -66,15 +66,7 @@ const Test = () => {
             <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
-                  <video
-                    className="video-screen"
-                    autoPlay
-                    loop
-                    muted
-                    poster="/img/video-bg.png"
-                  >
-                    <source src="/video/SLide1.mp4" />
-                  </video>
+                  <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
                 </div>
                 <div className="video-conte">
                   <h1>Dynamics Square is a leading Microsoft Partner in Canada. </h1>
@@ -90,18 +82,10 @@ const Test = () => {
             <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
-                  <video
-                    className="video-screen"
-                    autoPlay
-                    loop
-                    muted
-                    poster="/img/video-bg.png"
-                  >
-                    <source src="/video/SLide2.mp4" />
-                  </video>
+                  <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
                 </div>
                 <div className="video-conte">
-                  <h1>Accelerating your business for tomorrow </h1>
+                  <h2>Accelerating your business for tomorrow </h2>
                   <p>We are here to let you stay ahead of the curve. Our professionals specialize in transforming businesses and ensuring they are future-ready.  </p>
                   <Link href="/about/">
                     <a className="btn">
@@ -114,18 +98,10 @@ const Test = () => {
             <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
-                  <video
-                    className="video-screen"
-                    autoPlay
-                    loop
-                    muted
-                    poster="/img/video-bg.png"
-                  >
-                    <source src="/video/SLide3.mp4" />
-                  </video>
+                  <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
                 </div>
                 <div className="video-conte">
-                  <h1>Sustainable Associations</h1>
+                  <h2>Sustainable Associations</h2>
                   <p>Dynamics Square has joined hands with Microsoft to drive ambitious sustainability outcomes, with smart actions & processes.  </p>
                   <Link href="/about/">
                     <a className="btn">
@@ -135,30 +111,7 @@ const Test = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="slider-banner">
-                <div className="video-bg">
-                  <video
-                    className="video-screen"
-                    autoPlay
-                    loop
-                    muted
-                    poster="/img/video-bg.png"
-                  >
-                    <source src="/video/SLide4.mp4" />
-                  </video>
-                </div>
-                <div className="video-conte">
-                  <h1>Leading the transformation</h1>
-                  <p>We pave the way for your business's success with business intelligence, providing full-fledged ERP software on the cloud. </p>
-                  <Link href="/about/">
-                    <a className="btn">
-                      About Us <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </SwiperSlide>
+
           </Swiper>
         </div>
         <section className="into-banner-bottom">
@@ -234,177 +187,166 @@ const Test = () => {
           </div>
         </section>
 
-        {/* <div className="player-wrapper">
-      {!playing && (
-        <div className="play-button-overlay" onClick={handlePlay}>
-          <img src="/img/video-bg.png" alt="Video Poster" />
-         <i class="bi bi-play-circle-fill"></i>
-        </div>
-      )}
-      <ReactPlayer
-       ref={playerRef}
-        url="/video/test.mp4"
-        className="react-player"
-        controls={false}
-        playing={playing}
-        onEnded={handleEnded}
-        onPause={handlePause}
-        width="100%"
-        height="100%"
-        loop={true}
-      />
-    </div> */}
+
 
         <section>
-          <VideoPlayer poster="/img/video-bg.png" src="/video/SLide1.mp4" />
+          <VideoPlayer poster="/img/poster-1.png" src="/video/Slide4-1.mp4" />
         </section>
+
         <section>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="new-main-heading">
-                  <h2>
-                    We offer Solutions that help <br />
-                    you witness Exponential Growth
-                  </h2>
-                  <p>
-                    We are a Microsoft Dynamics 365 partner in Canada, and we
-                    aim to offer services for potential business growth. We are
-                    not only helping businesses adapt to agility, innovation,
-                    and transformation but we empower them to stay ahead of the
-                    curve.
-                  </p>
+                  <h2>We offer Solutions that help
+                    you witness Exponential Growth</h2>
+                  <p>We are a Microsoft Dynamics 365 partner in Canada, and we aim to offer services for potential business growth. We are not only helping businesses adapt to agility, innovation, and transformation but we empower them to stay ahead of the curve.</p>
                 </div>
               </div>
             </div>
 
-            <div className="row">
-              <div className="col-lg-12">
-                <div>
-                  <ul className="nav nav-tabs video-tabs" role="tablist">
-                    <li className="nav-item">
-                      <a
-                        className="nav-link active"
-                        data-bs-toggle="tab"
-                        href="#tb1"
-                      >
-                        Sales & Marketing
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" data-bs-toggle="tab" href="#tb2">
-                        Service
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" data-bs-toggle="tab" href="#tb3">
-                        Finance
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" data-bs-toggle="tab" href="#tb4">
-                        Supply Chain
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" data-bs-toggle="tab" href="#tb5">
-                        Power Platform
-                      </a>
-                    </li>
-                  </ul>
-
-                  <div className="tab-content">
-                    <div id="tb1" className="container tab-pane active">
-                      <div className="row vide-bg">
-                        <div className="col-lg-5 align-self-center">
-                          <div className="tab-inner-heading">
-                            <h3>Drive demand and close deals faster</h3>
-                          </div>
-                        </div>
-                        <div className="col-lg-7 p-0 align-self-center">
-                          <div>
-                            <VideoPlayeside
-                              poster="/img/poster3.png"
-                              src="/video/test.mp4"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="tb2" className="container tab-pane fade">
-                      <div className="row vide-bg">
-                        <div className="col-lg-5 align-self-center">
-                          <div className="tab-inner-heading">
-                            <h3>Drive demand and close deals faster</h3>
-                          </div>
-                        </div>
-                        <div className="col-lg-7 p-0 align-self-center">
-                          <div>
-                            <VideoPlayeside
-                              poster="/img/poster3.png"
-                              src="/video/test.mp4"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="tb3" className="container tab-pane fade">
-                      <div className="row vide-bg">
-                        <div className="col-lg-5 align-self-center">
-                          <div className="tab-inner-heading">
-                            <h3>Drive demand and close deals faster</h3>
-                          </div>
-                        </div>
-                        <div className="col-lg-7 p-0 align-self-center">
-                          <div>
-                            <VideoPlayeside
-                              poster="/img/poster3.png"
-                              src="/video/test.mp4"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="tb4" className="container tab-pane fade">
-                      <div className="row vide-bg">
-                        <div className="col-lg-5 align-self-center">
-                          <div className="tab-inner-heading">
-                            <h3>Drive demand and close deals faster</h3>
-                          </div>
-                        </div>
-                        <div className="col-lg-7 p-0 align-self-center">
-                          <div>
-                            <VideoPlayeside
-                              poster="/img/poster3.png"
-                              src="/video/test.mp4"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="tb5" className="container tab-pane fade">
-                      <div className="row vide-bg">
-                        <div className="col-lg-5 align-self-center">
-                          <div className="tab-inner-heading">
-                            <h3>Drive demand and close deals faster</h3>
-                          </div>
-                        </div>
-                        <div className="col-lg-7 p-0 align-self-center">
-                          <div>
-                            <VideoPlayeside
-                              poster="/img/poster3.png"
-                              src="/video/test.mp4"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <div className="row new-image-card">
+              <div className="col-lg-4">
+                <div className="card-image-ver-1">
+                  <a href="/solutions/dynamics-365-business-central/">
+                  <div className="card-head-top">
+                    <img src="/img/BusinessCentral_scalable.png" alt="BusinessCentral_scalable" className="icon" />
+                    <h3>Dynamics 365 <br/>Business Central</h3>
                   </div>
+                  <div className="card-mid-se">
+                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                  </div>
+                  <div className="card-bottom-se">
+                    <ul>
+                      <li><i class="bi bi-check-lg"></i>Integrated Business Processes</li>
+                      <li><i class="bi bi-check-lg"></i>Enhanced Productivity</li>
+                      <li><i class="bi bi-check-lg"></i>Data-Driven Decision-Making</li>
+                    </ul>
+                  </div>
+                  <span>Know More <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                 
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card-image-ver-1">
+                  <a href="/solutions/microsoft-dynamics-365-finance/">
+                  <div className="card-head-top">
+                    <img src="/img/Finance_scalable.png" alt="Finance_scalable" className="icon" />
+                    <h3>Dynamics 365<br />
+                    Finance</h3>
+                  </div>
+                  <div className="card-mid-se">
+                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                  </div>
+                  <div className="card-bottom-se">
+                    <ul>
+                      <li><i class="bi bi-check-lg"></i>Integrated Business Processes</li>
+                      <li><i class="bi bi-check-lg"></i>Enhanced Productivity</li>
+                      <li><i class="bi bi-check-lg"></i>Data-Driven Decision-Making</li>
+                    </ul>
+                  </div>
+                  <span>Know More <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                 
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card-image-ver-1">
+                  <a href="/solutions/dynamics-365-supply-chain-management/">
+                  <div className="card-head-top">
+                    <img src="/img/SupplyChainManagement_scalable.png" alt="SupplyChainManagement_scalable" className="icon" />
+                    <h3>Dynamics 365<br />
+                    Supply Chain</h3>
+                  </div>
+                  <div className="card-mid-se">
+                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                  </div>
+                  <div className="card-bottom-se">
+                    <ul>
+                      <li><i class="bi bi-check-lg"></i>Integrated Business Processes</li>
+                      <li><i class="bi bi-check-lg"></i>Enhanced Productivity</li>
+                      <li><i class="bi bi-check-lg"></i>Data-Driven Decision-Making</li>
+                    </ul>
+                  </div>
+                  <span>Know More <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                 
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card-image-ver-1">
+                  <a href="/solutions/microsoft-dynamics-365-sales/">
+                  <div className="card-head-top">
+                    <img src="/img/Sales_scalable.png" alt="Sales_scalable" className="icon" />
+                    <h3>Sales</h3>
+                  </div>
+                  <div className="card-mid-se">
+                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                  </div>
+                  <div className="card-bottom-se">
+                    <ul>
+                      <li><i class="bi bi-check-lg"></i>Integrated Business Processes</li>
+                      <li><i class="bi bi-check-lg"></i>Enhanced Productivity</li>
+                      <li><i class="bi bi-check-lg"></i>Data-Driven Decision-Making</li>
+                    </ul>
+                  </div>
+                  <span>Know More <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                 
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card-image-ver-1">
+                  <a href="/solutions/microsoft-power-bi/">
+                  <div className="card-head-top">
+                    <img src="/img/PowerBI_scalable.png" alt="PowerBI_scalable" className="icon" />
+                    <h3>Power BI</h3>
+                  </div>
+                  <div className="card-mid-se">
+                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                  </div>
+                  <div className="card-bottom-se">
+                    <ul>
+                      <li><i class="bi bi-check-lg"></i>Integrated Business Processes</li>
+                      <li><i class="bi bi-check-lg"></i>Enhanced Productivity</li>
+                      <li><i class="bi bi-check-lg"></i>Data-Driven Decision-Making</li>
+                    </ul>
+                  </div>
+                  <span>Know More <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                 
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card-image-ver-1">
+                  <a href="/">
+                  <div className="card-head-top">
+                    <img src="/img/Copilot_scalable.png" alt="Copilot_scalable" className="icon" />
+                    <h3>Copilot</h3>
+                  </div>
+                  <div className="card-mid-se">
+                    <p>An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire...</p>
+                  </div>
+                  <div className="card-bottom-se">
+                    <ul>
+                      <li><i class="bi bi-check-lg"></i>Integrated Business Processes</li>
+                      <li><i class="bi bi-check-lg"></i>Enhanced Productivity</li>
+                      <li><i class="bi bi-check-lg"></i>Data-Driven Decision-Making</li>
+                    </ul>
+                  </div>
+                  <span>Know More <i className="bi bi-arrow-right"></i></span>
+                  </a>
+                 
                 </div>
               </div>
             </div>
+
+
           </div>
         </section>
+
+
 
         <section className="p-222">
           <div className="container">
@@ -528,7 +470,7 @@ const Test = () => {
               pagination={{
                 clickable: false,
               }}
-             
+
               className="mySwiper"
             >
               <SwiperSlide>
@@ -652,13 +594,135 @@ const Test = () => {
 
 
         <section className="col-pd-22">
-            <div className="container">
+          <div className="container">
             <LinkWithFadeOut />
-              
-            </div>
+
+          </div>
         </section>
 
-   
+        <section className="p-222-1">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="new-main-heading">
+                  <h2>Read what Thought Leaders<br />
+                  Have to Say</h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="card poster-card">
+                  <a href="#">
+                    {" "}
+                    <img
+                      className="card-img-top"
+                      src="/img/poster-1.jpg"
+                      alt="Card image cap"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <h3 className="card-title">Up To 15% Increase In Microsoft Cloud Solution Prices: What You Need To Know</h3>
+                    <p className="card-text">We at Dynamics Square believe in seamless Microsoft dynamics implementation along with long-term assistance</p>
+                    <a href="#">
+                      Know More <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card poster-card">
+                  <a href="#">
+                    {" "}
+                    <img
+                      className="card-img-top"
+                      src="/img/poster-2.jpg"
+                      alt="Card image cap"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <h3 className="card-title">Install Microsoft Dynamics 365 Business Central (On Premises)</h3>
+                    <p className="card-text">We have successfully transformed businesses with our futuristic Upgrading services.</p>
+                    <a href="#">
+                      Know More <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card poster-card">
+                  <a href="#">
+                    {" "}
+                    <img
+                      className="card-img-top"
+                      src="/img/poster-3.jpg"
+                      alt="Card image cap"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <h3 className="card-title">Up To 15% Increase In Microsoft Cloud Solution Prices: What You Need To Know</h3>
+                    <p className="card-text">We at Dynamics Square believe in seamless Microsoft dynamics implementation along with long-term assistance</p>
+                    <a href="#">
+                      Know More <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="new-testi-wraper">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="testmonial-new-slider">
+                  <Swiper
+                    navigation={true}
+                    modules={[Navigation]}
+                    className="mySwiper mySwiper-testi"
+                  >
+                    <SwiperSlide>
+                      <div className="testn-inner">
+                        <div className="client-info">
+                          <h3>Our Leadership</h3>
+                          <p>We understand that business complexities are constantly evolving, and being compliant with this paradigm shift is of vital importance for a business to sustain.</p>
+                          <span>Manish G</span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="testn-inner">
+                        <div className="client-info">
+                          <h3>Our Leadership</h3>
+                          <p>We take pride in being an ERP partner, associating with Microsoft for successful sustainability outcomes.  We understand the importance and thereby take measures to accelerate the process  </p>
+                          <span>Nitesh</span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  
+                  </Swiper>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="new-main-heading">
+                  <h2>Why Dynamics Square?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+            {/* <ROIPage /> */}
+
       </main>
     </>
   );
