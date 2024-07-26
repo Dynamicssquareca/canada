@@ -568,8 +568,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-1.jpg"
-                      alt="Card image cap"
+                      src="/img/Healthcare-industry.jpg"
+                      alt="Healthcare-industry"
                     />
                   </a>
                   <div className="card-body">
@@ -587,8 +587,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-2.jpg"
-                      alt="Card image cap"
+                      src="/img/Retail-&-E-commerce.jpg"
+                      alt="Retail-&-E-commerce"
                     />
                   </a>
                   <div className="card-body">
@@ -606,8 +606,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-3.jpg"
-                      alt="Card image cap"
+                      src="/img/Education-industy.jpg"
+                      alt="Education-industy"
                     />
                   </a>
                   <div className="card-body">
@@ -625,8 +625,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-1.jpg"
-                      alt="Card image cap"
+                      src="/img/Manufacturing-industry.jpg"
+                      alt="Manufacturing-industry"
                     />
                   </a>
                   <div className="card-body">
@@ -644,8 +644,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-2.jpg"
-                      alt="Card image cap"
+                      src="/img/Startup-industr.jpg"
+                      alt="Startup-industr"
                     />
                   </a>
                   <div className="card-body">
@@ -663,8 +663,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-2.jpg"
-                      alt="Card image cap"
+                      src="/img/Not-for-Profit.jpg"
+                      alt="Not-for-Profit"
                     />
                   </a>
                   <div className="card-body">
@@ -682,8 +682,8 @@ const Test = () => {
                     {" "}
                     <img
                       className="card-img-top"
-                      src="/img/industry-poster-2.jpg"
-                      alt="Card image cap"
+                      src="/img/Food-Beverages.jpg"
+                      alt="Food-Beverages"
                     />
                   </a>
                   <div className="card-body">
@@ -789,7 +789,7 @@ const Test = () => {
         <section className="new-testi-wraper">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-10">
                 <div className="testmonial-new-slider">
                   <div className='floating-pp'>
                     <img src="/img/marketing-integration-google-reviews-badge.png" alt="marketing-integration-google-reviews-badge" />
@@ -802,18 +802,18 @@ const Test = () => {
                     <SwiperSlide>
                       <div className="testn-inner">
                         <div className="client-info">
-                          <h3>Our Leadership</h3>
-                          <p>We understand that business complexities are constantly evolving, and being compliant with this paradigm shift is of vital importance for a business to sustain.</p>
-                          <span>Manish G</span>
+                          {/* <h3>Our Leadership</h3> */}
+                          <p>We had an excellent experience with Dynamics Squared. Arish was incredibly helpful and responsive, ensuring our needs were met quickly. The development and project teams expertly translated our requirements into effective solutions, exceeding our expectations. We're very pleased with the results and highly recommend Dynamics Squared for their professionalism and commitment to client satisfaction. Thank you, Arish and team!</p>
+                          <span>David Karpiak</span>
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="testn-inner">
                         <div className="client-info">
-                          <h3>Our Leadership</h3>
-                          <p>We take pride in being an ERP partner, associating with Microsoft for successful sustainability outcomes.  We understand the importance and thereby take measures to accelerate the process  </p>
-                          <span>Nitesh</span>
+                          {/* <h3>Our Leadership</h3> */}
+                          <p>Good pricing and quick response from our account manager. They helped us with trouble shoot and trainings.</p>
+                          <span>Emma Liang</span>
                         </div>
                       </div>
                     </SwiperSlide>
