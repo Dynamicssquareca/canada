@@ -10263,14 +10263,18 @@ text-decoration: none;
   line-height: 1.5 !important;
   margin-bottom: 30px;
 }
-.video-conte .btn {
+.video-conte .btns {
   background: #fff;
   border-radius: 0;
   padding: 0.6rem 1.5rem;
   color: #bb2b36;
   border: none;
 }
-.video-conte .btn:hover {
+.video-conte .btns:active{
+  background: #000 !important;
+  color: #fff !important;
+}
+.video-conte .btns:hover {
   background: #000;
   color: #fff;
 }

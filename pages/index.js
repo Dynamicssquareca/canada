@@ -339,7 +339,7 @@ const Home = () => {
                   <h1>Canda’s Trusted Microsoft Dynamics 365 Partner </h1>
                   <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies that drive the digital transformation of business. </p>
                   <Link href="#exampleModal">
-                    <a className="btn" data-bs-toggle="modal"
+                    <a className="btns" data-bs-toggle="modal"
                     >Talk to Expert <i class="bi bi-arrow-right"></i>
                     </a>
                   </Link>
