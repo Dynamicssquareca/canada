@@ -1,13 +1,13 @@
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Head from "next/head";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import Image from 'next/image';
 // import required modules
-import { Autoplay, Pagination, Navigation,Mousewheel } from "swiper";
+import { Autoplay, Pagination, Navigation, Mousewheel } from "swiper";
 import Link from "next/link";
 import VideoPlayer from "../components/VideoPlayer";
 import LinkWithFadeOut from "../components/LinkWithFadeOut";
@@ -117,7 +117,7 @@ const Test = () => {
                   <h1>Canda’s Trusted Microsoft Dynamics 365 Partner </h1>
                   <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies that drive the digital transformation of business. </p>
                   <Link href="#exampleModal">
-                    <a className="btn"  data-bs-toggle="modal"
+                    <a className="btn" data-bs-toggle="modal"
                     >Talk to Expert <i class="bi bi-arrow-right"></i>
                     </a>
                   </Link>
@@ -161,6 +161,7 @@ const Test = () => {
             </div>
           </div>
         </section>
+
         <section>
           <div className="container">
             <div className="row justify-content-center">
@@ -192,6 +193,91 @@ const Test = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="row home-clint-dd justify-content-center">
+              <div className='col-lg-10'>
+                <Swiper
+                  spaceBetween={30}
+                  autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  }}
+                  breakpoints={{
+                    300: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 5,
+                      spaceBetween: 50,
+                    },
+                  }}
+                  modules={[Autoplay]}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    <div className='home-client'>
+                      <Image
+                        src="/img/clients/JVEquip_logo.png"
+                        className="img-fluid"
+                        alt="JVEquip_logo"
+                        width={200}
+                        height={80}
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image
+                      src="/img/clients/Spectra-Aluminum-logo-new.png"
+                      className="img-fluid"
+                      alt="Spectra-Aluminum-logo"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image
+                      src="/img/clients/MexiLand_logos.png"
+                      className="img-fluid"
+                      alt="MexiLand_logos"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image
+                      src="/img/clients/VidPro_logo.png"
+                      className="img-fluid"
+                      alt="VidPro_logo"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image style={{ mixBlendMode: 'darken' }}
+                      src="/img/clients/PLASP-LOGO.png"
+                      className="img-fluid"
+                      alt="PLASP-LOGO"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+    
+                </Swiper>
+              </div>
+
             </div>
           </div>
         </section>
@@ -309,7 +395,7 @@ const Test = () => {
                   <a href="/solutions/microsoft-power-bi/">
                     <div className="card-head-top">
                       <img src="/img/PowerBI_scalable.png" alt="PowerBI_scalable" className="icon" />
-                      <h3>Microsoft <br/>Power BI</h3>
+                      <h3>Microsoft <br />Power BI</h3>
                     </div>
                     <div className="card-mid-se">
                       <p>Connect multiple data sources, perform data analysis, and find hidden information through interactive visualizations. </p>
@@ -331,7 +417,7 @@ const Test = () => {
                   <a href="/">
                     <div className="card-head-top">
                       <img src="/img/Copilot_scalable.png" alt="Copilot_scalable" className="icon" />
-                      <h3>Microsoft <br/>Copilot</h3>
+                      <h3>Microsoft <br />Copilot</h3>
                     </div>
                     <div className="card-mid-se">
                       <p>Leverage the limitless capabilities of Microsoft’s AI-assistance with natural language prompts.</p>
@@ -439,14 +525,14 @@ const Test = () => {
           </div>
           <div className="row-d" onWheel={handleWheel}>
             <Swiper
-            onSwiper={setSwiperInstance}
+              onSwiper={setSwiperInstance}
               spaceBetween={30}
               centeredSlides={true}
               grabCursor={true}
-              mousewheel={{
-                enabled: !isLastSlide, // Disable mousewheel if on the last slide
-                sensitivity: 1,
-              }}
+              // mousewheel={{
+              //   enabled: !isLastSlide, 
+              //   sensitivity: 1,
+              // }}
               pagination={{
                 clickable: false,
               }}
@@ -621,7 +707,7 @@ const Test = () => {
           </div>
         </section>
 
-        <section className="p-222-1">
+        <section className="p-222-1 d-none">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -657,7 +743,7 @@ const Test = () => {
 
 
 
-              
+
               <div className="col-lg-4 d-flex">
                 <div className="card poster-card">
                   <a href="#">
@@ -705,6 +791,9 @@ const Test = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="testmonial-new-slider">
+                  <div className='floating-pp'>
+                    <img src="/img/marketing-integration-google-reviews-badge.png" alt="marketing-integration-google-reviews-badge" />
+                  </div>
                   <Swiper
                     navigation={true}
                     modules={[Navigation]}
@@ -750,29 +839,29 @@ const Test = () => {
             <div className="row home-bottom-card">
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
-                    <div className="top-tr">
-                      <i class="bi bi-check-lg"></i>
-                      <h3>Accelerated ROI </h3>
-                    </div>
-                    <p>Our customized solutions deliver great ROI by streamlining operations, enhancing efficiency, and boosting productivity. </p>
+                  <div className="top-tr">
+                    <i class="bi bi-check-lg"></i>
+                    <h3>Accelerated ROI </h3>
+                  </div>
+                  <p>Our customized solutions deliver great ROI by streamlining operations, enhancing efficiency, and boosting productivity. </p>
                 </div>
               </div>
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
-                    <div className="top-tr">
-                      <i class="bi bi-check-lg"></i>
-                      <h3>Industry Expertise </h3>
-                    </div>
-                    <p>We have experts with deep understanding of different industries that enable them to find your business challenges and eliminate them with the perfect solution. </p>
+                  <div className="top-tr">
+                    <i class="bi bi-check-lg"></i>
+                    <h3>Industry Expertise </h3>
+                  </div>
+                  <p>We have experts with deep understanding of different industries that enable them to find your business challenges and eliminate them with the perfect solution. </p>
                 </div>
               </div>
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
-                    <div className="top-tr">
-                      <i class="bi bi-check-lg"></i>
-                      <h3>End-to-End Support</h3>
-                    </div>
-                    <p>From business audits to post-implementation support, our dedicated team ensures the smooth functioning of your Dynamics 365 solution. </p>
+                  <div className="top-tr">
+                    <i class="bi bi-check-lg"></i>
+                    <h3>End-to-End Support</h3>
+                  </div>
+                  <p>From business audits to post-implementation support, our dedicated team ensures the smooth functioning of your Dynamics 365 solution. </p>
                 </div>
               </div>
             </div>
