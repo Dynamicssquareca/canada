@@ -11160,6 +11160,25 @@ text-align:center
   padding-top: 30px;
   margin-bottom: -20px;
 }
+.new-pic{
+  width: 40%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        padding-left: 15px;
+}
+.info-right-new .info-img-new img {
+  width: 100px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.info-right-new .info-img-new {
+  flex: 100%;
+}
+.info-right-new {
+  text-align: left;
+  padding: 0px 15px;
+}
 }
 @media (max-width: 768px){
   .video-conte h1, .video-conte h2{
