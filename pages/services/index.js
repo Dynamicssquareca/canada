@@ -12,13 +12,13 @@ const Inedex = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/industries/services/"
+          href="https://www.dynamicssquare.ca/services/"
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Microsoft Dynamics 365 Services in Canada: Dynamics Square" />
         <meta property="og:description" content="Take your business practices to a next level with Dynamics 365 and build a more sustainable & resilient future. Contact us for agile IT solutions & services." />
-        <meta property="og:url" content="https://www.dynamicssquare.ca/industries/services/" />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/services/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
         <meta property="og:image:width" content="200" />
