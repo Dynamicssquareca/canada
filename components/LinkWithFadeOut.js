@@ -39,7 +39,7 @@ const TabsList = () => {
       starthead:'%',
       heading: "Reduction in recurring processes ",
       content:
-        "Business Central implementation has enabled automation that reduced the recurring tasks by 60%. ",
+        "Business Central implementation has enabled automation that has reduced recurring tasks by 60%. ",
       link: "/case-studies/nav13-to-d365-business-central-upgrade/",
     },
     {

@@ -558,7 +558,7 @@ const Home = () => {
                     <div className="card-bottom-se">
                       <ul>
                         <li><i class="bi bi-check-lg"></i>Get Clear Financial Picture </li>
-                        <li><i class="bi bi-check-lg"></i>Simplify Financial transactions </li>
+                        <li><i class="bi bi-check-lg"></i>Simplify Financial Transactions </li>
                         <li><i class="bi bi-check-lg"></i>Perform data-driven Planning </li>
                       </ul>
                     </div>
@@ -598,7 +598,7 @@ const Home = () => {
                       <h3>Dynamics 365 <br />Sales</h3>
                     </div>
                     <div className="card-mid-se">
-                      <p>Supercharge sales operations, convert more leads, and offer a superior customer experience. </p>
+                      <p>Supercharge sales operations, convert more leads, and offer superior customer experience. </p>
                     </div>
                     <div className="card-bottom-se">
                       <ul>
@@ -670,7 +670,7 @@ const Home = () => {
               <div className="col-lg-9">
                 <div className="new-main-heading">
                   <h2>Transform and Optimize your Business with our Reliable Services </h2>
-                  <p>Experience seamless business transformation and achieve operational excellence with our tailor-made Dynamics 365 services, specially curated for unique business like yours. </p>
+                  <p>Experience seamless business transformation and achieve operational excellence with our tailor-made Dynamics 365 services, specially curated for unique businesses like yours. </p>
                 </div>
               </div>
             </div>
