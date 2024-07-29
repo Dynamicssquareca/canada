@@ -1053,7 +1053,7 @@ const Home = () => {
               <div className="col-lg-9">
                 <div className="new-main-heading">
                   <h2>Partner with a Passionate Team: The Dynamics Square Advantage </h2>
-                  <p>We are a team of <b>135+</b> Microsoft-certified Dynamics consultants with a proven track record of offering reliable and trustworthy services to <b>350+</b> global clients. Our superior infrastructure enables us to offer cost-effective services around the clock. For the last <b>14+ years</b>, Dynamics Square has been transforming businesses with futuristic solutions and an exceptional customer experience. </p>
+                  <p>We are a team of <b>150+</b> Microsoft-certified Dynamics consultants with a proven track record of offering reliable and trustworthy services to <b>350+</b> global clients. Our superior infrastructure enables us to offer cost-effective services around the clock. For the last <b>14+ years</b>, Dynamics Square has been transforming businesses with futuristic solutions and an exceptional customer experience. </p>
                 </div>
               </div>
             </div>
