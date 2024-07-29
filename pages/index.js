@@ -336,7 +336,7 @@ const Home = () => {
                   <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
                 </div>
                 <div className="video-conte">
-                  <h1>Canda’s Trusted Microsoft Dynamics 365 Partner </h1>
+                  <h1>Canada's Trusted Microsoft Dynamics 365 Partner </h1>
                   <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies that drive the digital transformation of business. </p>
                   <Link href="#exampleModal">
                     <a className="btns" data-bs-toggle="modal"
@@ -398,7 +398,7 @@ const Home = () => {
               <div className="col-lg-12">
                 <div className="new-counter-wraper">
                   <div className="new-counter">
-                    <h3>500+</h3>
+                    <h3>350+</h3>
                     <p>Clients Worldwide</p>
                   </div>
                   <div className="new-counter">
@@ -553,7 +553,7 @@ const Home = () => {
                         Finance</h3>
                     </div>
                     <div className="card-mid-se">
-                      <p>Streamline complex financial operations while managing the entire business on the go. .</p>
+                      <p>Streamline complex financial operations while managing the entire business on the go.</p>
                     </div>
                     <div className="card-bottom-se">
                       <ul>
@@ -1025,7 +1025,7 @@ const Home = () => {
                       <div className="testn-inner">
                         <div className="client-info">
                           {/* <h3>Our Leadership</h3> */}
-                          <p>We had an excellent experience with Dynamics Squared. Arish was incredibly helpful and responsive, ensuring our needs were met quickly. The development and project teams expertly translated our requirements into effective solutions, exceeding our expectations. We're very pleased with the results and highly recommend Dynamics Squared for their professionalism and commitment to client satisfaction. Thank you, Arish and team!</p>
+                          <p>We had an excellent experience with Dynamics Square. Arish was incredibly helpful and responsive, ensuring our needs were met quickly. The development and project teams expertly translated our requirements into effective solutions, exceeding our expectations. We're very pleased with the results and highly recommend Dynamics Squared for their professionalism and commitment to client satisfaction. Thank you, Arish and team!</p>
                           <span>David Karpiak</span>
                         </div>
                       </div>
