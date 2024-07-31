@@ -70,7 +70,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
             </div>
             <div className="col-lg-6">
               <div className="case-s-paragraph">
-                <p>The client is a non-profit organization that primarily focuses on offering information and resources to professionals, individuals, and parents so that they can support children and adults with special needs. They organize and operate different events, sessions, webinars, or recorded sessions for professionals and caregivers with nominal fees to enhance the quality of childcare and promote mental development. </p>
+                <p>The client is a non-profit organization dedicated to empowering individuals and families to support children and adults with special needs. By providing comprehensive information, resources, and professional development opportunities, they strive to enhance the quality of life for these individuals. The organization offers a range of accessible programs, including workshops, webinars, and online resources, designed to equip caregivers and professionals with the knowledge and skills necessary to promote optimal child development and mental well-being.</p>
               </div>
             </div>
           </div>
@@ -186,12 +186,12 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
             <div className="col-lg-6">
               <div className="case-new-hedaing">
                 <h3>Solution Implemented</h3>
-                <p>To address the client's specific event management challenges, we implemented a comprehensive solution leveraging Microsoft Dynamics 365 CRM, or Customer Engagement, as the core platform. In conjunction with this, we integrated Power Automate to automate key processes and built a custom web portal to streamline the user experience. </p>
+                <p>To address the client's specific event management challenges, we implemented a comprehensive solution leveraging Microsoft Dynamics 365 CRM, or Customer Engagement, as the core platform. In conjunction with this, we used Power Automate (Microsoft Flows) to automate key processes and built a custom web portal to streamline the user experience. </p>
                 <h4 style={{paddingBottom:'10px'}}>Key components of the solution include:</h4>
                 <ul>
                     <li><b>Dynamics 365 CRM Customization:</b> We tailored the CRM to effectively manage event details, attendee information, ticket sales, and post-event analytics. </li>
                     <li><b>Power Automate Workflows:</b> Automated tasks such as ticket confirmation emails, payment failure notifications, event reminders, and certificate generation. </li>
-                    <li><b>Custom Web Portal:</b> Developed a user-friendly web portal for event registration, ticket purchases, and attendee access to event materials. </li>
+                    <li><b>Custom Web Portal:</b> We integrated their web portal with Dynamics CRM to establish a bi-directional data flow between the portal and the CRM. It enables the business to track event registration, ticket purchases, and attendee access directly from the CRM.  </li>
                     <li><b>Integration with SurveyMonkey:</b> Seamlessly integrated SurveyMonkey to facilitate post-event surveys and automatic certificate dispatch.</li>
                 </ul>
               </div>
@@ -231,12 +231,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
                 <p>Comprehensive reporting and analytics provide valuable insights into event performance, enabling data-driven decision-making for future events. </p>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
-              <div className="box-dd-1 flex-11">
-                <h3>Increased Revenue:</h3>
-                <p>Efficient ticket management and upselling opportunities through additional product offerings have contributed to increased revenue generation. </p>
-              </div>
-            </div>
+           
             <div className="col-lg-4 d-flex">
               <div className="box-dd-1 flex-11">
                 <h3>Scalability:</h3>
