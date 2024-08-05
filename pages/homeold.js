@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay, FreeMode } from "swiper";
 import Link from 'next/link';
+import ROIPage from '../components/ROIPage';
 
 export default function Home() {
   // const addJsonLd = () => {
@@ -1250,6 +1251,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className='container'>
+          <div className='col=lg-8'>
+            <ROIPage />
+          </div>
+        </div>
+      </section>
+
     </>
   )
 }
