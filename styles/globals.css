@@ -7,6 +7,7 @@
   /* --color-red: #bb2b36; */
   --color-red: #bb2b36;
   --color-blue: #1d3557;
+  --color-hero: #19376d;
   --color-grey: #585858;
   --color-bg: #f7f9fb;
   --shadow-small: 0px 0px 30px rgba(127, 137, 161, 0.25);
@@ -16,7 +17,9 @@
     0 11px 8px rgb(29 35 115 / 4%), 0 5px 5px rgb(29 35 115 / 3%),
     0 2px 2px rgb(29 35 115 / 2%);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Inter, sans-serif !important;
   color: #444;
@@ -10955,6 +10958,73 @@ transform:translateY(-15px)
 .home-client{
 text-align:center
 }
+/*solution new template css */
+.hero-bnner-info h1{}
+.hero-bnner-info p{}
+.hero-bnner-info .top-info{
+  position: relative;
+  margin-bottom: 60px;
+}
+.hero-bnner-info .top-info::before{
+  content: '';
+  position: absolute;
+  background-image: radial-gradient(circle at 50% 50%, #a5d7e8, rgba(165, 215, 232, 0) 71%);
+  width: 1000px;
+  height: 1000px;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.6;
+  z-index: -1;
+}
+.hero-bnner-info .top-info h1{
+  font-size: 48px !important;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #0b2447;
+}
+.hero-bnner-info .top-info p{
+  font-size: 20px;
+  line-height: 1.5;
+  color: #303a60;
+}
+.hero-bnner-info .bottom-info-cta{
+
+}
+.hero-bnner-info .bottom-info-cta a{
+  display: inline-block;
+  background-color: #d73d3d;
+  color: #fff;
+  border-radius: 25px;
+  padding: 0.8rem 3.2rem;
+  margin-bottom: 30px;
+}
+.hero-bnner-info .bottom-info-cta a:hover{
+  background-color: #ffffff;
+  color: #000;
+  border-color: #ffffff
+}
+.hero-bnner-info .bottom-info-cta a:focus{
+  border-color: #d73d3d
+}
+.hero-bnner-info .bottom-info-cta span{
+  display: block;
+  color: #a5d7e8;
+}
+.hero-bnner-info  .top-info-img{
+  padding-bottom: 40px;
+}
+
+
+.hero-bg-blue{
+  background-color: var(--color-hero);
+  margin-top: -485px;
+  padding-top: 80px;
+  position: relative;
+  z-index: -1;
+  padding-bottom: 20px;
+}
+/*solution new template css End */
 @media (min-width: 1200px) and (max-width: 1400px) {
   .video-conte h1, .video-conte h2{
     font-size:36px !important

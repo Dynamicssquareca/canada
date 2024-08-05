@@ -1,0 +1,18 @@
+{
+    "solution-new": [
+      { "id": "section1", "label": "Overview" },
+      { "id": "section2", "label": "Capabilities" },
+      { "id": "section3", "label": "Benefits" },
+      { "id": "section4", "label": "Services" },
+      { "id": "section5", "label": "Why us" },
+      { "id": "section6", "label": "Pricing and Licensing" }
+    ],
+    "solution-ne": [
+      { "id": "section1", "label": "About Section 1" },
+      { "id": "section2", "label": "About Section 2" }
+    ],
+    "contact": [
+      { "id": "section1", "label": "Contact Section 1" },
+      { "id": "section2", "label": "Contact Section 2" }
+    ]
+  }
