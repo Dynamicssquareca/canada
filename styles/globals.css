@@ -11266,6 +11266,54 @@ text-align:center
 .card-five:hover .pic img{
   transform:scale(1.2)
 }
+.crad-six{
+  background-color: #576cbc;
+  position:relative;
+  overflow:hidden;
+  padding: 70px 170px 15px 30px;
+}
+.c-white{
+  background-color: #f5f5f5
+}
+.crad-six h3{
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom:1rem
+}
+.c-white h3{
+  color: #576cbc;
+}
+
+.crad-six p{
+  font-size: 16px;
+  color: #fff;
+}
+.c-white p{
+  color:#385575;
+}
+.bg-img{
+  position: absolute;
+  top: 0;
+    right: -5px;
+}
+
+.bg-img img{ 
+  width: 250px;
+  mix-blend-mode: plus-lighter;
+}
+.img-flips{
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+}
+.img-flips img{ 
+  width: 250px;
+    mix-blend-mode: plus-lighter;
+    transform: rotateX(-180deg);
+}
+
+
 /*solution new template css End */
 @media (min-width: 1200px) and (max-width: 1400px) {
   .video-conte h1, .video-conte h2{

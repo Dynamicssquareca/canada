@@ -513,54 +513,45 @@ const DD = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Microsoft 365 Business Central Services</h2>
-                  <p>Explore our efficient, reliable, and cost-efficient services, specially curated for growing businesses.</p>
+                  <h2>Why Are Business Preferring Dynamics Square?</h2>
+                  <p>Companies choose us as a Dynamics 365 support partner due to reliable service, trust, competitive pricing, etc. Here are a few points that make us favorites:</p>
                 </header>
               </div>
             </div>
 
 
-            <div className="row">
-              <div className="col-xl-4 d-flex">
-                <div className="card-five">
-                  <div className="pic">
-                    <a href=""><img src="/img/serv-img-1.jpg" alt="serv-img-1" /></a>
-                  </div>
-                  <div className="info-card">
-                    <h3>Implementation</h3>
-                    <p>We at Dynamics Square believe in seamless Microsoft dynamics implementation along with long-term assistance. Our expertise enables us to deliver a hassle-free implementation of the Dynamics 365 suite of ERP and CRM applications without any traditional glitches & hassles.</p>
-                    <div className="act-bb">
-                      <a href="">Know More <i className="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
+            <div className="row g-3">
+              <div className="col-xl-6 d-flex">
+                <div className="crad-six c-white">
+                    <h3>Tailored Solutions, Built for You</h3>
+                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                    
                 </div>
               </div>
-              <div className="col-xl-4 d-flex">
-                <div className="card-five">
-                  <div className="pic">
-                    <a href=""><img src="/img/serv-img-1.jpg" alt="serv-img-1" /></a>
-                  </div>
-                  <div className="info-card">
-                    <h3>Upgrade Services</h3>
-                    <p>We have successfully transformed businesses with our futuristic Upgrading services. Dynamic Square ensures that the team can extend developing modern methodologies for unveiling your true business potential.</p>
-                    <div className="act-bb">
-                      <a href="">Know More <i className="bi bi-arrow-right"></i></a>
+              <div className="col-xl-6 d-flex">
+                <div className="crad-six">
+                    <h3>Tailored Solutions, Built for You</h3>
+                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                    <div className="bg-img">
+                      <img src="/img/shpe-11.png" alt="shape" />
                     </div>
-                  </div>
                 </div>
               </div>
-              <div className="col-xl-4 d-flex">
-                <div className="card-five">
-                  <div className="pic">
-                    <a href=""><img src="/img/serv-img-1.jpg" alt="serv-img-1" /></a>
-                  </div>
-                  <div className="info-card">
-                    <h3>Support Services</h3>
-                    <p>We prioritize long-term associations with you over anything. Our team is happy to assist the clients even after the project is completed.</p>
-                    <div className="act-bb">
-                      <a href="">Know More <i className="bi bi-arrow-right"></i></a>
+
+              <div className="col-xl-6 d-flex">
+                <div className="crad-six">
+                    <h3>Tailored Solutions, Built for You</h3>
+                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                    <div className="img-flips">
+                      <img src="/img/shpe-11.png" alt="shape" />
                     </div>
-                  </div>
+                </div>
+              </div>
+              <div className="col-xl-6 d-flex">
+                <div className="crad-six c-white">
+                    <h3>Tailored Solutions, Built for You</h3>
+                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                    
                 </div>
               </div>
             </div>
