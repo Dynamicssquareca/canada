@@ -71,6 +71,7 @@ const DD = () => {
                     autoPlay
                     loop
                     muted
+                    playsInline
                     poster="/img/video-thumb.png"
                   >
                     <source src="/video/BC.mp4" />
@@ -103,16 +104,6 @@ const DD = () => {
 
           </div>
         </section>
-
-
-
-
-
-
-
-
-
-
 
         <section id="section2">
           <div className="container">
@@ -227,9 +218,6 @@ const DD = () => {
 
           </div>
         </section>
-
-
-
 
 
         <section id="section3">
@@ -355,7 +343,100 @@ const DD = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="tab-pane fade" id="solution-two">2</div>
+                    <div className="tab-pane fade" id="solution-two">
+                    <div className="row">
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check-circle-fill"></i>
+                              Internal Transactions
+                            </div>
+                            <p>Manages internal financial transactions without any errors.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="tab-pane fade" id="solution-three">3</div>
                     <div className="tab-pane fade" id="solution-four">4</div>
                     <div className="tab-pane fade" id="solution-five">5</div>
@@ -523,35 +604,35 @@ const DD = () => {
             <div className="row g-3">
               <div className="col-xl-6 d-flex">
                 <div className="crad-six c-white">
-                    <h3>Tailored Solutions, Built for You</h3>
-                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
-                    
+                  <h3>Tailored Solutions, Built for You</h3>
+                  <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+
                 </div>
               </div>
               <div className="col-xl-6 d-flex">
                 <div className="crad-six">
-                    <h3>Tailored Solutions, Built for You</h3>
-                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
-                    <div className="bg-img">
-                      <img src="/img/shpe-11.png" alt="shape" />
-                    </div>
+                  <h3>Tailored Solutions, Built for You</h3>
+                  <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                  <div className="bg-img">
+                    <img src="/img/shpe-11.png" alt="shape" />
+                  </div>
                 </div>
               </div>
 
               <div className="col-xl-6 d-flex">
                 <div className="crad-six">
-                    <h3>Tailored Solutions, Built for You</h3>
-                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
-                    <div className="img-flips">
-                      <img src="/img/shpe-11.png" alt="shape" />
-                    </div>
+                  <h3>Tailored Solutions, Built for You</h3>
+                  <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                  <div className="img-flips">
+                    <img src="/img/shpe-11.png" alt="shape" />
+                  </div>
                 </div>
               </div>
               <div className="col-xl-6 d-flex">
                 <div className="crad-six c-white">
-                    <h3>Tailored Solutions, Built for You</h3>
-                    <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
-                    
+                  <h3>Tailored Solutions, Built for You</h3>
+                  <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+
                 </div>
               </div>
             </div>
@@ -565,10 +646,180 @@ const DD = () => {
 
 
 
+      <section style={{background:'#f5f5f5'}}>
+        <div className="container">
+        <div className="row">
+              <div className="col-lg-6">
+                <header className="section-header-new">
+                  <h2>Move To Business Central And Drive Digitalization</h2>
+                  <p>Moving to Microsoft Business Central can open up the doors of limitless opportunities and push your business towards sustainable growth.</p>
+                </header>
+              </div>
+            </div>
+          <div className="row g-3">
+            <div className="col-lg-6 d-flex">
+                <div className="card-seven">
+                  <div className="card-top-pic">
+                  <img src="/img/micrsoft-nva-ds.png" alt="micrsoft-nva-ds" />
+                  </div>
+                  <h3>Dynamics NAV <br/>to BC Upgrade</h3>
+                  <p>Struggling with data silos, downtime, and system complexities? Go for a Dynamics NAV to BC upgrade to simplify processes, avail AI-enabled automation, and limitless scalability.</p>
+                   <a href="#" className="btn bt-bg">Schedule a Free Demo</a>
+                   <div className="bg-r-img">
+                      <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
+                   </div>
+                </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+                <div className="card-seven card-w">
+                  <div className="card-top-pic">
+                  <img src="/img/micrsoft-nva-ds.png" alt="micrsoft-nva-ds" />
+                  </div>
+                  <h3>Dynamics GP<br/>
+                  to BC Migration</h3>
+                  <p>Struggling with data silos, downtime, and system complexities? Go for a Dynamics NAV to BC upgrade to simplify processes, avail AI-enabled automation, and limitless scalability.</p>
+                   <a href="#" className="btn bt-bg">Schedule a Free Demo</a>
+                   <div className="bg-r-img">
+                      <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
+                   </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  className="pricing pricing-colo">
+        <div className="container">
+        <div className="row">
+              <div className="col-lg-6">
+                <header className="section-header-new">
+                  <h2>Dynamics 365 Business Central Pricing: Find the Best Plan</h2>
+                  <p>Take a look at Dynamics 365 Business Central Pricing and choose the perfect plan among Team Member, Essential, and Premium Licensing options.</p>
+                </header>
+              </div>
+            </div>
+            <div className="row gy-4">
+            <div className="col-lg-4">
+              <div className="box">
+                <h3>
+                  Dynamics 365 Business Central
+                  <br />
+                  Essentials
+                </h3>
+                <p>From</p>
+                <div className="price">
+                  $95(CAD)<span>per user/month</span>
+                </div>
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Financial Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Inventory Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Order Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Purchase Order Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Project Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Additional Capabilities
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="box">
+                <h3>
+                  Dynamics 365 Business Central
+                  <br />
+                  Premium
+                </h3>
+                <p>From</p>
+                <div className="price">
+                  $135.70(CAD)<span>per user/month</span>
+                </div>
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Financial Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Inventory Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Sales Order Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Purchase Order Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Project Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Additional Capabilities
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Service Management
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Manufacturing
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Additional Capabilities
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="box">
+                <h3>
+                  Dynamics 365 Business Central
+                  <br />
+                  Team Members
+                </h3>
+                <p>From</p>
+                <div className="price">
+                  $10.90(CAD)<span>per user/month</span>
+                </div>
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Read and Approve
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Employee Self Serve
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i>Run All Reports
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-
-
-
+            <div className="col-lg-12 col-md-12">
+              <div className="price-btn d-flex justify-content-center">
+                <a
+                  data-bs-toggle="modal"
+                  href="#exampleModal"
+                  className="btn-get-red"
+                >
+                  <span>Get Started Now</span>
+                </a>
+                <a
+                  href="/assets/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf"
+                  className="btn-get-whit"
+                  target="_blank"
+                  rel=""
+                >
+                  <span>See Licensing Guide</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       </main>
     </>
