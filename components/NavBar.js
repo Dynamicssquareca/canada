@@ -110,6 +110,12 @@ export default function NavBar() {
        max-width: 960px;
     }
 }
+    
+              @media (max-width: 992px) {
+    .nav-list {
+      display:none
+    }
+}
      `}</style>
     </div>
   );
