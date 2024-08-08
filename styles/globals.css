@@ -11772,9 +11772,9 @@ text-align:center
   margin-bottom: 20px;
 }
 .new-solution-tab .nav-pills .nav-link{
-  padding: 7px 10px;
+  padding: 10px 20px;
   margin-right: 8px;
-  border-radius: 0 !important;
+  border-radius: 25px !important;
 }
 .new-solution-tab .nav-pills .nav-link h3 {
   font-size: 15px;
@@ -11861,6 +11861,8 @@ display:none
   left: 0;
   top: 6px;
 }
-
+.m-tt-30 {
+  padding-top: .2rem;
+}
 }
 /*home page new*/
