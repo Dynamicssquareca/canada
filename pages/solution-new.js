@@ -1231,21 +1231,11 @@ const DD = () => {
 
               <div className="col-lg-12 col-md-12">
                 <div className="price-btn d-flex justify-content-center">
+            
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
-                    className="btn-get-red"
-                  >
-                    <span>Get Started Now</span>
-                  </a>
-                  <a
-                    href="/assets/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf"
-                    className="btn-get-whit"
-                    target="_blank"
-                    rel=""
-                  >
-                    <span>See Licensing Guide</span>
-                  </a>
+                   className="btn bt-bg">Get Started Now</a>
                 </div>
               </div>
             </div>
