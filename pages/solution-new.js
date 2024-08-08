@@ -1019,7 +1019,7 @@ const DD = () => {
 
 
 
-        <section>
+        <section id="section5">
 
           <div className="container">
             <div className="row">
@@ -1118,7 +1118,7 @@ const DD = () => {
             </div>
           </div>
         </section>
-        <section className="pricing pricing-colo">
+        <section id="section6"  className="pricing pricing-colo">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
