@@ -234,7 +234,7 @@ const DD = () => {
             </div>
 
             <div className="row m-tt-30">
-              <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4">
+              <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
                 <div className="d-flex align-items-start new-solution-tab">
                   <div className="nav flex-column nav-pills me-3" id="solu-pills-tab">
                     <div className="nav-link active" id="solution-one-tab" data-bs-toggle="pill" data-bs-target="#solution-one" ><h3>Finance</h3></div>
@@ -247,7 +247,7 @@ const DD = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-9 col-lg-8 col-lg-8 col-md-8 col-sm-8">
+              <div className="col-xl-9 col-lg-8 col-md-8 col-sm-12">
                 <div className="tabs-ss">
                   <div className="tab-content" id="solu-pills-tabContent">
                     <div className="tab-pane fade show active" id="solution-one">
@@ -916,25 +916,25 @@ const DD = () => {
 
 
             <div className="row">
-              <div className="col-xl-3 d-flex">
+              <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
                   <h3>AI Powered Assistance</h3>
                   <p>Business Central comes embedded with Microsoft Copilot to help you eliminate recurring or manual tasks and avail automation.</p>
                 </div>
               </div>
-              <div className="col-xl-3 d-flex">
+              <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
                   <h3>Unified and Modern Approach</h3>
                   <p>Business Central ERP offers centralized data to offer data accessibility <b>24*7</b> with an attractive user-interface and easy navigation.</p>
                 </div>
               </div>
-              <div className="col-xl-3 d-flex">
+              <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
                   <h3>Integration Capabilities</h3>
                   <p>Utilize one-click Business Central Extension technology to integrate solutions of Microsoft Dynamics 365 ecosystem without any hassle.</p>
                 </div>
               </div>
-              <div className="col-xl-3 d-flex">
+              <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
                   <h3>Cloud-enabled technology</h3>
                   <p>Cloud technology is cost-effective, low in maintenance, and enables businesses to automatically receive updates for free. </p>

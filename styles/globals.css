@@ -11673,7 +11673,9 @@ text-align:center
   display:none
 }
 
-
+.card-four,.card-five{
+  margin-bottom: 15px;
+}
 }
 @media (max-width: 768px){
   .video-conte h1, .video-conte h2{
@@ -11816,6 +11818,10 @@ text-align:center
   padding: 0.7rem 2rem;
   font-size: 15px;
 }
+.card-three .top-h{
+  font-size: 15px;
+}
+
 }
 
 @media (max-width: 554px){
