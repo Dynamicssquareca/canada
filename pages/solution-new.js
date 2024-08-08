@@ -1033,14 +1033,14 @@ const DD = () => {
 
 
             <div className="row g-3">
-              <div className="col-xl-6 d-flex">
+              <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
                   <h3>Tailored Solutions, Built for You</h3>
                   <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
 
                 </div>
               </div>
-              <div className="col-xl-6 d-flex">
+              <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
                   <h3>Team of Certified Dynamics 365 Experts</h3>
                   <p>We are a team of over <b>135+</b> Microsoft-certified Dynamics 365 consultants. At Dynamics Square, the best industry minds are on your side to tackle any challenge and craft growth-oriented strategies.</p>
@@ -1050,7 +1050,7 @@ const DD = () => {
                 </div>
               </div>
 
-              <div className="col-xl-6 d-flex">
+              <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
                   <h3>Adequate Resources Available</h3>
                   <p>We have adequate resources and infrastructure to empower businesses of all sizes. With our robust Dynamics 365 Business Central support services, you can match your ambition to scale.</p>
@@ -1059,7 +1059,7 @@ const DD = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-6 d-flex">
+              <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
                   <h3>Hands-On Support</h3>
                   <p>We offer on-site support for complex problems or interruptions to ensure your company gets back on track quickly and affordably.</p>
