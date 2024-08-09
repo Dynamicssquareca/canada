@@ -1,7 +1,7 @@
 // pages/test.js
 
 import Head from 'next/head';
-
+import Image from 'next/image';
 const TestPage = ({ isMobile }) => {
   return (
     <>
@@ -12,13 +12,27 @@ const TestPage = ({ isMobile }) => {
       <main>
         {isMobile ? (
           <div className="mobile-layout">
-            <h1>Mobile Layout</h1>
-            <p>This content is visible on mobile screens.</p>
-          </div>
+          <h1>Mobile Layout</h1>
+          <p>This content is visible on mobile screens.</p>
+          <Image
+            src="/img/mobile-image.jpg" // Path to your mobile image
+            alt="Mobile Layout Image"
+            layout="responsive"
+            width={720} // Aspect ratio width
+            height={480} // Aspect ratio height
+          />
+        </div>
         ) : (
-          <div className="desktop-layout">
-            <h1>Desktop Layout</h1>
-            <p>This content is visible on desktop screens.</p>
+            <div className="desktop-layout">
+                 <h1>Desktop Layout</h1>
+                 <p>This content is visible on mobile screens.</p>
+            <Image
+            src="/img/desktop-image.jpg" // Path to your desktop image
+            alt="Desktop Layout Image"
+            layout="responsive"
+            width={1200} // Aspect ratio width
+            height={800} // Aspect ratio height
+          />
           </div>
         )}
       </main>
