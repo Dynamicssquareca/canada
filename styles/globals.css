@@ -6334,6 +6334,55 @@ color:var(--color-red)
   margin-top: -90px;
 }
 /*home page new*/
+.banner-animated{
+  align-items: center;
+  background-image: linear-gradient(-65deg, #0b2447
+
+  , #00a7cf, #6b4c62, #861a54, #054f7d);
+  background-size: 200%;
+  background-position: 0 0;
+  box-shadow: inset 0 0 5em rgba(0, 0, 0, 0.5);
+  display: flex;
+  font-family: "Lato", Arial, sans-serif;
+  height: 100%;
+  justify-content: center;
+  /* Animation */
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: gradients;
+  padding: 162px 0px 100px;
+  height: 600px;
+}
+@keyframes gradients {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  75% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.h-banner-animated h1{
+  color:#ffffff;
+  font-size: 46px !important;
+}
+.h-banner-animated p{
+  color:#ffffff;
+}
+.a-fluid{
+
+}
 .serve-more-new{
  position:relative;
  min-height: 500px;

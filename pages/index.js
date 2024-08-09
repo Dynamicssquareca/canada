@@ -283,6 +283,113 @@ const Home = () => {
       </Head>
 
       <main>
+      {/* <div className='banner-animated'>
+        <div className='container'>
+          <div className='row justify-content-center text-center'>
+            <div className='col-lg-9'>
+              <div className='h-banner-animated'>
+                <h1>Canada's Trusted Microsoft Dynamics 365 Partner </h1>
+                <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies to drive the digital transformation.</p>
+                <div className='cal-btn-t'>
+                  <a href="" className='btn btn-danger'>Let’s Get Started!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row home-clint-dd justify-content-center">
+              <div className='col-lg-10'>
+                <Swiper
+                  spaceBetween={30}
+                  autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  }}
+                  breakpoints={{
+                    300: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 5,
+                      spaceBetween: 50,
+                    },
+                  }}
+                  modules={[Autoplay]}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    <div className='home-client'>
+                      <Image
+                        src="/img/clients/JVEquip_logo.png"
+                        className="img-fluid a-fluid"
+                        alt="JVEquip_logo"
+                        width={200}
+                        height={80}
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image
+                      src="/img/clients/Spectra-Aluminum-logo-new.png"
+                      className="img-fluid a-fluid"
+                      alt="Spectra-Aluminum-logo"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image
+                      src="/img/clients/MexiLand_logos.png"
+                      className="img-fluid a-fluid"
+                      alt="MexiLand_logos"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image
+                      src="/img/clients/VidPro_logo.png"
+                      className="img-fluid a-fluid"
+                      alt="VidPro_logo"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div className='home-client'>
+                  <Image style={{ mixBlendMode: 'darken' }}
+                      src="/img/clients/PLASP-LOGO.png"
+                      className="img-fluid a-fluid"
+                      alt="PLASP-LOGO"
+                      width={200}
+                      height={80}
+                    />
+                  </div>
+                  </SwiperSlide>
+    
+                </Swiper>
+              </div>
+
+            </div>
+
+        </div>
+      </div> */}
+
+
+
+
+
         <div className="main-banner">
           <Swiper
             spaceBetween={0}
