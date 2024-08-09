@@ -110,7 +110,7 @@ const DD = () => {
         <section id="section2">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
                   <h2>Dynamics 365 Business Central: <br/>Core Benefits You Must Know</h2>
                   <p>Get holistic visibility, real-time insights, and an impactful customer experience to achieve business goals with Microsoft Dynamics 365 BC.</p>
@@ -225,7 +225,7 @@ const DD = () => {
         <section id="section3">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
                   <h2>The Powerhouse Within: Exploring Business Central Capabilities</h2>
                   <p>Connect your entire business processes, make smarter decisions, and start growing easily with game-changing Business Central capabilities.</p>
@@ -890,7 +890,7 @@ const DD = () => {
             <div className="row po-realtive">
               <div className="col-lg-7">
                 <div className="call-to-action-three">
-                  <h2>Switch to Microsoft Business Central Today! — <br/>Your Gateway to Immeasurable Success.</h2>
+                  <h2>Switch to Microsoft Business Central Today! <br/>Your Gateway to Immeasurable Success.</h2>
                   <p>Simplify, automate, and succeed by leveraging the limitless capabilities of Business Central.</p>
                   <a href="#" className="btn bt-bg">Switch Now!</a>
                   <div className="im-abso">
@@ -953,7 +953,7 @@ const DD = () => {
 
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
                   <h2>Microsoft 365 Business Central Services</h2>
                   <p>Explore our efficient, reliable, and cost-efficient services, specially curated for growing businesses.</p>
@@ -963,10 +963,10 @@ const DD = () => {
 
 
             <div className="row">
-              <div className="col-xl-4 d-flex">
+              <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href=""><img src="/img/serv-img-1.jpg" alt="Implementation" /></a>
+                    <a href="/d365-business-central-implementation/"><img src="/img/serv-img-1.jpg" alt="Implementation" /></a>
                   </div>
                   <div className="info-card">
                     <h3>Business Central Implementation</h3>
@@ -977,7 +977,7 @@ const DD = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 d-flex">
+              <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
                     <a href=""><img src="/img/serv-img-2.jpg" alt="Upgrade Services" /></a>
@@ -991,7 +991,7 @@ const DD = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 d-flex">
+              <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
                     <a href=""><img src="/img/serv-img-3.jpg" alt="Support Services" /></a>
@@ -1231,7 +1231,6 @@ const DD = () => {
 
               <div className="col-lg-12 col-md-12">
                 <div className="price-btn d-flex justify-content-center">
-            
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"

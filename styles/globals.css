@@ -11431,6 +11431,9 @@ text-align:center
   margin-top: -435px;
   padding-top: 100px;
 }
+.call-to-action-three h2,.section-header-new h2{
+  font-size: 28px;
+}
 }
 @media (max-width: 1200px){
   .info-right-new .info-contr-new h3{
@@ -11517,7 +11520,7 @@ text-align:center
   width: 600px;
   height: 600px;
 }
-.section-header-color h2 {
+.section-header-color h2,.section-header-new h2 {
   font-size: 24px;
 }
 
