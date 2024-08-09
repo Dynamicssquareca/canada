@@ -11527,7 +11527,9 @@ text-align:center
 .card-four{
   margin-bottom:20px
 }
-
+.card-seven h3 {
+  font-size: 24px;
+}
 
 }
 
