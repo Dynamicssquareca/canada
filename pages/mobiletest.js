@@ -23,7 +23,7 @@ const TestPage = ({ isMobile }) => {
             height={480} // Aspect ratio height
             quality={75}
             priority = {true}
-            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAA..." 
           />
         </div>
         ) : (
