@@ -100,6 +100,12 @@ export default function NavBar() {
           color: #19376d !important;
           font-weight:500
         }
+          @media (max-width: 1200px) {
+.nav-list{
+top: 60px;
+}
+
+          }
           @media (min-width: 1200px) {
     .nav-list {
         max-width: 1140px;
