@@ -8,6 +8,7 @@ const TestPage = ({ isMobile }) => {
       <Head>
         <title>Test Page</title>
         <meta name="description" content="This is a test page for mobile and desktop layouts." />
+        <link rel="preload" href="/img/mobile-image.jpg" as="image" />
       </Head>
       <main>
         {isMobile ? (
@@ -20,6 +21,8 @@ const TestPage = ({ isMobile }) => {
             layout="responsive"
             width={720} // Aspect ratio width
             height={480} // Aspect ratio height
+            quality={75}
+            priority = {true}
           />
         </div>
         ) : (
@@ -32,6 +35,8 @@ const TestPage = ({ isMobile }) => {
             layout="responsive"
             width={1200} // Aspect ratio width
             height={800} // Aspect ratio height
+            quality={75}
+            priority = {true}
           />
           </div>
         )}
