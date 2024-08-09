@@ -23,6 +23,7 @@ const TestPage = ({ isMobile }) => {
             height={480} // Aspect ratio height
             quality={75}
             priority = {true}
+            placeholder="blur"
           />
         </div>
         ) : (
