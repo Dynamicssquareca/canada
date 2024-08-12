@@ -64,27 +64,5 @@
     { "source": "/blog/ms-dynamics-accounting/", "destination": "/blog/microsoft-dynamics-accounting/", "statusCode": 301 }
 
 
-  ],
-
-"headers": [
-    {
-      "source": "/static/**/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/**",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, s-maxage=31536000, stale-while-revalidate=60"
-        }
-      ]
-    }
   ]
-
 }
