@@ -14,7 +14,7 @@ const Index = () => {
     <>
       
       <Head>
-        <title>Microsoft Dynamics 365 Business Central Partner Vancouver</title>
+        <title>Dynamics 365 Business Central Partner | Dynamics square CA</title>
         <meta
           name="description"
           content="We are Canada's trusted Microsoft Dynamics 365 Business Central Partner in Vancouver. Call +1 289 807 0740 for demo, implementation, upgrades & support."
@@ -34,7 +34,7 @@ const Index = () => {
         />
         <meta
           property="og:title"
-          content="Microsoft Dynamics 365 Business Central ERP Partner Vancouver"
+          content="Dynamics 365 Business Central Partner | Dynamics square CA"
         />
         <meta
           property="og:description"
@@ -51,7 +51,7 @@ const Index = () => {
         />
         <meta
           property="twitter:title"
-          content=" Microsoft Dynamics 365 Business Central ERP Partner Vancouver"
+          content=" Dynamics 365 Business Central Partner | Dynamics square CA"
         />
         <meta
           property="twitter:description"
