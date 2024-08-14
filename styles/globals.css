@@ -11007,8 +11007,16 @@ transform:translateY(-15px)
 .home-client{
 text-align:center
 }
+
 /*solution new template css */
 .hero-bnner-info h1{}
+.hero-bnner-info span{
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #19376d;
+  margin-bottom: 15px;
+}
 .hero-bnner-info p{}
 .hero-bnner-info .top-info{
   position: relative;
