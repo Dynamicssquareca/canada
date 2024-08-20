@@ -6,11 +6,11 @@ import { useRouter } from 'next/router';
 export default function NavBar() {
   const [navItems, setNavItems] = useState([]);
   const [activeSection, setActiveSection] = useState('');
-  const offset = 170; // Offset for scroll behavior
+  const offset = 130; // Offset for scroll behavior
   const router = useRouter();
   const currentPage = router.pathname.replace('/', '') || 'solution-new'; // Default to 'home' if pathname is empty
 
-  useEffect(() => { 
+  useEffect(() => {
     // Fetch navigation data
     const fetchNavItems = async () => {
       const response = await fetch('/data/navItems.json');
@@ -86,20 +86,48 @@ export default function NavBar() {
           gap: 60px;
           justify-content: center;
         }
+           .nav-list ul li{
+           position:relative
+           }
+          
+
         .nav-list ul li a {
           text-decoration: none;
           color: #4365a3;
           transition: color 0.3s;
           font-size: 14px;
+          font-weight:500
         }
+
         .nav-list ul li.active a {
           color: #19376d !important; 
             font-weight:500
         }
+             .nav-list ul li.active a::after{
+        content: "";
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    height: 2px;
+    background: #576cbc;
+    left: 0;
+           }
         .nav-list a:hover {
           color: #19376d !important;
           font-weight:500
         }
+          .nav-list a:hover::after{
+              content: "";
+    position: absolute;
+    bottom: -16px;
+    width: 100%;
+    height: 2px;
+    background: #576cbc;
+    left: 0;
+    transition: .4s ease;
+
+          }
+          
           @media (max-width: 1200px) {
 .nav-list{
 top: 60px;
