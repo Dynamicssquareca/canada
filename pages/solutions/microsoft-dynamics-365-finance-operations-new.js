@@ -123,8 +123,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                 <div className="hero-bnner-info text-center">
                   <div className="top-info">
                     <h1>Dynamics 365 Finance and Operations</h1>
-                    <span>Power your SME with an all-in-one ERP Solution</span>
-                    <p>Accelerate growth, break data silos, centralize data, connect teams, and access your system from anywhere and anytime.</p>
+                    <span>Simplify Finance, Empower Supply Chain</span>
+                    <p>Streamline complex financial operations, enhance supply chain management, get end-to-end visibility, and improve inventory management.</p>
                   </div>
                   <div className="top-info-img text-center">
                     <Image src="/img/bc-erp-partner-banner.png" alt="c-erp-partner-banner" width={1093} height={531} />
@@ -159,7 +159,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
-                  <h2>Dynamics 365 Business Central – Your Partner in Growth</h2>
+                  <h2>Dynamics 365 F&O: Empower Your Business Operations</h2>
                 </header>
               </div>
             </div>
@@ -180,9 +180,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p>Dynamics 365 Business Central, formerly known as  <a href="/solutions/microsoft-dynamics-nav/" ><b>Dynamics NAV</b></a>, is a comprehensive cloud ERP solution embedded with modern technologies of AI and BI to streamline the diverse processes of SMBs.</p>
-                  <p>Microsoft Business Central is a powerful solution that comes with advanced capabilities and business-centric functionalities to deal with different complexities. It connects, manages, and streamlines different departments that include <b>finance, sales, supply chain operations, and HR.</b></p>
-                  <p>D365 BC leverages the power of AI enabled Copilot assistance to enhance productivity, get real-time insights to make data-driven decisions, and simplify processes to enhance overall efficiency with improved visibility. </p>
+                  <p><b>Dynamics 365 Finance and Operations (F&O)</b> is a cloud-based ERP solution that helps maximize financial visibility and profitability, unify finance and operation, make fast and informed decisions, and adapt to the changing landscape of market demands. </p>
+                  <p>You can predict finance, manage your global operation, accelerate financial processes, optimize warehouses efficiently, and derive rapid business growth with Dynamics F&O. Its automation capabilities empower you to save time and reduce costs on invoice processing, inventory management, and financial workflows.</p>
                 </div>
               </div>
             </div>
@@ -190,10 +189,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row bg-new-callaction justify-content-center">
               <div className="col-lg-9">
                 <div className="solution-new-caltoaction">
-                  <h2>Want to eliminate data silos and boost business productivity?</h2>
-                  <p>Accept innovation and embrace cloud computing with a cost-effective Business Central implementation. Break silos and boost profit margins with a FREE Business Central trial.</p>
+                  <h2>Want to reduce financial errors?</h2>
+                  <p>Cut down on manual errors and streamline invoice processing for faster, more accurate payments.</p>
                   <a data-bs-toggle="modal"
-                      href="#exampleModal" className="btn bt-bg">Unlock Growth. Start Your Trial Today</a>
+                      href="#exampleModal" className="btn bt-bg">Start automating now!</a>
                 </div>
                 <div className="ffloting-pic">
                   <img src="/img/new-shape-call.png" alt="new-shape-call" />
@@ -212,8 +211,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
-                  <h2>Dynamics 365 Business Central: <br/>Core Benefits You Must Know</h2>
-                  <p>Get holistic visibility, real-time insights, and an impactful customer experience to achieve business goals with Microsoft Dynamics 365 BC.</p>
+                  <h2>Achieve Operational Excellence with Dynamics 365 F&O</h2>
+                  <p>Get real-time financial data, streamline procurement & sourcing, automate workflow, and derive smarter decisions with Dynamics 365 F&O.</p>
                 </header>
               </div>
             </div>
@@ -222,96 +221,96 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/cloud_download.png" alt="cloud_download" />
-                  <h3>Deploy the Cloud Faster, Reduce Downtime</h3>
+                  <h3>Get Financial Insight, Plan Better</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Accelerated Deployment</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Accessibility</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Increased Uptime</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Easy to Scale</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time financial insights</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Advanced reporting</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Predict future trends</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Identify opportunities</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/pages.png" alt="pages" />
-                  <h3>Amaze Customers and Drive Loyalty</h3>
+                  <h3>Automate Business Process, Increase Productivity</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Customer Experience</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Personalized Interactions</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient Order Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Effective CRM Features</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Automated routine tasks</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Optimized workflows</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Reduced errors</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Seamless integration</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/sleep_score.png" alt="sleep_score" />
-                  <h3>Close More Deals with AI</h3>
+                  <h3>Scale Your Business, Adapt Easily </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Intelligent Sales Insights</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Avail Automation</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Predictive Sales Forecasting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Personalized Sales Pitch</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Flexible deployment options</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Customize modules</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Higher adaptability</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Standardized workflows</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/rocket_launch_icon.png" alt="rocket_launch_icon" />
-                  <h3>Skyrocket Performance with Data Analytics</h3>
+                  <h3>Get Comprehensive Supply Chain Visibility</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Data-Driven Decision Making</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Efficiency</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Forecasting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time Performance Monitoring</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time monitoring</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Maintain optimal inventory levels</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Improved supplier collaboration</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Better procurement</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/memory.png" alt="memory" />
-                  <h3>Deliver Projects on Time, On Budget</h3>
+                  <h3>Optimize Resources, Reduce Costs </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Project Planning</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Collaboration</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time Project Tracking</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Resource Optimization</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient resource allocation</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Lower IT maintenance</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient resource management</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Improved efficiency</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/pie_chart.png" alt="pie_chart" />
-                  <h3>Real-Time Financials: Gain Control, Make Money</h3>
+                  <h3>Advanced Analytics, Visualize Data </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Accurate Financial Data</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Cash Flow Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Financial Reporting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Follow Regulatory Compliances</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Built-in templates</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Create a personalized dashboard</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Derive smarter decisions</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Integrate with Power BI</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/work_update.png" alt="work_update" />
-                  <h3>Cut Inventory Costs and Boost Availability</h3>
+                  <h3>Enhanced Inventory Management, Better Order Fulfillment </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimized Inventory Levels</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Demand Forecasting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient Warehouse Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduced Inventory Shrinkage</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Optimizes inventory levels</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Reduces carrying costs</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Improves inventory accuracy</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Automated replenishment</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/inventory_2.png" alt="inventory_2" />
-                  <h3>In-built Intelligent Supply Chain Management</h3>
+                  <h3>Improved Cash Flow Management </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>360-Degree SCM Visibility</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Team Collaboration</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Risk Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Maximized Performance</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Liquidity analysis</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Cash position tracking</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Optimize working capital</span></li>
+                    <li><i className="bi bi-check-circle-fill"></i><span>Ensure sufficient liquidity</span></li>
                   </ul>
                 </div>
               </div>
@@ -327,8 +326,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
-                  <h2>The Powerhouse Within: Exploring Business Central Capabilities</h2>
-                  <p>Connect your entire business processes, make smarter decisions, and start growing easily with game-changing Business Central capabilities.</p>
+                  <h2>Harness the Power of Dynamics F&O Capabilities</h2>
+                  <p>Plan your budget accurately, get end-to-end visibility of your operation, and ensure production quality with Dynamics F&O capabilities.</p>
                 </header>
               </div>
             </div>
@@ -337,13 +336,13 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
                 <div className="d-flex align-items-start new-solution-tab">
                   <div className="nav flex-column nav-pills me-3" id="solu-pills-tab">
-                    <div className="nav-link active" id="solution-one-tab" data-bs-toggle="pill" data-bs-target="#solution-one" ><h3>Finance</h3></div>
-                    <div className="nav-link" id="solution-two-tab" data-bs-toggle="pill" data-bs-target="#solution-two"><h3>Sales</h3></div>
-                    <div className="nav-link" id="solution-three-tab" data-bs-toggle="pill" data-bs-target="#solution-three"><h3>Supply Chain Management </h3></div>
-                    <div className="nav-link" id="solution-four-tab" data-bs-toggle="pill" data-bs-target="#solution-four"><h3>Project Management </h3></div>
+                    <div className="nav-link active" id="solution-one-tab" data-bs-toggle="pill" data-bs-target="#solution-one" ><h3>Financial Management</h3></div>
+                    <div className="nav-link" id="solution-two-tab" data-bs-toggle="pill" data-bs-target="#solution-two"><h3>Supply Chain Management</h3></div>
+                    <div className="nav-link" id="solution-three-tab" data-bs-toggle="pill" data-bs-target="#solution-three"><h3>Manufacturing Capabilities</h3></div>
+                    <div className="nav-link" id="solution-four-tab" data-bs-toggle="pill" data-bs-target="#solution-four"><h3>Asset Management</h3></div>
                     <div className="nav-link" id="solution-five-tab" data-bs-toggle="pill" data-bs-target="#solution-five"><h3>Inventory Management</h3></div>
-                    <div className="nav-link" id="solution-six-tab" data-bs-toggle="pill" data-bs-target="#solution-six"><h3>Warehouse Management</h3></div>
-                    <div className="nav-link" id="solution-seven-tab" data-bs-toggle="pill" data-bs-target="#solution-seven"><h3>Manufacturing</h3></div>
+                    <div className="nav-link" id="solution-six-tab" data-bs-toggle="pill" data-bs-target="#solution-six"><h3>Project Management</h3></div>
+                   
                   </div>
                 </div>
               </div>
@@ -356,92 +355,57 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Internal Transactions 
+                              Comprehensive Financial Reporting
                             </div>
-                            <p>Manages internal financial transactions without any errors.</p>
+                            <p>Generate detailed reports by utilizing <b> built-in</b> and <b>customizable templates</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Forecast Cash Flows 
+                              Budget Planning
                             </div>
-                            <p>Estimates future cash inflows, outflows, and financial position. </p>
+                            <p>Create multi-scenario budgets, <b>predict financial performance</b>, and adjust plans.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Budgeting 
+                              Accurate Forecasting
                             </div>
-                            <p>Plans and tracks financial resources to control expenses. </p>
+                            <p>Predict future financial performance and <b>create a strategic roadmap</b>. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Inventory Costing 
+                              Multi-Currency Support
                             </div>
-                            <p>Track inventory value to forecast expenses and maintain inventory levels. </p>
+                            <p>Handle <b>global transactions</b> seamlessly with automatic exchange rate updates.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Multi-Companies Management
+                              Accounts Payable Automation
                             </div>
-                            <p>Combines financial data from multiple entities to analyze finance. </p>
+                            <p>Define vendor types, settle payments, and <b>automate payment approval</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Costs and Expense Allocation 
+                              Accounts Receivable Automation
                             </div>
-                            <p>Allocate expenses and revenues accurately using a common journal. </p>
+                            <p><b>Automate invoice processing</b>, streamline billing, and reduce processing time.</p>
                           </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Treasury 
-                            </div>
-                            <p>Manage cash instruments, offering visibility and control over finance. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Accounts Receivable 
-                            </div>
-                            <p>Tracks and manages incoming payments and settles customer accounts. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Accounts Payable 
-                            </div>
-                            <p>Tracks and manages outgoing payments to suppliers and vendor partners. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Fixed Assets 
-                            </div>
-                            <p>Manage and track long-term assets, including maintenance costs and insurance policies. </p>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-two">
@@ -450,92 +414,57 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Client management 
+                              Predict Future Demand
                             </div>
-                            <p>Manage your customer base, resolve queries, and increase customer satisfaction.</p>
+                            <p>Analyze sales data and market trends to <b>predict future demand</b> accurately.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Sales Quote 
+                              Procurement Management
                             </div>
-                            <p>Modify and send sales quotes to provide customers with detailed pricing. </p>
+                            <p>Manage suppliers, <b>streamline purchasing</b>, and automate approval workflows.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Sales Order 
+                              Warehouse Management
                             </div>
-                            <p>Create sales orders and manage the sale of products or services to customers. </p>
+                            <p>Optimize warehouse layout and implement <b>advanced picking strategies</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Sales Invoices 
+                              End-to-End Visibility
                             </div>
-                            <p>Generate invoices for products or services customers have purchased. </p>
+                            <p>Track products from sourcing to delivery, ensuring transparency and control.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Drop Shipments 
+                              Vendor Collaboration
                             </div>
-                            <p>Fulfill customer orders by shipping products directly using a purchase order. </p>
+                            <p>Enhance supplier relationships and <b>improve procurement efficiency</b>. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Sales Returns 
+                              Integration with Dynamics 365 Ecosystem
                             </div>
-                            <p>Process and manage returned items and ensure accurate inventory. </p>
+                            <p>Achieve greater efficiency, accuracy, and <b>visibility across the operations</b>.</p>
                           </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Assembly Order 
-                            </div>
-                            <p>Connect sales requirements with warehouse activities to fulfill orders. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Order Planning & Promising 
-                            </div>
-                            <p>Plan and promise delivery dates to ensure smooth order fulfillment. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Generate Single Invoice
-                            </div>
-                            <p>Create a single invoice for multiple shipments with detailed information. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Correction or Cancel Unpaid Invoices 
-                            </div>
-                            <p>Correct or cancel unpaid invoices to manage billing errors or customers. </p>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-three">
@@ -544,74 +473,57 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Manage Suppliers
+                              Production Planning and Scheduling
                             </div>
-                            <p>Find and manage vendors while building strong relationships. </p>
+                            <p>Optimize resource allocation, <b>minimize downtime</b>, and maximize efficiency.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Optimize Warehouse 
+                              Bills of Material (BOM) Management
                             </div>
-                            <p>Optimize warehouse space to accommodate growing volumes of inventory. </p>
+                            <p>Define product components, <b>track changes</b>, reduce waste, and prevent delays.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Track Goods during Transportation 
+                              Shop Floor Management
                             </div>
-                            <p>Monitor goods in transit. Get valuable insight into shipment status and location. </p>
+                            <p><b>Monitor production processes</b> and track machine performance.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Communication 
+                              Quality Control
                             </div>
-                            <p>Enhance collaboration across partners to promote efficient operations. </p>
+                            <p><b>Implement quality checks</b> at various stages to deliver superior products.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Adopt New Technologies 
+                              Lean Manufacturing
                             </div>
-                            <p>Integrate advanced SCM solutions to adapt faster, work smarter, and perform better. </p>
+                            <p>Optimize production through kanban, pull systems, and <b>JIT inventory management</b>. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Built-in Intelligence 
+                              Product Lifecycle Management
                             </div>
-                            <p>Automate tasks with in-built Copilot assistance to improve decision-making. </p>
+                            <p>Manage product lifecycle from design to retirement, <b>accelerating time-to-market</b>.</p>
                           </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Enhance Profitability 
-                            </div>
-                            <p>Reduce costs and boost margins. Increase turnover and productivity. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Improve Sustainability 
-                            </div>
-                            <p>Use sustainability entries to track emissions and follow best practices.  </p>
-                          </div>
-                        </div>
+                        
                        
                       </div>
                     </div>
@@ -621,92 +533,57 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Project Creation 
+                              Preventive and Predictive Maintenance
                             </div>
-                            <p>Create, schedule, and manage projects. Define the project scope and start processes.</p>
+                            <p>Optimize asset lifespan through real-time monitoring and <b>proactive maintenance</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Resource Allocations 
+                              Asset Performance Dashboard
                             </div>
-                            <p>Allocate resources based on their skills and experience to ensure project completion. </p>
+                            <p><b>Monitor asset health</b> and performance using data analytics.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Time Sheet Management 
+                              Asset Lifecycle Management 
                             </div>
-                            <p>Track and record the time spent by team members on project tasks in real time. </p>
+                            <p>Track assets from acquisition to disposal, ensuring compliance and <b>cost control</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Project Budget Management 
+                              Asset Reservation
                             </div>
-                            <p>Set a realistic budget based on the project requirements. </p>
+                            <p><b>Reserve the asset</b> to ensure its availability for specific purposes or projects.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Resource Consumptions 
+                              Asset Retirement
                             </div>
-                            <p>Monitor resource consumption, identify bottlenecks, and optimize resource allocation. </p>
+                            <p>Retire and dispose by capturing disposal details and <b>tracking disposal costs</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Project Supplies 
+                              Cost Management
                             </div>
-                            <p>Manage and track materials, equipment, and other supplies needed to complete the project. </p>
+                            <p>Track and control <b>asset-related costs</b> for better financial visibility.</p>
                           </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Project WIP Methods 
-                            </div>
-                            <p>Estimate the financial value of the ongoing project using a general ledger. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Track Project Progress
-                            </div>
-                            <p>Access project progress based on different parameters and specifications. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Project Invoicing 
-                            </div>
-                            <p>Generate and send invoices to clients for a project for multiple users. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Merge Duplicate Records 
-                            </div>
-                            <p>Eliminate duplicate entries to improve data accuracy and ensure reliable reporting. </p>
-                          </div>
-                        </div>
+                       
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-five">
@@ -715,92 +592,57 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Item Master Management 
+                              Real-time Inventory Tracking
                             </div>
-                            <p>List and maintain key information of inventory with complete data. </p>
+                            <p>Monitor stock levels across locations to prevent <b>stockouts and overstocking</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Bill of Materials 
+                              Inventory Replenishment 
                             </div>
-                            <p>Estimate the amount of materials, plan purchases, and ensure part availability. </p>
+                            <p>Optimize <b>inventory levels</b> through automated replenishment processes.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Item Categorization 
+                              Batch and Serial Number Tracking
                             </div>
-                            <p>Categorize items based on type, brand, or other criteria to classify items. </p>
+                            <p>Enhance traceability and quality control with detailed <b>inventory tracking</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Item Attributes 
+                              Inventory Valuation and Costing
                             </div>
-                            <p>Distribute attributes of inventory items and assign codes to find them easily. </p>
+                            <p>Accurately <b>assess inventory value</b> and understand cost drivers.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Item Catalog 
+                              Multi-Location and Multi-Channel Management
                             </div>
-                            <p>Creates a catalog item to simplify the procurement process. </p>
+                            <p>Manage inventory across different locations and <b>sales channels</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Inventory Counting 
+                              Physical Inventory Checks
                             </div>
-                            <p>Perform physical stock counts to ensure data accuracy and identify discrepancies. </p>
+                            <p>Ensure inventory accuracy through regular <b>physical counts</b>.</p>
                           </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Item Availability 
-                            </div>
-                            <p>Check current stock levels to detect item availability and optimize sales.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Inventory Transfer 
-                            </div>
-                            <p>Move stock between warehouses or locations efficiently. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Item Reservation 
-                            </div>
-                            <p>Allocate specific inventory items to sales, purchase, or production needs. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Item Tracking 
-                            </div>
-                            <p>Monitor the movement of your inventory using a serial or lot number. </p>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-six">
@@ -809,171 +651,43 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Item Receiving 
+                              Project Planning and Scheduling
                             </div>
-                            <p>Inspect, verify, and record receiving goods in the warehouse. </p>
+                            <p>Create comprehensive project plans and <b>distribute resources effectively</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Item Shipments 
+                              Resource Allocation
                             </div>
-                            <p>Manage goods shipments from your warehouse for smooth movement.</p>
+                            <p>Optimize resource utilization by avoiding <b>over-or under-allocation</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Cross Dock Items 
+                              Time and Expense Management
                             </div>
-                            <p>Transfer items directly from receiving to shipping without storing them.</p>
+                            <p>Streamline time and expense tracking for <b>accurate billing</b> and <b>cost allocation</b>.</p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check-circle-fill"></i>
-                              Putting Items Away 
+                              Risk and Issue Management
                             </div>
-                            <p>Organize your warehouse to place received items at designated storage locations. </p>
+                            <p>Identify and <b>mitigate project risks</b> to ensure successful outcomes.</p>
                           </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Moving Items 
-                            </div>
-                            <p>Transport goods between locations to optimize storage space. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Picking Items 
-                            </div>
-                            <p>Select specific items from their storage locations to fulfill customer orders. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Automated Data Capture Systems (ADCS) 
-                            </div>
-                            <p>Track items and reduce manual data entry by utilizing barcode scanners. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Inventory Replenishment  
-                            </div>
-                            <p>Maintain optimum inventory levels to meet customer demands. </p>
-                          </div>
-                        </div>
+                        
                      
                       </div>
                     </div>
-                    <div className="tab-pane fade" id="solution-seven">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Production Planning 
-                            </div>
-                            <p>Plan, schedule production runs, and suggest changes based on requirements. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Supply Planning 
-                            </div>
-                            <p>Analyze forecasting material needs and procure goods to optimize delivery. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Demand Forecasting 
-                            </div>
-                            <p>Predict goods quantity and allocate resources to meet consumer demands.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Creation of Production Order
-                            </div>
-                            <p>Automatically create a planned production order from a sales order. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Order Planning 
-                            </div>
-                            <p>Leverage BOM (Bill of Material) to forecast sales and product demand. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              MRP & MPS 
-                            </div>
-                            <p>Automate the supply chain by calculating materials and components.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Requisition Worksheet 
-                            </div>
-                            <p>Create supply chain data and request the purchase using the document. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Calculate Work Centre Calendar 
-                            </div>
-                            <p>Schedule production orders and ensure realistic completion.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Item Availability 
-                            </div>
-                            <p>Check component availability and a specific item's influence on production. </p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
-                              Production Order 
-                            </div>
-                            <p>Specify crucial information about items and create production orders with ease. </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
 
@@ -990,8 +704,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row po-realtive">
               <div className="col-lg-7">
                 <div className="call-to-action-three">
-                  <h2>Switch to Microsoft Business Central Today! <br/>Your Gateway to Immeasurable Success.</h2>
-                  <p>Simplify, automate, and succeed by leveraging the limitless capabilities of Business Central.</p>
+                  <h2>Streamline Production and Financial Processes for Faster Delivery! Accelerate Time-to-Market</h2>
+                  <p>Switch now to Dynamics F&O to speed up your operation by synchronizing finance and supply chain activities.</p>
                   <a  data-bs-toggle="modal"
                       href="#exampleModal" className="btn bt-bg">Switch Now!</a>
                   <div className="im-abso">
@@ -1009,8 +723,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>What Makes Business Central ERP Stand Out?</h2>
-                  <p>The modern features, unlimited AI capabilities, pure cloud-based deployment, and cost-effective per-user subscription licensing make this solution unique and powerful for SMBs.</p>
+                  <h2>Why Dynamics 365 Finance and Operations is the Ultimate Business Solution?</h2>
+                  <p>Dynamics 365 F&O stands out among users for real-time data insights, <b>automated business processes</b>, centralized data view, and <a href="/solutions/microsoft-dynamics-365-finance/">finance management</a>.</p>
                 </header>
               </div>
             </div>
@@ -1019,26 +733,26 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>AI Powered Assistance</h3>
-                  <p>Business Central comes embedded with Microsoft Copilot to help you eliminate recurring or manual tasks and avail automation.</p>
+                  <h3>Comprehensive Financial Management</h3>
+                  <p>D365 F&O comes embedded with standard capabilities that include <b>general ledger</b>, accounts receivable and payable, <b>multi-currency support</b>, fixed assets, and budgeting.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Unified and Modern Approach</h3>
-                  <p>Business Central ERP offers centralized data to offer data accessibility <b>24*7</b> with an attractive user-interface and easy navigation.</p>
+                  <h3>Global Compliance and Localization</h3>
+                  <p>Supports global regulatory compliance with features tailored to various international standards. Also offers localization options for different regions, including <b>language support</b>.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Integration Capabilities</h3>
-                  <p>Utilize one-click Business Central Extension technology to integrate solutions of Microsoft Dynamics 365 ecosystem without any hassle.</p>
+                  <h3>Intelligent Operations</h3>
+                  <p><b>Leverages AI and ML</b> to automate routine tasks and workflows, deliver actionable insights, predictive analytics, and data-driven decision-making.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Cloud-enabled technology</h3>
-                  <p>Cloud technology is cost-effective, low in maintenance, and enables businesses to automatically receive updates for free. </p>
+                  <h3>Unified Platform</h3>
+                  <p>Integrates seamlessly with other <b>Microsoft solutions</b> like Power BI. Enhances collaboration, data sharing, and operational efficiency.</p>
                 </div>
               </div>
             </div>
