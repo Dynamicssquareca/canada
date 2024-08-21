@@ -6413,14 +6413,14 @@ color:var(--color-red)
 .flot-imm .left{
   position: absolute;
   left: -80px;
-  top: 300px;
+  top: 250px;
   -webkit-animation: updown 2s infinite alternate;
     animation: updown 2s infinite alternate;
 }
 .flot-imm .right{
   position: absolute;
   right:-80px;
-  top: 300px;
+  top: 250px;
   -webkit-animation: upp 2s infinite alternate;
     animation: upp 2s infinite alternate;
 }
