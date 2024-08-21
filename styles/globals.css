@@ -6413,14 +6413,14 @@ color:var(--color-red)
 .flot-imm .left{
   position: absolute;
   left: -80px;
-  top: 200px;
+  top: 300px;
   -webkit-animation: updown 2s infinite alternate;
     animation: updown 2s infinite alternate;
 }
 .flot-imm .right{
   position: absolute;
   right:-80px;
-  top: 200px;
+  top: 300px;
   -webkit-animation: upp 2s infinite alternate;
     animation: upp 2s infinite alternate;
 }
@@ -6448,16 +6448,22 @@ color:var(--color-red)
 }
 .text-s span{
   display: block;
-    color: #fff;
-    padding-bottom: 20px;
-    font-size: 22px;
+  color: #c9d0d5;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 .cal-btn-t .btn{
-  padding: 0.8rem 3.5rem;
+  padding: 0.8rem 2rem;
   border-radius: 50px;
   font-size: 18px;
   position: relative;
     z-index: 1;
+}
+.cal-btn-t span{
+  display: block;
+  color: #aac0c9;
+  font-size: 14px;
+  margin-top: 5px;
 }
 .serve-more-new{
  position:relative;
@@ -7098,6 +7104,7 @@ font-weight:400
   padding: 0.8rem 2.5rem;
   font-size: 16px;
 }
+
   .hd-div{
     display:none !important
   }

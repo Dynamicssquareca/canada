@@ -297,7 +297,8 @@ const Home = () => {
                 <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies to drive the digital transformation.</p>
                 </div>
                 <div className='cal-btn-t'>
-                <a data-bs-toggle="modal" href="#exampleModal" className='btn btn-danger'>Let’s Get Started!</a>
+                <a data-bs-toggle="modal" href="#exampleModal" className='btn btn-danger'>Get Started Today</a>
+                <span>Free consultation with no obligations</span>
                 </div>
                 <div className='flot-imm'>
                   <img src="/img/ca-banner-p-l.png" className='left' alt="a-banner-p-l" />
@@ -310,7 +311,7 @@ const Home = () => {
           <div className="row home-clint-d justify-content-center">
               <div className='col-lg-10'>
                 <div className='text-s'>
-                  <span>Trusted by Business!</span>
+                  <span>Trusted by 350+ Businesses</span>
                 </div>
                 <Swiper
                   spaceBetween={30}
