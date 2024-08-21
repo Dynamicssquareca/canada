@@ -640,8 +640,8 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="row new-image-card">
-              <div className="col-lg-4 d-flex">
+            <div className="row new-image-card sliding-row">
+              <div className="col-lg-4 d-flex sliding-col">
                 <div className="card-image-ver-1">
                   <a href="/solutions/dynamics-365-business-central/">
                     <div className="card-head-top">
@@ -663,7 +663,7 @@ const Home = () => {
 
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 d-flex sliding-col">
                 <div className="card-image-ver-1">
                   <a href="/solutions/microsoft-dynamics-365-finance/">
                     <div className="card-head-top">
@@ -686,7 +686,7 @@ const Home = () => {
 
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 d-flex sliding-col">
                 <div className="card-image-ver-1">
                   <a href="/solutions/dynamics-365-supply-chain-management/">
                     <div className="card-head-top">
@@ -709,7 +709,7 @@ const Home = () => {
 
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 d-flex sliding-col">
                 <div className="card-image-ver-1">
                   <a href="/solutions/microsoft-dynamics-365-sales/">
                     <div className="card-head-top">
@@ -731,7 +731,7 @@ const Home = () => {
 
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 d-flex sliding-col">
                 <div className="card-image-ver-1">
                   <a href="/solutions/microsoft-power-bi/">
                     <div className="card-head-top">
@@ -753,7 +753,7 @@ const Home = () => {
 
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 d-flex sliding-col">
                 <div className="card-image-ver-1">
                   <a href="/">
                     <div className="card-head-top">
