@@ -12095,8 +12095,9 @@ display:none
   }
   .card-image-ver-1{
     white-space: normal;
-    padding: 30px 15px;
+    padding: 30px 15px 35px;
     position: relative;
+    min-height: 380px;
   }
   .card-image-ver-1 .card-head-top h3 {
     font-size: 16px;
@@ -12106,11 +12107,12 @@ display:none
   }
   .card-image-ver-1 .card-mid-se p{
     font-size: 14px;
+
   }
   /* Sliding effect for each column */
   .card-image-ver-1 a span{
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     font-size:14px
   }
 }
