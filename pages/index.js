@@ -283,22 +283,31 @@ const Home = () => {
       </Head>
 
       <main>
-      {/* <div className='banner-animated'>
+      <div className='banner-animated'>
         <div className='container'>
           <div className='row justify-content-center text-center'>
-            <div className='col-lg-9'>
+            <div className='col-lg-12'>
               <div className='h-banner-animated'>
-                <h1>Canada's Trusted Microsoft Dynamics 365 Partner </h1>
+                <div className='top-he'>
+                <h1>Canada's Trusted <br/>Microsoft Dynamics 365 Partner </h1>
                 <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies to drive the digital transformation.</p>
+                </div>
                 <div className='cal-btn-t'>
-                  <a href="" className='btn btn-danger'>Let’s Get Started!</a>
+                <a data-bs-toggle="modal" href="#exampleModal" className='btn btn-danger'>Let’s Get Started!</a>
+                </div>
+                <div className='flot-imm'>
+                  <img src="/img/ca-banner-p-l.png" className='left' alt="a-banner-p-l" />
+                  <img src="/img/ca-banner-p-r.png" className='right' alt="a-banner-p-2" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="row home-clint-dd justify-content-center">
+          <div className="row home-clint-d justify-content-center">
               <div className='col-lg-10'>
+                <div className='text-s'>
+                  <span>Trusted by Business!</span>
+                </div>
                 <Swiper
                   spaceBetween={30}
                   autoplay={{
@@ -325,10 +334,10 @@ const Home = () => {
                   <SwiperSlide>
                     <div className='home-client'>
                       <Image
-                        src="/img/clients/JVEquip_logo.png"
+                        src="/img/cli-1.png"
                         className="img-fluid a-fluid"
-                        alt="JVEquip_logo"
-                        width={200}
+                        alt="cli-1"
+                        width={238}
                         height={80}
                       />
                     </div>
@@ -336,10 +345,10 @@ const Home = () => {
                   <SwiperSlide>
                   <div className='home-client'>
                   <Image
-                      src="/img/clients/Spectra-Aluminum-logo-new.png"
+                      src="/img/cli-2.png"
                       className="img-fluid a-fluid"
                       alt="Spectra-Aluminum-logo"
-                      width={200}
+                      width={238}
                       height={80}
                     />
                   </div>
@@ -347,10 +356,10 @@ const Home = () => {
                   <SwiperSlide>
                   <div className='home-client'>
                   <Image
-                      src="/img/clients/MexiLand_logos.png"
+                      src="/img/cli-3.png"
                       className="img-fluid a-fluid"
                       alt="MexiLand_logos"
-                      width={200}
+                      width={238}
                       height={80}
                     />
                   </div>
@@ -358,21 +367,21 @@ const Home = () => {
                   <SwiperSlide>
                   <div className='home-client'>
                   <Image
-                      src="/img/clients/VidPro_logo.png"
+                      src="/img/cli-4.png"
                       className="img-fluid a-fluid"
                       alt="VidPro_logo"
-                      width={200}
+                      width={238}
                       height={80}
                     />
                   </div>
                   </SwiperSlide>
                   <SwiperSlide>
                   <div className='home-client'>
-                  <Image style={{ mixBlendMode: 'darken' }}
-                      src="/img/clients/PLASP-LOGO.png"
+                  <Image
+                      src="/img/cli-5.png"
                       className="img-fluid a-fluid"
                       alt="PLASP-LOGO"
-                      width={200}
+                      width={238}
                       height={80}
                     />
                   </div>
@@ -384,13 +393,13 @@ const Home = () => {
             </div>
 
         </div>
-      </div> */}
+      </div>
 
 
 
 
 
-        <div className="main-banner">
+        {/* <div className="main-banner">
           <Swiper
             spaceBetween={0}
             centeredSlides={true}
@@ -398,14 +407,12 @@ const Home = () => {
               delay: 555555,
               disableOnInteraction: false,
             }}
-            // pagination={{
-            //   clickable: true,
-            // }}
+          
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper mySwipe-home-slider"
           >
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
                   <img src="/img/ca-banner-1.png" alt="ca-banner-1" />
@@ -436,7 +443,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
             <SwiperSlide>
               <div className="slider-banner">
                 <div className="video-bg">
@@ -455,14 +462,14 @@ const Home = () => {
             </SwiperSlide>
 
           </Swiper>
-        </div>
+        </div> */}
         <section className="into-banner-bottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-2 align-self-center">
                 <img
                   className="new-pic"
-                  src="/img/micrsoft-parten-white.png"
+                  src="/img/m--partner.png"
                   alt="parten image"
                 />
               </div>
