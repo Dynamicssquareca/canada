@@ -8822,9 +8822,19 @@ ul.checkmark li {
     font-size: 18px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1441px) {
   .h-banner-animated h1 {
     font-size: 36px !important;
+}
+.flot-imm .left,.flot-imm .right {
+  top: 220px;
+  width: 450px;
+}
+.flot-imm .left{
+  left:-30px
+}
+.flot-imm .right{
+  right:-30px
 }
 }
 
