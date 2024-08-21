@@ -283,7 +283,11 @@ const Home = () => {
       </Head>
 
       <main>
-      <div className='banner-animated'>
+      <div className='banner-animated' style={{
+      backgroundImage: `url(/img/canada-bb.png)`,
+      backgroundRepeat:'no-repeat',
+      backgroundSize:'cover'
+    }}>
         <div className='container'>
           <div className='row justify-content-center text-center'>
             <div className='col-lg-12'>

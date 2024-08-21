@@ -6343,8 +6343,13 @@ color:var(--color-red)
 }
 /*home page new*/
 .banner-animated{
-  background:url(/img/canada-bb.png) no-repeat;
-  background-size: cover;
+  /* background:url(/img/canada-bb.png) no-repeat;
+  background-size: cover; */
+  background: rgb(21,70,138);
+  background: -moz-linear-gradient(202deg, rgba(21,70,138,1) 0%, rgba(73,50,79,1) 84%);
+  background: -webkit-linear-gradient(202deg, rgba(21,70,138,1) 0%, rgba(73,50,79,1) 84%);
+  background: linear-gradient(202deg, rgba(21,70,138,1) 0%, rgba(73,50,79,1) 84%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15468a",endColorstr="#49324f",GradientType=1);
   padding: 80px 0px 100px;
   background-position: center center;
   overflow-x: hidden;
@@ -7074,9 +7079,7 @@ font-weight:400
   margin-bottom: -40px;
   margin-top: -80px !important;
 }
-.h-banner-animated h1 {
-  font-size: 32px !important;
-}
+
 .banner-animated .top-he{
   margin: 0 auto 30px;
 }
@@ -11862,8 +11865,14 @@ text-align:center
 .crad-six{
   padding:30px
 }
+.h-banner-animated h1 {
+  font-size: 28px !important;
+}
 }
 @media (max-width: 768px){
+  .into-banner-bottom{
+    display:none
+  }
   .video-conte h1, .video-conte h2{
     font-size:32px !important
   }
