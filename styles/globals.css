@@ -10538,6 +10538,7 @@ text-decoration: none;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
+  margin-bottom: -60px;
 }
 .new-counter-wraper .new-counter {
   position: relative;
@@ -11695,6 +11696,9 @@ text-align:center
 }
 
 @media (max-width: 992px){
+  .new-counter-wraper{
+    margin-bottom: -30px;
+  }
   .floating-pp img {
     width: 100px;
 }

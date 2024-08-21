@@ -530,7 +530,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="row home-clint-dd justify-content-center">
+            {/* <div className="row home-clint-dd justify-content-center">
               <div className='col-lg-10'>
                 <Swiper
                   spaceBetween={30}
@@ -614,7 +614,7 @@ const Home = () => {
                 </Swiper>
               </div>
 
-            </div>
+            </div> */}
           </div>
         </section>
 
