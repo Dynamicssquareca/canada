@@ -770,8 +770,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
-                  <h2>Microsoft 365 Business Central Services</h2>
-                  <p>Explore our efficient, reliable, and cost-efficient services, specially curated for growing businesses.</p>
+                  <h2>Get Tailored F&O Services for Your Business</h2>
+                  <p>Get trustworthy, competitive, and reliable service for Dynamics F&O solutions that is tailored as per your requirements.</p>
                 </header>
               </div>
             </div>
@@ -784,10 +784,11 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     <a href="/d365-business-central-implementation/"><img src="/img/serv-img-1.jpg" alt="Implementation" /></a>
                   </div>
                   <div className="info-card">
-                    <h3>Business Central Implementation</h3>
-                    <p>Streamline and boost your business with a seamless implementation process.</p>
+                    <h3>Dynamics 365 Finance and Operations Implementation</h3>
+                    <p>Get end-to-end implementation services to meet specific business needs.</p>
                     <div className="act-bb">
-                      <a href="/d365-business-central-implementation/">Unlock Growth! <i className="bi bi-arrow-right"></i></a>
+                    <a  data-bs-toggle="modal"
+                      href="#exampleModal">Unlock Growth! <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -798,10 +799,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     <a href="/dynamics-nav-to-business-central-upgrade/"><img src="/img/serv-img-2.jpg" alt="Upgrade Services" /></a>
                   </div>
                   <div className="info-card">
-                    <h3>Migrate to Business Central</h3>
-                    <p>Transform your business digitally by utilizing advanced tools to push growth.</p>
+                    <h3>Smooth Transition to Dynamics F&O</h3>
+                    <p>Seamlessly upgrade to the latest version with minimal disruption.</p>
                     <div className="act-bb">
-                      <a href="/dynamics-nav-to-business-central-upgrade/">Switch to Tech! <i className="bi bi-arrow-right"></i></a>
+                      <a href="/contact-us/">Switch to Tech! <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -812,10 +813,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     <a href=""><img src="/img/serv-img-3.jpg" alt="Support Services" /></a>
                   </div>
                   <div className="info-card">
-                    <h3>Business Central Support</h3>
-                    <p>Improve the existing processes and eliminate all future issues with reliable support.</p>
+                    <h3>Reliable Ongoing Support</h3>
+                    <p>Leverage ongoing support and active maintenance services to ensure optimal performance.</p>
                     <div className="act-bb">
-                      <a href="/dynamics-365-business-central-erp-support/">Revive Business! <i className="bi bi-arrow-right"></i></a>
+                      <a href="/services/dynamics-365-support/">Revive Business! <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -840,8 +841,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Why Are Business Preferring Dynamics Square?</h2>
-                  <p>Companies choose us as a Dynamics 365 support partner due to reliable service, trust, competitive pricing, etc. Here are a few points that make us favorites:</p>
+                  <h2>Dynamics Square: Experience Maximum Impact with Cost-Effective Solution</h2>
+                  <p>Dynamics Square, a leading <a href="/">Microsoft Solutions Partner in Ontario</a>, is known for providing tailor-made service with a 360° approach, technical expertise, and competitive pricing. Here is what makes it unique:</p>
                 </header>
               </div>
             </div>
@@ -850,15 +851,15 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row g-3">
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                  <h3>Tailored Solutions, Built for You</h3>
-                  <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+                  <h3>Comprehensive Service Offerings</h3>
+                  <p>We provide end-to-end services to ensure your organization <b>maximizes ROI</b> from their technology investments.</p>
 
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <h3>Team of Certified Dynamics 365 Experts</h3>
-                  <p>We are a team of over <b>135+</b> Microsoft-certified Dynamics 365 consultants. At Dynamics Square, the best industry minds are on your side to tackle any challenge and craft growth-oriented strategies.</p>
+                  <h3>Industry-Specific Solutions</h3>
+                  <p>Dynamics Square provides customized solutions for diverse industries such as <b>manufacturing, healthcare, retail</b>, and <b>financial services</b>.</p>
                   <div className="bg-img">
                     <img src="/img/shpe-11.png" alt="shape" />
                   </div>
@@ -867,8 +868,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <h3>Adequate Resources Available</h3>
-                  <p>We have adequate resources and infrastructure to empower businesses of all sizes. With our robust Dynamics 365 Business Central support services, you can match your ambition to scale.</p>
+                  <h3>•	Proven Track Record</h3>
+                  <p>With over <b>250 global</b> clients and a <b>99%</b> satisfaction rate, Dynamics Square delivers successful digital transformations.</p>
                   <div className="img-flips">
                     <img src="/img/shpe-11.png" alt="shape" />
                   </div>
@@ -876,8 +877,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                  <h3>Hands-On Support</h3>
-                  <p>We offer on-site support for complex problems or interruptions to ensure your company gets back on track quickly and affordably.</p>
+                  <h3>Years of Experience</h3>
+                  <p>We ensure businesses can leverage the full power of <a href="/solutions/microsoft-dynamics-365/">Dynamics 365 solutions</a> with our <b>14+</b> years of experience and a team of <b>150+</b> Microsoft-certified consultants.</p>
 
                 </div>
               </div>
@@ -897,20 +898,20 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Move to Business Central and Drive Digitalization</h2>
-                  <p>Moving to Microsoft Business Central can open up the doors of limitless opportunities and push your business towards sustainable growth.</p>
+                  <h2>Dynamics 365 Finance and Operations: Now Two Distinct Solutions, Starting a New Era</h2>
+                  <p>Microsoft has split Dynamics 365 F&O into two distinct applications to provide more specialized functionality: Dynamics 365 Finance and Dynamics 365 Supply Chain Management.</p>
                 </header>
               </div>
             </div>
             <div className="row g-3">
               <div className="col-lg-6 d-flex">
                 <div className="card-seven">
-                  <div className="card-top-pic">
+                  {/* <div className="card-top-pic">
                     <img src="/img/micrsoft-nva-ds.png" alt="micrsoft-nva-ds" />
-                  </div>
-                  <h3>Dynamics NAV <br />to BC Upgrade</h3>
-                  <p>Struggling with data silos, downtime, and system complexities? Go for a Dynamics NAV to BC upgrade to simplify processes, avail AI-enabled automation, and limitless scalability.</p>
-                  <a href="/dynamics-nav-to-business-central-upgrade/" className="btn bt-bg">Find Out More</a>
+                  </div> */}
+                  <h3>Dynamics 365 Finance</h3>
+                  <p>Automate and modernize financial operations and processes. Monitor cash flow, reduce write-offs, save time in creating budget proposals, and improve workforce productivity.</p>
+                  <a href="/solutions/microsoft-dynamics-365-finance/" className="btn bt-bg">Get Started</a>
                   <div className="bg-r-img">
                     <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
                   </div>
@@ -918,13 +919,12 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-lg-6 d-flex">
                 <div className="card-seven card-w">
-                  <div className="card-top-pic">
+                  {/* <div className="card-top-pic">
                     <img src="/img/micrsoft-nva-ds.png" alt="micrsoft-nva-ds" />
-                  </div>
-                  <h3>Dynamics GP<br />
-                    to BC Migration</h3>
-                  <p>Dealing with limited support and customization intricacies? Opt for Dynamics GP to BC migration to eliminate complexities, centralize data, and customize your system as per requirements.</p>
-                  <a href="/blog/dynamics-gp-to-business-central-migration/" className="btn bt-bg">Find Out More</a>
+                  </div> */}
+                  <h3>Dynamics 365 Supply Chain Management</h3>
+                  <p>Modernize your supply chain, get end-to-end process visibility, reduce asset downtime, ensure product timely delivery, and reduce operational costs.</p>
+                  <a href="/solutions/dynamics-365-supply-chain-management/" className="btn bt-bg">Get Started</a>
                   <div className="bg-r-img">
                     <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
                   </div>
@@ -938,41 +938,35 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Dynamics 365 Business Central Pricing: Find the Best Plan</h2>
-                  <p>Take a look at Dynamics 365 Business Central Pricing and choose the perfect plan among Team Member, Essential, and Premium Licensing options.</p>
+                  <h2>Dynamics 365 Finance Pricing Plan: Go Ahead with the Ideal One</h2>
+                  <p>Dynamics 365 Finance and Operations pricing plans are straightforward. Take a look at the pricing plan and move with the suitable plan.</p>
                 </header>
               </div>
             </div>
-            <div className="row gy-4">
+            <div className="row gy-4 justify-content-center">
               <div className="col-lg-4">
                 <div className="box">
                   <h3>
-                    Dynamics 365 Business Central
+                  Dynamics 365 Finance 
                     <br />
                     Essentials
                   </h3>
                   <p>From</p>
                   <div className="price">
-                    $95(CAD)<span>per user/month</span>
+                    $244(CAD)<span>user/month</span>
                   </div>
                   <ul>
                     <li>
-                      <i className="bi bi-check-lg"></i>Financial Management
+                      <i className="bi bi-check-lg"></i>Core Financials
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Inventory Management
+                      <i className="bi bi-check-lg"></i>Business performance planning (read-only access)
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Order Management
+                      <i className="bi bi-check-lg"></i>Business performance analytics
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Purchase Order Management
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Project Management
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Additional Capabilities
+                      <i className="bi bi-check-lg"></i>AI and machine learning
                     </li>
                   </ul>
                 </div>
@@ -980,87 +974,50 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-lg-4">
                 <div className="box">
                   <h3>
-                    Dynamics 365 Business Central
-                    <br />
-                    Premium
+                  Dynamics 365 Finance Premium 
                   </h3>
                   <p>From</p>
                   <div className="price">
-                    $135.70(CAD)<span>per user/month</span>
+                    $407.70(CAD)<span>user/month</span>
                   </div>
                   <ul>
                     <li>
-                      <i className="bi bi-check-lg"></i>Financial Management
+                      <i className="bi bi-check-lg"></i>Core Financials
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Inventory Management
+                      <i className="bi bi-check-lg"></i>Business performance planning (Admin access)
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Sales Order Management
+                      <i className="bi bi-check-lg"></i>Business performance analytics
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Purchase Order Management
+                      <i className="bi bi-check-lg"></i>AI and machine learning
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Project Management
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Additional Capabilities
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Service Management
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Manufacturing
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Additional Capabilities
-                    </li>
+                      <i className="bi bi-check-lg"></i>Capacity and Storage
+                      </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="box">
-                  <h3>
-                    Dynamics 365 Business Central
-                    <br />
-                    Team Members
-                  </h3>
-                  <p>From</p>
-                  <div className="price">
-                    $10.90(CAD)<span>per user/month</span>
-                  </div>
-                  <ul>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Read and Approve
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Employee Self Serve
-                    </li>
-                    <li>
-                      <i className="bi bi-check-lg"></i>Run All Reports
-                    </li>
-                  </ul>
-                </div>
-              </div>
+           
 
               <div className="col-lg-12 col-md-12">
                 <div className="price-btn d-flex justify-content-center">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
-                   className="btn bt-bg">Get Started Now</a>
+                   className="btn bt-bg">Schedule a Free Demo</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="solution-faq faq">
+        <section className="solution-faq faq" style={{marginTop:'-40px'}}>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9 ">
                 <header className="section-header-new text-center">
-                  <h2>Got any questions About <br/>Dynamics 365 Business Central </h2>
+                  <h2>Got any questions About <br/>Finance and Operations </h2>
                   <p>Click through to our FAQ for the best answers!</p>
                 </header>
               </div>
@@ -1075,10 +1032,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
-                    >
-                      Why should small businesses use Microsoft Dynamics
-                      Business Central?
-                    </button>
+                    >What is Microsoft Dynamics 365 for Finance and Operations?</button>
                   </h3>
                   <div
                     id="faq-content-2"
@@ -1086,38 +1040,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        D365 Business Central is one of the best cloud-based ERP
-                        available today.
-                      </p>
-                      <p>
-                        Here's why you should implement Microsoft Business
-                        Central:
-                      </p>
-                      <ul>
-                        <li>Simple and flexible to use.</li>
-                        <li>
-                          Ability to manage end-to-end process flows, from
-                          finance and supply chain to warehousing, sales,
-                          reporting & analytics, HR and payrolls.{" "}
-                        </li>
-                        <li>
-                          Integration with other online Microsoft services,
-                          business and productivity apps for increased
-                          productivity and better performance.
-                        </li>
-                        <li>
-                          Available in <b>130+</b> countries and regions, and in
-                          multiple languages and currency modes.
-                        </li>
-                        <li>
-                          Business Central is now powered by{" "}
-                          <b>Dynamics 365 Copilot</b> (Chat GPT4-based,
-                          AI-powered language tool) to help users start
-                          leveraging its capabilities for more connected and
-                          collaborated experiences.
-                        </li>
-                      </ul>
+                      <p>Microsoft Dynamics 365 for Finance and Operations is an ERP solution designed to help medium and large organizations. They can manage their finances, supply chain, manufacturing, and other operations. It integrates various business processes and provides real-time insights, enhancing decision-making and efficiency. The solution is cloud-based, offering flexibility, scalability, and the ability to integrate with other Microsoft Dynamics solutions.</p>
                     </div>
                   </div>
                 </div>
@@ -1128,9 +1051,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
-                    >
-                      How Business Central and Dynamics NAV are related?
-                    </button>
+                    >What are the modules in D365 Finance and Operations?</button>
                   </h3>
                   <div
                     id="faq-content-3"
@@ -1138,32 +1059,13 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Microsoft Dynamics 365 Business Central is the upgraded
-                        version of{" "}
-                        <Link href="/solutions/microsoft-dynamics-nav/">
-                          <a>Dynamics NAV</a>
-                        </Link>{" "}
-                        (also known as Navision). The difference lies in
-                        advanced features and navigations in Business Central
-                        than in NAV. Microsoft Dynamics Business Central is
-                        designed to help businesses of today and tomorrow across
-                        various industries.
-                      </p>
-                      <p>
-                        <b>Important:</b> Existing Dynamics NAV users can get
-                        support services but not the mainstream support from
-                        Microsoft.{" "}
-                      </p>
-                      <p>
-                        We, at <b>Dynamics Square</b>, offer reliable,
-                        cost-efficient NAV and{" "}
-                        <Link href="/dynamics-365-business-central-erp-support/">
-                          <a>Business Central Support Services</a>
-                        </Link>
-                        . Get in touch for Business Central implementation to
-                        discuss your business problems in <b>1:1</b> meet-ups.
-                      </p>
+                      <p>Dynamics 365 Finance and Operations consists of several modules tailored to specific business functions.</p>
+                      <ul>
+                        <li><b>Finance:</b> Manages <a href="/solutions/microsoft-dynamics-365-finance/">general ledger</a>, accounts payable/receivable, budgeting, and financial reporting.</li>
+                        <li><b>Supply Chain Management:</b> Handles procurement, <a href="/solutions/dynamics-365-supply-chain-management/">inventory management</a>, warehousing, and logistics.</li>
+                        <li><b>Manufacturing:</b> Supports production planning, scheduling, and <a href="/industries/microsoft-cloud-for-manufacturing/">quality control</a>.</li>
+                        <li><b>Project Management:</b> Manages project-based accounting, resource allocation, and expense tracking.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -1174,10 +1076,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >
-                      What is the ROI of Dynamics 365 Business Central
-                      Implementation?
-                    </button>
+                    >What is the new name for D365 Finance and Operations?</button>
                   </h3>
                   <div
                     id="faq-content-4"
@@ -1185,37 +1084,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Implementing Dynamics 365 Business Central is expected
-                        to yield a Return on Investment (ROI) of{" "}
-                        <strong>162%</strong> over three years. The benefits of
-                        using Microsoft Dynamics Business Central are expected
-                        to outweigh the costs of implementing and maintaining
-                        the software.
-                      </p>
-                      <p>
-                        Plus, it can lead to a <strong>10%</strong> reduction in
-                        finance and operations hiring needs, which could
-                        translate to cost savings for the organization.{" "}
-                        <strong>
-                          <a
-                            href="https://download.microsoft.com/download/f/8/b/f8b3d4db-d2b6-4357-bfc4-a1fdafd8b993/TEI_of_Microsoft_Business%20Central_FINAL.pdf"
-                            target="_blank"
-                            rel="nofollow"
-                          >
-                            Download the study by Gartner
-                          </a>
-                        </strong>{" "}
-                        to explore the whole report.
-                      </p>
-                      <p>
-                        <Link href="/contact-us/">
-                          <a>Get in touch</a>
-                        </Link>{" "}
-                        with your <b>Business Central Partner</b> based in
-                        Canada like <b>Dynamics Square</b> for effortless,
-                        successful Business Central ERP implementation.{" "}
-                      </p>
+                      <p>Microsoft has split Dynamics 365 F&O into two separate applications: Microsoft Dynamics 365 Finance and Supply Chain.</p>
+                      <p><b>Dynamics 365 Finance</b> focuses on financial management and accounting functions. <b>D365 Supply Chain Management</b> concentrates on supply chain, manufacturing, and logistics operations.</p>
                     </div>
                   </div>
                 </div>
@@ -1226,9 +1096,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >
-                      How to upgrade your NAV to Dynamics 365 Business Central?
-                    </button>
+                    >How much does it cost to implement Dynamics 365 Finance and Operations?</button>
                   </h3>
                   <div
                     id="faq-content-5"
@@ -1236,241 +1104,15 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        If you are ready to upgrade your legacy systems like NAV
-                        to a cloud-based intelligent business application -
-                        Dynamics 365 Business Central, we're always a call away.
-                        Our team of{" "}
-                        <Link href="/our-services/dynamics-365-implementation-services/">
-                          <a>Dynamics 365 experts</a>
-                        </Link>{" "}
-                        and proficient consultants in Vancouver can help
-                        implement a highly configured solution for your business
-                        and fulfilling all your customized business needs.{" "}
-                      </p>
-                      <p>
-                        For more details or to avail our{" "}
-                        <strong>free system health check</strong>,{" "}
-                        <Link href="/contact-us/">
-                          <a>get in touch with us today</a>
-                        </Link>
-                        .
-                      </p>
+                      <p>The cost of implementing Dynamics 365 Finance and Operations varies depending on several factors.</p>
+                      <ul>
+                        <li><b>Licensing Costs:</b> The subscription for Dynamics 365 Finance starts at <b>CAD $244.20/user/month</b>. Dynamics 365 Supply Chain Management also costs the same. Additional modules or users add to the cost.</li>
+                        <li><b>Implementation Costs:</b> Implementation costs can vary depending on the complexity, number of users, and customization requirements.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-6"
-                    >
-                      Who can use Dynamics 365 Business Central Support?{" "}
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-6"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        Small and medium-sized businesses (SMBs) can use
-                        Business Central. This can help SMBs cater to companies
-                        across industries: e-Commerce, food & beverages,
-                        Manufacturing & Distribution, Healthhcare and
-                        Professional Services to Non-Profit hubs.
-                      </p>
-                      <p>
-                        Curious to know how Business Central can get implemented
-                        for your growing business? We're your best Business
-                        Central Implementation partners for manufacturing and
-                        service hubs across Canada; Vancouver, Toronto,
-                        Montreal, Quebec City, and more.{" "}
-                        <Link href="/contact-us/">
-                          <a>Contact us</a>
-                        </Link>{" "}
-                        today!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-7"
-                    >
-                      What is the Dynamics 365 Business Central implementation
-                      cost?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-7"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        Business Central is a cloud-based ERP system. It takes
-                        about <strong>6</strong> to <strong>8</strong> months
-                        for its implementation. This is why Dynamics 365
-                        Business Central Implementation cost varies. Thus,
-                        pricing may vary depending on your requirements and the
-                        complexity of your business process flows. Below are the
-                        standard plans available for your business:{" "}
-                      </p>
-                      <p>
-                        <b>Essential</b> - Starts at CAD <strong> 89.60</strong>{" "}
-                        per user/month{" "}
-                      </p>
-                      <p>
-                        <b>Premium </b>- From CAD <strong>128</strong> per
-                        user/month{" "}
-                      </p>
-                      <p>
-                        <strong>Team Member</strong> - It's available at CAD{" "}
-                        <strong>10.20</strong> per user/month{" "}
-                      </p>
-                      <p>
-                        Still not sure which business central implementation
-                        cost plan would best suit your business,{" "}
-                        <Link href="/contact-us/">
-                          <a>call our experts</a>
-                        </Link>{" "}
-                        based in Vancouver, Canada. We're are always eager to
-                        extend help. <b>Connect now!</b>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-8"
-                    >
-                      How to get quick support for Dynamics 365 Business
-                      Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-8"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        Reach out to your canadian Business Central partner for
-                        quick support. If your current partner is not listening
-                        to your problems, contact Dynamics Square. We have a
-                        dedicated support system and an expert team you provide
-                        timely, efficient, and flexible{" "}
-                        <Link href="/our-services/dynamics-365-support-services/">
-                          <a>Dynamics 365 Support</a>
-                        </Link>{" "}
-                        to our clients.
-                      </p>
-                      <p>
-                        <b>Get in touch</b>with us now to discover the power of
-                        Business Central Online ERP
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-9"
-                    >
-                      Can I integrate Power BI with Dynamics 365 Business
-                      Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-9"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        Microsoft Dynamics 365 Business Central is an all-in-one
-                        solution, which is flexible in all business management
-                        aspects. Data analytics and data visualization software
-                        like{" "}
-                        <Link href="/solutions/microsoft-power-bi/">
-                          <a>Microsoft Power BI</a>
-                        </Link>{" "}
-                        are already included in Business Central.{" "}
-                      </p>
-                      <p>
-                        However, if you want to add the functionality of any
-                        other Microsoft Business Application or third-party
-                        service like Salesforce, you can do so.
-                      </p>
-                      <p>
-                        <b>Contact</b> your{" "}
-                        <b>Business Central Partner in Canada</b> to help you
-                        get started.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-10"
-                    >
-                      What is the difference between Dynamics 365 Business
-                      Central and F&O?{" "}
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-10"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        Business Central is designed and developed for small and
-                        mid-market sized companies and has basic
-                        funcitonalities. While F&O or{" "}
-                        <Link href="/solutions/microsoft-dynamics-365-finance-operations/">
-                          <a>Dynamics 365 Finance and Operations</a>
-                        </Link>{" "}
-                        (now available in two separate modules as{" "}
-                        <Link href="/solutions/microsoft-dynamics-365-finance/">
-                          <a>Dynamics 365 Finance</a>
-                        </Link>{" "}
-                        and Supply Chain Management) caters to large enterprises
-                        that have complex operations to manage.
-                      </p>
-                      <p>
-                        For implementation of{" "}
-                        <Link href="/solutions/dynamics-365-supply-chain-management/">
-                          <a>Dynamics 365 Supply Chain Management</a>
-                        </Link>
-                        , you can{" "}
-                        <Link href="/contact-us/">
-                          <a>contact us</a>
-                        </Link>{" "}
-                        and share your requirements to get a quote.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>

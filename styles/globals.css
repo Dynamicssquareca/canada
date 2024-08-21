@@ -1547,6 +1547,14 @@ height:auto
 .faq .accordion-collapse {
   border: 0;
 }
+.faq ul{}
+.faq ul li{
+  margin-bottom: 10px;
+    color: #3f3f3f;
+}
+.faq p{
+  color: #3f3f3f;
+}
 .faq .accordion-button {
   padding: 15px 15px 20px 0;
   font-weight: 500;
