@@ -284,7 +284,7 @@ const Home = () => {
 
       <main>
       <div className='banner-animated' style={{
-      backgroundImage: `url(/img/canada-bb.png)`,
+      backgroundImage: `url(/img/frame-132.webp)`,
       backgroundRepeat:'no-repeat',
       backgroundSize:'cover'
     }}>

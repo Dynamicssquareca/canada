@@ -6343,8 +6343,7 @@ color:var(--color-red)
 }
 /*home page new*/
 .banner-animated{
-  /* background:url(/img/canada-bb.png) no-repeat;
-  background-size: cover; */
+
   background: rgb(21,70,138);
   background: -moz-linear-gradient(202deg, rgba(21,70,138,1) 0%, rgba(73,50,79,1) 84%);
   background: -webkit-linear-gradient(202deg, rgba(21,70,138,1) 0%, rgba(73,50,79,1) 84%);
