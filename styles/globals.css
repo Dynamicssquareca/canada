@@ -7059,7 +7059,11 @@ font-weight:400
 
 
 
-
+@media (min-width: 1200px) and (max-width: 1600px){
+  .home-clint-d {
+    padding-top: 75px;
+}
+}
 
 @media (min-width: 991px) {
   .mob-disp {
