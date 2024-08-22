@@ -301,7 +301,7 @@ const Home = () => {
                 </div>
                 <div className='flot-imm'>
                   <img width={564} height={316} src="/img/ca-banner-p-l.png" className='left' alt="a-banner-p-l" />
-                  <img width={447} height={319} src="/img/ca-banner-p-r.png" className='right' alt="a-banner-p-2" />
+                  <img width={547} height={319} src="/img/ca-banner-p-r.png" className='right' alt="a-banner-p-2" />
                 </div>
               </div>
             </div>
@@ -628,7 +628,7 @@ const Home = () => {
 
 
         <section>
-          <VideoPlayer poster="/img/poster-1.png" src="/video/Slide4-1.mp4" />
+          <VideoPlayer poster="/img/poster-1.webp" src="/video/Slide4-1.mp4" preload="none" />
         </section>
 
         <section>
