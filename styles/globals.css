@@ -1439,6 +1439,7 @@ margin-bottom: 8px;
   overflow: hidden;
   transition: 0.3s;
   height: 630px;
+  width:100%
 }
 .pricing .box.box-099{
   height: 445px;
@@ -1507,6 +1508,7 @@ height:auto
   padding-bottom: 10px;
   color: var(--color-grey);
   font-size: 15px;
+  display: flex;
 }
 .pricing ul li .bi {
   color: #bb2b36;
