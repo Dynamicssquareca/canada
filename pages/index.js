@@ -11,7 +11,6 @@ import { Autoplay, Pagination, Navigation, Mousewheel } from "swiper";
 import Link from "next/link";
 import VideoPlayer from "../components/VideoPlayer";
 import LinkWithFadeOut from "../components/LinkWithFadeOut";
-import ROIPage from "../components/ROIPage";
 
 
 const Home = () => {
@@ -301,8 +300,8 @@ const Home = () => {
                 <span>Free consultation with no obligations</span>
                 </div>
                 <div className='flot-imm'>
-                  <img src="/img/ca-banner-p-l.png" className='left' alt="a-banner-p-l" />
-                  <img src="/img/ca-banner-p-r.png" className='right' alt="a-banner-p-2" />
+                  <img width={564} height={316} src="/img/ca-banner-p-l.png" className='left' alt="a-banner-p-l" />
+                  <img width={447} height={319} src="/img/ca-banner-p-r.png" className='right' alt="a-banner-p-2" />
                 </div>
               </div>
             </div>
@@ -427,7 +426,7 @@ const Home = () => {
                   <p>Dynamics Square is a top-rated Microsoft Partner offering tailored Dynamics 365 solutions to boost productivity and efficiency. </p>
                   <Link href="/about/">
                     <a className="btn">
-                      About Us <i class="bi bi-arrow-right"></i>
+                      About Us <i className="bi bi-arrow-right"></i>
                     </a>
                   </Link>
                 </div>
@@ -443,7 +442,7 @@ const Home = () => {
                   <p>Dynamics Square, a leading Microsoft Dynamics 365 partner, embraces innovations and technologies to revolutionize your business for maximized growth. </p>
                   <Link href="/about/">
                     <a className="btn">
-                      About Us <i class="bi bi-arrow-right"></i>
+                      About Us <i className="bi bi-arrow-right"></i>
                     </a>
                   </Link>
                 </div>
@@ -459,7 +458,7 @@ const Home = () => {
                   <p>From implementation to training, Dynamics Square is your go-to partner that utilizes AI-driven technologies to drive the digital transformation.</p>
                   <Link href="#exampleModal">
                     <a className="btns" data-bs-toggle="modal"
-                    >Talk to Expert <i class="bi bi-arrow-right"></i>
+                    >Talk to Expert <i className="bi bi-arrow-right"></i>
                     </a>
                   </Link>
                 </div>
@@ -476,6 +475,8 @@ const Home = () => {
                   className="new-pic"
                   src="/img/m--partner.png"
                   alt="parten image"
+                  width={263}
+                  height={168}
                 />
               </div>
               <div className="col-lg-1">
@@ -484,7 +485,8 @@ const Home = () => {
               <div className="col-lg-9 align-self-center">
                 <div className="info-right-new">
                   <div className="info-img-new">
-                    <img src="/img/clutch-img.png" alt="parten image" />
+                    <img src="/img/clutch-img.png" alt="parten image"  width={293}
+                  height={317} />
                   </div>
                   <div className="info-contr-new">
                     <h3>
@@ -645,7 +647,7 @@ const Home = () => {
                 <div className="card-image-ver-1">
                   <a href="/solutions/dynamics-365-business-central/">
                     <div className="card-head-top">
-                      <img src="/img/BusinessCentral_scalable.png" alt="BusinessCentral_scalable" className="icon" />
+                      <img src="/img/BusinessCentral_scalable.png" alt="BusinessCentral_scalable" className="icon" width={48} height={48} />
                       <h3>Dynamics 365 <br />Business Central</h3>
                     </div>
                     <div className="card-mid-se">
@@ -653,9 +655,9 @@ const Home = () => {
                     </div>
                     <div className="card-bottom-se">
                       <ul>
-                        <li><i class="bi bi-check-lg"></i>Simplify Business Operations </li>
-                        <li><i class="bi bi-check-lg"></i>Boost Overall Efficiency </li>
-                        <li><i class="bi bi-check-lg"></i>Enhance Productivity </li>
+                        <li><i className="bi bi-check-lg"></i>Simplify Business Operations </li>
+                        <li><i className="bi bi-check-lg"></i>Boost Overall Efficiency </li>
+                        <li><i className="bi bi-check-lg"></i>Enhance Productivity </li>
                       </ul>
                     </div>
                     <span>Know More <i className="bi bi-arrow-right"></i></span>
@@ -667,7 +669,7 @@ const Home = () => {
                 <div className="card-image-ver-1">
                   <a href="/solutions/microsoft-dynamics-365-finance/">
                     <div className="card-head-top">
-                      <img src="/img/Finance_scalable.png" alt="Finance_scalable" className="icon" />
+                      <img src="/img/Finance_scalable.png" alt="Finance_scalable" className="icon" width={48} height={48} />
                       <h3>Dynamics 365<br />
                         Finance</h3>
                     </div>
@@ -676,9 +678,9 @@ const Home = () => {
                     </div>
                     <div className="card-bottom-se">
                       <ul>
-                        <li><i class="bi bi-check-lg"></i>Get Clear Financial Picture </li>
-                        <li><i class="bi bi-check-lg"></i>Simplify Financial Transactions </li>
-                        <li><i class="bi bi-check-lg"></i>Perform data-driven Planning </li>
+                        <li><i className="bi bi-check-lg"></i>Get Clear Financial Picture </li>
+                        <li><i className="bi bi-check-lg"></i>Simplify Financial Transactions </li>
+                        <li><i className="bi bi-check-lg"></i>Perform data-driven Planning </li>
                       </ul>
                     </div>
                     <span>Know More <i className="bi bi-arrow-right"></i></span>
@@ -690,7 +692,7 @@ const Home = () => {
                 <div className="card-image-ver-1">
                   <a href="/solutions/dynamics-365-supply-chain-management/">
                     <div className="card-head-top">
-                      <img src="/img/SupplyChainManagement_scalable.png" alt="SupplyChainManagement_scalable" className="icon" />
+                      <img src="/img/SupplyChainManagement_scalable.png" alt="SupplyChainManagement_scalable" className="icon" width={48} height={48} />
                       <h3>Dynamics 365<br />
                         Supply Chain</h3>
                     </div>
@@ -699,9 +701,9 @@ const Home = () => {
                     </div>
                     <div className="card-bottom-se">
                       <ul>
-                        <li><i class="bi bi-check-lg"></i>Optimize Product Flow </li>
-                        <li><i class="bi bi-check-lg"></i>Enable 24*7 Inventory Visibility </li>
-                        <li><i class="bi bi-check-lg"></i>Enhance Demand Planning </li>
+                        <li><i className="bi bi-check-lg"></i>Optimize Product Flow </li>
+                        <li><i className="bi bi-check-lg"></i>Enable 24*7 Inventory Visibility </li>
+                        <li><i className="bi bi-check-lg"></i>Enhance Demand Planning </li>
                       </ul>
                     </div>
                     <span>Know More <i className="bi bi-arrow-right"></i></span>
@@ -713,7 +715,7 @@ const Home = () => {
                 <div className="card-image-ver-1">
                   <a href="/solutions/microsoft-dynamics-365-sales/">
                     <div className="card-head-top">
-                      <img src="/img/Sales_scalable.png" alt="Sales_scalable" className="icon" />
+                      <img src="/img/Sales_scalable.png" alt="Sales_scalable" className="icon" width={48} height={48} />
                       <h3>Dynamics 365 <br />Sales</h3>
                     </div>
                     <div className="card-mid-se">
@@ -721,9 +723,9 @@ const Home = () => {
                     </div>
                     <div className="card-bottom-se">
                       <ul>
-                        <li><i class="bi bi-check-lg"></i>Close Deals Faster </li>
-                        <li><i class="bi bi-check-lg"></i>Build Strong Relationships </li>
-                        <li><i class="bi bi-check-lg"></i>Boost Sales Performance </li>
+                        <li><i className="bi bi-check-lg"></i>Close Deals Faster </li>
+                        <li><i className="bi bi-check-lg"></i>Build Strong Relationships </li>
+                        <li><i className="bi bi-check-lg"></i>Boost Sales Performance </li>
                       </ul>
                     </div>
                     <span>Know More <i className="bi bi-arrow-right"></i></span>
@@ -735,7 +737,7 @@ const Home = () => {
                 <div className="card-image-ver-1">
                   <a href="/solutions/microsoft-power-bi/">
                     <div className="card-head-top">
-                      <img src="/img/PowerBI_scalable.png" alt="PowerBI_scalable" className="icon" />
+                      <img src="/img/PowerBI_scalable.png" alt="PowerBI_scalable" className="icon" width={48} height={48} />
                       <h3>Microsoft <br />Power BI</h3>
                     </div>
                     <div className="card-mid-se">
@@ -743,9 +745,9 @@ const Home = () => {
                     </div>
                     <div className="card-bottom-se">
                       <ul>
-                        <li><i class="bi bi-check-lg"></i>Turn Data into Insights </li>
-                        <li><i class="bi bi-check-lg"></i>Build Interactive Reports </li>
-                        <li><i class="bi bi-check-lg"></i>Share Useful Insights Across Team </li>
+                        <li><i className="bi bi-check-lg"></i>Turn Data into Insights </li>
+                        <li><i className="bi bi-check-lg"></i>Build Interactive Reports </li>
+                        <li><i className="bi bi-check-lg"></i>Share Useful Insights Across Team </li>
                       </ul>
                     </div>
                     <span>Know More <i className="bi bi-arrow-right"></i></span>
@@ -757,7 +759,7 @@ const Home = () => {
                 <div className="card-image-ver-1">
                   <a href="/">
                     <div className="card-head-top">
-                      <img src="/img/Copilot_scalable.png" alt="Copilot_scalable" className="icon" />
+                      <img src="/img/Copilot_scalable.png" alt="Copilot_scalable" className="icon" width={48} height={48} />
                       <h3>Microsoft <br />Copilot</h3>
                     </div>
                     <div className="card-mid-se">
@@ -765,9 +767,9 @@ const Home = () => {
                     </div>
                     <div className="card-bottom-se">
                       <ul>
-                        <li><i class="bi bi-check-lg"></i>Avail Automation </li>
-                        <li><i class="bi bi-check-lg"></i>Enhance Productivity </li>
-                        <li><i class="bi bi-check-lg"></i>Expand Knowledge </li>
+                        <li><i className="bi bi-check-lg"></i>Avail Automation </li>
+                        <li><i className="bi bi-check-lg"></i>Enhance Productivity </li>
+                        <li><i className="bi bi-check-lg"></i>Expand Knowledge </li>
                       </ul>
                     </div>
                     <span>Know More <i className="bi bi-arrow-right"></i></span>
@@ -803,12 +805,14 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/poster-1.jpg"
                       alt="Card image cap"
+                      width={827}
+                      height={368}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Implementation</h3>
                     <p className="card-text">Adapt a personalized Dynamics 365 solution that suits your requirements to drive growth, efficiency, and consistent profitability.</p>
-                    <a href="/services/dynamics-365-implementation/">Start Transformation Now! <i class="bi bi-arrow-right"></i>
+                    <a href="/services/dynamics-365-implementation/">Start Transformation Now! <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -821,12 +825,14 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/poster-2.jpg"
                       alt="Card image cap"
+                      width={828}
+                      height={368}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Upgrade Services</h3>
                     <p className="card-text">Upgrade to Dynamics 365 and revolutionize your operations. Eliminate manual tasks, reduce errors, and unlock new growth opportunities. </p>
-                    <a href="/services/dynamics-365-upgrade/">Upgrade Now!  <i class="bi bi-arrow-right"></i>
+                    <a href="/services/dynamics-365-upgrade/">Upgrade Now!  <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -839,12 +845,14 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/poster-3.jpg"
                       alt="Card image cap"
+                      width={826}
+                      height={368}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Support Services</h3>
                     <p className="card-text">Ensure seamless operations and stay consistent on your growth path with our dedicated team of Microsoft experts.</p>
-                    <a href="/services/dynamics-365-support/">Get Seamless Support!  <i class="bi bi-arrow-right"></i>
+                    <a href="/services/dynamics-365-support/">Get Seamless Support!  <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -911,13 +919,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Healthcare-industry.jpg"
                       alt="Healthcare-industry"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Healthcare</h3>
                     <p className="card-text">Improve patient care, track medical supplies, and streamline different healthcare operations to enhance patient engagement. </p>
                     <a href="/free-dynamics-365-system-health-check/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -930,13 +940,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Retail-&-E-commerce.jpg"
                       alt="Retail-&-E-commerce"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Retail & E-commerce</h3>
                     <p className="card-text">Enhance customer experience, optimize supply chain operations, and drive offline as well as online sales for maximum revenue. </p>
                     <a href="/industries/dynamics-365-for-ecommerce/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -949,13 +961,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Education-industy.jpg"
                       alt="Education-industy"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Education </h3>
                     <p className="card-text">Perform accurate resource allocation, improve student engagement, and simplify different administrative tasks. </p>
                     <a href="/solutions/dynamics-365-business-central/education/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -968,13 +982,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Manufacturing-industry.jpg"
                       alt="Manufacturing-industry"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Manufacturing </h3>
                     <p className="card-text">Eliminate redundancies from the system, improve product quality, and boost production efficiency with Dynamics 365 for manufacturing. </p>
                     <a href="/industries/microsoft-cloud-for-manufacturing/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -987,13 +1003,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Startup-industr.jpg"
                       alt="Startup-industr"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Startups</h3>
                     <p className="card-text">Supervise processes, accelerate growth, simplify finances, and focus on scaling business rather than managing it. </p>
                     <a href="/industries/dynamics-365-for-startups/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -1006,13 +1024,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Not-for-Profit.jpg"
                       alt="Not-for-Profit"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Not for Profit</h3>
                     <p className="card-text">Maximize impact, track donations, maintain strong relationships with donors, and do more for society with the same resources.</p>
                     <a href="/industries/microsoft-cloud-for-nonprofit/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -1025,13 +1045,15 @@ const Home = () => {
                       className="card-img-top"
                       src="/img/Food-Beverages.jpg"
                       alt="Food-Beverages"
+                      width={700}
+                      height={500}
                     />
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Food & Beverages</h3>
                     <p className="card-text">Maintain optimum food quality, ensure compliance acceptance, and track the entire supply chain with Dynamics 365 for Food & Beverages.</p>
                     <a href="/industries/dynamics-365-for-food-and-beverages/">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -1074,7 +1096,7 @@ const Home = () => {
                     <h3 className="card-title">Up To 15% Increase In Microsoft Cloud Solution Prices: What You Need To Know</h3>
                     <p className="card-text">We at Dynamics Square believe in seamless Microsoft dynamics implementation along with long-term assistance</p>
                     <a href="#">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -1099,7 +1121,7 @@ const Home = () => {
                     <h3 className="card-title">Install Microsoft Dynamics 365 Business Central (On Premises)</h3>
                     <p className="card-text">We have successfully transformed businesses with our futuristic Upgrading services.</p>
                     <a href="#">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -1118,7 +1140,7 @@ const Home = () => {
                     <h3 className="card-title">Up To 15% Increase In Microsoft Cloud Solution Prices: What You Need To Know</h3>
                     <p className="card-text">We at Dynamics Square believe in seamless Microsoft dynamics implementation along with long-term assistance</p>
                     <a href="#">
-                      Know More <i class="bi bi-arrow-right"></i>
+                      Know More <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -1133,7 +1155,7 @@ const Home = () => {
               <div className="col-lg-10">
                 <div className="testmonial-new-slider">
                   <div className='floating-pp'>
-                    <img src="/img/marketing-integration-google-reviews-badge.png" alt="marketing-integration-google-reviews-badge" />
+                    <img src="/img/marketing-integration-google-reviews-badge.png"  alt="marketing-integration-google-reviews-badge" width={190} height={58} />
                   </div>
                   <Swiper
                     navigation={true}
@@ -1181,7 +1203,7 @@ const Home = () => {
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
                   <div className="top-tr">
-                    <i class="bi bi-check-lg"></i>
+                    <i className="bi bi-check-lg"></i>
                     <h3>Accelerated ROI </h3>
                   </div>
                   <p>Our customized solutions deliver great ROI by streamlining operations, enhancing efficiency, and boosting productivity. </p>
@@ -1190,7 +1212,7 @@ const Home = () => {
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
                   <div className="top-tr">
-                    <i class="bi bi-check-lg"></i>
+                    <i className="bi bi-check-lg"></i>
                     <h3>Industry Expertise </h3>
                   </div>
                   <p>We have experts with deep understanding of different industries that enable them to find your business challenges and eliminate them with the perfect solution. </p>
@@ -1199,7 +1221,7 @@ const Home = () => {
               <div className="col-lg-4 d-flex">
                 <div className="home-bottom-card-one flex-aa">
                   <div className="top-tr">
-                    <i class="bi bi-check-lg"></i>
+                    <i className="bi bi-check-lg"></i>
                     <h3>End-to-End Support</h3>
                   </div>
                   <p>From business audits to post-implementation support, our dedicated team ensures the smooth functioning of your Dynamics 365 solution. </p>
@@ -1211,7 +1233,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* <ROIPage /> */}
+  
 
       </main>
     </>
