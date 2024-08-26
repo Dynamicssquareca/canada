@@ -7,10 +7,10 @@ const MicrosoftDynamicsCrm = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics CRM Solution|Dynamics Square CA</title>
+      <title>Microsoft Dynamics 365 CRM Solution -Dynamics Square Canada</title>
         <meta
           name="description"
-          content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square."
+          content="Dynamics CRM is a suite of Microsoft CRM applications, including Sales, Marketing, and more. Get in touch with Dynamics Square a leading CRM solution partner."
         />
         <link
           rel="canonical"
@@ -18,8 +18,8 @@ const MicrosoftDynamicsCrm = () => {
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Dynamics CRM Solution|Dynamics Square CA" />
-        <meta property="og:description" content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square." />
+        <meta property="og:title" content="Microsoft Dynamics 365 CRM Solution -Dynamics Square Canada" />
+        <meta property="og:description" content="Dynamics CRM is a suite of Microsoft CRM applications, including Sales, Marketing, and more. Get in touch with Dynamics Square a leading CRM solution partner." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
@@ -28,8 +28,8 @@ const MicrosoftDynamicsCrm = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_ca" />
-        <meta name="twitter:title" content="Microsoft Dynamics CRM Solution|Dynamics Square CA" />
-        <meta name="twitter:description" content="Dynamics CRM is a suite of sales, marketing, and customer engagement modules for startups & mid-market-sized businesses. Contact Dynamics Square." />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 CRM Solution -Dynamics Square Canada" />
+        <meta name="twitter:description" content="Dynamics CRM is a suite of Microsoft CRM applications, including Sales, Marketing, and more. Get in touch with Dynamics Square a leading CRM solution partner." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
         <script
           type="application/ld+json"
@@ -85,11 +85,11 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1">
               <h1>
-                Microsoft <br /> Dynamics CRM
+                Microsoft <br /> Dynamics 365 CRM
               </h1>
 
               <div className="col-lg-9 mobile-1">
-                <p>Drive your customer relationships strong with an integrated, data-driven, and collaborative cloud software solution - Microsoft Dynamics CRM.</p>
+                <p>Drive your customer relationships strong with an integrated, data-driven, and collaborative cloud software solution - Microsoft Dynamics 365 CRM.</p>
               </div>
               <div>
                 <div className="text-center text-lg-start">
@@ -121,10 +121,10 @@ const MicrosoftDynamicsCrm = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-8">
                   <header className="section-header">
-                    <h2>What is Microsoft Dynamics CRM?</h2>
+                    <h2>What is Microsoft Dynamics 365 CRM?</h2>
                     <p>Better customer services are at the core of any successful business and the main source of building strong relationships. Improve your customer engagement and services with Dynamics CRM (now, Dynamics 365 Customer Engagement) and understand your customers' journeys to provide them with what they want.</p>
                     <p><b>Reasons to Choose Dynamics CRM</b></p>
-                    <p>Enable sales and marketing automation, use data visualization capabilities, and proactively engage and connect more with your customers with Dynamics CRM.</p>
+                    <p>Enable sales and marketing automation, use data visualization capabilities, and proactively engage and connect more with your customers with Dynamics 365 CRM.</p>
                   </header>
                 </div>
               </div>
@@ -145,7 +145,7 @@ const MicrosoftDynamicsCrm = () => {
               <div className="custom002">
                 <ul>
                     <li>Leverage AI-driven CRM tools to understand customer journeys and deliver desired products and services.</li>
-                    <li>Streamline your ECommerce operations using highly integrated built-in data-driven solutions in Dynamics CRM.</li>
+                    <li>Streamline your ECommerce operations using highly integrated built-in data-driven solutions in Dynamics 365 CRM.</li>
                     <li>With Microsoft Teams, SharePoint, and Outlook integration in Dynamics CRM, you can better align your sales and marketing teams to improve team collaboration.</li>
                     <li>Bring transparency to your sales practices and enhance real-time sales efficiency to increase your growth.</li>
                     <li>Leverage actionable AI (Artificial Intelligence) insights to deliver personalized buying experiences by orchestrating customer journeys, and boosting your brand name.</li>
@@ -161,10 +161,8 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row p-lg-6">
             <div className="col-lg-6 align-self-center">
               <div className="side-heding-new">
-                <h3>Microsoft Dynamics CRM Features</h3>
-                <p>
-                 <b>Microsoft Dynamics CRM Features</b>
-                </p>
+                <h3>Microsoft Dynamics 365 CRM Features</h3>
+            
                 <p>Dynamics CRM is a collaborative, insight-based sales solution. With this customer relationship management software, you can simplify managing your sales by bringing different teams to a unified platform and accelerate your sales by using customer, sales, and marketing data and visual insights on Power BI Charts to discover targets and take the next best actions. </p>
               </div>
             </div>
@@ -225,7 +223,7 @@ const MicrosoftDynamicsCrm = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Automate your repetitive, manual tasks to streamline your sales and marketing campaigns and improve productivity. Better organize your business processes and empower your teams to make complex tasks easy to carry out. Bring the power of three - operational, analytical, and collaborative - systems into one unified platform - Dynamics CRM to win customers and earn loyalty faster.</p>
+                       <p>Automate your repetitive, manual tasks to streamline your sales and marketing campaigns and improve productivity. Better organize your business processes and empower your teams to make complex tasks easy to carry out. Bring the power of three - operational, analytical, and collaborative - systems into one unified platform - Dynamics 365 CRM to win customers and earn loyalty faster.</p>
                       </div>
                     </div>
                   </div>
@@ -294,7 +292,7 @@ const MicrosoftDynamicsCrm = () => {
          <div className="row justify-content-center">
           <div className="col-lg-8">
           <header className="section-header">
-            <h2>Microsoft Dynamics CRM: Sales & Marketing Automation Solutions</h2>
+            <h2>Microsoft Dynamics 365 CRM: Sales & Marketing Automation Solutions</h2>
           </header>
           </div>
          </div>

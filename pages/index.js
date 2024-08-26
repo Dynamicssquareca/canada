@@ -636,8 +636,8 @@ const Home = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="new-main-heading">
-                  <h2>Dynamics 365 Solutions: Innovative Solutions for Modern Businesses </h2>
-                  <p>We help organizations utilize the power of <a href="/solutions/microsoft-dynamics-365/">Dynamics 365 Solutions</a> to streamline complex operations, promote collaboration, enhance customer experiences, and drive business growth. We not only empower businesses to adapt with agility and innovation, but we also support them to stay competitive. </p>
+                  <h2>Microsoft Dynamics 365 Solutions: Innovative Solutions for Modern Businesses </h2>
+                  <p>We help organizations utilize the power of <a href="/solutions/microsoft-dynamics-365/">Microsoft Dynamics 365 Solutions</a> to streamline complex operations, promote collaboration, enhance customer experiences, and drive business growth. We not only empower businesses to adapt with agility and innovation, but we also support them to stay competitive. </p>
                 </div>
               </div>
             </div>
@@ -791,7 +791,7 @@ const Home = () => {
               <div className="col-lg-9">
                 <div className="new-main-heading">
                   <h2>Transform and Optimize your Business with our Reliable Services </h2>
-                  <p>Experience seamless business transformation and achieve operational excellence with our tailor-made Dynamics 365 services, specially curated for unique businesses like yours. </p>
+                  <p>Experience seamless business transformation and achieve operational excellence with our tailor-made Microsoft Dynamics 365  services, specially curated for unique businesses like yours. </p>
                 </div>
               </div>
             </div>
@@ -811,7 +811,7 @@ const Home = () => {
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Implementation</h3>
-                    <p className="card-text">Adapt a personalized Dynamics 365 solution that suits your requirements to drive growth, efficiency, and consistent profitability.</p>
+                    <p className="card-text">Adapt a personalized Microsoft Dynamics 365  solution that suits your requirements to drive growth, efficiency, and consistent profitability.</p>
                     <a href="/services/dynamics-365-implementation/">Start Transformation Now! <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
@@ -831,7 +831,7 @@ const Home = () => {
                   </a>
                   <div className="card-body">
                     <h3 className="card-title">Upgrade Services</h3>
-                    <p className="card-text">Upgrade to Dynamics 365 and revolutionize your operations. Eliminate manual tasks, reduce errors, and unlock new growth opportunities. </p>
+                    <p className="card-text">Upgrade to Microsoft Dynamics 365  and revolutionize your operations. Eliminate manual tasks, reduce errors, and unlock new growth opportunities. </p>
                     <a href="/services/dynamics-365-upgrade/">Upgrade Now!  <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>
