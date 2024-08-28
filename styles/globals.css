@@ -10051,7 +10051,7 @@ form .error {
   background-size:cover
 }
 .banner-case-info .g-color{
-  background-color:#19376d;
+  background-color:#30475e;
   padding: 60px 70px;
   color: #ffffff;
   margin-top: -170px;
@@ -10085,12 +10085,33 @@ form .error {
   padding: 30px 0px 30px;
 }
 .p-20-4{
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .p-20-5{
   padding-bottom: 30px;
 }
+.pd-r-60{
+  padding-right: 320px;
+}
+.bb-pic{
+  display: flex;
+    flex-direction: column-reverse;
+}
+.relative-p{
+  position:relative
+}
+.nn--pic{
 
+}
+.nn--pic img{ 
+  position: absolute;
+    top: -59px;
+    right: 0;
+}
+.bb-pic img{
+  width: 100%;
+  padding-bottom: 15px;
+}
 .box-dd-1{
   background-color: #f7f7f7;
   padding:30px;
@@ -10127,6 +10148,30 @@ form .error {
     margin-bottom: 8px;
     line-height: 1.5 !important;
 }
+.case-new-hedaing-ss{
+
+}
+.case-new-hedaing-ss ul{
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.case-new-hedaing-ss ul li{
+  display: inline-flex;
+  flex: 48% 1;
+  max-width: 48%;
+  background: #ffffff;
+  color: #19376e;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.case-new-hedaing-ss ul li p{
+  padding: 20px 30px;
+  margin: 0px;
+  line-height: 1.5 !important;
+}
 .case-new-hedaing p{
   color: #19376d;
   margin-bottom: 25px;
@@ -10144,7 +10189,7 @@ form .error {
   color: #19376d;
 }
 .bg-g-blue{
-  background-color: #19376d;
+  background-color: #30475e;
 }
 .box-dd-1.flex-11-colo h3,.box-dd-1.flex-11-colo p{
   color:#ffffff;
@@ -10258,6 +10303,9 @@ text-decoration: none;
 
 
 @media (max-width: 1200px) {
+  .pd-r-60{
+    padding-right: 200px;
+  }
   .banner-case-info .g-color {
     padding: 30px 15px;
   }
@@ -10297,6 +10345,10 @@ text-decoration: none;
   .case-new-hedaing {
     margin-top: 30px;
 }
+.pd-r-60{
+  padding-right:0px
+}
+
   .box-dd-1 {
     margin-bottom: 15px;
 }
@@ -10385,6 +10437,19 @@ text-decoration: none;
 }
 
 @media (max-width: 768px) {
+  .case-new-hedaing-ss ul{
+    flex-direction: column;
+  }
+  .case-new-hedaing-ss ul li{
+    width: 100%;
+        max-width: 100%;
+  }
+  .banner-case-info-con h1{
+    font-size:24px !important
+  }
+  .banner-case-info-right p {
+    font-size: 20px;
+}
   
 }
 

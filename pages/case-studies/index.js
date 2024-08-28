@@ -118,6 +118,27 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
+                            src="/img/case-bbenr-2.jpg"
+                            alt="cs-spectra-logo"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>The non-profit organization faced significant hurdles in managing their events efficiently using their existing Dynamics 365 CRM system</p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/dynamics-365-customer-engagement-for-non-profit/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
                             src="/img/case-study-im.jpg"
                             alt="cs-spectra-logo"
                           />

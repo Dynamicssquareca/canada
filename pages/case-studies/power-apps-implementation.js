@@ -16,7 +16,7 @@ const CaseStudySpectra = () => {
         <meta property="og:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/case-studies/power-apps-implementation/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/power-app-case.jpg" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -24,7 +24,7 @@ const CaseStudySpectra = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Power Apps Implementation" />
         <meta name="twitter:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/power-app-case.jpg" />
 
         {/* <script
           type="application/ld+json"
@@ -80,16 +80,21 @@ const CaseStudySpectra = () => {
             </div>
           </div>
           <div className="row p-20-5">
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <div className="case-s-heading">
                 <h2>Business Challenges</h2>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="case-s-paragraph">
+                <div className="case-s-paragraph">
                 <p>The client is a leading manufacturer of hoists and industrial lifting equipment, faced inefficiencies and process inconsistencies in their testing and certification processes. These processes were crucial for ensuring the safe and reliable operation of their equipment.</p>
                 <p>Here are the key challenges encountered by the business:</p>
               </div>
+              </div>
+             
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-4 d-flex d-none">
+                <div className="bb-pic">
+                <img src="/img/case-b-pic.png" alt="case-b-pic" />
+                </div>
             </div>
           </div>
           <div className="row">
@@ -128,7 +133,7 @@ const CaseStudySpectra = () => {
           <div className="row">
 
             <div className="col-lg-6 align-self-center">
-              <img src="/img/Business-Demands-pic.jpg" alt="Business-Demands-pic" />
+              <img src="/img/Business-Demands-pic.jpg" alt="business-demands-case-1" />
             </div>
             <div className="col-lg-6">
               <div className="case-new-hedaing">
@@ -148,25 +153,26 @@ const CaseStudySpectra = () => {
       </section>
 
       <section style={{ backgroundColor: '#f7f7f7' }} >
-        <div className="container">
+        <div className="container relative-p">
           <div className="row">
-            <div className="col-lg-5 align-self-center">
-              <div className="case-new-hedaing">
+            
+            <div className="col-lg-10">
+              <div className="case-new-hedaing pd-r-60">
                 <h3>Objectives</h3>
                 <p>The objective of analyzing the entire issue leads to the implementation of an automated certification and issue logging platform to ease the work. This building of two separate applications with Power Apps leads to:</p>
               </div>
-            </div>
-            <div className="col-lg-1 align-self-center"></div>
-            <div className="col-lg-6">
-              <div className="case-new-hedaing">
+              <div className="case-new-hedaing-ss">
                 <ul>
-                  <li>Eliminate manual data entry and errors in the certification process.</li>
-                  <li>Reduce certificate generation time by automating the process upon successful testing of equipment.</li>
-                  <li>Increase efficiency in logging, tracking, and resolving issues through a centralized platform.</li>
-                  <li>Improve data accuracy and consistency by automating data capture and analysis.</li>
-                  <li>Enhance transparency and accountability by assigning ownership to specific personnel for raised issues.</li>
+                  <li><p>Eliminate manual data entry and errors in the certification process.</p></li>
+                  <li><p>Reduce certificate generation time by automating the process upon successful testing of equipment.</p></li>
+                  <li><p>Increase efficiency in logging, tracking, and resolving issues through a centralized platform.</p></li>
+                  <li><p>Improve data accuracy and consistency by automating data capture and analysis.</p></li>
+                  <li><p>Enhance transparency and accountability by assigning ownership to specific personnel for raised issues.</p></li>
                 </ul>
               </div>
+            </div>
+            <div className="nn--pic">
+              <img src="/img/mask-group-22.png" alt="mask-group-22" />
             </div>
           </div>
         </div>
@@ -187,7 +193,7 @@ const CaseStudySpectra = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/cas-side--p.png" alt="cas-side--p" />
+              <img src="/img/cas-side--p.png" alt="Solution-Implemented-caee-3" />
             </div>
           </div>
         </div>
@@ -230,7 +236,7 @@ const CaseStudySpectra = () => {
       </section>
 
 
-      <section className="bg-g-blue cu-pfd-30">
+      <section className="bg-g-blue">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

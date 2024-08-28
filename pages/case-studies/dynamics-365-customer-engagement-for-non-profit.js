@@ -11,7 +11,6 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/case-studies/dynamics-365-customer-engagement-for-non-profit/"
         />
-        <meta name="robots" content="noindex, nofollow" />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Customer Engagement integration with Non-Profit to manage events" />
@@ -39,7 +38,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
         /> */}
       </Head>
 
-      <div className="banner-case">
+      <div className="banner-case" style={{backgroundImage:'url(/img/power-app-case.jpg'}}>
       </div>
       <div className="banner-case-info">
         <div className="container">
@@ -77,21 +76,25 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
           <div className="row p-20-4">
             <div className="col-lg-12">
               <div className="case-s-image">
-                <img src="/img/case-study-bottom.jpg" alt="case-study-bottom" />
+              <img src="/img/power-app-case-bottm.jpg" alt="case-study-bottom" />
               </div>
             </div>
           </div>
           <div className="row p-20-5">
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <div className="case-s-heading">
                 <h2>Business Challenges</h2>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="case-s-paragraph">
+                <div className="case-s-paragraph">
                 <p>The non-profit organization faced significant hurdles in managing their events efficiently using their existing Dynamics 365 CRM system. The basic functionalities of the system were inadequate to address the complexities of event management. </p>
                 <p>Key challenges included: </p>
               </div>
+              </div>
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-4 d-flex d-none d-lg-block">
+                <div className="bb-pic">
+                <img src="/img/case-b-pic.png" alt="case-b-pic" />
+                </div>
             </div>
           </div>
           <div className="row">
@@ -135,7 +138,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
           <div className="row">
 
             <div className="col-lg-6 align-self-center">
-              <img src="/img/Business-Demands-pic.jpg" alt="Business-Demands-pic" />
+            <img src="/img/business-demands-case-1.png" alt="business-demands-case-1" />
             </div>
             <div className="col-lg-6">
               <div className="case-new-hedaing">
@@ -158,25 +161,28 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
       </section>
 
       <section style={{ backgroundColor: '#f7f7f7' }} >
-        <div className="container">
+        <div className="container relative-p">
           <div className="row">
-            <div className="col-lg-5 align-self-center">
-              <div className="case-new-hedaing">
+            <div className="col-lg-10">
+              <div className="case-new-hedaing pd-r-60">
                 <h3>Objectives</h3>
                 <p>The primary objective of the solution implementation is to transform the organization's event management processes by delivering a robust, efficient, and data-driven platform. This will be achieved by:</p>
               </div>
-            </div>
-            <div className="col-lg-1 align-self-center"></div>
-            <div className="col-lg-6">
-              <div className="case-new-hedaing">
+              <div className="case-new-hedaing-ss">
                 <ul>
-                    <li><b>Centralizing Event Management:</b> Consolidating event-related data and processes into a single, integrated system. </li>
-                    <li><b>Automating Key Processes:</b> Streamlining tasks such as ticket sales, customer onboarding, and email communications through automation. </li>
-                    <li><b>Enhancing Customer Experience:</b> Delivering a seamless attendee journey with timely notifications, personalized communications, and efficient support. </li>
-                    <li><b>Improving Data-Driven Decision Making:</b> Providing actionable insights through robust reporting and analytics to optimize event planning and resource allocation. </li>
+                    <li><p><b>Centralizing Event Management:</b> Consolidating event-related data and processes into a single, integrated system. </p></li>
+                    <li><p><b>Automating Key Processes:</b> Streamlining tasks such as ticket sales, customer onboarding, and email communications through automation. </p></li>
+                    <li><p><b>Enhancing Customer Experience:</b> Delivering a seamless attendee journey with timely notifications, personalized communications, and efficient support. </p></li>
+                    <li><p><b>Improving Data-Driven Decision Making:</b> Providing actionable insights through robust reporting and analytics to optimize event planning and resource allocation. </p></li>
                 </ul>
               </div>
             </div>
+            <div className="nn--pic">
+              <img src="/img/mask-group-22.png" alt="mask-group-22" />
+            </div>
+
+           
+
           </div>
         </div>
       </section>
@@ -197,7 +203,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/cas-side--p.png" alt="cas-side--p" />
+              <img src="/img/Solution-Implemented-caee-3.png" alt="Solution-Implemented-caee-3" />
             </div>
           </div>
         </div>
