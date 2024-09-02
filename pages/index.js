@@ -1167,7 +1167,7 @@ const Home = () => {
                         <div className="client-info">
                           {/* <h3>Our Leadership</h3> */}
                           <p>We had an excellent experience with Dynamics Square. Arish was incredibly helpful and responsive, ensuring our needs were met quickly. The development and project teams expertly translated our requirements into effective solutions, exceeding our expectations. We're very pleased with the results and highly recommend Dynamics Squared for their professionalism and commitment to client satisfaction. Thank you, Arish and team!</p>
-                          <span>David Karpiak</span>
+                          <span>-David Karpiak</span>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -1176,7 +1176,43 @@ const Home = () => {
                         <div className="client-info">
                           {/* <h3>Our Leadership</h3> */}
                           <p>Good pricing and quick response from our account manager. They helped us with trouble shoot and trainings.</p>
-                          <span>Emma Liang</span>
+                          <span>-Emma Liang</span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="testn-inner">
+                        <div className="client-info">
+                          {/* <h3>Our Leadership</h3> */}
+                          <p>We were using an outgrown legacy system with potential chances of errors, data loss, and cyber-attacks. These are some of the reasons that pushed us to upgrade to Dynamics 365 Finance and Operations with a cloud deployment. The team at Dynamics Square has successfully implemented this solution in the stated time without any after-sales cost.</p>
+                          <span>-Chief Financial Officer at a Non-profit organization</span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="testn-inner">
+                        <div className="client-info">
+                          {/* <h3>Our Leadership</h3> */}
+                          <p>The NAV to Business Central upgrade was our best choice when it comes to business growth, simplified operations, and establishing communication between different teams in different departments. Dynamics Square has made the entire process smooth and efficient.</p>
+                          <span>-Vice Principal at a leading college</span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="testn-inner">
+                        <div className="client-info">
+                          {/* <h3>Our Leadership</h3> */}
+                          <p>Dynamics Square understood our requirements and suggested Microsoft Power BI for our data analytics needs. They also integrated this with our existing ERP solution for a continuous data flow.</p>
+                          <span>-Head of Marketing at the renowned clothing brand</span>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="testn-inner">
+                        <div className="client-info">
+                          {/* <h3>Our Leadership</h3> */}
+                          <p>Dynamics Squared is a fantastic partner and helped us move from an existing CRM to Dynamics 365. The process improvement for our business was significant, and the visibility to our company performance was exactly what we needed. They took the time to understand our needs, and are extremely capable and flexible, which attributed to the success that we had. Glad to have them supporting our business into the future.</p>
+                          <span>-Sina Moatamed</span>
                         </div>
                       </div>
                     </SwiperSlide>

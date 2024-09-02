@@ -11023,7 +11023,14 @@ height:50px;
   width: 100%;
   top: 0;
 }
-
+.mySwiper-testi .swiper-slide{
+  background-color: #f5f5f5;
+  min-height: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
 .new-testi-wraper{
   /* margin-top: -160px; */
   position: relative;
