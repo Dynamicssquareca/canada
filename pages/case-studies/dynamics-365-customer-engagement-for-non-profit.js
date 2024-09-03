@@ -146,8 +146,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
                 <p>The non-profit organization sought a comprehensive event management solution to address the following critical business demands: </p>
                 <ul>
                   <li><b>Automated Ticket Sales and Management:</b> A system capable of handling ticket sales, generating automated confirmations, and managing attendee data efficiently. </li>
-                  <li><b>Enhanced Customer Communication:</b> </li>
-                  <li><b></b> The ability to send timely and personalized email notifications to attendees, including pre-event reminders, post-event surveys, and failed payment alerts. </li>
+                  <li><b>Enhanced Customer Communication:</b> The ability to send timely and personalized email notifications to attendees, including pre-event reminders, post-event surveys, and failed payment alerts. </li>
                   <li><b>Improved Event Analytics:</b> Comprehensive reporting tools to track event attendance, participant demographics, and overall event performance. </li>
                   <li><b>Streamlined Customer Onboarding:</b> Automation of customer account creation upon website sign-up and integration with the CRM system for a unified customer view. </li>
                   <li><b>Capacity Management:</b> A system to enforce event capacity limits and automatically close registrations when maximum attendees are reached. </li>
