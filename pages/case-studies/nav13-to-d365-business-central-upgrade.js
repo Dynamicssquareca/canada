@@ -11,7 +11,7 @@ const CaseStudyShimco = () => {
   return (
     <>
       <Head>
-        <title>Upgrade from Dynamics NAV 2013 to D365 Business Central</title>
+        <title>Upgrade from Dynamics NAV 2013 to D365 Business Central - Case Study</title>
         <meta
           name="description"
           content="Find out how a manufacturing company successfully upgraded their ERP system from Dynamics NAV 2013 to Business Central in this informative case study. "

@@ -5,7 +5,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
   return (
     <>
       <Head>
-        <title>Customer Engagement integration with Non-Profit to manage events</title>
+        <title>Customer Engagement integration for Non-Profit industry - Case Study</title>
         <meta name="description" content="Dynamics Square helped a Non-profit Organization in Canada integrate Dynamics 365 Customer Engagement for managing their events efficiently and give a better overall Customer Experience. " />
         <link
           rel="canonical"
@@ -13,7 +13,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Customer Engagement integration with Non-Profit to manage events" />
+        <meta property="og:title" content="Customer Engagement integration for Non-Profit industry - Case Study" />
         <meta property="og:description" content="Dynamics Square helped a Non-profit Organization in Canada integrate Dynamics 365 Customer Engagement for managing their events efficiently and give a better overall Customer Experience. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/case-studies/dynamics-365-customer-engagement-for-non-profit/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
@@ -23,7 +23,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_ca" />
-        <meta name="twitter:title" content="Customer Engagement integration with Non-Profit to manage events" />
+        <meta name="twitter:title" content="Customer Engagement integration for Non-Profit industry - Case Study" />
         <meta name="twitter:description" content="Dynamics Square helped a Non-profit Organization in Canada integrate Dynamics 365 Customer Engagement for managing their events efficiently and give a better overall Customer Experience." />
         <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
 

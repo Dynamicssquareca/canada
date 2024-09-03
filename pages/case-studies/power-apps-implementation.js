@@ -4,7 +4,7 @@ const CaseStudySpectra = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Apps Implementation</title>
+        <title>Microsoft Power Apps Implementation - Case Study</title>
         <meta name="description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability. " />
         <link
           rel="canonical"
@@ -12,7 +12,7 @@ const CaseStudySpectra = () => {
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Power Apps Implementation" />
+        <meta property="og:title" content="Microsoft Power Apps Implementation - Case Study" />
         <meta property="og:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/case-studies/power-apps-implementation/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
@@ -22,7 +22,7 @@ const CaseStudySpectra = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_ca" />
-        <meta name="twitter:title" content="Microsoft Power Apps Implementation" />
+        <meta name="twitter:title" content="Microsoft Power Apps Implementation - Case Study" />
         <meta name="twitter:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability." />
         <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/power-app-case.jpg" />
 

@@ -11,7 +11,7 @@ const CaseStudySpectra = () => {
   return (
     <>
       <Head>
-        <title>Dynamics NAV 2013 | Implement Custom EFT Module</title>
+        <title>Dynamics NAV 2013 | Implement Custom EFT Module - Case Study</title>
         <meta name="description" content="Learn how a custom EFT module was implemented in Dynamics NAV 2013 for an aluminum extrusion company, streamlining payment processing. " />
         <link rel="canonical" href="https://www.dynamicssquare.ca/case-studies/dynamics-nav13-eft-implementation/" />
         
