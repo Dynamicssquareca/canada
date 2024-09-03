@@ -5,7 +5,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
   return (
     <>
       <Head>
-        <title>Customer Engagement integration for Non-Profit industry - Case Study</title>
+        <title>Dynamics 365 CE implementation for Non-Profit Organization - Case Study</title>
         <meta name="description" content="Dynamics Square helped a Non-profit Organization in Canada integrate Dynamics 365 Customer Engagement for managing their events efficiently and give a better overall Customer Experience. " />
         <link
           rel="canonical"
@@ -46,7 +46,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
             <div className="col-lg-9">
               <div className="banner-case-info-con">
                 <span>Case Study</span>
-                <h1>Dynamics 365 Customer <br />Engagement for Event Management </h1>
+                <h1>Dynamics 365 Customer <br />Engagement for Non-Profit </h1>
               </div>
             </div>
             <div className="col-lg-3 align-self-center">
@@ -85,8 +85,8 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
               <div className="case-s-heading">
                 <h2>Business Challenges</h2>
                 <div className="case-s-paragraph">
-                <p>The non-profit organization faced significant hurdles in managing their events efficiently using their existing Dynamics 365 CRM system. The basic functionalities of the system were inadequate to address the complexities of event management. </p>
-                <p>Key challenges included: </p>
+                <p>The non-profit organization faced significant hurdles in managing their events efficiently using their existing <a href="/solutions/microsoft-dynamics-crm/">Dynamics 365 CRM system</a>. The basic functionalities of the system were inadequate to address the complexities of event management. </p>
+                <p><b>Key challenges included:</b></p>
               </div>
               </div>
             </div>
@@ -191,7 +191,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
             <div className="col-lg-6">
               <div className="case-new-hedaing">
                 <h3>Solution Implemented</h3>
-                <p>To address the client's specific event management challenges, we implemented a comprehensive solution leveraging Microsoft Dynamics 365 CRM, or Customer Engagement, as the core platform. In conjunction with this, we used Power Automate (Microsoft Flows) to automate key processes and built a custom web portal to streamline the user experience. </p>
+                <p>To address the client's specific event management challenges, we implemented a comprehensive solution leveraging Microsoft Dynamics 365 CRM, or <a href="/solutions/dynamics-365-customer-engagement/">Customer Engagement</a>, as the core platform. In conjunction with this, we used Power Automate (<b>Microsoft Flows</b>) to automate key processes and built a custom web portal to streamline the user experience. </p>
                 <h4 style={{paddingBottom:'10px'}}>Key components of the solution include:</h4>
                 <ul>
                     <li><b>Dynamics 365 CRM Customization:</b> We tailored the CRM to effectively manage event details, attendee information, ticket sales, and post-event analytics. </li>
