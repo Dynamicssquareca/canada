@@ -11286,6 +11286,12 @@ text-align:center
   font-size: 32px;
   font-weight: 600;
   color: #19376d;
+  text-transform: inherit;
+}
+.section-header-color p{
+  color: #0b2447;
+  font-size: 18px;
+  line-height: 1.5 !important;
 }
 .bg-new-callaction{
   border-radius: 8px;
@@ -11299,6 +11305,9 @@ text-align:center
   right: -5px;
   bottom: -10px;
   z-index: -1;
+}
+.bg-new-callaction.m-o{
+  margin: -90px 0px -30px !important;
 }
 .solution-new-caltoaction{
   padding:60px
@@ -11376,6 +11385,20 @@ text-align:center
 .card-two li span{
   color: #30475e;
   font-size: 14px;
+}
+.card-two.card-two-extra{
+  padding-right:30px
+}
+.card-two.card-two-extra img{
+  margin-bottom:20px
+}
+.card-two.card-two-extra h3{
+  color: #576cbc;
+}
+.card-two.card-two-extra p{
+  color: #385575;
+  font-size: 16px;
+  line-height: normal !important;
 }
 #section3{
   background-color: #f5f5f5;
