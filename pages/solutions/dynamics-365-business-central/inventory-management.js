@@ -1,6 +1,14 @@
 import React from "react";
-import Head from 'next/head'
+import Head from 'next/head';
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import Image from "next/image";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
+// import NavBar from '../../../components/NavBar';
 
 const InventoryManagement = () => {
   return (
@@ -42,356 +50,289 @@ const InventoryManagement = () => {
         /> */}
       </Head>
       <main>
-        <section className="Solution-banner hero-1 hero">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Microsoft Business Central for Inventory Management</h1>
-                <p>Manage stock quality, deliver orders on time, maintain detailed records, reduce production costs, and reorder stock automatically using Business Central for Inventory Management.</p>
-                <div className="text-center text-lg-start">
-                  <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span>
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/industry-startup-banner.png"
-                  alt="Dynamics 365 For Startups"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-9">
-                <header className="section-header">
-                  <h2>Reduce Costs, Minimize Errors, and Maximize Efficiency</h2>
-                  <p>The inventory management module of <Link href="/solutions/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> is specially designed to provide real-time visibility into different inventory levels. It lets businesses make informed decisions about purchasing and stocking, reducing access to inventory and minimizing stockout scenarios.</p>
-                  <p>Leveraging the power of <Link href="/solutions/microsoft-dynamics-365-ai/"><a>AI</a></Link> and BI, Business Central automates the manual inventory management process, ensuring accurate inventory records and fewer mistakes in the ordering and fulfillment process.</p>
-                  <div className="text-center">
-                    <a
-                      data-bs-toggle="modal"
-                      href="#exampleModal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Get Started with Your Transformation Journey! </span>
-                    </a>
-                  </div>
-                </header>
-              </div>
-            </div>
-
-          </div>
-        </section>
-        <section className="Solution-business-why custom-pd-1">
-          <div className="container">
-            <div className="row gx-5">
-              <div className="col-lg-6 align-self-center">
-                <h2>How Can Dynamics 365 Business Central Optimize Inventory Management Operations?</h2>
-                <p>Microsoft Dynamics 365 Business Central for inventory management provides several benefits to businesses, making it more accurate and efficient.</p>
-              </div>
-              <div className="col-lg-6 align-self-center">
-                <div className="content-icons-modil-1">
-                  <div className="content-inner-moil-1">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p><b>Accurate Inventory Tracking</b></p>
-                      <p>Track each product that enters and exits the <Link href="/solutions/dynamics-365-business-central/warehouse-management/"><a>warehouse</a></Link>, ensure optimal inventory levels, and fulfill orders, eliminating overstocking and understocking from the system.</p>
-                    </div>
-                  </div>
-
-                  <div className="content-inner-moil-1">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p><b>Greater Productivity</b></p>
-                      <p>Automate your inventory management process, optimize the pick-pack process, and reduce potential errors. It helps businesses focus on quality products while ensuring efficient production.</p>
-                    </div>
-                  </div>
-
-                  <div className="content-inner-moil-1">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p><b>Reduces Operational Costs</b></p>
-                      <p>Dynamics 365 Business Central helps you prevent <b>overstocking</b>, avoid backorders, spend less time fixing errors, and reduce employees’ wages.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="call-to-action-center hero-4">
+        <section className="center-hero-banner">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9">
-                <div className="call-to-action-content">
-                  <h3>Take Control of Your Inventory with Microsoft Dynamics 365 Business Central</h3>
-                  <p>Ensure optimum stock quality, perform on-time deliveries, and get detailed product records with D365 BC.</p>
-                  <div className="text-center m-o-t new-btn-nn">
-                    <a
-                      data-bs-toggle="modal"
-                      href="#exampleModal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Get a free consultation!</span>
-                    </a>
+                <div className="hero-bnner-info text-center">
+                  <div className="top-info">
+                    <h1>Microsoft Business Central for Inventory Management</h1>
+                    <p>Manage stock quality, deliver orders on time, maintain detailed records, reduce production costs, and reorder stock automatically using Business Central for Inventory Management.</p>
+                  </div>
+                  <div className="top-info-img text-center">
+                    <Image src="/img/business-sales-abnner.png" alt="c-erp-partner-banner" width={1002} height={595} priority />
+                  </div>
+                  <div className="bottom-info-cta">
+                    <a data-bs-toggle="modal"
+                      href="#exampleModal" className="btn">Schedule a Demo</a>
+                    <span>All-in-one solution for all your<br />
+                      business practices</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="industry_service_bottoms">
-
-
+        <div className="hero-bg-blue">
           <div className="container">
-            <div className="row justify-content-center g-5">
-              <div className="col-lg-9 col-md-9">
-                <header className="section-header">
+            <div className="row">
+              <div className="col-lg-12 text-center">
+                <img src="/img/hero-p-shape.png" alt="hero-p-shape" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <NavBar /> */}
+
+        <section id="section1">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <header className="section-header section-header-color">
+                  <h2>Reduce Costs, Minimize Errors, and Maximize Efficiency</h2>
+                </header>
+              </div>
+            </div>
+            <div className="row new-pd-02">
+              <div className="col-lg-6 align-self-center">
+                <div className="vide-s vide-sss">
+                  <Image src="/img/streaming-sales.png" alt="streaming-sales" width={516} height={453} />
+                </div>
+              </div>
+              <div className="col-lg-6 align-self-center">
+                <div className="new-sol-con-side">
+                  <p>The inventory management module of <a href="/solutions/dynamics-365-business-central/"><b>Microsoft Dynamics 365 Business Central</b></a> is specially designed to provide real-time visibility into different inventory levels. It lets businesses make informed decisions about purchasing and stocking, reducing access to inventory and minimizing stockout scenarios.</p>
+                  <p>Leveraging the power of <a href="/solutions/microsoft-dynamics-365-ai/"><b>AI</b></a> and BI, Business Central automates the manual inventory management process, ensuring accurate inventory records and fewer mistakes in the ordering and fulfillment process.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <header className="section-header section-header-color">
+                  <h2>How Can Dynamics 365 Business Central Optimize Inventory Management Operations?</h2>
+                  <p>Microsoft Dynamics 365 Business Central for inventory management provides several benefits to businesses, making it more accurate and efficient. </p>
+                </header>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-01.png" alt="cloud_download" />
+                  <h3>Accurate Inventory Tracking</h3>
+                  <p>Track each product that enters and exits the <a href="/solutions/dynamics-365-business-central/warehouse-management/"><b>warehouse</b></a>, ensure optimal inventory levels, and fulfill orders, eliminating overstocking and understocking from the system.</p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-02.png" alt="cloud_download" />
+                  <h3>Greater Productivity</h3>
+                  <p>Automate your inventory management process, optimize the pick-pack process, and reduce potential errors. It helps businesses focus on quality products while ensuring efficient production.</p>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-03.png" alt="cloud_download" />
+                  <h3>Reduces Operational Costs</h3>
+                  <p>Dynamics 365 Business Central helps you prevent <b>overstocking</b>, avoid backorders, spend less time fixing errors, and reduce employees’ wages.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section>
+          <div className="container">
+            <div className="row bg-new-callaction m-o justify-content-center">
+              <div className="col-lg-9">
+                <div className="solution-new-caltoaction">
+                  <h2>Take Control of Your Inventory with Microsoft Dynamics 365 Business Central.</h2>
+                  <p>Ensure optimum stock quality, perform on-time deliveries, and get detailed product records with D365 BC.</p>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal" className="btn bt-bg">Get a free consultation!</a>
+                </div>
+                <div className="ffloting-pic">
+                  <img src="/img/new-shape-call.png" alt="new-shape-call" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="section2">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <header className="section-header section-header-color">
                   <h2>Unlocking Inventory Management Potential with Cutting-Edge Features</h2>
                   <p>Microsoft Dynamics BC offers a wide range of capabilities for businesses to manage their inventory efficiently and reduce costs.</p>
                 </header>
               </div>
             </div>
-            <div className="row g-xxl-0">
-              <div className="col-lg-6">
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_seamless customisation.svg"
-                      alt="icons-_seamless customisation"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Item Master Management</h3>
-                    <p>Create a new listing of items, modify existing data, <b>maintain vendor details</b>, assign products to different locations, and maintain detailed information about inventory.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Bill of Materials</h3>
-                    <p>It allows you to plan material purchases, estimate costs, ensure sufficient raw material for manufacturing, minimize delays, and identify the cause of production failure.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_centralised data.svg"
-                      alt="centralised data"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Item Categorization</h3>
-                    <p>Help organize and classify materials based on various criteria to track and analyze procurement, production, sales, and <b>inventory data separately</b>.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_manage customer.svg"
-                      alt="icons-_manage customer"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Item Attributes</h3>
-                    <p>It enables users to add product specifications, such as color, size, and style, extend the search, <b>filter catalogs</b>, and create recommendations, helping to filter search results.</p>
-                  </div>
-                </div>
-               
-               
-              </div>
-              <div className="col-lg-6">
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_drive automation.svg"
-                      alt="icons-_drive automation"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Item Catalog</h3>
-                    <p>Simplify the procurement process, experience faster charge creation, manage and analyze an offering by <b>creating a catalog item</b>.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_enterprise mobility.svg"
-                      alt="icons-_enterprise mobility"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Inventory Counting</h3>
-                    <p>Help verify stock levels, identify errors, and ensure the accuracy of inventory records between physical stock and recorded amounts by <b>performing physical counting</b>.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Item Availability</h3>
-                    <p>Determine current existing stock levels, optimize sales numbers, calculate back orders, track cancellations, and reduce customer delivery times.</p>
-                  </div>
-                </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons-_Predict Opportunity.svg"
-                      alt="icons-_Predict Opportunity"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Inventory Transfer</h3>
-                    <p>Move physical inventory items from one warehouse location to another without any hassle to improve availability across sales, ensuring item availability and optimizing storage.</p>
-                  </div>
-                </div>
-              
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="call-to-action-center hero-4">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <div className="call-to-action-content">
-                  <h3>Want to get a 360-degree view of your entire inventory?</h3>
-                  <p>Get a customized Business Central implementation and revolutionize your business to meet modern business demands.</p>
-                  <div className="text-center m-o-t m-o-t-hv">
-                    <a
-                      data-bs-toggle="modal"
-                      href="#exampleModal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Contact a Inventory Management Expert Now!</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="busine_service_bottom">
-          <div className="container">
+
             <div className="row">
-              <div className="col-lg-6">
-                <div className="busine_service_bottom-left">
-                  <div className="busine_service_bottom-right">
-                    <img
-                      src="/img/startup-side.png"
-                      className="fix-im"
-                      alt="bisin_leftimg"
-                    />
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-04.png" alt="cloud_download" />
+                  <h3>Item Master Management</h3>
+                  <p>Create a new listing of items, modify existing data, <b>maintain vendor details</b>, assign products to different locations, and maintain detailed information about inventory.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-05.png" alt="cloud_download" />
+                  <h3>Bill of Materials</h3>
+                  <p>It allows you to plan material purchases, estimate costs, ensure sufficient raw material for manufacturing, minimize delays, and identify the cause of production failure.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-06.png" alt="cloud_download" />
+                  <h3>Item Categorization</h3>
+                  <p>Help organize and classify materials based on various criteria to track and analyze procurement, production, sales, and <b>inventory data separately</b>.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-07.png" alt="cloud_download" />
+                  <h3>Item Attributes</h3>
+                  <p>It enables users to add product specifications, such as color, size, and style, extend the search, <b>filter catalogs</b>, and create recommendations, helping to filter search results.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-08.png" alt="cloud_download" />
+                  <h3>Item Catalog</h3>
+                  <p>Simplify the procurement process, experience faster charge creation, manage and analyze an offering by <b>creating a catalog item</b>.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-09.png" alt="cloud_download" />
+                  <h3>Inventory Counting</h3>
+                  <p>Help verify stock levels, identify errors, and ensure the accuracy of inventory records between physical stock and recorded amounts by <b>performing physical counting</b>.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-10.png" alt="cloud_download" />
+                  <h3>Item Availability</h3>
+                  <p>Determine current existing stock levels, optimize sales numbers, calculate back orders, track cancellations, and reduce customer delivery times.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-11.png" alt="cloud_download" />
+                  <h3>Inventory Transfer</h3>
+                  <p>Move physical inventory items from one warehouse location to another without any hassle to improve availability across sales, ensuring item availability and <b>optimizing storage</b>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="call-bg-gray">
+          <div className="container">
+            <div className="row po-realtive">
+              <div className="col-lg-7">
+                <div className="call-to-action-three">
+                  <h2>Want to get a 360-degree view of your entire inventory?</h2>
+                  <p>Get a customized Business Central implementation and revolutionize your business to meet modern business demands.</p>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal" className="btn bt-bg">Contact a Inventory Management Expert Now!</a>
+                  <div className="im-abso">
+                    <img src="/img/frame-shape.png" alt="frame-shape" />
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 d-flex align-items-center">
-                <div className="side-heading">
-                  <h2>Are You Struggling with Overstocked Items and Stock Shortages?</h2>
+            </div>
+          </div>
+        </section>
+
+        <section id="section1">
+          <div className="container">
+           
+            <div className="row new-pd-01">
+
+              <div className="col-lg-6 align-self-center">
+                <div className="new-sol-con-side">
+                   <h2>Are You Struggling with Overstocked Items and Stock Shortages?</h2>
                   <p>Businesses often face challenges in knowing how much inventory is left in warehouses to fulfill demand and maximize space utilization. These result in a stock surplus or stockouts, improving inefficiencies and reducing revenue for your business.</p>
                   <p>Besides this, you might also be struggling to detect lost, damaged, or stolen items, as tracking each item manually is complex. Your resources might be wasted and lead to costly inaccuracies.</p>
                   <p>This is where D365 Business Central comes into play. Its implementation can allow tracking bulk-order items, getting low stock alerts, and automating processes to maximize efficiency.</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section className="Solution-business-why custom-pd-1">
-          <div className="container">
-            <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>Why Choose Dynamics Square for streamline Inventory Management?</h2>
-                <p>Dynamics Square is a leading <Link href="/"><a>Microsoft Solution partner</a></Link> in Vancouver, helping businesses with seamless and reliable D365 Business Central implementation. We are a team of <b>135+</b> Microsoft certified consultants and have delivered <b>350+</b> successful projects around the globe. To all businesses, we offer:</p>
-              </div>
-              <div className="col-lg-6 align-self-center">
-                <div className="content-icons-modil-1">
-                  <div className="content-inner-moil-1 content-inner-moil-22">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div> 
-                    </div>
-                    <div className="cintent-right">
-                      <p><b>24*7 </b> effective customer support</p>
-                    </div>
-                  </div>
-                 
-                  <div className="content-inner-moil-1 content-inner-moil-22">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p>Free business audit</p>
-                    </div>
-                  </div>
-                  <div className="content-inner-moil-1 content-inner-moil-22">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p><b>14+</b> years of proven experience</p>
-                    </div>
-                  </div>
-                  <div className="content-inner-moil-1 content-inner-moil-22">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p>Post-implementation support</p>
-                    </div>
-                  </div>
-
-                  <div className="content-inner-moil-1 content-inner-moil-22">
-                    <div className="icons-left">
-                      <div className="ext-bord">
-                        <i className="bi bi-check2"></i>
-                      </div>
-                    </div>
-                    <div className="cintent-right">
-                      <p>Complimentary training for effective solution understanding</p>
-                    </div>
-                  </div>
-
+                <div className="vide-s vide-sss">
+                  <Image src="/img/qualified-leads.png" alt="Streamline Sales Management and
+Boost Sales Efficiency" width={484} height={462} />
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+        <section id="section5">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <header className="section-header section-header-color">
+                  <h2>Why Choose Dynamics Square to Streamline Inventory Management?</h2>
+                  <p>Dynamics Square is a leading <a href="/">Microsoft Solution partner</a> in Vancouver, helping businesses with seamless and reliable D365 Business Central implementation. We are a team of <b>135+</b> Microsoft certified consultants and have delivered <b>350+</b> successful projects around the globe. To all businesses, we offer:</p>
+                </header>
+              </div>
+            </div>
+            <div className="row g-3">
+              <div className="col-xl-6 col-md-6 d-flex">
+                <div className="crad-six c-white">
+                  <img src="/img/icon-inner-12.png" alt="" />
+                  <h3>Seamless implementation </h3>
+                  <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
+
+                </div>
+              </div>
+              <div className="col-xl-6 col-md-6 d-flex">
+                <div className="crad-six">
+                  <img src="/img/icon-inner-13.png" alt="" />
+                  <h3>Team of Certified Dynamics 365 Experts</h3>
+                  <p>We are a team of over <b>135+</b> Microsoft-certified Dynamics 365 consultants. At Dynamics Square, the best industry minds are on your side to tackle any challenge and craft growth-oriented strategies.</p>
+                  <div className="bg-img">
+                    <img src="/img/shpe-11.png" alt="shape" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xl-6 col-md-6 d-flex">
+                <div className="crad-six">
+                  <img src="/img/icon-inner-14.png" alt="" />
+                  <h3>Adequate Resources Available</h3>
+                  <p>We have adequate resources and infrastructure to empower businesses of all sizes. With our robust Dynamics 365 Business Central support services, you can match your ambition to scale.</p>
+                  <div className="img-flips">
+                    <img src="/img/shpe-11.png" alt="shape" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-6 col-md-6 d-flex">
+                <div className="crad-six c-white">
+                  <img src="/img/icon-inner-15.png" alt="" />
+                  <h3>Hands-On Support</h3>
+                  <p>We offer on-site support for complex problems or interruptions to ensure your company gets back on track quickly and affordably.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
 
 
       </main>

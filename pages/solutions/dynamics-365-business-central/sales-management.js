@@ -187,45 +187,49 @@ const SalesManagement = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-05.png" alt="cloud_download" />
+                  <h3>Drop Shipments </h3>
+                  <p>Improve logistics efficiency and facilitate drop-shipping directly from suppliers to customers using a purchase order to reduce delivery times. </p>
+                </div>
+              </div>
+              
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-06.png" alt="cloud_download" />
                   <h3>Accurate Sales Quoting </h3>
                   <p>Offer effective sales quotes to accurately reflect pricing while ensuring that customers receive comprehensive and transparent information. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-06.png" alt="cloud_download" />
-                  <h3>Efficient Sales Order Processing </h3>
-                  <p>Business Central allows you to check inventory, track order fulfillment, and ensure timely delivery for fewer returns and greater satisfaction. </p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-07.png" alt="cloud_download" />
-                  <h3>Seamless Sales Invoicing </h3>
-                  <p>Create, send, and <a href="/solutions/microsoft-dynamics-365-sales/"><b>manage sales invoices</b></a> effortlessly for the products or services that your customers have purchased, ensuring timely payments from customers. </p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-08.png" alt="cloud_download" />
-                  <h3>Drop Shipments </h3>
-                  <p>Improve logistics efficiency and facilitate drop-shipping directly from suppliers to customers using a purchase order to reduce delivery times. </p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-09.png" alt="cloud_download" />
                   <h3>Sales Returns </h3>
                   <p>Track and document returned products to handle and manage returned items. Leverage Microsoft Dynamics 365 Business Central to <a href="/solutions/dynamics-365-business-central/warehouse-management/"><b>optimize inventory</b></a> and offer exceptional service. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-10.png" alt="cloud_download" />
+                  <img src="/img/icon-inner-08.png" alt="cloud_download" />
+                  <h3>Efficient Sales Order Processing </h3>
+                  <p>Business Central allows you to check inventory, track order fulfillment, and ensure timely delivery for fewer returns and greater satisfaction. </p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-09.png" alt="cloud_download" />
                   <h3>Correction or Cancel Unpaid Invoices </h3>
                   <p>Effectively correct or cancel unpaid invoices with precision and ease. Maintain accurate financial records and ensure customer satisfaction by resolving billing issues promptly. </p>
                 </div>
               </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
+                <div className="card-two card-two-extra">
+                  <img src="/img/icon-inner-10.png" alt="cloud_download" />
+                  <h3>Seamless Sales Invoicing </h3>
+                  <p>Create, send, and <a href="/solutions/microsoft-dynamics-365-sales/"><b>manage sales invoices</b></a> effortlessly for the products or services that your customers have purchased, ensuring timely payments from customers. </p>
+                </div>
+              </div>
+             
+             
+           
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-11.png" alt="cloud_download" />
