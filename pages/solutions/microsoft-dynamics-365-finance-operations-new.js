@@ -223,10 +223,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/cloud_download.png" alt="cloud_download" />
                   <h3>Get Financial Insight, Plan Better</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time financial insights</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Advanced reporting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Predict future trends</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Identify opportunities</span></li>
+                    <li><i className="bi bi-check"></i><span>Real-time financial insights</span></li>
+                    <li><i className="bi bi-check"></i><span>Advanced reporting</span></li>
+                    <li><i className="bi bi-check"></i><span>Predict future trends</span></li>
+                    <li><i className="bi bi-check"></i><span>Identify opportunities</span></li>
                   </ul>
                 </div>
               </div>
@@ -235,10 +235,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/pages.png" alt="pages" />
                   <h3>Automate Business Process, Increase Productivity</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automated routine tasks</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimized workflows</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduced errors</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Seamless integration</span></li>
+                    <li><i className="bi bi-check"></i><span>Automated routine tasks</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimized workflows</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduced errors</span></li>
+                    <li><i className="bi bi-check"></i><span>Seamless integration</span></li>
                   </ul>
                 </div>
               </div>
@@ -247,10 +247,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/sleep_score.png" alt="sleep_score" />
                   <h3>Scale Your Business, Adapt Easily </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Flexible deployment options</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Customize modules</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Higher adaptability</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Standardized workflows</span></li>
+                    <li><i className="bi bi-check"></i><span>Flexible deployment options</span></li>
+                    <li><i className="bi bi-check"></i><span>Customize modules</span></li>
+                    <li><i className="bi bi-check"></i><span>Higher adaptability</span></li>
+                    <li><i className="bi bi-check"></i><span>Standardized workflows</span></li>
                   </ul>
                 </div>
               </div>
@@ -259,10 +259,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/rocket_launch_icon.png" alt="rocket_launch_icon" />
                   <h3>Get Comprehensive Supply Chain Visibility</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time monitoring</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Maintain optimal inventory levels</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved supplier collaboration</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Better procurement</span></li>
+                    <li><i className="bi bi-check"></i><span>Real-time monitoring</span></li>
+                    <li><i className="bi bi-check"></i><span>Maintain optimal inventory levels</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved supplier collaboration</span></li>
+                    <li><i className="bi bi-check"></i><span>Better procurement</span></li>
                   </ul>
                 </div>
               </div>
@@ -271,10 +271,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/memory.png" alt="memory" />
                   <h3>Optimize Resources, Reduce Costs </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient resource allocation</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Lower IT maintenance</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient resource management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved efficiency</span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient resource allocation</span></li>
+                    <li><i className="bi bi-check"></i><span>Lower IT maintenance</span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient resource management</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved efficiency</span></li>
                   </ul>
                 </div>
               </div>
@@ -283,10 +283,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/pie_chart.png" alt="pie_chart" />
                   <h3>Advanced Analytics, Visualize Data </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Built-in templates</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Create a personalized dashboard</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Derive smarter decisions</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Integrate with Power BI</span></li>
+                    <li><i className="bi bi-check"></i><span>Built-in templates</span></li>
+                    <li><i className="bi bi-check"></i><span>Create a personalized dashboard</span></li>
+                    <li><i className="bi bi-check"></i><span>Derive smarter decisions</span></li>
+                    <li><i className="bi bi-check"></i><span>Integrate with Power BI</span></li>
                   </ul>
                 </div>
               </div>
@@ -295,10 +295,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/work_update.png" alt="work_update" />
                   <h3>Enhanced Inventory Management, Better Order Fulfillment </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimizes inventory levels</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduces carrying costs</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improves inventory accuracy</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automated replenishment</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimizes inventory levels</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduces carrying costs</span></li>
+                    <li><i className="bi bi-check"></i><span>Improves inventory accuracy</span></li>
+                    <li><i className="bi bi-check"></i><span>Automated replenishment</span></li>
                   </ul>
                 </div>
               </div>
@@ -307,10 +307,10 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <img src="/img/inventory_2.png" alt="inventory_2" />
                   <h3>Improved Cash Flow Management </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Liquidity analysis</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Cash position tracking</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimize working capital</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Ensure sufficient liquidity</span></li>
+                    <li><i className="bi bi-check"></i><span>Liquidity analysis</span></li>
+                    <li><i className="bi bi-check"></i><span>Cash position tracking</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimize working capital</span></li>
+                    <li><i className="bi bi-check"></i><span>Ensure sufficient liquidity</span></li>
                   </ul>
                 </div>
               </div>
@@ -354,7 +354,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Comprehensive Financial Reporting
                             </div>
                             <p>Generate detailed reports by utilizing <b> built-in</b> and <b>customizable templates</b>.</p>
@@ -363,7 +363,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budget Planning
                             </div>
                             <p>Create multi-scenario budgets, <b>predict financial performance</b>, and adjust plans.</p>
@@ -372,7 +372,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Accurate Forecasting
                             </div>
                             <p>Predict future financial performance and <b>create a strategic roadmap</b>. </p>
@@ -381,7 +381,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Multi-Currency Support
                             </div>
                             <p>Handle <b>global transactions</b> seamlessly with automatic exchange rate updates.</p>
@@ -390,7 +390,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Accounts Payable Automation
                             </div>
                             <p>Define vendor types, settle payments, and <b>automate payment approval</b>.</p>
@@ -399,7 +399,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Accounts Receivable Automation
                             </div>
                             <p><b>Automate invoice processing</b>, streamline billing, and reduce processing time.</p>
@@ -413,7 +413,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Predict Future Demand
                             </div>
                             <p>Analyze sales data and market trends to <b>predict future demand</b> accurately.</p>
@@ -422,7 +422,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Procurement Management
                             </div>
                             <p>Manage suppliers, <b>streamline purchasing</b>, and automate approval workflows.</p>
@@ -431,7 +431,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Warehouse Management
                             </div>
                             <p>Optimize warehouse layout and implement <b>advanced picking strategies</b>.</p>
@@ -440,7 +440,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               End-to-End Visibility
                             </div>
                             <p>Track products from sourcing to delivery, ensuring transparency and control.</p>
@@ -449,7 +449,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Vendor Collaboration
                             </div>
                             <p>Enhance supplier relationships and <b>improve procurement efficiency</b>. </p>
@@ -458,7 +458,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Integration with Dynamics 365 Ecosystem
                             </div>
                             <p>Achieve greater efficiency, accuracy, and <b>visibility across the operations</b>.</p>
@@ -472,7 +472,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Production Planning and Scheduling
                             </div>
                             <p>Optimize resource allocation, <b>minimize downtime</b>, and maximize efficiency.</p>
@@ -481,7 +481,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Bills of Material (BOM) Management
                             </div>
                             <p>Define product components, <b>track changes</b>, reduce waste, and prevent delays.</p>
@@ -490,7 +490,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Shop Floor Management
                             </div>
                             <p><b>Monitor production processes</b> and track machine performance.</p>
@@ -499,7 +499,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Quality Control
                             </div>
                             <p><b>Implement quality checks</b> at various stages to deliver superior products.</p>
@@ -508,7 +508,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Lean Manufacturing
                             </div>
                             <p>Optimize production through kanban, pull systems, and <b>JIT inventory management</b>. </p>
@@ -517,7 +517,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Product Lifecycle Management
                             </div>
                             <p>Manage product lifecycle from design to retirement, <b>accelerating time-to-market</b>.</p>
@@ -532,7 +532,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Preventive and Predictive Maintenance
                             </div>
                             <p>Optimize asset lifespan through real-time monitoring and <b>proactive maintenance</b>.</p>
@@ -541,7 +541,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Asset Performance Dashboard
                             </div>
                             <p><b>Monitor asset health</b> and performance using data analytics.</p>
@@ -550,7 +550,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Asset Lifecycle Management 
                             </div>
                             <p>Track assets from acquisition to disposal, ensuring compliance and <b>cost control</b>.</p>
@@ -559,7 +559,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Asset Reservation
                             </div>
                             <p><b>Reserve the asset</b> to ensure its availability for specific purposes or projects.</p>
@@ -568,7 +568,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Asset Retirement
                             </div>
                             <p>Retire and dispose by capturing disposal details and <b>tracking disposal costs</b>.</p>
@@ -577,7 +577,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Cost Management
                             </div>
                             <p>Track and control <b>asset-related costs</b> for better financial visibility.</p>
@@ -591,7 +591,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Real-time Inventory Tracking
                             </div>
                             <p>Monitor stock levels across locations to prevent <b>stockouts and overstocking</b>.</p>
@@ -600,7 +600,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Inventory Replenishment 
                             </div>
                             <p>Optimize <b>inventory levels</b> through automated replenishment processes.</p>
@@ -609,7 +609,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Batch and Serial Number Tracking
                             </div>
                             <p>Enhance traceability and quality control with detailed <b>inventory tracking</b>.</p>
@@ -618,7 +618,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Inventory Valuation and Costing
                             </div>
                             <p>Accurately <b>assess inventory value</b> and understand cost drivers.</p>
@@ -627,7 +627,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Multi-Location and Multi-Channel Management
                             </div>
                             <p>Manage inventory across different locations and <b>sales channels</b>.</p>
@@ -636,7 +636,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Physical Inventory Checks
                             </div>
                             <p>Ensure inventory accuracy through regular <b>physical counts</b>.</p>
@@ -650,7 +650,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project Planning and Scheduling
                             </div>
                             <p>Create comprehensive project plans and <b>distribute resources effectively</b>.</p>
@@ -659,7 +659,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Resource Allocation
                             </div>
                             <p>Optimize resource utilization by avoiding <b>over-or under-allocation</b>.</p>
@@ -668,7 +668,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Time and Expense Management
                             </div>
                             <p>Streamline time and expense tracking for <b>accurate billing</b> and <b>cost allocation</b>.</p>
@@ -677,7 +677,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Risk and Issue Management
                             </div>
                             <p>Identify and <b>mitigate project risks</b> to ensure successful outcomes.</p>

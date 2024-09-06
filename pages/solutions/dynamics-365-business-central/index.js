@@ -304,10 +304,10 @@ const Index = () => {
                   <img src="/img/cloud_download.png" alt="cloud_download" />
                   <h3>Deploy the Cloud Faster, Reduce Downtime</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Accelerated Deployment</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Accessibility</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Increased Uptime</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Easy to Scale</span></li>
+                    <li><i className="bi bi-check"></i><span>Accelerated Deployment</span></li>
+                    <li><i className="bi bi-check"></i><span>Enhanced Accessibility</span></li>
+                    <li><i className="bi bi-check"></i><span>Increased Uptime</span></li>
+                    <li><i className="bi bi-check"></i><span>Easy to Scale</span></li>
                   </ul>
                 </div>
               </div>
@@ -316,10 +316,10 @@ const Index = () => {
                   <img src="/img/pages.png" alt="pages" />
                   <h3>Amaze Customers and Drive Loyalty</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Customer Experience</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Personalized Interactions</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient Order Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Effective CRM Features</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved Customer Experience</span></li>
+                    <li><i className="bi bi-check"></i><span>Personalized Interactions</span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient Order Management</span></li>
+                    <li><i className="bi bi-check"></i><span>Effective CRM Features</span></li>
                   </ul>
                 </div>
               </div>
@@ -328,10 +328,10 @@ const Index = () => {
                   <img src="/img/sleep_score.png" alt="sleep_score" />
                   <h3>Close More Deals with AI</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Intelligent Sales Insights</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Avail Automation</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Predictive Sales Forecasting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Personalized Sales Pitch</span></li>
+                    <li><i className="bi bi-check"></i><span>Intelligent Sales Insights</span></li>
+                    <li><i className="bi bi-check"></i><span>Avail Automation</span></li>
+                    <li><i className="bi bi-check"></i><span>Predictive Sales Forecasting</span></li>
+                    <li><i className="bi bi-check"></i><span>Personalized Sales Pitch</span></li>
                   </ul>
                 </div>
               </div>
@@ -340,10 +340,10 @@ const Index = () => {
                   <img src="/img/rocket_launch_icon.png" alt="rocket_launch_icon" />
                   <h3>Skyrocket Performance with Data Analytics</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Data-Driven Decision Making</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Efficiency</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Forecasting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time Performance Monitoring</span></li>
+                    <li><i className="bi bi-check"></i><span>Data-Driven Decision Making</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved Efficiency</span></li>
+                    <li><i className="bi bi-check"></i><span>Enhanced Forecasting</span></li>
+                    <li><i className="bi bi-check"></i><span>Real-time Performance Monitoring</span></li>
                   </ul>
                 </div>
               </div>
@@ -352,10 +352,10 @@ const Index = () => {
                   <img src="/img/memory.png" alt="memory" />
                   <h3>Deliver Projects on Time, On Budget</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Project Planning</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Collaboration</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time Project Tracking</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Resource Optimization</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved Project Planning</span></li>
+                    <li><i className="bi bi-check"></i><span>Enhanced Collaboration</span></li>
+                    <li><i className="bi bi-check"></i><span>Real-time Project Tracking</span></li>
+                    <li><i className="bi bi-check"></i><span>Resource Optimization</span></li>
                   </ul>
                 </div>
               </div>
@@ -364,10 +364,10 @@ const Index = () => {
                   <img src="/img/pie_chart.png" alt="pie_chart" />
                   <h3>Real-Time Financials: Gain Control, Make Money</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Accurate Financial Data</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Cash Flow Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced Financial Reporting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Follow Regulatory Compliances</span></li>
+                    <li><i className="bi bi-check"></i><span>Accurate Financial Data</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved Cash Flow Management</span></li>
+                    <li><i className="bi bi-check"></i><span>Enhanced Financial Reporting</span></li>
+                    <li><i className="bi bi-check"></i><span>Follow Regulatory Compliances</span></li>
                   </ul>
                 </div>
               </div>
@@ -376,10 +376,10 @@ const Index = () => {
                   <img src="/img/work_update.png" alt="work_update" />
                   <h3>Cut Inventory Costs and Boost Availability</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimized Inventory Levels</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Demand Forecasting</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient Warehouse Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduced Inventory Shrinkage</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimized Inventory Levels</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved Demand Forecasting</span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient Warehouse Management</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduced Inventory Shrinkage</span></li>
                   </ul>
                 </div>
               </div>
@@ -388,10 +388,10 @@ const Index = () => {
                   <img src="/img/inventory_2.png" alt="inventory_2" />
                   <h3>In-built Intelligent Supply Chain Management</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>360-Degree SCM Visibility</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved Team Collaboration</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Risk Management</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Maximized Performance</span></li>
+                    <li><i className="bi bi-check"></i><span>360-Degree SCM Visibility</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved Team Collaboration</span></li>
+                    <li><i className="bi bi-check"></i><span>Risk Management</span></li>
+                    <li><i className="bi bi-check"></i><span>Maximized Performance</span></li>
                   </ul>
                 </div>
               </div>
@@ -435,7 +435,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Internal Transactions 
                             </div>
                             <p>Manages internal financial transactions without any errors.</p>
@@ -444,7 +444,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Forecast Cash Flows 
                             </div>
                             <p>Estimates future cash inflows, outflows, and financial position. </p>
@@ -453,7 +453,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budgeting 
                             </div>
                             <p>Plans and tracks financial resources to control expenses. </p>
@@ -462,7 +462,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Inventory Costing 
                             </div>
                             <p>Track inventory value to forecast expenses and maintain inventory levels. </p>
@@ -471,7 +471,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Multi-Companies Management
                             </div>
                             <p>Combines financial data from multiple entities to analyze finance. </p>
@@ -480,7 +480,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Costs and Expense Allocation 
                             </div>
                             <p>Allocate expenses and revenues accurately using a common journal. </p>
@@ -489,7 +489,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Treasury 
                             </div>
                             <p>Manage cash instruments, offering visibility and control over finance. </p>
@@ -498,7 +498,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Accounts Receivable 
                             </div>
                             <p>Tracks and manages incoming payments and settles customer accounts. </p>
@@ -507,7 +507,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Accounts Payable 
                             </div>
                             <p>Tracks and manages outgoing payments to suppliers and vendor partners. </p>
@@ -516,7 +516,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Fixed Assets 
                             </div>
                             <p>Manage and track long-term assets, including maintenance costs and insurance policies. </p>
@@ -529,7 +529,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Client management 
                             </div>
                             <p>Manage your customer base, resolve queries, and increase customer satisfaction.</p>
@@ -538,7 +538,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Sales Quote 
                             </div>
                             <p>Modify and send sales quotes to provide customers with detailed pricing. </p>
@@ -547,7 +547,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Sales Order 
                             </div>
                             <p>Create sales orders and manage the sale of products or services to customers. </p>
@@ -556,7 +556,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Sales Invoices 
                             </div>
                             <p>Generate invoices for products or services customers have purchased. </p>
@@ -565,7 +565,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Drop Shipments 
                             </div>
                             <p>Fulfill customer orders by shipping products directly using a purchase order. </p>
@@ -574,7 +574,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Sales Returns 
                             </div>
                             <p>Process and manage returned items and ensure accurate inventory. </p>
@@ -583,7 +583,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Assembly Order 
                             </div>
                             <p>Connect sales requirements with warehouse activities to fulfill orders. </p>
@@ -592,7 +592,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Order Planning & Promising 
                             </div>
                             <p>Plan and promise delivery dates to ensure smooth order fulfillment. </p>
@@ -601,7 +601,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Generate Single Invoice
                             </div>
                             <p>Create a single invoice for multiple shipments with detailed information. </p>
@@ -610,7 +610,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Correction or Cancel Unpaid Invoices 
                             </div>
                             <p>Correct or cancel unpaid invoices to manage billing errors or customers. </p>
@@ -623,7 +623,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Manage Suppliers
                             </div>
                             <p>Find and manage vendors while building strong relationships. </p>
@@ -632,7 +632,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Optimize Warehouse 
                             </div>
                             <p>Optimize warehouse space to accommodate growing volumes of inventory. </p>
@@ -641,7 +641,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Track Goods during Transportation 
                             </div>
                             <p>Monitor goods in transit. Get valuable insight into shipment status and location. </p>
@@ -650,7 +650,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Communication 
                             </div>
                             <p>Enhance collaboration across partners to promote efficient operations. </p>
@@ -659,7 +659,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Adopt New Technologies 
                             </div>
                             <p>Integrate advanced SCM solutions to adapt faster, work smarter, and perform better. </p>
@@ -668,7 +668,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Built-in Intelligence 
                             </div>
                             <p>Automate tasks with in-built Copilot assistance to improve decision-making. </p>
@@ -677,7 +677,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Enhance Profitability 
                             </div>
                             <p>Reduce costs and boost margins. Increase turnover and productivity. </p>
@@ -686,7 +686,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Improve Sustainability 
                             </div>
                             <p>Use sustainability entries to track emissions and follow best practices.  </p>
@@ -700,7 +700,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project Creation 
                             </div>
                             <p>Create, schedule, and manage projects. Define the project scope and start processes.</p>
@@ -709,7 +709,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Resource Allocations 
                             </div>
                             <p>Allocate resources based on their skills and experience to ensure project completion. </p>
@@ -718,7 +718,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Time Sheet Management 
                             </div>
                             <p>Track and record the time spent by team members on project tasks in real time. </p>
@@ -727,7 +727,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project Budget Management 
                             </div>
                             <p>Set a realistic budget based on the project requirements. </p>
@@ -736,7 +736,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Resource Consumptions 
                             </div>
                             <p>Monitor resource consumption, identify bottlenecks, and optimize resource allocation. </p>
@@ -745,7 +745,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project Supplies 
                             </div>
                             <p>Manage and track materials, equipment, and other supplies needed to complete the project. </p>
@@ -754,7 +754,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project WIP Methods 
                             </div>
                             <p>Estimate the financial value of the ongoing project using a general ledger. </p>
@@ -763,7 +763,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Track Project Progress
                             </div>
                             <p>Access project progress based on different parameters and specifications. </p>
@@ -772,7 +772,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project Invoicing 
                             </div>
                             <p>Generate and send invoices to clients for a project for multiple users. </p>
@@ -781,7 +781,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Merge Duplicate Records 
                             </div>
                             <p>Eliminate duplicate entries to improve data accuracy and ensure reliable reporting. </p>
@@ -794,7 +794,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Master Management 
                             </div>
                             <p>List and maintain key information of inventory with complete data. </p>
@@ -803,7 +803,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Bill of Materials 
                             </div>
                             <p>Estimate the amount of materials, plan purchases, and ensure part availability. </p>
@@ -812,7 +812,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Categorization 
                             </div>
                             <p>Categorize items based on type, brand, or other criteria to classify items. </p>
@@ -821,7 +821,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Attributes 
                             </div>
                             <p>Distribute attributes of inventory items and assign codes to find them easily. </p>
@@ -830,7 +830,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Catalog 
                             </div>
                             <p>Creates a catalog item to simplify the procurement process. </p>
@@ -839,7 +839,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Inventory Counting 
                             </div>
                             <p>Perform physical stock counts to ensure data accuracy and identify discrepancies. </p>
@@ -848,7 +848,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Availability 
                             </div>
                             <p>Check current stock levels to detect item availability and optimize sales.</p>
@@ -857,7 +857,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Inventory Transfer 
                             </div>
                             <p>Move stock between warehouses or locations efficiently. </p>
@@ -866,7 +866,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Reservation 
                             </div>
                             <p>Allocate specific inventory items to sales, purchase, or production needs. </p>
@@ -875,7 +875,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Tracking 
                             </div>
                             <p>Monitor the movement of your inventory using a serial or lot number. </p>
@@ -888,7 +888,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Receiving 
                             </div>
                             <p>Inspect, verify, and record receiving goods in the warehouse. </p>
@@ -897,7 +897,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Shipments 
                             </div>
                             <p>Manage goods shipments from your warehouse for smooth movement.</p>
@@ -906,7 +906,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Cross Dock Items 
                             </div>
                             <p>Transfer items directly from receiving to shipping without storing them.</p>
@@ -915,7 +915,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Putting Items Away 
                             </div>
                             <p>Organize your warehouse to place received items at designated storage locations. </p>
@@ -924,7 +924,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Moving Items 
                             </div>
                             <p>Transport goods between locations to optimize storage space. </p>
@@ -933,7 +933,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Picking Items 
                             </div>
                             <p>Select specific items from their storage locations to fulfill customer orders. </p>
@@ -942,7 +942,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Automated Data Capture Systems (ADCS) 
                             </div>
                             <p>Track items and reduce manual data entry by utilizing barcode scanners. </p>
@@ -951,7 +951,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Inventory Replenishment  
                             </div>
                             <p>Maintain optimum inventory levels to meet customer demands. </p>
@@ -965,7 +965,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Production Planning 
                             </div>
                             <p>Plan, schedule production runs, and suggest changes based on requirements. </p>
@@ -974,7 +974,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Supply Planning 
                             </div>
                             <p>Analyze forecasting material needs and procure goods to optimize delivery. </p>
@@ -983,7 +983,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Demand Forecasting 
                             </div>
                             <p>Predict goods quantity and allocate resources to meet consumer demands.</p>
@@ -992,7 +992,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Creation of Production Order
                             </div>
                             <p>Automatically create a planned production order from a sales order. </p>
@@ -1001,7 +1001,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Order Planning 
                             </div>
                             <p>Leverage BOM (Bill of Material) to forecast sales and product demand. </p>
@@ -1010,7 +1010,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               MRP & MPS 
                             </div>
                             <p>Automate the supply chain by calculating materials and components.</p>
@@ -1019,7 +1019,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Requisition Worksheet 
                             </div>
                             <p>Create supply chain data and request the purchase using the document. </p>
@@ -1028,7 +1028,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Calculate Work Centre Calendar 
                             </div>
                             <p>Schedule production orders and ensure realistic completion.</p>
@@ -1037,7 +1037,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Item Availability 
                             </div>
                             <p>Check component availability and a specific item's influence on production. </p>
@@ -1046,7 +1046,7 @@ const Index = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Production Order 
                             </div>
                             <p>Specify crucial information about items and create production orders with ease. </p>

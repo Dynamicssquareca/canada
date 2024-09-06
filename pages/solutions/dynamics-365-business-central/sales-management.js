@@ -263,7 +263,7 @@ const SalesManagement = () => {
 
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                <h2>Are You Struggling to Find Qualified Leads? </h2>
+                   <h2>Are You Struggling to Find Qualified Leads? </h2>
                   <p>Many businesses struggle to find qualified leads. Finding the good fit that is most likely to make a purchase can help you save time and resources. Moreover, not having a single truth of data can also lead to data inconsistency, duplication, and inaccessibility. </p>
                   <p>With <a href="/solutions/dynamics-365-business-central/">Dynamics 365 Business Central</a>, you can segment and target your prospects to generate qualified leads based on valuable customer insights. It also ensures real-time data sharing among your sales team to ensure data consistency. </p>
 

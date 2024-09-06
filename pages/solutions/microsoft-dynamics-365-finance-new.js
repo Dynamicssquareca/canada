@@ -213,10 +213,10 @@ const Finance = () => {
                   <img src="/img/cloud_download.png" alt="cloud_download" />
                   <h3>•	Enhanced Financial Visibility, Reduced Error</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Real-time data access</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Uncover trends</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Make data-driven decisions</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Generate detailed financial reports</span></li>
+                    <li><i className="bi bi-check"></i><span>Real-time data access</span></li>
+                    <li><i className="bi bi-check"></i><span>Uncover trends</span></li>
+                    <li><i className="bi bi-check"></i><span>Make data-driven decisions</span></li>
+                    <li><i className="bi bi-check"></i><span>Generate detailed financial reports</span></li>
                   </ul>
                 </div>
               </div>
@@ -225,10 +225,10 @@ const Finance = () => {
                   <img src="/img/pages.png" alt="pages" />
                   <h3>Improved Financial Control, Maximize Profits</h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automated financial processes</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Enhanced security</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automated workflow</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Improved profitability</span></li>
+                    <li><i className="bi bi-check"></i><span>Automated financial processes</span></li>
+                    <li><i className="bi bi-check"></i><span>Enhanced security</span></li>
+                    <li><i className="bi bi-check"></i><span>Automated workflow</span></li>
+                    <li><i className="bi bi-check"></i><span>Improved profitability</span></li>
                   </ul>
                 </div>
               </div>
@@ -237,10 +237,10 @@ const Finance = () => {
                   <img src="/img/sleep_score.png" alt="sleep_score" />
                   <h3>Streamlined Operations, Increased Productivity </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduce data silo</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Eliminate redundant processes</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automate financial tasks</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Multi-currency support</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce data silo</span></li>
+                    <li><i className="bi bi-check"></i><span>Eliminate redundant processes</span></li>
+                    <li><i className="bi bi-check"></i><span>Automate financial tasks</span></li>
+                    <li><i className="bi bi-check"></i><span>Multi-currency support</span></li>
                   </ul>
                 </div>
               </div>
@@ -249,10 +249,10 @@ const Finance = () => {
                   <img src="/img/rocket_launch_icon.png" alt="rocket_launch_icon" />
                   <h3>Improved Cash Flow, Increase Revenue </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Detailed inflows and outflow views</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimize cash reserves</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Timely payment collection</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automated reminder for collection</span></li>
+                    <li><i className="bi bi-check"></i><span>Detailed inflows and outflow views</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimize cash reserves</span></li>
+                    <li><i className="bi bi-check"></i><span>Timely payment collection</span></li>
+                    <li><i className="bi bi-check"></i><span>Automated reminder for collection</span></li>
                   </ul>
                 </div>
               </div>
@@ -261,10 +261,10 @@ const Finance = () => {
                   <img src="/img/memory.png" alt="memory" />
                   <h3>Real-time Budget Tracking </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Prevent overspending</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Effective resource allocation</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Address the problem early on</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduce waste or fraud</span></li>
+                    <li><i className="bi bi-check"></i><span>Prevent overspending</span></li>
+                    <li><i className="bi bi-check"></i><span>Effective resource allocation</span></li>
+                    <li><i className="bi bi-check"></i><span>Address the problem early on</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce waste or fraud</span></li>
                   </ul>
                 </div>
               </div>
@@ -273,10 +273,10 @@ const Finance = () => {
                   <img src="/img/pie_chart.png" alt="pie_chart" />
                   <h3>Global Operations and Localization </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Tax calculation</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Statutory compliance</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Multiple language support</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Multi-currency support</span></li>
+                    <li><i className="bi bi-check"></i><span>Tax calculation</span></li>
+                    <li><i className="bi bi-check"></i><span>Statutory compliance</span></li>
+                    <li><i className="bi bi-check"></i><span>Multiple language support</span></li>
+                    <li><i className="bi bi-check"></i><span>Multi-currency support</span></li>
                   </ul>
                 </div>
               </div>
@@ -285,10 +285,10 @@ const Finance = () => {
                   <img src="/img/work_update.png" alt="work_update" />
                   <h3>Better Supplier Collaboration, Improved Supply Chain </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient payment processing</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Efficient payment processing</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automated procurement processes</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Increased sales</span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient payment processing</span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient payment processing</span></li>
+                    <li><i className="bi bi-check"></i><span>Automated procurement processes</span></li>
+                    <li><i className="bi bi-check"></i><span>Increased sales</span></li>
                   </ul>
                 </div>
               </div>
@@ -297,10 +297,10 @@ const Finance = () => {
                   <img src="/img/inventory_2.png" alt="inventory_2" />
                   <h3>Built-in Supply Chain Management </h3>
                   <ul>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Optimize inventory level</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Automate supply chain processes</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Streamline procurement processes</span></li>
-                    <li><i className="bi bi-check-circle-fill"></i><span>Reduce operational costs</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimize inventory level</span></li>
+                    <li><i className="bi bi-check"></i><span>Automate supply chain processes</span></li>
+                    <li><i className="bi bi-check"></i><span>Streamline procurement processes</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce operational costs</span></li>
                   </ul>
                 </div>
               </div>
@@ -346,7 +346,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Chart of Accounts
                             </div>
                             <p><b>Flexible chart</b> of accounts structure to categorize financial data.</p>
@@ -355,7 +355,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Intercompany Accounting
                             </div>
                             <p>Manage <b>financial transactions</b> between related entities with ease.</p>
@@ -364,7 +364,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Multi-Currency Support
                             </div>
                             <p>Handle transactions in <b>multiple currencies</b> with automatic exchange rate updates.</p>
@@ -373,7 +373,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Consolidation
                             </div>
                             <p>Combine financial data from multiple entities to create consolidated <b>financial statements</b>.</p>
@@ -387,7 +387,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Vendor Management
                             </div>
                             <p>Maintain a <b>centralized repository</b> of vendor information and payment details.</p>
@@ -396,7 +396,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Invoice Processing
                             </div>
                             <p>Automates the process of receiving, approving, and <b>paying invoices</b>. </p>
@@ -405,7 +405,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Payment Processing
                             </div>
                             <p>Supports multiple payment schedules and <b>payment methods</b>.</p>
@@ -414,7 +414,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Vendor Settlements
                             </div>
                             <p>Settle vendor balances, handle partial payments, <b>discounts</b>, and <b>overdue charges</b>.</p>
@@ -429,7 +429,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Customer Management
                             </div>
                             <p>Manage customer information, credit limits, payment terms, and <b>historical transactions</b>.</p>
@@ -438,7 +438,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Optimize Warehouse 
                             </div>
                             <p>Supports recurring and <b>automated invoicing</b> for subscription-based services.</p>
@@ -447,7 +447,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Collections Management
                             </div>
                             <p>Set up payment reminders, <b>generate aging reports</b>, and manage disputes.</p>
@@ -456,7 +456,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Revenue Recognition
                             </div>
                             <p>Define specific rules, like <b>delivery date</b> and <b>payment terms</b>.</p>
@@ -471,7 +471,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budget Planning
                             </div>
                             <p>Create detailed budget plans and <b>allocate budgets</b> across departments.</p>
@@ -480,7 +480,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budget Control
                             </div>
                             <p>Prevent overspending by <b>monitoring expenditures</b> against budgeted amounts.</p>
@@ -489,7 +489,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budget Register Entries
                             </div>
                             <p>Manage budget register entries for accurate <b>budget tracking</b>.</p>
@@ -498,7 +498,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budgeting Workflows
                             </div>
                             <p>Establish <b>approval workflows</b> for budget requests.</p>
@@ -512,7 +512,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Bank Reconciliation
                             </div>
                             <p><b>Automate bank statement</b> reconciliation for improved accuracy and efficiency.</p>
@@ -521,7 +521,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Cash Flow Forecasting
                             </div>
                             <p>Predict future cash inflows and outflows to <b>optimize cash management</b>.</p>
@@ -530,7 +530,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Check Management
                             </div>
                             <p>Manage check books, including issuing, printing, and <b>tracking checks</b>.</p>
@@ -539,7 +539,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Liquidity Management
                             </div>
                             <p><b>Tracking cash reserves</b>, investments, and funding requirements.</p>
@@ -553,7 +553,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Asset Acquisition
                             </div>
                             <p>Acquire assets through purchase orders, journals, or <b>bulk acquisition</b>.</p>
@@ -562,7 +562,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Depreciation
                             </div>
                             <p>Create a depreciation profile and calculate the fixed <b>asset depreciation value</b>.</p>
@@ -571,7 +571,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Asset Valuation
                             </div>
                             <p><b>Revaluate assets</b>, handle impairments, and adjust the value.</p>
@@ -580,7 +580,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Maintenance Management
                             </div>
                             <p>Tracks maintenance schedules and <b>costs for assets</b>.</p>
@@ -594,7 +594,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Project Costing
                             </div>
                             <p>Track project costs, <b>including labor</b>, materials, and overheads.</p>
@@ -603,7 +603,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Time and Expense Management
                             </div>
                             <p>Enter time and expenses against projects to <b>bill clients</b>.</p>
@@ -612,7 +612,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Budgeting and Forecasting
                             </div>
                             <p>Plan revenue and expenses over a period.</p>
@@ -622,7 +622,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Contract Management
                             </div>
                             <p>Manages contracts, <b>including billing schedules</b>, terms, and conditions.</p>
@@ -636,7 +636,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Expense Submission
                             </div>
                             <p>Capture receipts, <b>categorize expenses</b>, and submit them using an app.</p>
@@ -645,7 +645,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Approval Workflows
                             </div>
                             <p>Customize approval workflows for appropriate approval before being <b>reimbursed</b>.</p>
@@ -654,7 +654,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Policy Enforcement
                             </div>
                             <p>Enforce company policies on expenses, like <b>limits on travel costs</b>.</p>
@@ -663,7 +663,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Integration with Payroll
                             </div>
                             <p><b>Integrate with payroll systems</b> to ensure timely reimbursement.</p>
@@ -677,7 +677,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Financial Report Designer
                             </div>
                             <p>Create <b>customized financial reports</b> to meet specific needs.</p>
@@ -686,7 +686,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Custom Reports
                             </div>
                             <p><b>Generate ad-hoc reports</b> to analyze financial performance.</p>
@@ -695,7 +695,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Financial Dimensions
                             </div>
                             <p><b>Track financial data</b> across different dimensions for in-depth analysis.</p>
@@ -704,7 +704,7 @@ const Finance = () => {
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
-                              <i className="bi bi-check-circle-fill"></i>
+                              <i className="bi bi-check"></i>
                               Consolidated Reporting
                             </div>
                             <p><b>Combine financial data</b> from multiple entities for consolidated reporting.</p>

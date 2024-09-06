@@ -11355,11 +11355,11 @@ text-align:center
   padding:1rem;
   transition:.4s ease
 }
-.card-two:hover{
+/* .card-two:hover{
   background: #c2ddec42;
   box-shadow: 3px 5px 5px rgb(0 0 0 / 13%);
   border-radius: 15px;
-}
+} */
 .card-two img{
   margin-bottom: 0.5rem;
 }
@@ -11378,9 +11378,17 @@ text-align:center
   display: flex;
     gap: 15px;
     margin-bottom: 0.5rem;
+    align-items: center;
 }
 .card-two li .bi{
   color: #576cbc;
+  background: #d2ebf3;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 .card-two li span{
   color: #30475e;
