@@ -18,7 +18,6 @@ const SalesManagement = () => {
           name="description"
           content="With Dynamics 365 Business Central Sales module, businesses gain real-time insights into their sales pipeline, automate repetitive tasks, and focus on qualified leads to close deals efficiently. "
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/sales-management/"
@@ -101,7 +100,7 @@ const SalesManagement = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p>Microsoft Dynamics BC is a perfect <a href="/solutions/microsoft-dynamics-erp/">ERP solution</a> that also comes with standard CRM features to offer a robust sales management solution and boost business efficiency. <a href="/solutions/dynamics-365-business-central/">Dynamics Business Central</a> enables you to manage the entire sales cycle, tracking each milestone from lead generation to order fulfillment. </p>
+                  <p>Microsoft Dynamics BC is a perfect <a href="/solutions/microsoft-dynamics-erp/"><b>ERP solution</b></a> that also comes with standard CRM features to offer a robust sales management solution and boost business efficiency. <a href="/solutions/dynamics-365-business-central/"><b>Dynamics Business Central</b></a> enables you to manage the entire sales cycle, tracking each milestone from lead generation to order fulfillment. </p>
                   <p>It enables you to gain real-time data insight into your sales pipeline, automate repetitive tasks, focus on qualified leads to close deals, and <b>generate maximized revenue</b>. </p>
 
                 </div>
@@ -132,7 +131,7 @@ const SalesManagement = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-02.png" alt="cloud_download" />
                   <h3>Real-time Sales Dashboard </h3>
-                  <p>D365 BC offers a real-time dashboard, helping organizations to provide or renew contracts, close deals on time, contact customers, and <a href="/dynamics-365-business-central-erp-support/">provide support</a>.  </p>
+                  <p>D365 BC offers a real-time dashboard, helping organizations to provide or renew contracts, close deals on time, contact customers, and <a href="/dynamics-365-business-central-erp-support/"><b>provide support</b></a>.  </p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -182,7 +181,7 @@ const SalesManagement = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-04.png" alt="cloud_download" />
                   <h3>Comprehensive Client management</h3>
-                  <p>Manage customer profiles, track communications, maintain contact information & purchase history records, and promptly resolve concerns to enhance <a href="/solutions/microsoft-dynamics-365-customer-service/">customer satisfaction</a>. </p>
+                  <p>Manage customer profiles, track communications, maintain contact information & purchase history records, and promptly resolve concerns to enhance <a href="/solutions/microsoft-dynamics-365-customer-service/"><b>customer satisfaction</b></a>. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -203,7 +202,7 @@ const SalesManagement = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-07.png" alt="cloud_download" />
                   <h3>Seamless Sales Invoicing </h3>
-                  <p>Create, send, and <a href="/solutions/microsoft-dynamics-365-sales/">manage sales invoices</a> effortlessly for the products or services that your customers have purchased, ensuring timely payments from customers. </p>
+                  <p>Create, send, and <a href="/solutions/microsoft-dynamics-365-sales/"><b>manage sales invoices</b></a> effortlessly for the products or services that your customers have purchased, ensuring timely payments from customers. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -217,7 +216,7 @@ const SalesManagement = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-09.png" alt="cloud_download" />
                   <h3>Sales Returns </h3>
-                  <p>Track and document returned products to handle and manage returned items. Leverage Microsoft Dynamics 365 Business Central to <a href="/solutions/dynamics-365-business-central/warehouse-management/">optimize inventory</a> and offer exceptional service. </p>
+                  <p>Track and document returned products to handle and manage returned items. Leverage Microsoft Dynamics 365 Business Central to <a href="/solutions/dynamics-365-business-central/warehouse-management/"><b>optimize inventory</b></a> and offer exceptional service. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -265,7 +264,7 @@ const SalesManagement = () => {
                 <div className="new-sol-con-side">
                    <h2>Are You Struggling to Find Qualified Leads? </h2>
                   <p>Many businesses struggle to find qualified leads. Finding the good fit that is most likely to make a purchase can help you save time and resources. Moreover, not having a single truth of data can also lead to data inconsistency, duplication, and inaccessibility. </p>
-                  <p>With <a href="/solutions/dynamics-365-business-central/">Dynamics 365 Business Central</a>, you can segment and target your prospects to generate qualified leads based on valuable customer insights. It also ensures real-time data sharing among your sales team to ensure data consistency. </p>
+                  <p>With <a href="/solutions/dynamics-365-business-central/"><b>Dynamics 365 Business Central</b></a>, you can segment and target your prospects to generate qualified leads based on valuable customer insights. It also ensures real-time data sharing among your sales team to ensure data consistency. </p>
 
                 </div>
               </div>
@@ -284,8 +283,8 @@ Boost Sales Efficiency" width={484} height={462} />
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
-                  <h2>Why Choose Dynamics Square for Business Central Implementation? </h2>
-                  <p>We are your trusted <a href="/">Microsoft solution partner</a> for maximizing the potential of Dynamics 365 Business Central. We are a team of <b>135+</b> certified consultants, helping you achieve your sales goal. At Dynamics Square, we offer: </p>
+                  <h2>Why Choose Dynamics Square for Sales Management in Business Central?</h2>
+                  <p>We are your trusted <a href="/"><b>Microsoft solution partner</b></a> for maximizing the potential of Dynamics 365 Business Central. We are a team of <b>135+</b> certified consultants, helping you achieve your sales goal. At Dynamics Square, we offer: </p>
                 </header>
               </div>
             </div>
