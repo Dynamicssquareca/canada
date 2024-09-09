@@ -485,7 +485,8 @@ const ContactUs = () => {
                             <i className="bi bi-geo-alt"></i>
                           </div>
                           <div className="content-right">
-                            Kemp House, 152-160 City Road, London, EC1V 2NX, U.K
+                            Kemp House, 124 City Road,London, EC1V 2NX, U.K.
+                            {/* Kemp House, 152-160 City Road, London, EC1V 2NX, U.K */}
                           </div>
                         </div>
                         <div className="contact-list">
