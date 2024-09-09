@@ -170,7 +170,7 @@ const Finance = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p>Microsoft Dynamics 365 Finance is a leading ERP solution that helps organizations streamline their financial operations. Businesses can leverage the capabilities to automate routine tasks, get detailed insight, and ensure compliance with global as well as local requirements.</p>
+                  <p>Microsoft Dynamics 365 Finance is a leading <a href="/solutions/microsoft-dynamics-erp/"><b>ERP solution</b></a> that helps organizations streamline their financial operations. Businesses can leverage the capabilities to automate routine tasks, get detailed insight, and ensure compliance with global as well as local requirements.</p>
                   <p>Dynamics 365 for Finance helps you manage your entire financial activity, such as accounts payable/receivable, cash flow management, budgeting, and financial reporting. With its AI and ML capabilities, you can get real-time financial insights and deep visibility into financial health.</p>
                 </div>
               </div>
@@ -211,7 +211,7 @@ const Finance = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
                   <img src="/img/cloud_download.png" alt="cloud_download" />
-                  <h3>•	Enhanced Financial Visibility, Reduced Error</h3>
+                  <h3>Enhanced Financial Visibility, Reduced Error</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Real-time data access</span></li>
                     <li><i className="bi bi-check"></i><span>Uncover trends</span></li>
@@ -777,7 +777,7 @@ const Finance = () => {
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
                   <h3>Seamless Integration</h3>
-                  <p>Dynamics 365 Finance integrates seamlessly with other <a href="/solutions/microsoft-dynamics-365/">Dynamics 365 solutions</a> to ensure financial data can be easily shared across departments.</p>
+                  <p>Dynamics 365 Finance integrates seamlessly with other <a href="/solutions/microsoft-dynamics-365/"><b>Dynamics 365 Solutions</b></a> to ensure financial data can be easily shared across departments.</p>
                 </div>
               </div>
             </div>

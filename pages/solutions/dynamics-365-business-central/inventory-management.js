@@ -265,7 +265,7 @@ const InventoryManagement = () => {
                    <h2>Are You Struggling with Overstocked Items and Stock Shortages?</h2>
                   <p>Businesses often face challenges in knowing how much inventory is left in warehouses to fulfill demand and maximize space utilization. These result in a stock surplus or stockouts, improving inefficiencies and reducing revenue for your business.</p>
                   <p>Besides this, you might also be struggling to detect lost, damaged, or stolen items, as tracking each item manually is complex. Your resources might be wasted and lead to costly inaccuracies.</p>
-                  <p>This is where D365 Business Central comes into play. Its implementation can allow tracking bulk-order items, getting low stock alerts, and automating processes to maximize efficiency.</p>
+                  <p>This is where D365 Business Central comes into play. Its <a href="/d365-business-central-implementation/"><b>implementation</b></a> can allow tracking bulk-order items, getting low stock alerts, and automating processes to maximize efficiency.</p>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -283,7 +283,7 @@ const InventoryManagement = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                   <h2>Why Choose Dynamics Square to Streamline Inventory Management?</h2>
-                  <p>Dynamics Square is a leading <a href="/">Microsoft Solution partner</a> in Vancouver, helping businesses with seamless and reliable D365 Business Central implementation. We are a team of <b>135+</b> Microsoft certified consultants and have delivered <b>350+</b> successful projects around the globe. To all businesses, we offer:</p>
+                  <p>Dynamics Square is a leading <a href="/"><b>Microsoft Solution partner</b></a> in Vancouver, helping businesses with seamless and reliable D365 Business Central implementation. We are a team of <b>135+</b> Microsoft certified consultants and have delivered <b>350+</b> successful projects around the globe.</p>
                 </header>
               </div>
             </div>

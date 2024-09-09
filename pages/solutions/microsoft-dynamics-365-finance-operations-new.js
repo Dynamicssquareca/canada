@@ -724,7 +724,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-lg-6">
                 <header className="section-header-new">
                   <h2>Why Dynamics 365 Finance and Operations is the Ultimate Business Solution?</h2>
-                  <p>Dynamics 365 F&O stands out among users for real-time data insights, <b>automated business processes</b>, centralized data view, and <a href="/solutions/microsoft-dynamics-365-finance/">finance management</a>.</p>
+                  <p>Dynamics 365 F&O stands out among users for real-time data insights, <b>automated business processes</b>, centralized data view, and <a href="/solutions/microsoft-dynamics-365-finance/"><b>finance management</b></a>.</p>
                 </header>
               </div>
             </div>
@@ -842,7 +842,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-lg-6">
                 <header className="section-header-new">
                   <h2>Dynamics Square: Experience Maximum Impact with Cost-Effective Solution</h2>
-                  <p>Dynamics Square, a leading <a href="/">Microsoft Solutions Partner in Ontario</a>, is known for providing tailor-made service with a 360° approach, technical expertise, and competitive pricing. Here is what makes it unique:</p>
+                  <p>Dynamics Square, a leading <a href="/"><b>Microsoft Solutions Partner in Ontario</b></a>, is known for providing tailor-made service with a 360° approach, technical expertise, and competitive pricing. Here is what makes it unique:</p>
                 </header>
               </div>
             </div>
@@ -868,7 +868,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <h3>•	Proven Track Record</h3>
+                  <h3>Proven Track Record</h3>
                   <p>With over <b>250 global</b> clients and a <b>99%</b> satisfaction rate, Dynamics Square delivers successful digital transformations.</p>
                   <div className="img-flips">
                     <img src="/img/shpe-11.png" alt="shape" />

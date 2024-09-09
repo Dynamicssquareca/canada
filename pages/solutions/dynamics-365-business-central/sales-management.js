@@ -100,7 +100,7 @@ const SalesManagement = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p>Microsoft Dynamics BC is a perfect <a href="/solutions/microsoft-dynamics-erp/"><b>ERP solution</b></a> that also comes with standard CRM features to offer a robust sales management solution and boost business efficiency. <a href="/solutions/dynamics-365-business-central/"><b>Dynamics Business Central</b></a> enables you to manage the entire sales cycle, tracking each milestone from lead generation to order fulfillment. </p>
+                  <p>Microsoft Dynamics BC is a perfect <a href="/solutions/microsoft-dynamics-erp/"><b>Microsoft ERP </b></a> solution that also comes with standard CRM features to offer a robust sales management solution and boost business efficiency. <a href="/solutions/dynamics-365-business-central/"><b>Dynamics Business Central</b></a> enables you to manage the entire sales cycle, tracking each milestone from lead generation to order fulfillment. </p>
                   <p>It enables you to gain real-time data insight into your sales pipeline, automate repetitive tasks, focus on qualified leads to close deals, and <b>generate maximized revenue</b>. </p>
 
                 </div>
@@ -203,7 +203,7 @@ const SalesManagement = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-07.png" alt="cloud_download" />
                   <h3>Sales Returns </h3>
-                  <p>Track and document returned products to handle and manage returned items. Leverage Microsoft Dynamics 365 Business Central to <a href="/solutions/dynamics-365-business-central/warehouse-management/"><b>optimize inventory</b></a> and offer exceptional service. </p>
+                  <p>Track and document returned products to handle and manage returned items. Leverage Microsoft Dynamics 365 Business Central to <a href="/solutions/dynamics-365-business-central/inventory-management/"><b>optimize inventory</b></a> and offer exceptional service. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -288,7 +288,7 @@ Boost Sales Efficiency" width={484} height={462} />
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                   <h2>Why Choose Dynamics Square for Sales Management in Business Central?</h2>
-                  <p>We are your trusted <a href="/"><b>Microsoft solution partner</b></a> for maximizing the potential of Dynamics 365 Business Central. We are a team of <b>135+</b> certified consultants, helping you achieve your sales goal. At Dynamics Square, we offer: </p>
+                  <p>We are your trusted <a href="/"><b>Microsoft solution partner</b></a> for maximizing the potential of Dynamics 365 Business Central. We are a team of <b>135+</b> certified consultants, helping you achieve your sales goal. </p>
                 </header>
               </div>
             </div>

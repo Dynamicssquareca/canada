@@ -169,7 +169,7 @@ const FinancialManagement = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                   <h2>Functionalities of the Business Central Finance Module</h2>
-                  <p>Business Central offers a wide range of functionalities that support companies with complex <a href="/solutions/microsoft-dynamics-365-finance/"><b>financial management</b></a>. Some of the major functionalities are:</p>
+                  <p>Business Central offers a wide range of functionalities that support companies with complex financial management. Some of the major functionalities are:</p>
                 </header>
               </div>
             </div>
@@ -281,7 +281,7 @@ const FinancialManagement = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                   <h2>Why Choose Dynamics Square for financial Management in Business Central?</h2>
-                  <p>As a leading <a href="/"><b>Microsoft solutions partner in Canada</b></a>, we have a proven track record of successfully implementing Business Central to meet modern financial demands. We understand the market and know what a business is looking for - to grow and scale. We are:</p>
+                  <p>As a leading <a href="/"><b>Microsoft solutions partner in Canada</b></a>, we have a proven track record of successfully implementing Business Central to meet modern financial demands. We understand the market and know what a business is looking for - to grow and scale.</p>
                 </header>
               </div>
             </div>
