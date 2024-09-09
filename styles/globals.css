@@ -11401,7 +11401,10 @@ text-align:center
   margin-bottom:15px
 }
 .card-two.card-two-extra h3{
-  color: ##19376d;
+  color: #576cbc;
+}
+.card-two.card-two-extra.two-extra h3{
+  color: #19376d
 }
 .card-two.card-two-extra p{
   color: #385575;

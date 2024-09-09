@@ -19,7 +19,6 @@ const InventoryManagement = () => {
           name="description"
           content="Dynamics 365 Business Central provides real-time inventory visibility, enabling informed purchasing and stocking decisions to reduce excess inventory and minimize stock outs. Get in touch with our team or Call +1 778 381 5388 for a demo. "
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/inventory-management/"
@@ -30,7 +29,7 @@ const InventoryManagement = () => {
         <meta property="og:description" content="Dynamics 365 Business Central provides real-time inventory visibility, enabling informed purchasing and stocking decisions to reduce excess inventory and minimize stock outs. Get in touch with our team or Call +1 778 381 5388 for a demo. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/inventory-management/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/inventory-managememt-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -38,7 +37,7 @@ const InventoryManagement = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central with Inventory Management" />
         <meta name="twitter:description" content="Dynamics 365 Business Central provides real-time inventory visibility, enabling informed purchasing and stocking decisions to reduce excess inventory and minimize stock outs. Get in touch with our team or Call +1 778 381 5388 for a demo. " />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/industry-startup-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/inventory-managememt-banner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -60,7 +59,7 @@ const InventoryManagement = () => {
                     <p>Manage stock quality, deliver orders on time, maintain detailed records, reduce production costs, and reorder stock automatically using Business Central for Inventory Management.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/business-sales-abnner.png" alt="c-erp-partner-banner" width={1002} height={595} priority />
+                    <Image src="/img/inventory-managememt-banner.png" alt="inventory-managememt-banner" width={1064} height={585} priority />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -97,7 +96,7 @@ const InventoryManagement = () => {
             <div className="row new-pd-02">
               <div className="col-lg-6 align-self-center">
                 <div className="vide-s vide-sss">
-                  <Image src="/img/streaming-sales.png" alt="streaming-sales" width={516} height={453} />
+                  <Image src="/img/reduce-cost-side.png" alt="Reduce Costs, Minimize Errors, and Maximize Efficiency" width={516} height={453} />
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -123,21 +122,21 @@ const InventoryManagement = () => {
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-01.png" alt="cloud_download" />
+                  <img src="/img/icon-inner-16.png" alt="Accurate Inventory Tracking" />
                   <h3>Accurate Inventory Tracking</h3>
                   <p>Track each product that enters and exits the <a href="/solutions/dynamics-365-business-central/warehouse-management/"><b>warehouse</b></a>, ensure optimal inventory levels, and fulfill orders, eliminating overstocking and understocking from the system.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-02.png" alt="cloud_download" />
+                  <img src="/img/icon-inner-17.png" alt="Greater Productivity" />
                   <h3>Greater Productivity</h3>
                   <p>Automate your inventory management process, optimize the pick-pack process, and reduce potential errors. It helps businesses focus on quality products while ensuring efficient production.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-03.png" alt="cloud_download" />
+                  <img src="/img/icon-inner-18.png" alt="Reduces Operational Costs" />
                   <h3>Reduces Operational Costs</h3>
                   <p>Dynamics 365 Business Central helps you prevent <b>overstocking</b>, avoid backorders, spend less time fixing errors, and reduce employees’ wages.</p>
                 </div>
@@ -179,57 +178,57 @@ const InventoryManagement = () => {
 
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-04.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-19.png" alt="item Master Management" />
                   <h3>Item Master Management</h3>
                   <p>Create a new listing of items, modify existing data, <b>maintain vendor details</b>, assign products to different locations, and maintain detailed information about inventory.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-05.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-20.png" alt="Bill of Materials" />
                   <h3>Bill of Materials</h3>
                   <p>It allows you to plan material purchases, estimate costs, ensure sufficient raw material for manufacturing, minimize delays, and identify the cause of production failure.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-06.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-21.png" alt="Item Categorization" />
                   <h3>Item Categorization</h3>
                   <p>Help organize and classify materials based on various criteria to track and analyze procurement, production, sales, and <b>inventory data separately</b>.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-07.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-22.png" alt="Item Attributes" />
                   <h3>Item Attributes</h3>
                   <p>It enables users to add product specifications, such as color, size, and style, extend the search, <b>filter catalogs</b>, and create recommendations, helping to filter search results.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-08.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-23.png" alt="Item Catalog" />
                   <h3>Item Catalog</h3>
                   <p>Simplify the procurement process, experience faster charge creation, manage and analyze an offering by <b>creating a catalog item</b>.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-09.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-24.png" alt="Inventory Counting" />
                   <h3>Inventory Counting</h3>
                   <p>Help verify stock levels, identify errors, and ensure the accuracy of inventory records between physical stock and recorded amounts by <b>performing physical counting</b>.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-10.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-25.png" alt="Item Availability" />
                   <h3>Item Availability</h3>
                   <p>Determine current existing stock levels, optimize sales numbers, calculate back orders, track cancellations, and reduce customer delivery times.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
-                <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-11.png" alt="cloud_download" />
+                <div className="card-two card-two-extra two-extra">
+                  <img src="/img/icon-inner-26.png" alt="nventory Transfer" />
                   <h3>Inventory Transfer</h3>
                   <p>Move physical inventory items from one warehouse location to another without any hassle to improve availability across sales, ensuring item availability and <b>optimizing storage</b>.</p>
                 </div>
@@ -271,8 +270,7 @@ const InventoryManagement = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="vide-s vide-sss">
-                  <Image src="/img/qualified-leads.png" alt="Streamline Sales Management and
-Boost Sales Efficiency" width={484} height={462} />
+                  <Image src="/img/stock-shortage.png" alt="Struggling with Overstocked" width={562} height={453} />
                 </div>
               </div>
             </div>
