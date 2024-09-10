@@ -18,7 +18,6 @@ const ProjectManagement = () => {
           name="description"
           content="Dynamics 365 Business Central Project Management module offers collaboration across different departments, from sales to finance, to maximize profitability and embrace real-time project management. "
         />
-         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/project-management/"
