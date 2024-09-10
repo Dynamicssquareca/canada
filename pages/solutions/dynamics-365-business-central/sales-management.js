@@ -1,13 +1,8 @@
 import React from "react";
 import Head from 'next/head';
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import Image from "next/image";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
+
 // import NavBar from '../../../components/NavBar';
 const SalesManagement = () => {
   return (
