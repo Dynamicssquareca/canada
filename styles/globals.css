@@ -11482,6 +11482,11 @@ text-align:center
   background:#19376d;
   overflow:hidden
 }
+.call-bg-gray .btn.bt-bg:hover,.call-bg-gray .btn.bt-bg:focus{
+background-color:#ffffff;
+color: #385575 !important;
+
+}
 .call-to-action-three{}
 .call-to-action-three h2{
   font-size: 32px;
