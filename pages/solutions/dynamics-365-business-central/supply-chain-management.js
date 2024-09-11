@@ -151,7 +151,7 @@ const SupplyChainManagement = () => {
                     href="#exampleModal" className="btn bt-bg">Contact a Supply Chain Management Expert!</a>
                 </div>
                 <div className="ffloting-pic">
-                  <img src="/img/new-shape-call.png" alt="new-shape-call" />
+                  <img src="/img/new-shape-call.png" alt="new-shape-call" width={404} height={192} />
                 </div>
               </div>
             </div>
