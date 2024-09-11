@@ -95,7 +95,7 @@ const SupplyChainManagement = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p>Dynamics 365 Business Central for Supply Chain Management is designed to streamline supply chain processes, allowing you to respond dynamically to market changes. From procurement of raw materials to <b>vendor management</b>, it leads businesses to optimize every aspect of the supply chain.</p>
+                  <p><a href="/solutions/dynamics-365-business-central/"><b>Dynamics Business Central</b></a> for Supply Chain Management is designed to streamline supply chain processes, allowing you to respond dynamically to market changes. From procurement of raw materials to <b>vendor management</b>, it leads businesses to optimize every aspect of the supply chain.</p>
                   <p>The supply chain module in Business Central empowers you to automate routine tasks, manage workflows, access real-time insights about supply chain operations, and facilitate better communication & collaboration with suppliers.</p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const SupplyChainManagement = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                   <h2>How Can Business Central Transforms Supply Chain Management?</h2>
-                  <p>The <a href="/solutions/dynamics-365-business-central/"><b>D365 Business Central</b></a> Supply Chain Management module offers several benefits to businesses, including a competitive edge and a space for recognizing growth opportunities.</p>
+                  <p>The D365 Business Central Supply Chain Management module offers several benefits to businesses, including a competitive edge and a space for recognizing growth opportunities.</p>
                 </header>
               </div>
             </div>
@@ -125,7 +125,7 @@ const SupplyChainManagement = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-50.png" alt="Improved Risk Mitigation" width={48} height={48} />
                   <h3>Improved Risk Mitigation</h3>
-                  <p>Automate key processes, gain better supply chain visibility, and identify potential risks to improve efficiency by using the <a href="/solutions/dynamics-365-supply-chain-management/"><b>Supply Chain Management</b></a> module of D365 Business Central.</p>
+                  <p>Automate key processes, gain better supply chain visibility, and identify potential risks to improve efficiency by using the Supply Chain Management module of D365 Business Central.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -175,7 +175,7 @@ const SupplyChainManagement = () => {
                 <div className="card-two card-two-extra two-extra">
                   <img src="/img/icon-inner-52.png" alt="Supplier Management"  width={40} height={40} />
                   <h3>Supplier Management</h3>
-                  <p>Find, manage, and <b>collaborate with vendors</b> to build strong relationships. Monitor supplier performance to ensure timely deliveries and high-quality materials.</p>
+                  <p>Find, manage, and <b>collaborate with vendors</b> to build strong relationships. Monitor <a href="/solutions/dynamics-365-business-central/supply-chain-management/"><b>supplier performance</b></a> to ensure timely deliveries and high-quality materials.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -203,7 +203,7 @@ const SupplyChainManagement = () => {
                 <div className="card-two card-two-extra two-extra">
                   <img src="/img/icon-inner-56.png" alt="Predict Demand" width={40} height={40} />
                   <h3>Predict Demand</h3>
-                  <p>Use real-time insights to anticipate market needs accurately. It helps you optimize inventory levels and proactively respond to changes in demand.</p>
+                  <p>Use real-time insights to anticipate market needs accurately. It helps you <a href="/solutions/dynamics-365-business-central/inventory-management/"><b>optimize inventory</b></a> levels and proactively respond to changes in demand.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -276,7 +276,7 @@ const SupplyChainManagement = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                   <h2>Why Dynamics Square for Supply Chain Management in Business Central?</h2>
-                  <p>Dynamics Square is a leading Business Central partner in Ontario and helps businesses with <b>135+ expert professionals</b>. We provide tailored solutions to your business needs and requirements</p>
+                  <p>Dynamics Square is a leading <a href="/"><b>Business Central partner in Ontario</b></a> and helps businesses with <b>135+ expert professionals</b>. We provide tailored solutions to your business needs and requirements</p>
                 </header>
               </div>
             </div>
