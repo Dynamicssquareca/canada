@@ -21,7 +21,7 @@ const Warehouse = () => {
         <meta property="og:description" content="Business Central offers a comprehensive WMS to optimize inventory, improve warehouse efficiency, and boost customer satisfaction with real-time insights. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/warehouse-management/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Warehouse-Management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Warehouse-Management-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -29,7 +29,7 @@ const Warehouse = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Warehouse Management in Dynamics 365 Business Central" />
         <meta name="twitter:description" content="Business Central offers a comprehensive WMS to optimize inventory, improve warehouse efficiency, and boost customer satisfaction with real-time insights. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Warehouse-Management-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Warehouse-Management-banner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

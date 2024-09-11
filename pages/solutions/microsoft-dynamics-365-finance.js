@@ -25,7 +25,7 @@ const Finance = () => {
         <meta property="og:description" content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Financial-Management.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Financial-Management.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -33,7 +33,7 @@ const Finance = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Finance| Dynamics Square CA" />
         <meta name="twitter:description" content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Financial-Management.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Financial-Management.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

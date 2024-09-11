@@ -19,7 +19,7 @@ const AzureIoTCentral = () => {
         <meta property="og:description" content="Connect and manage your IoT devices at scale using ready-made UX and API surfaces in Azure IoT Central. Contact Dynamics Square for pricing details." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-iot-central/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/azure-Banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -27,7 +27,7 @@ const AzureIoTCentral = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Azure IoT Central: Most Secure IoT Offerings in Canada" />
         <meta name="twitter:description" content="Connect and manage your IoT devices at scale using ready-made UX and API surfaces in Azure IoT Central. Contact Dynamics Square for pricing details." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-Banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/azure-Banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

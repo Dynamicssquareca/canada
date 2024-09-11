@@ -22,7 +22,7 @@ const MicrosoftDynamicsCrm = () => {
         <meta property="og:description" content="Dynamics CRM is a suite of Microsoft CRM applications, including Sales, Marketing, and more. Get in touch with Dynamics Square a leading CRM solution partner." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-crm/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/CRM-header-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +30,7 @@ const MicrosoftDynamicsCrm = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Dynamics 365 CRM Solution -Dynamics Square Canada" />
         <meta name="twitter:description" content="Dynamics CRM is a suite of Microsoft CRM applications, including Sales, Marketing, and more. Get in touch with Dynamics Square a leading CRM solution partner." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/CRM-header-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/CRM-header-banner.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -19,7 +19,7 @@ const AzureIoTHub = () => {
         <meta property="og:description" content="Connect, monitor and control your machines with IoT devices using Azure IoT Sphere. Contact Dynamics Square for pricing." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-iot-hub/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/azure-iot-hub-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -27,7 +27,7 @@ const AzureIoTHub = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Azure IoT Hub Services in Canada: Start Doing More with Less" />
         <meta name="twitter:description" content="Connect, monitor and control your machines with IoT devices using Azure IoT Sphere. Contact Dynamics Square for pricing." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/azure-iot-hub-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/azure-iot-hub-banner.png" />
          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

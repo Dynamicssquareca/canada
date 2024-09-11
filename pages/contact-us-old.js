@@ -435,8 +435,8 @@ const ContactUsOld = () => {
                               <i className="bi bi-envelope"></i>
                             </div>
                             <div className="content-right">
-                              <a href="mailto:info@dynamicssquare.co.uk">
-                                info@dynamicssquare.co.uk
+                              <a href="mailto:info@dynamicssquare.ca">
+                                info@dynamicssquare.ca
                               </a>
                             </div>
                           </div>
@@ -465,8 +465,8 @@ const ContactUsOld = () => {
                               <i className="bi bi-envelope"></i>
                             </div>
                             <div className="content-right">
-                              <a href="mailto:info@dynamicssquare.co.uk">
-                                info@dynamicssquare.co.uk
+                              <a href="mailto:info@dynamicssquare.ca">
+                                info@dynamicssquare.ca
                               </a>
                             </div>
                           </div>
@@ -497,7 +497,7 @@ const ContactUsOld = () => {
                 <div className="icons-left">
                   <i className="bi bi-envelope"></i>
                 </div>
-                <div className="content-right">info@dynamicssquare.co.uk</div>
+                <div className="content-right">info@dynamicssquare.ca</div>
               </div>
                       </div>
                       </div>
@@ -602,8 +602,8 @@ const ContactUsOld = () => {
                               <i className="bi bi-envelope"></i>
                             </div>
                             <div className="content-right">
-                              <a href="mailto:info@dynamicssquare.co.uk">
-                                info@dynamicssquare.co.uk
+                              <a href="mailto:info@dynamicssquare.ca">
+                                info@dynamicssquare.ca
                               </a>
                             </div>
                           </div>
@@ -680,7 +680,7 @@ const ContactUsOld = () => {
                               <i className="bi bi-envelope"></i>
                             </div>
                             <div className="content-right">
-                              <a href="mailto:info@dynamicssquare.co.uk">
+                              <a href="mailto:info@dynamicssquare.ca">
                                 info@dynamicssquare.com
                               </a>
                             </div>

@@ -21,7 +21,7 @@ const Education = () => {
         <meta property="og:description" content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/education/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Business-Central-for-Education.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Business-Central-for-Education.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -29,7 +29,7 @@ const Education = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central for Education Institutions" />
         <meta name="twitter:description" content="Dynamic 365 Business central helps education institutions streamline their communication, managing resources and class schedules from a single screen. Call +1 778 381 5388 for a demo or get in touch with our team today. " />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Business-Central-for-Education.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Business-Central-for-Education.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

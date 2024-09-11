@@ -24,7 +24,7 @@ const PowerApps = () => {
         <meta property="og:description" content="Microsoft Power Apps is a platform that helps your team quickly build need-specific business management apps. To learn more, speak with Dynamics Square." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-apps/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/power%20apps-side.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/power%20apps-side.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -32,7 +32,7 @@ const PowerApps = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Power Apps: Build Low-Code Apps Quickly" />
         <meta name="twitter:description" content="Microsoft Power Apps is a platform that helps your team quickly build need-specific business management apps. To learn more, speak with Dynamics Square." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/power%20apps-side.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/power%20apps-side.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

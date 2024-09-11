@@ -26,7 +26,7 @@ const FieldService = () => {
         <meta property="og:description" content="Explore Dynamics 365 for Field Service and Transform your field services to deliver customer-preferred end-to-end field service. Contact support for more info." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-field-service/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/FieldServicebanner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/FieldServicebanner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -34,7 +34,7 @@ const FieldService = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Dynamics 365 Field Service: AI-Enabled Service Tool" />
         <meta name="twitter:description" content="Explore Dynamics 365 for Field Service and Transform your field services to deliver customer-preferred end-to-end field service. Contact support for more info." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/FieldServicebanner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/FieldServicebanner.png" />
          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

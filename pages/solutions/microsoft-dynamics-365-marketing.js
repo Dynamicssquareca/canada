@@ -21,7 +21,7 @@ const Marketing = () => {
         <meta property="og:description" content="Design, predict, & deliver the right content for personalized journeys with AI-driven insights using Dynamics 365 for Marketing. Contact Dynamics Square team." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-marketing/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/marketing-banners.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -29,7 +29,7 @@ const Marketing = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Dynamics 365 Marketing: AI-Powered Marketing Tool" />
         <meta name="twitter:description" content="Design, predict, & deliver the right content for personalized journeys with AI-driven insights using Dynamics 365 for Marketing. Contact Dynamics Square team." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/marketing-banners.png" />
          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

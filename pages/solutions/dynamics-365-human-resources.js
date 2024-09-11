@@ -24,7 +24,7 @@ const HumanResource = () => {
         <meta property="og:description" content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-human-resources/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Human-Resource-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -32,7 +32,7 @@ const HumanResource = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Human Resources: A Self-Service HR Tool" />
         <meta name="twitter:description" content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Human-Resource-banner.png" />
          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

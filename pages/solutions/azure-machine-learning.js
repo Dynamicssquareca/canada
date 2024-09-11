@@ -19,7 +19,7 @@ const AzureMachineLearning = () => {
         <meta property="og:description" content="Microsoft Azure is a place for data scientists and ML experts to quickly build, train and deploy machine learning models. Contact Dynamics Square for more. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-machine-learning/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/contactfor-sede-img.jpg" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -27,7 +27,7 @@ const AzureMachineLearning = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Azure Machine Learning Platform: Start Creating the Future" />
         <meta name="twitter:description" content="Microsoft Azure is a place for data scientists and ML experts to quickly build, train and deploy machine learning models. Contact Dynamics Square for more. " />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/contactfor-sede-img.jpg" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

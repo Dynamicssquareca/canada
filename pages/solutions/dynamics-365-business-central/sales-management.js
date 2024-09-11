@@ -23,7 +23,7 @@ const SalesManagement = () => {
         <meta property="og:description" content="With Dynamics 365 Business Central Sales module, businesses gain real-time insights into their sales pipeline, automate repetitive tasks, and focus on qualified leads to close deals efficiently. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/sales-management/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/business-sales-abnner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/business-sales-abnner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@ const SalesManagement = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central for Sales & Marketing " />
         <meta name="twitter:description" content="With Dynamics 365 Business Central Sales module, businesses gain real-time insights into their sales pipeline, automate repetitive tasks, and focus on qualified leads to close deals efficiently." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/business-sales-abnner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/business-sales-abnner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

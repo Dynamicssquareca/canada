@@ -25,7 +25,7 @@ const MicrosoftDynamicsNAV = () => {
         <meta property="og:description" content="Looking for a trusted Microsoft Dynamics NAV (Navision) support partner in Canada? Dynamics Square provides seamless assistance, ensuring smooth operations and optimal performance for your business." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-nav/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/nav-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/nav-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -33,7 +33,7 @@ const MicrosoftDynamicsNAV = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Dynamics NAV (Navision) Support Partner | Dynamics Square CA" />
         <meta name="twitter:description" content="Looking for a trusted Microsoft Dynamics NAV (Navision) support partner in Canada? Dynamics Square provides seamless assistance, ensuring smooth operations and optimal performance for your business." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/nav-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/nav-banner.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

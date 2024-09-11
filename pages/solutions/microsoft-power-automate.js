@@ -23,7 +23,7 @@ const PowerAutomate = () => {
         <meta property="og:description" content="Empower your team to build low-cost low-code automation using Microsoft Power Automate. Reduce lead times & increase output. Contact Dynamics Square." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-automate/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/power%20automate-side.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/power%20automate-side.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@ const PowerAutomate = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Power Automate: Build Low-code Automations" />
         <meta name="twitter:description" content="Empower your team to build low-cost low-code automation using Microsoft Power Automate. Reduce lead times & increase output. Contact Dynamics Square." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/power%20automate-side.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/power%20automate-side.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

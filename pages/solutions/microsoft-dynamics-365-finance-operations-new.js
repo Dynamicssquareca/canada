@@ -30,7 +30,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
         <meta property="og:description" content="Microsoft Dynamics 365 Finance & Operations to seamlessly optimize your finances and gain increased visibility. Contact us for detailed pricing & licensing." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance-operations/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/microosoft-partner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/microosoft-partner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -38,7 +38,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Finance and Operations Partner | Dynamics Square CA" />
         <meta name="twitter:description" content="Microsoft Dynamics 365 Finance & Operations to seamlessly optimize your finances and gain increased visibility. Contact us for detailed pricing & licensing." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/microosoft-partner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/microosoft-partner.png" />
           <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

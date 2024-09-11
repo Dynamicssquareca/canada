@@ -19,7 +19,7 @@ const Partner = () => {
         <meta property="og:description" content="Learn about the collaborative work we do with our partners. We create limitless impact in collaboration with industry leaders and innovators." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/partner/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/contactfor-sede-img.jpg" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -27,7 +27,7 @@ const Partner = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Our Partners | Dynamics Square" />
         <meta name="twitter:description" content="Learn about the collaborative work we do with our partners. We create limitless impact in collaboration with industry leaders and innovators." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/contactfor-sede-img.jpg" />
            {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

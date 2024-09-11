@@ -24,7 +24,7 @@ const Sales = () => {
         <meta property="og:description" content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-sales/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Sales-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Sales-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -32,7 +32,7 @@ const Sales = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Customer Engagement Partner Canada" />
         <meta name="twitter:description" content="Dynamics 365 for Sales is a cutting-edge cloud CRM software designed to improve customer relationships, drive revenue, and boost ROI. Get a free demo now." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Sales-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Sales-banner.png" />
          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

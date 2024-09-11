@@ -10,10 +10,10 @@ const WhyUs = () => {
     return (
       <>
         <Head>
-        <title>Why Dynamics Square | Your Trusted Microsoft Partner in UK</title>
+        <title>Why Dynamics Square | Your Trusted Microsoft Partner in Canada</title>
         <meta
           name="description"
-          content="Why Dynamics Square? Because, we're Microsoft Gold Partner in the USA helping businesses to scale up their processes through Microsoft ERP & CRM software solutions."
+          content="Why Dynamics Square? Because, we're Microsoft Gold Partner in Canada helping businesses to scale up their processes through Microsoft ERP & CRM software solutions."
         />
         <link
           rel="canonical"
@@ -21,19 +21,19 @@ const WhyUs = () => {
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Why Dynamics Square | Your Trusted Microsoft Partner in UK" />
-        <meta property="og:description" content="Why Dynamics Square? Because, we're Microsoft Gold Partner in the USA helping businesses to scale up their processes through Microsoft ERP & CRM software solutions." />
+        <meta property="og:title" content="Why Dynamics Square | Your Trusted Microsoft Partner in Canada" />
+        <meta property="og:description" content="Why Dynamics Square? Because, we're Microsoft Gold Partner in Canada helping businesses to scale up their processes through Microsoft ERP & CRM software solutions." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/why-us/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/about-pic.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/about-pic.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_ca" />
-        <meta name="twitter:title" content="Why Dynamics Square | Your Trusted Microsoft Partner in UK" />
-        <meta name="twitter:description" content="Why Dynamics Square? Because, we're Microsoft Gold Partner in the USA helping businesses to scale up their processes through Microsoft ERP & CRM software solutions." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/about-pic.png" />
+        <meta name="twitter:title" content="Why Dynamics Square | Your Trusted Microsoft Partner in Canada" />
+        <meta name="twitter:description" content="Why Dynamics Square? Because, we're Microsoft Gold Partner in Canada helping businesses to scale up their processes through Microsoft ERP & CRM software solutions." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/about-pic.png" />
         </Head>
         <main>
           <section className="Solution-banner hero-1 hero about-banner">

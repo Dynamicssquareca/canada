@@ -23,7 +23,7 @@ const FinancialManagement = () => {
         <meta property="og:description" content="Business Central for Finance module allows businesses to gather, analyze, and share financial data, streamline financial processes, and minimize errors. Call us at +1 778 381 5388 for instant help. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/financial-management/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Financial_managment_banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Financial_managment_banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@ const FinancialManagement = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central for Financial Management" />
         <meta name="twitter:description" content="Business Central for Finance module allows businesses to gather, analyze, and share financial data, streamline financial processes, and minimize errors. Call us at +1 778 381 5388 for instant help." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Financial_managment_banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Financial_managment_banner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

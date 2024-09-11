@@ -19,7 +19,7 @@ const AzureSphere = () => {
         <meta property="og:description" content="Build, connect, monitor, and control billions of IoT devices and assets for free—and pay-as-you-go. Contact Dynamics Square to get pricing details." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/azure-sphere/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/contactfor-sede-img.jpg" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -27,7 +27,7 @@ const AzureSphere = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Azure IoT Sphere in Canada: Secure IoT Devices at Scale" />
         <meta name="twitter:description" content="Build, connect, monitor, and control billions of IoT devices and assets for free—and pay-as-you-go. Contact Dynamics Square to get pricing details." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/contactfor-sede-img.jpg" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/contactfor-sede-img.jpg" />
       {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

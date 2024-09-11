@@ -20,7 +20,7 @@ const PowerPlatform = () => {
         <meta property="og:description" content="Creating instant business and productivity apps is now easy with Microsoft Power Platform. Find out more by contacting the Dynamics Square team." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-platform/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/power-platform.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/power-platform.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -28,7 +28,7 @@ const PowerPlatform = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Power Platform: Create Apps Instantly With No Code" />
         <meta name="twitter:description" content="Creating instant business and productivity apps is now easy with Microsoft Power Platform. Find out more by contacting the Dynamics Square team." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/power-platform.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/power-platform.png" />
        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

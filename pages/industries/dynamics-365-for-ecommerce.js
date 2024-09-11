@@ -28,7 +28,7 @@ const Ecommerce = () => {
         <meta property="og:description" content="Microsoft Dynamics 365 Commerce-a cloud solution to unify your e-Commerce business processes to quickly market your products. Contact Dynamics Square." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/industries/dynamics-365-for-ecommerce/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/ecommerce banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/ecommerce banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -36,7 +36,7 @@ const Ecommerce = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Commerce: A Cloud E-Commerce Solution" />
         <meta name="twitter:description" content="Microsoft Dynamics 365 Commerce-a cloud solution to unify your e-Commerce business processes to quickly market your products. Contact Dynamics Square." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/ecommerce banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/ecommerce banner.png" />
          {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

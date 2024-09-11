@@ -21,7 +21,7 @@ const MicrosoftDynamicsGP = () => {
         <meta property="og:description" content="Microsoft Dynamics GP is an ERP app that uses Microsoft SQL Server 2022 to help mid-market-sized businesses manage operations. Contact us for more." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-gp/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/gpbanner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -29,7 +29,7 @@ const MicrosoftDynamicsGP = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Dynamics GP: Finance & ERP Tool for SMBs" />
         <meta name="twitter:description" content="Microsoft Dynamics GP is an ERP app that uses Microsoft SQL Server 2022 to help mid-market-sized businesses manage operations. Contact us for more." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/gpbanner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/gpbanner.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

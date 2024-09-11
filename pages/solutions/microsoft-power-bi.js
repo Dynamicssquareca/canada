@@ -30,7 +30,7 @@ const PowerBI = () => {
         <meta property="og:description" content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-power-bi/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/sideshp-1.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/sideshp-1.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -38,7 +38,7 @@ const PowerBI = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Trusted Microsoft Power BI Partner | Power BI Experts & Support" />
         <meta name="twitter:description" content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/sideshp-1.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/sideshp-1.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -1737,7 +1737,7 @@ const PowerBI = () => {
                     <a
                       target="_self"
                       rel=""
-                      href="https://blog.dynamicssquare.co.uk/what-is-power-bi/"
+                      href="https://blog.dynamicssquare.ca/what-is-power-bi/"
                     >
                       <i className="bi bi-box-arrow-up-right"></i>What is Power
                       BI?
@@ -1765,7 +1765,7 @@ const PowerBI = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="https://blog.dynamicssquare.co.uk/power-bi-architecture/">
+                    <Link href="https://blog.dynamicssquare.ca/power-bi-architecture/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Architecture
@@ -1773,7 +1773,7 @@ const PowerBI = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://blog.dynamicssquare.co.uk/power-bi-reports/">
+                    <Link href="https://blog.dynamicssquare.ca/power-bi-reports/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Reports
@@ -1781,7 +1781,7 @@ const PowerBI = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://blog.dynamicssquare.co.uk/implement-power-bi-for-your-business/">
+                    <Link href="https://blog.dynamicssquare.ca/implement-power-bi-for-your-business/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Why Your
                         Business Should Implement Power BI?
