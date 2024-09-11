@@ -2,6 +2,7 @@ User-agent: *
 
 Disallow: /blog/tag/
 Disallow: /blog/category/
+Disallow: /blog/preview/
 Disallow: /DSCANADA/
 
 Sitemap: https://www.dynamicssquare.ca/sitemap.xml
