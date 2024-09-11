@@ -70,7 +70,7 @@ const SupplyChainManagement = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <img src="/img/hero-p-shape.png" alt="hero-p-shape" />
+                <img src="/img/hero-p-shape.png" alt="hero-p-shape" width={1341} height={393} />
               </div>
             </div>
           </div>
@@ -116,21 +116,21 @@ const SupplyChainManagement = () => {
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-49.png" alt="Better Collaboration with Suppliers" />
+                  <img src="/img/icon-inner-49.png" alt="Better Collaboration with Suppliers" width={48} height={48} />
                   <h3>Better Collaboration with Suppliers</h3>
                   <p>Streamline interaction with suppliers, get real-time data, improve communication, track orders, and submit invoices to improve transparency with suppliers.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-50.png" alt="Improved Risk Mitigation" />
+                  <img src="/img/icon-inner-50.png" alt="Improved Risk Mitigation" width={48} height={48} />
                   <h3>Improved Risk Mitigation</h3>
                   <p>Automate key processes, gain better supply chain visibility, and identify potential risks to improve efficiency by using the <a href="/solutions/dynamics-365-supply-chain-management/"><b>Supply Chain Management</b></a> module of D365 Business Central.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-51.png" alt="Improve Quality Control" />
+                  <img src="/img/icon-inner-51.png" alt="Improve Quality Control" width={48} height={48} />
                   <h3>Improve Quality Control</h3>
                   <p>D365 BC helps you gain better oversight of product quality, track the movement of goods, maintain high quality standards, and implement stringent quality standards.</p>
                 </div>
@@ -173,56 +173,56 @@ const SupplyChainManagement = () => {
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-52.png" alt="Supplier Management" />
+                  <img src="/img/icon-inner-52.png" alt="Supplier Management"  width={40} height={40} />
                   <h3>Supplier Management</h3>
                   <p>Find, manage, and <b>collaborate with vendors</b> to build strong relationships. Monitor supplier performance to ensure timely deliveries and high-quality materials.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-53.png" alt="Warehouse Optimization" />
+                  <img src="/img/icon-inner-53.png" alt="Warehouse Optimization" width={40} height={40} />
                   <h3>Warehouse Optimization</h3>
                   <p><a href=""><b>Maximize warehouse</b></a> space utilization to accommodate inventory growth. Maintain optimal stock levels to prevent overstocking or stockouts.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-54.png" alt="Track Goods during Transportation" />
+                  <img src="/img/icon-inner-54.png" alt="Track Goods during Transportation" width={40} height={40} />
                   <h3>Track Goods during Transportation</h3>
                   <p>Gain real-time insights into the shipment status and location of goods during transportation. Coordinate with <b>logistics partners</b> to ensure timely and efficient delivery.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-55.png" alt="Improve Communication" />
+                  <img src="/img/icon-inner-55.png" alt="Improve Communication" width={40} height={40} />
                   <h3>Improve Communication</h3>
                   <p>Enhance collaboration with internal teams and external partners for efficient operations. Share relevant data and insights with all stakeholders to ensure transparency.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-56.png" alt="Predict Demand" />
+                  <img src="/img/icon-inner-56.png" alt="Predict Demand" width={40} height={40} />
                   <h3>Predict Demand</h3>
                   <p>Use real-time insights to anticipate market needs accurately. It helps you optimize inventory levels and proactively respond to changes in demand.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-57.png" alt="Built-in Intelligence" />
+                  <img src="/img/icon-inner-57.png" alt="Built-in Intelligence" width={40} height={40} />
                   <h3>Built-in Intelligence</h3>
                   <p>Microsoft Business Central comes with an <b>in-built Copilot</b> that helps businesses automate tasks and support better decision-making.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-58.png" alt="Shop Floor Control" />
+                  <img src="/img/icon-inner-58.png" alt="Shop Floor Control" width={40} height={40} />
                   <h3>Shop Floor Control</h3>
                   <p>Dynamics BC helps businesses orchestrate shop floor activities, optimize workflow, allocate resources, improve efficiency, automate workflow, and track work in progress.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra two-extra">
-                  <img src="/img/icon-inner-59.png" alt="Trade and Distribution" />
+                  <img src="/img/icon-inner-59.png" alt="Trade and Distribution" width={40} height={40} />
                   <h3>Trade and Distribution</h3>
                   <p>Get complete visibility, control the movement of goods, ensure timely delivery, and improve customer satisfaction using Dynamics 365 Business Central.</p>
                 </div>
@@ -241,7 +241,7 @@ const SupplyChainManagement = () => {
                   <a data-bs-toggle="modal"
                     href="#exampleModal" className="btn bt-bg">Contact us now!</a>
                   <div className="im-abso">
-                    <img src="/img/frame-shape.png" alt="frame-shape" />
+                    <img src="/img/frame-shape.png" alt="frame-shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
@@ -283,7 +283,7 @@ const SupplyChainManagement = () => {
             <div className="row g-3">
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                  <img src="/img/icon-inner-12.png" alt="" />
+                  <img src="/img/icon-inner-12.png" alt="Seamless implementation" width={48} height={48} />
                   <h3>Seamless implementation </h3>
                   <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
 
@@ -291,7 +291,7 @@ const SupplyChainManagement = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <img src="/img/icon-inner-13.png" alt="" />
+                  <img src="/img/icon-inner-13.png" alt="Team of Certified Dynamics 365 Experts" width={48} height={48} />
                   <h3>Team of Certified Dynamics 365 Experts</h3>
                   <p>We are a team of over <b>135+</b> Microsoft-certified Dynamics 365 consultants. At Dynamics Square, the best industry minds are on your side to tackle any challenge and craft growth-oriented strategies.</p>
                   <div className="bg-img">
@@ -302,7 +302,7 @@ const SupplyChainManagement = () => {
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <img src="/img/icon-inner-14.png" alt="" />
+                  <img src="/img/icon-inner-14.png" alt="Adequate Resources Available" width={48} height={48} />
                   <h3>Adequate Resources Available</h3>
                   <p>We have adequate resources and infrastructure to empower businesses of all sizes. With our robust Dynamics 365 Business Central support services, you can match your ambition to scale.</p>
                   <div className="img-flips">
@@ -312,7 +312,7 @@ const SupplyChainManagement = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                  <img src="/img/icon-inner-15.png" alt="" />
+                  <img src="/img/icon-inner-15.png" alt="Hands-On Support" width={48} height={48} />
                   <h3>Hands-On Support</h3>
                   <p>We offer on-site support for complex problems or interruptions to ensure your company gets back on track quickly and affordably.</p>
                 </div>
