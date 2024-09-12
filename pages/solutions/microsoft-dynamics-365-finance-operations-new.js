@@ -771,7 +771,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
                   <h2>Get Tailored F&O Services for Your Business</h2>
-                  <p>Get trustworthy, competitive, and reliable service for Dynamics F&O solutions that is tailored as per your requirements.</p>
+                  <p>Get trustworthy, competitive, and reliable service for Finance and Operations solutions that is tailored as per your requirements.</p>
                 </header>
               </div>
             </div>
@@ -842,7 +842,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-lg-6">
                 <header className="section-header-new">
                   <h2>Dynamics Square: Experience Maximum Impact with Cost-Effective Solution</h2>
-                  <p>Dynamics Square, a leading <a href="/"><b>Microsoft Solutions Partner in Ontario</b></a>, is known for providing tailor-made service with a 360° approach, technical expertise, and competitive pricing. Here is what makes it unique:</p>
+                  <p>Dynamics Square, a leading <a href="/"><b>Microsoft Solutions Partner in Ontario</b></a>, is known for providing tailor-made Finance and Operations service with a 360° approach, technical expertise, and competitive pricing. Here is what makes it unique:</p>
                 </header>
               </div>
             </div>
@@ -898,7 +898,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Dynamics 365 Finance and Operations: Now Two Distinct Solutions, Starting a New Era</h2>
+                  <h2>Dynamics 365 Finance & Operations: Now Two Distinct Solutions, Starting a New Era</h2>
                   <p>Microsoft has split Dynamics 365 F&O into two distinct applications to provide more specialized functionality: Dynamics 365 Finance and Dynamics 365 Supply Chain Management.</p>
                 </header>
               </div>
@@ -938,8 +938,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Dynamics 365 Finance Pricing Plan: Go Ahead with the Ideal One</h2>
-                  <p>Dynamics 365 Finance and Operations pricing plans are straightforward. Take a look at the pricing plan and move with the suitable plan.</p>
+                  <h2>Dynamics 365 Finance & Operations Pricing: Go Ahead with the Ideal One</h2>
+                  <p>Finance and Operations pricing plans are straightforward. Take a look at the pricing plan and move with the suitable plan.</p>
                 </header>
               </div>
             </div>
@@ -1059,7 +1059,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics 365 Finance and Operations consists of several modules tailored to specific business functions.</p>
+                      <p>Dynamics 365 Finance & Operations consists of several modules tailored to specific business functions.</p>
                       <ul>
                         <li><b>Finance:</b> Manages <a href="/solutions/microsoft-dynamics-365-finance/">general ledger</a>, accounts payable/receivable, budgeting, and financial reporting.</li>
                         <li><b>Supply Chain Management:</b> Handles procurement, <a href="/solutions/dynamics-365-supply-chain-management/">inventory management</a>, warehousing, and logistics.</li>
@@ -1104,7 +1104,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>The cost of implementing Dynamics 365 Finance and Operations varies depending on several factors.</p>
+                      <p>The cost of implementing Finance and Operations varies depending on several factors.</p>
                       <ul>
                         <li><b>Licensing Costs:</b> The subscription for Dynamics 365 Finance starts at <b>CAD $244.20/user/month</b>. Dynamics 365 Supply Chain Management also costs the same. Additional modules or users add to the cost.</li>
                         <li><b>Implementation Costs:</b> Implementation costs can vary depending on the complexity, number of users, and customization requirements.</li>

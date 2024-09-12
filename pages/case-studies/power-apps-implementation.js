@@ -16,7 +16,7 @@ const CaseStudySpectra = () => {
         <meta property="og:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/case-studies/power-apps-implementation/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/power-app-case.jpg" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/case-two.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -24,7 +24,7 @@ const CaseStudySpectra = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Power Apps Implementation - Case Study" />
         <meta name="twitter:description" content="Dynamics Square helped leading chain manufactures in Canada implement ms Power Apps for eliminating manual data entry, improve data accuracy, and enhance transparency and accountability." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/power-app-case.jpg" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/case-two.png" />
 
         {/* <script
           type="application/ld+json"
@@ -73,9 +73,9 @@ const CaseStudySpectra = () => {
             </div>
           </div>
           <div className="row p-20-4">
-            <div className="col-lg-12">
+            <div className="col-lg-12 text-center">
               <div className="case-s-image">
-                <img src="/img/case-study-bottom.jpg" alt="case-study-bottom" />
+                <img src="/img/case-two.png" alt="case-study-bottom" />
               </div>
             </div>
           </div>

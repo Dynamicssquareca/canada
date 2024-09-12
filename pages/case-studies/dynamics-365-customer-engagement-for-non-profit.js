@@ -17,7 +17,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
         <meta property="og:description" content="Dynamics Square helped a Non-profit Organization in Canada integrate Dynamics 365 Customer Engagement for managing their events efficiently and give a better overall Customer Experience. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/case-studies/dynamics-365-customer-engagement-for-non-profit/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/case-one.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -25,7 +25,7 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Customer Engagement integration for Non-Profit industry - Case Study" />
         <meta name="twitter:description" content="Dynamics Square helped a Non-profit Organization in Canada integrate Dynamics 365 Customer Engagement for managing their events efficiently and give a better overall Customer Experience." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/case-study-banner.jpg" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/case-one.png" />
 
         {/* <script
           type="application/ld+json"
@@ -74,9 +74,9 @@ const Dynamics365CustomerEngagementForEventManagement = () => {
             </div>
           </div>
           <div className="row p-20-4">
-            <div className="col-lg-12">
+            <div className="col-lg-12 text-center">
               <div className="case-s-image">
-              <img src="/img/power-app-case-bottm.jpg" alt="case-study-bottom" />
+              <img src="/img/case-one.png" alt="case-study-bottom" />
               </div>
             </div>
           </div>
