@@ -127,7 +127,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     <p>Streamline complex financial operations, enhance supply chain management, get end-to-end visibility, and improve inventory management.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/finance-and-finance-opeartion-banner.png" alt="finance-and-finance-opeartion-banner" width={932} height={531} />
+                    <Image src="/img/finance-and-finance-opeartion-banner.png" alt="finance-and-finance-opeartion-banner" width={932} height={531} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -840,6 +840,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row g-3">
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
+                  <Image src="/img/icon-inner-80.png" alt="icon-inner-80" width={48} height={48} />
                   <h3>Comprehensive Service Offerings</h3>
                   <p>We provide end-to-end services to ensure your organization <b>maximizes ROI</b> from their technology investments.</p>
 
@@ -847,25 +848,28 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
+                <Image src="/img/icon-inner-81.png" alt="icon-inner-80" width={48} height={48} />
                   <h3>Industry-Specific Solutions</h3>
                   <p>Dynamics Square provides customized solutions for diverse industries such as <b>manufacturing, healthcare, retail</b>, and <b>financial services</b>.</p>
                   <div className="bg-img">
-                    <img src="/img/shpe-11.png" alt="shape" />
+                    <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
+                <Image src="/img/icon-inner-82.png" alt="icon-inner-80" width={48} height={48} />
                   <h3>Proven Track Record</h3>
                   <p>With over <b>250 global</b> clients and a <b>99%</b> satisfaction rate, Dynamics Square delivers successful digital transformations.</p>
                   <div className="img-flips">
-                    <img src="/img/shpe-11.png" alt="shape" />
+                    <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
+                <Image src="/img/icon-inner-83.png" alt="icon-inner-80" width={48} height={48} />
                   <h3>Years of Experience</h3>
                   <p>We ensure businesses can leverage the full power of <a href="/solutions/microsoft-dynamics-365/">Dynamics 365 solutions</a> with our <b>14+</b> years of experience and a team of <b>150+</b> Microsoft-certified consultants.</p>
 
@@ -902,7 +906,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <p>Automate and modernize financial operations and processes. Monitor cash flow, reduce write-offs, save time in creating budget proposals, and improve workforce productivity.</p>
                   <a href="/solutions/microsoft-dynamics-365-finance/" className="btn bt-bg">Get Started</a>
                   <div className="bg-r-img">
-                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
+                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
                 </div>
               </div>
@@ -915,7 +919,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <p>Modernize your supply chain, get end-to-end process visibility, reduce asset downtime, ensure product timely delivery, and reduce operational costs.</p>
                   <a href="/solutions/dynamics-365-supply-chain-management/" className="btn bt-bg">Get Started</a>
                   <div className="bg-r-img">
-                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
+                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
                 </div>
               </div>
@@ -924,8 +928,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
         </section>
         <section id="section6"  className="pricing pricing-colo">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
+            <div className="row justify-content-center text-center">
+              <div className="col-lg-8">
                 <header className="section-header-new">
                   <h2>Dynamics 365 Finance & Operations Pricing: Go Ahead with the Ideal One</h2>
                   <p>Finance and Operations pricing plans are straightforward. Take a look at the pricing plan and move with the suitable plan.</p>

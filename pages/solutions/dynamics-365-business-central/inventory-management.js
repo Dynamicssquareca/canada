@@ -54,7 +54,7 @@ const InventoryManagement = () => {
                     <p>Manage stock quality, deliver orders on time, maintain detailed records, reduce production costs, and reorder stock automatically using Business Central for Inventory Management.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/inventory-managememt-banner.png" alt="inventory-managememt-banner" width={1064} height={585} priority />
+                    <Image src="/img/inventory-managememt-banner.png" alt="inventory-managememt-banner" width={1064} height={585} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"

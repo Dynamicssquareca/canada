@@ -117,7 +117,7 @@ const Finance = () => {
                     <p>Streamline financial transactions, get 360° transparency, simplify complex operations, optimize cash flow, and enhance financial health.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/Mirc-finace-banner.png" alt="c-erp-partner-banner" width={932} height={531} />
+                    <Image src="/img/Mirc-finace-banner.png" alt="c-erp-partner-banner" width={932} height={531} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -932,7 +932,7 @@ const Finance = () => {
                   <p>Streamline routine tasks like data entry, reconciliation, and journal posting and automate repetitive tasks, such as data entry, reconciliation, and report generation.</p>
                   <a href="/dynamics-nav-to-business-central-upgrade/" className="btn bt-bg">Try Now!</a>
                   <div className="bg-r-img">
-                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
+                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
                 </div>
               </div>
@@ -945,7 +945,7 @@ const Finance = () => {
                   <p>Copilot provides actionable insights into your financial data. Anticipate cash flow needs and potential risks, uncover trends, and make informed decisions.</p>
                   <a href="/blog/dynamics-gp-to-business-central-migration/" className="btn bt-bg">Optimize Your Operations!</a>
                   <div className="bg-r-img">
-                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" />
+                    <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
                 </div>
               </div>
@@ -955,7 +955,7 @@ const Finance = () => {
         <section id="section6"  className="pricing pricing-colo">
           <div className="container">
             <div className="row justify-content-center text-center">
-              <div className="col-lg-6">
+              <div className="col-lg-8">
                 <header className="section-header-new">
                   <h2>Dynamics 365 Finance Pricing: Find the Plan That Fits Your Budget</h2>
                   <p>Microsoft Dynamics 365 Finance pricing is very straightforward and available on a subscription basis.</p>

@@ -53,7 +53,7 @@ const SupplyChainManagement = () => {
                     <p>Improve operational efficiency, reduce overhead costs, make smart purchase decisions, and improve supplier collaborations with Dynamics 365 Business Central for Supply Chain Management.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/s-c-m-banner.png" alt="s-c-m-banner" width={1062} height={583} priority />
+                    <Image src="/img/s-c-m-banner.png" alt="s-c-m-banner" width={1062} height={583} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"

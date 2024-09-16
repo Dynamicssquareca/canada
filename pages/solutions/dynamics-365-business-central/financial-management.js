@@ -53,7 +53,7 @@ const FinancialManagement = () => {
                     <p>Automate tasks, optimize cash flow, create precise budget proposals, manage bank reconciliations, and create a user-friendly workflow with <b>Business Central for Financial Management</b>.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/Financial_managment_banner.png" alt="Financial_managment_banner" width={1064} height={591} priority />
+                    <Image src="/img/Financial_managment_banner.png" alt="Financial_managment_banner" width={1064} height={591} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"

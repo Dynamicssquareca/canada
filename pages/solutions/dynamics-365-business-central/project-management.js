@@ -53,7 +53,7 @@ const ProjectManagement = () => {
                     <p>Schedule resources, configure projects, manage budgets, monitor progress, deliver projects on time, and make informed decisions with <b>Business Central for Project Management</b>.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/bc-project-managment-banner.png" alt="bc-project-managment-banner" width={1081} height={583} priority />
+                    <Image src="/img/bc-project-managment-banner.png" alt="bc-project-managment-banner" width={1081} height={583} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"

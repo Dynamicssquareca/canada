@@ -53,7 +53,7 @@ const SalesManagement = () => {
                     <p>Streamline the sales process, improve customer relationship management, get in-built AI assistance, and make data-driven decisions with Business Central for Sales. </p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/business-sales-abnner.png" alt="c-erp-partner-banner" width={1002} height={595} priority />
+                    <Image src="/img/business-sales-abnner.png" alt="c-erp-partner-banner" width={1002} height={595} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
