@@ -7,7 +7,7 @@
       { "id": "section5", "label": "Why us" },
       { "id": "section6", "label": "Pricing and Licensing" }
     ],
-    "solutions/microsoft-dynamics-365-finance-operations-new": [
+    "solutions/microsoft-dynamics-365-finance-operations": [
       { "id": "section1", "label": "Overview" },
       { "id": "section2", "label": "Benefits" },
       { "id": "section3", "label": "Capabilities" },
@@ -15,7 +15,7 @@
       { "id": "section5", "label": "Why us" },
       { "id": "section6", "label": "Pricing and Licensing" }
     ],
-   "solutions/microsoft-dynamics-365-finance-new": [
+   "solutions/microsoft-dynamics-365-finance": [
       { "id": "section1", "label": "Overview" },
       { "id": "section2", "label": "Benefits" },
       { "id": "section3", "label": "Capabilities" },
