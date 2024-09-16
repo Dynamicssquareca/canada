@@ -30,7 +30,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
         <meta property="og:description" content="Microsoft Dynamics 365 Finance & Operations to seamlessly optimize your finances and gain increased visibility. Contact us for detailed pricing & licensing." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance-operations/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/microosoft-partner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/finance-and-finance-opeartion-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -38,7 +38,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Finance and Operations Partner | Dynamics Square CA" />
         <meta name="twitter:description" content="Microsoft Dynamics 365 Finance & Operations to seamlessly optimize your finances and gain increased visibility. Contact us for detailed pricing & licensing." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/microosoft-partner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/finance-and-finance-opeartion-banner.png" />
           <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -127,7 +127,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     <p>Streamline complex financial operations, enhance supply chain management, get end-to-end visibility, and improve inventory management.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/bc-erp-partner-banner.png" alt="c-erp-partner-banner" width={1093} height={531} />
+                    <Image src="/img/finance-and-finance-opeartion-banner.png" alt="finance-and-finance-opeartion-banner" width={932} height={531} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -144,7 +144,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <img src="/img/hero-p-shape.png" alt="hero-p-shape" />
+                <img src="/img/hero-p-shape.png" alt="hero-p-shape" width={1341} height={393} />
               </div>
             </div>
           </div>
@@ -159,23 +159,14 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
-                  <h2>Dynamics 365 F&O: Empower Your Business Operations</h2>
+                  <h2>Dynamics 365 F&O: Empower <br />Your Business Operations</h2>
                 </header>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-6">
                 <div className="vide-s">
-                  <video
-                    className="video-screen"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/video-thumb.png"
-                  >
-                    <source src="/video/BC.mp4" />
-                  </video>
+                  <Image src="/img/finance-and-finance-opeartion-side.png" alt="finance-and-finance-opeartion-side" width={586} height={355} />
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -195,7 +186,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                       href="#exampleModal" className="btn bt-bg">Start automating now!</a>
                 </div>
                 <div className="ffloting-pic">
-                  <img src="/img/new-shape-call.png" alt="new-shape-call" />
+                  <img src="/img/new-shape-call.png" alt="new-shape-call" width={404} height={192} />
                 </div>
               </div>
 
@@ -220,7 +211,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/cloud_download.png" alt="cloud_download" />
+                  <Image src="/img/icon-inner-72.png" alt="Get Financial Insight" width={40} height={40} />
                   <h3>Get Financial Insight, Plan Better</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Real-time financial insights</span></li>
@@ -232,7 +223,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/pages.png" alt="pages" />
+                  <Image src="/img/icon-inner-73.png" alt="Automate Business Process" width={40} height={40} />
                   <h3>Automate Business Process, Increase Productivity</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Automated routine tasks</span></li>
@@ -244,7 +235,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/sleep_score.png" alt="sleep_score" />
+                  <Image src="/img/icon-inner-74.png" alt="Scale Your Business" width={40} height={40} />
                   <h3>Scale Your Business, Adapt Easily </h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Flexible deployment options</span></li>
@@ -256,7 +247,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/rocket_launch_icon.png" alt="rocket_launch_icon" />
+                  <Image src="/img/icon-inner-75.png" alt="Comprehensive Supply Chain Visibility" width={40} height={40} />
                   <h3>Get Comprehensive Supply Chain Visibility</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Real-time monitoring</span></li>
@@ -268,7 +259,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/memory.png" alt="memory" />
+                  <Image src="/img/icon-inner-76.png" alt="Optimize Resources" width={40} height={40} />
                   <h3>Optimize Resources, Reduce Costs </h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Efficient resource allocation</span></li>
@@ -280,7 +271,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/pie_chart.png" alt="pie_chart" />
+                  <Image src="/img/icon-inner-77.png" alt="Advanced Analytics, Visualize Data" width={40} height={40} />
                   <h3>Advanced Analytics, Visualize Data </h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Built-in templates</span></li>
@@ -292,7 +283,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/work_update.png" alt="work_update" />
+                  <Image src="/img/icon-inner-78.png" alt="Enhanced Inventory Management" width={40} height={40} />
                   <h3>Enhanced Inventory Management, Better Order Fulfillment </h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Optimizes inventory levels</span></li>
@@ -304,8 +295,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/inventory_2.png" alt="inventory_2" />
-                  <h3>Improved Cash Flow Management </h3>
+                  <Image src="/img/icon-inner-79.png" alt="Improved Cash Flow Management" width={40} height={40} />
+                  <h3>Improved Cash Flow Management</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Liquidity analysis</span></li>
                     <li><i className="bi bi-check"></i><span>Cash position tracking</span></li>
@@ -315,8 +306,6 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                 </div>
               </div>
             </div>
-
-
           </div>
         </section>
 
@@ -709,7 +698,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   <a  data-bs-toggle="modal"
                       href="#exampleModal" className="btn bt-bg">Switch Now!</a>
                   <div className="im-abso">
-                    <img src="/img/frame-shape.png" alt="frame-shape" />
+                    <img src="/img/frame-shape.png" alt="frame-shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
@@ -781,7 +770,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/d365-business-central-implementation/"><img src="/img/serv-img-1.jpg" alt="Implementation" /></a>
+                    <a href="/d365-business-central-implementation/"><Image src="/img/serv-img-1.jpg" alt="Implementation" width={826} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Dynamics 365 Finance and Operations Implementation</h3>
@@ -796,7 +785,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/dynamics-nav-to-business-central-upgrade/"><img src="/img/serv-img-2.jpg" alt="Upgrade Services" /></a>
+                    <a href="/dynamics-nav-to-business-central-upgrade/"><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Smooth Transition to Dynamics F&O</h3>
@@ -810,7 +799,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href=""><img src="/img/serv-img-3.jpg" alt="Support Services" /></a>
+                    <a href=""><Image src="/img/serv-img-3.jpg" alt="Support Services" width={827} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Reliable Ongoing Support</h3>

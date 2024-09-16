@@ -30,7 +30,7 @@ const Finance = () => {
         <meta property="og:description" content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Financial-Management.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/imgMirc-finace-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -38,7 +38,7 @@ const Finance = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Finance| Dynamics Square CA" />
         <meta name="twitter:description" content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Financial-Management.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/imgMirc-finace-banner.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -117,7 +117,7 @@ const Finance = () => {
                     <p>Streamline financial transactions, get 360° transparency, simplify complex operations, optimize cash flow, and enhance financial health.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/bc-erp-partner-banner.png" alt="c-erp-partner-banner" width={1093} height={531} />
+                    <Image src="/img/Mirc-finace-banner.png" alt="c-erp-partner-banner" width={932} height={531} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -134,7 +134,7 @@ const Finance = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <img src="/img/hero-p-shape.png" alt="hero-p-shape" />
+                <img src="/img/hero-p-shape.png" alt="hero-p-shape" width={1341} height={393} />
               </div>
             </div>
           </div>
@@ -156,16 +156,7 @@ const Finance = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="vide-s">
-                  <video
-                    className="video-screen"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    poster="/img/video-thumb.png"
-                  >
-                    <source src="/video/BC.mp4" />
-                  </video>
+                 <Image src="/img/Mirc-finace-side-pic.png" alt="Mirc-finace-side-pic" width={527} height={364} />
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -185,7 +176,7 @@ const Finance = () => {
                       href="#exampleModal" className="btn bt-bg">Book a Free Consultation!</a>
                 </div>
                 <div className="ffloting-pic">
-                  <img src="/img/new-shape-call.png" alt="new-shape-call" />
+                  <img src="/img/new-shape-call.png" alt="new-shape-call" width={404} height={192} />
                 </div>
               </div>
 
@@ -210,7 +201,7 @@ const Finance = () => {
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/cloud_download.png" alt="cloud_download" />
+                  <img src="/img/icon-inner-60.png" alt="Enhanced Financial Visibility, Reduced Error" width={40} height={40} />
                   <h3>Enhanced Financial Visibility, Reduced Error</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Real-time data access</span></li>
@@ -222,7 +213,7 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/pages.png" alt="pages" />
+                  <img src="/img/icon-inner-61.png" alt="Improved Financial Control, Maximize Profits" width={40} height={40} />
                   <h3>Improved Financial Control, Maximize Profits</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Automated financial processes</span></li>
@@ -234,8 +225,8 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/sleep_score.png" alt="sleep_score" />
-                  <h3>Streamlined Operations, Increased Productivity </h3>
+                  <img src="/img/icon-inner-62.png" alt="Streamlined Operations, Increased Productivity" width={40} height={40} />
+                  <h3>Streamlined Operations, Increased Productivity</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Reduce data silo</span></li>
                     <li><i className="bi bi-check"></i><span>Eliminate redundant processes</span></li>
@@ -246,8 +237,8 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/rocket_launch_icon.png" alt="rocket_launch_icon" />
-                  <h3>Improved Cash Flow, Increase Revenue </h3>
+                  <img src="/img/icon-inner-63.png" alt="Improved Cash Flow, Increase Revenue" width={40} height={40} />
+                  <h3>Improved Cash Flow, Increase Revenue</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Detailed inflows and outflow views</span></li>
                     <li><i className="bi bi-check"></i><span>Optimize cash reserves</span></li>
@@ -258,8 +249,8 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/memory.png" alt="memory" />
-                  <h3>Real-time Budget Tracking </h3>
+                  <img src="/img/icon-inner-64.png" alt="Real-time Budget Tracking" width={40} height={40} />
+                  <h3>Real-time Budget Tracking</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Prevent overspending</span></li>
                     <li><i className="bi bi-check"></i><span>Effective resource allocation</span></li>
@@ -270,8 +261,8 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/pie_chart.png" alt="pie_chart" />
-                  <h3>Global Operations and Localization </h3>
+                  <img src="/img/icon-inner-65.png" alt="Global Operations and Localization" width={40} height={40} />
+                  <h3>Global Operations and Localization</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Tax calculation</span></li>
                     <li><i className="bi bi-check"></i><span>Statutory compliance</span></li>
@@ -282,8 +273,8 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/work_update.png" alt="work_update" />
-                  <h3>Better Supplier Collaboration, Improved Supply Chain </h3>
+                  <img src="/img/icon-inner-66.png" alt="Better Supplier Collaboration" width={40} height={40} />
+                  <h3>Better Supplier Collaboration, Improved Supply Chain</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Efficient payment processing</span></li>
                     <li><i className="bi bi-check"></i><span>Efficient payment processing</span></li>
@@ -294,8 +285,8 @@ const Finance = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/inventory_2.png" alt="inventory_2" />
-                  <h3>Built-in Supply Chain Management </h3>
+                  <img src="/img/icon-inner-67.png" alt="uilt-in Supply Chain Management" width={40} height={40} />
+                  <h3>Built-in Supply Chain Management</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Optimize inventory level</span></li>
                     <li><i className="bi bi-check"></i><span>Automate supply chain processes</span></li>
@@ -734,7 +725,7 @@ const Finance = () => {
                   <a  data-bs-toggle="modal"
                       href="#exampleModal" className="btn bt-bg">Create Your Report Now!</a>
                   <div className="im-abso">
-                    <img src="/img/frame-shape.png" alt="frame-shape" />
+                    <img src="/img/frame-shape.png" alt="frame-shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
@@ -806,7 +797,7 @@ const Finance = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/d365-business-central-implementation/"><img src="/img/serv-img-1.jpg" alt="Implementation" /></a>
+                    <a href="/d365-business-central-implementation/"><Image src="/img/serv-img-1.jpg" alt="Implementation" width={826} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Dynamics 365 Finance Implementation</h3>
@@ -820,7 +811,7 @@ const Finance = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/dynamics-nav-to-business-central-upgrade/"><img src="/img/serv-img-2.jpg" alt="Upgrade Services" /></a>
+                    <a href="/dynamics-nav-to-business-central-upgrade/"><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Upgrade to Dynamics 365 Finance</h3>
@@ -834,7 +825,7 @@ const Finance = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href=""><img src="/img/serv-img-3.jpg" alt="Support Services" /></a>
+                    <a href=""><Image src="/img/serv-img-3.jpg" alt="Support Services" width={827} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Get Intended Support</h3>
@@ -875,6 +866,7 @@ const Finance = () => {
             <div className="row g-3">
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
+                  <Image src="/img/icon-inner-68.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Expert Team</h3>
                   <p>We have a team of <b>135+</b> certified professionals with deep expertise in Dynamics 365 Finance.</p>
 
@@ -882,25 +874,28 @@ const Finance = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
+                <Image src="/img/icon-inner-69.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Proven Expertise</h3>
                   <p>We have served <b>250+</b> clients globally with a <b>99%</b> success rate across a wide range of industries.</p>
                   <div className="bg-img">
-                    <img src="/img/shpe-11.png" alt="shape" />
+                    <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
+                <Image src="/img/icon-inner-70.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Global Reach</h3>
                   <p>With a presence in <b>7</b> countries, including Canada, the UK, the USA, and India, Dynamics Square helps you optimize your global operation.</p>
                   <div className="img-flips">
-                    <img src="/img/shpe-11.png" alt="shape" />
+                    <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
+                <Image src="/img/icon-inner-71.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Comprehensive Services</h3>
                   <p>Dynamics Square offers a full suite of services, including consulting, implementation, and customization to ensure successful operation.</p>
 
@@ -959,7 +954,7 @@ const Finance = () => {
         </section>
         <section id="section6"  className="pricing pricing-colo">
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-center text-center">
               <div className="col-lg-6">
                 <header className="section-header-new">
                   <h2>Dynamics 365 Finance Pricing: Find the Plan That Fits Your Budget</h2>

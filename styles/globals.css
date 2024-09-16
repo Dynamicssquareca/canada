@@ -11362,7 +11362,7 @@ text-align:center
   border-radius: 15px;
 } */
 .card-two img{
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 .card-two h3{
   font-size: 16px;
@@ -11370,6 +11370,7 @@ text-align:center
   line-height: 1.5;
   color: #19376d;
   margin-bottom: 1rem;
+  margin-top:10px
 }
 .card-two ul{
   padding-left: 0;
@@ -11436,7 +11437,7 @@ text-align:center
 }
 
 .new-solution-tab .nav-pills .nav-link h3{
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom:0
 }
 .card-three{
@@ -11448,7 +11449,7 @@ text-align:center
 }
 .card-three .top-h{
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   color: #576cbc;
   line-height: 1.5;
   margin-bottom:10px
@@ -11535,7 +11536,7 @@ color: #385575 !important;
 
 }
 .card-five .info-card h3{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #30475e;
   margin-bottom: 1rem;
@@ -11581,7 +11582,8 @@ color: #385575 !important;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
-  margin-bottom:1rem
+  margin-bottom:1rem;
+  margin-top:10px
 }
 .c-white h3{
   color: #576cbc;
