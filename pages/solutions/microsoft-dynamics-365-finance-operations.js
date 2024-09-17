@@ -903,7 +903,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   </div> */}
                   <h3>Dynamics 365 Finance</h3>
                   <p>Automate and modernize financial operations and processes. Monitor cash flow, reduce write-offs, save time in creating budget proposals, and improve workforce productivity.</p>
-                  <a href="#exampleModal" data-bs-toggle="modal" className="btn bt-bg">Get Started</a>
+                  <a href="/solutions/microsoft-dynamics-365-finance/"  className="btn bt-bg">Get Started</a>
                   <div className="bg-r-img">
                     <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
@@ -916,7 +916,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   </div> */}
                   <h3>Dynamics 365 Supply Chain Management</h3>
                   <p>Modernize your supply chain, get end-to-end process visibility, reduce asset downtime, ensure product timely delivery, and reduce operational costs.</p>
-                  <a href="#exampleModal" data-bs-toggle="modal" className="btn bt-bg">Get Started</a>
+                  <a href="/solutions/dynamics-365-supply-chain-management/"  className="btn bt-bg">Get Started</a>
                   <div className="bg-r-img">
                     <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>

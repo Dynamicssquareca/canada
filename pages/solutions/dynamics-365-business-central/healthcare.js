@@ -22,7 +22,7 @@ const Healthcare = () => {
         <meta property="og:description" content="Dynamics 365 Business Central in Healthcare provides real-time data to enhance patient care by enabling faster, more informed decisions. Get in touch with our team at info@dynamicssquare.ca today for support. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/healthcare/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/Warehouse-Management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.ca/img/health-care-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +30,7 @@ const Healthcare = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Dynamics 365 Business Central for Healthcare" />
         <meta name="twitter:description" content="Dynamics 365 Business Central in Healthcare provides real-time data to enhance patient care by enabling faster, more informed decisions. Get in touch with our team at info@dynamicssquare.ca today for support." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/Warehouse-Management-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/health-care-banner.png" />
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -52,7 +52,7 @@ const Healthcare = () => {
                     <p>Access real-time patient data, collect staff information, schedule appointments, manage patient information, and offer high-quality services with Microsoft Dynamics 365 Business Central for Healthcare.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/business-sales-abnner.png" alt="c-erp-partner-banner" width={1002} height={595} priority={true} />
+                    <Image src="/img/health-care-banner.png" alt="health-care-banner" width={918} height={506} priority={true} />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -69,7 +69,7 @@ const Healthcare = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <img src="/img/hero-p-shape.png" alt="hero-p-shape" />
+                <img src="/img/hero-p-shape.png" alt="hero-p-shape" width={1341} height={393} />
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Healthcare = () => {
             <div className="row new-pd-02">
               <div className="col-lg-6 align-self-center">
                 <div className="vide-s vide-sss">
-                  <Image src="/img/streaming-sales.png" alt="streaming-sales" width={516} height={453} />
+                  <Image src="/img/health-care-top.png" alt="health-care-top" width={549} height={453} />
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -117,21 +117,21 @@ const Healthcare = () => {
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-01.png" alt="Quality Control " />
+                  <img src="/img/icon-inner-84.png" alt="Quality Control " />
                   <h3>Quality Control </h3>
                   <p>Ensure high-quality patient care by tracking patients' recovery status, rehabilitation phase, and your service. It will reduce revisits and increase patient satisfaction. </p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-02.png" alt="Visibility at Every Stage" />
+                  <img src="/img/icon-inner-85-1.png" alt="Visibility at Every Stage" />
                   <h3>Visibility at Every Stage</h3>
                   <p>Streamline workflows with real-time data on appointments, inventory, and staff. Track resource allocation and ensure adequate staff are available.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-03.png" alt="Financial Management" />
+                  <img src="/img/icon-inner-85.png" alt="Financial Management" />
                   <h3>Financial Management</h3>
                   <p>Gain real-time financial insights to enhance the billing process, increase accuracy in financial reporting, and <a href="/solutions/dynamics-365-business-central/financial-management/"><b>streamline financial operations</b></a>.</p>
                 </div>
@@ -152,7 +152,7 @@ const Healthcare = () => {
                     href="#exampleModal" className="btn bt-bg">Contact us now! </a>
                 </div>
                 <div className="ffloting-pic">
-                  <img src="/img/new-shape-call.png" alt="new-shape-call" />
+                  <img src="/img/new-shape-call.png" alt="new-shape-call" width={404} height={192} />
                 </div>
               </div>
             </div>
@@ -174,14 +174,14 @@ const Healthcare = () => {
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-04.png" alt="Compliance Management" />
+                  <img src="/img/icon-inner-86.png" alt="Compliance Management" />
                   <h3>Compliance Management</h3>
                   <p>ERP offers automated alerts to comply with stringent regulatory requirements, mitigate risks, and ensure data integrity, avoiding potential fines and legal penalties. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-05.png" alt="Optimized Healthcare Data" />
+                  <img src="/img/icon-inner-87.png" alt="Optimized Healthcare Data" />
                   <h3>Optimized Healthcare Data </h3>
                   <p>Connect various data sources to get operational and clinical insights for making better decisions. Use this data for medication reminders and task assignments. </p>
                 </div>
@@ -189,42 +189,42 @@ const Healthcare = () => {
 
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-06.png" alt="Patient Engagement" />
+                  <img src="/img/icon-inner-88.png" alt="Patient Engagement" />
                   <h3>Patient Engagement </h3>
                   <p>Provide a portal for patients to access medical records, schedule appointments, and communicate with their doctors with a preferred communication mode. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-07.png" alt="Health Team Productivity" />
+                  <img src="/img/icon-inner-89.png" alt="Health Team Productivity" />
                   <h3>Health Team Productivity</h3>
                   <p><a href="/solutions/microsoft-dynamics-erp/"><b>ERP</b></a> for healthcare comprises <b>EHR</b> systems, allowing you to centralize patient data, streamline workflow, and automate routine tasks. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-08.png" alt="Clinical Documentation" />
+                  <img src="/img/icon-inner-90.png" alt="Clinical Documentation" />
                   <h3>Clinical Documentation</h3>
                   <p>Records a patient’s medical history, such as allergies, medications, and past procedures, to offer correct treatment. Track patient progress and customize treatment plans. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-09.png" alt="Telehealth Integration" />
+                  <img src="/img/icon-inner-91.png" alt="Telehealth Integration" />
                   <h3>Telehealth Integration</h3>
                   <p>Business Central offers seamless integration with telehealth platforms, enabling remote consultations and improving patient access to care. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-10.png" alt="Inventory Optimization" />
+                  <img src="/img/icon-inner-92.png" alt="Inventory Optimization" />
                   <h3>Inventory Optimization</h3>
                   <p>Reduce stockouts and waste with real-time <a href="/solutions/dynamics-365-business-central/inventory-management"><b>inventory tracking</b></a> and automated reordering. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two card-two-extra">
-                  <img src="/img/icon-inner-11.png" alt="cloud_download" />
+                  <img src="/img/icon-inner-93.png" alt="cloud_download" />
                   <h3>Improved Data Sharing</h3>
                   <p>Ensure all departments within the healthcare institution can access the same patient data for better collaboration and care coordination. </p>
                 </div>
@@ -243,7 +243,7 @@ const Healthcare = () => {
                   <a data-bs-toggle="modal"
                     href="#exampleModal" className="btn bt-bg">Schedule a Business Central demo now! </a>
                   <div className="im-abso">
-                    <img src="/img/frame-shape.png" alt="frame-shape" />
+                    <img src="/img/frame-shape.png" alt="frame-shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
@@ -268,7 +268,7 @@ const Healthcare = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="vide-s vide-sss">
-                  <Image src="/img/qualified-leads.png" alt="Streamline Sales Management and Boost Sales Efficiency" width={484} height={462} />
+                  <Image src="/img/health-care-bottom.png" alt="Aligning with Changing Healthcare Compliance:" width={492} height={476} />
                 </div>
               </div>
             </div>
@@ -288,7 +288,7 @@ const Healthcare = () => {
             <div className="row g-3">
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                  <img src="/img/icon-inner-12.png" alt="" />
+                  <img src="/img/icon-inner-12.png" alt="Seamless implementation" width={48} height={48} />
                   <h3>Seamless implementation </h3>
                   <p>We tailor Business Central with our expert team to fulfill your unique business requirements, exceeding customer expectations and meeting market demands.</p>
 
@@ -296,28 +296,28 @@ const Healthcare = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <img src="/img/icon-inner-13.png" alt="" />
+                  <img src="/img/icon-inner-13.png" alt="Team of Certified Dynamics 365 Experts" width={48} height={48} />
                   <h3>Team of Certified Dynamics 365 Experts</h3>
                   <p>We are a team of over <b>135+</b> Microsoft-certified Dynamics 365 consultants. At Dynamics Square, the best industry minds are on your side to tackle any challenge and craft growth-oriented strategies.</p>
                   <div className="bg-img">
-                    <img src="/img/shpe-11.png" alt="shape" />
+                    <img src="/img/shpe-11.png" alt="shape"  width={650} height={736} />
                   </div>
                 </div>
               </div>
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                  <img src="/img/icon-inner-14.png" alt="" />
+                  <img src="/img/icon-inner-14.png" alt="Adequate Resources Availablel" width={48} height={48} />
                   <h3>Adequate Resources Available</h3>
                   <p>We have adequate resources and infrastructure to empower businesses of all sizes. With our robust Dynamics 365 Business Central support services, you can match your ambition to scale.</p>
                   <div className="img-flips">
-                    <img src="/img/shpe-11.png" alt="shape" />
+                    <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                  <img src="/img/icon-inner-15.png" alt="" />
+                  <img src="/img/icon-inner-15.png" alt="Hands-On Support" width={48} height={48} />
                   <h3>Hands-On Support</h3>
                   <p>We offer on-site support for complex problems or interruptions to ensure your company gets back on track quickly and affordably.</p>
                 </div>
