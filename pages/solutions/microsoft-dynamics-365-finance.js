@@ -117,7 +117,7 @@ const Finance = () => {
                     <p>Streamline financial transactions, get 360° transparency, simplify complex operations, optimize cash flow, and enhance financial health.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/Mirc-finace-banner.png" alt="c-erp-partner-banner" width={932} height={531} priority={true} />
+                    <Image src="/img/Mirc-finace-banner.png" alt="c-erp-partner-banner"  width={932} height={531} priority={true} layout="responsive" />
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
