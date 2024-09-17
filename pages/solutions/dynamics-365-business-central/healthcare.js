@@ -11,7 +11,6 @@ const Healthcare = () => {
           name="description"
           content="Dynamics 365 Business Central in Healthcare provides real-time data to enhance patient care by enabling faster, more informed decisions. Get in touch with our team at info@dynamicssquare.ca today for support. "
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/solutions/dynamics-365-business-central/healthcare/"
