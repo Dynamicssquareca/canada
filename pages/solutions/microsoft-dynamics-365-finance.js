@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState, useRef } from 'react';
 import Head from 'next/head';
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,11 +10,41 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 import NavBar from '../../components/NavBar';
 const Finance = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const imgRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);  // Image becomes visible
+            observer.unobserve(entry.target);  // Stop observing once image is visible
+          }
+        });
+      },
+      {
+        root: null,        // Defaults to the viewport
+        rootMargin: '0px', // No margin (can be adjusted)
+        threshold: 0.1,    // Image will load when 10% of it is visible
+      }
+    );
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+
+    return () => {
+      if (imgRef.current) observer.unobserve(imgRef.current);
+    };
+  }, []);
+
+
 
   return (
     <>
       <Head>
-      <title>Dynamics 365 Finance| Dynamics Square CA</title>
+        <title>Dynamics 365 Finance| Dynamics Square CA</title>
         <meta
           name="description"
           content="Dynamics 365 Finance simplifies financial management, enhances visibility, and streamlines billing and payments for business success."
@@ -43,32 +73,32 @@ const Finance = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org/", 
-              "@type": "BreadcrumbList", 
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
               "itemListElement": [
-            {
-                "@type": "ListItem", 
-                "position": 1, 
-                "name": "Dynamicssquare CA",
-                "item": "https://www.dynamicssquare.ca/"  
-              },
-            {
-                "@type": "ListItem", 
-                "position": 2, 
-                "name": "solutions",
-                "item": "https://www.dynamicssquare.ca/solutions/"  
-              },
-            {
-                "@type": "ListItem", 
-                "position": 3, 
-                "name": "dynamics 365 finance",
-                "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/"  
-              }
-            ]
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Dynamicssquare CA",
+                  "item": "https://www.dynamicssquare.ca/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "solutions",
+                  "item": "https://www.dynamicssquare.ca/solutions/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "dynamics 365 finance",
+                  "item": "https://www.dynamicssquare.ca/solutions/microsoft-dynamics-365-finance/"
+                }
+              ]
             })
           }}
         />
-         <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -104,7 +134,7 @@ const Finance = () => {
 
       </Head>
 
-     
+
       <main>
         <section className="center-hero-banner">
           <div className="container">
@@ -117,7 +147,20 @@ const Finance = () => {
                     <p>Streamline financial transactions, get 360° transparency, simplify complex operations, optimize cash flow, and enhance financial health.</p>
                   </div>
                   <div className="top-info-img text-center">
-                    <Image src="/img/Mirc-finace-banner.png" alt="c-erp-partner-banner"  width={932} height={531}  quality={75}  loading="lazy" />
+                  <div ref={imgRef}>
+      {isVisible ? (
+        <Image
+          src="/img/Mirc-finace-banner.png"
+          alt="c-erp-partner-banner"
+          layout="responsive"
+          width={932}
+          height={531}
+          quality={75}
+        />
+      ) : (
+        <div style={{ width: 932, height: 531, backgroundColor: '#f0f0f0' }}></div>  // Placeholder before image is visible
+      )}
+    </div>
                   </div>
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
@@ -138,8 +181,8 @@ const Finance = () => {
             </div>
           </div>
         </div>
-        
-      <NavBar />
+
+        <NavBar />
 
 
 
@@ -155,7 +198,7 @@ const Finance = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="vide-s">
-                 <Image src="/img/Mirc-finace-side-pic.png" alt="Mirc-finace-side-pic" width={527} height={364} />
+                  <Image src="/img/Mirc-finace-side-pic.png" alt="Mirc-finace-side-pic" width={527} height={364} />
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -172,7 +215,7 @@ const Finance = () => {
                   <h2>Do you want to enhance financial efficiency and reduce operational costs?</h2>
                   <p>Automate your key processes, free up the finance team, and identify financial risk.</p>
                   <a data-bs-toggle="modal"
-                      href="#exampleModal" className="btn bt-bg">Book a Free Consultation!</a>
+                    href="#exampleModal" className="btn bt-bg">Book a Free Consultation!</a>
                 </div>
                 <div className="ffloting-pic">
                   <img src="/img/new-shape-call.png" alt="new-shape-call" width={404} height={192} />
@@ -184,7 +227,7 @@ const Finance = () => {
 
           </div>
         </section>
-        
+
 
         <section id="section2">
           <div className="container">
@@ -369,7 +412,7 @@ const Finance = () => {
                             <p>Combine financial data from multiple entities to create consolidated <b>financial statements</b>.</p>
                           </div>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-two">
@@ -410,12 +453,12 @@ const Finance = () => {
                             <p>Settle vendor balances, handle partial payments, <b>discounts</b>, and <b>overdue charges</b>.</p>
                           </div>
                         </div>
-                        
-                        
+
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-three">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -429,7 +472,7 @@ const Finance = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Optimize Warehouse 
+                              Optimize Warehouse
                             </div>
                             <p>Supports recurring and <b>automated invoicing</b> for subscription-based services.</p>
                           </div>
@@ -452,12 +495,12 @@ const Finance = () => {
                             <p>Define specific rules, like <b>delivery date</b> and <b>payment terms</b>.</p>
                           </div>
                         </div>
-                        
-                       
+
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-four">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -494,11 +537,11 @@ const Finance = () => {
                             <p>Establish <b>approval workflows</b> for budget requests.</p>
                           </div>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-five">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -535,11 +578,11 @@ const Finance = () => {
                             <p><b>Tracking cash reserves</b>, investments, and funding requirements.</p>
                           </div>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-six">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -576,11 +619,11 @@ const Finance = () => {
                             <p>Tracks maintenance schedules and <b>costs for assets</b>.</p>
                           </div>
                         </div>
-                     
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-seven">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -608,7 +651,7 @@ const Finance = () => {
                             <p>Plan revenue and expenses over a period.</p>
                           </div>
                         </div>
-                       
+
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -618,11 +661,11 @@ const Finance = () => {
                             <p>Manages contracts, <b>including billing schedules</b>, terms, and conditions.</p>
                           </div>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-eight">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -659,11 +702,11 @@ const Finance = () => {
                             <p><b>Integrate with payroll systems</b> to ensure timely reimbursement.</p>
                           </div>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div className="tab-pane fade" id="solution-nine">
-                    <div className="row">
+                      <div className="row">
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
@@ -700,7 +743,7 @@ const Finance = () => {
                             <p><b>Combine financial data</b> from multiple entities for consolidated reporting.</p>
                           </div>
                         </div>
-                        
+
                       </div>
                     </div>
                   </div>
@@ -721,8 +764,8 @@ const Finance = () => {
                 <div className="call-to-action-three">
                   <h2>Want to streamline your financial reporting?</h2>
                   <p>Leverage built-in templates and AI-driven analytics to get detailed insight.</p>
-                  <a  data-bs-toggle="modal"
-                      href="#exampleModal" className="btn bt-bg">Create Your Report Now!</a>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal" className="btn bt-bg">Create Your Report Now!</a>
                   <div className="im-abso">
                     <img src="/img/frame-shape.png" alt="frame-shape" width={650} height={736} />
                   </div>
@@ -873,7 +916,7 @@ const Finance = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                <Image src="/img/icon-inner-69.png" alt="micrsoft-nva-ds" width={48} height={48} />
+                  <Image src="/img/icon-inner-69.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Proven Expertise</h3>
                   <p>We have served <b>250+</b> clients globally with a <b>99%</b> success rate across a wide range of industries.</p>
                   <div className="bg-img">
@@ -884,7 +927,7 @@ const Finance = () => {
 
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
-                <Image src="/img/icon-inner-70.png" alt="micrsoft-nva-ds" width={48} height={48} />
+                  <Image src="/img/icon-inner-70.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Global Reach</h3>
                   <p>With a presence in <b>7</b> countries, including Canada, the UK, the USA, and India, Dynamics Square helps you optimize your global operation.</p>
                   <div className="img-flips">
@@ -894,7 +937,7 @@ const Finance = () => {
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
-                <Image src="/img/icon-inner-71.png" alt="micrsoft-nva-ds" width={48} height={48} />
+                  <Image src="/img/icon-inner-71.png" alt="micrsoft-nva-ds" width={48} height={48} />
                   <h3>Comprehensive Services</h3>
                   <p>Dynamics Square offers a full suite of services for D365 Finance, including consulting, implementation, and customization to ensure successful operation.</p>
 
@@ -951,7 +994,7 @@ const Finance = () => {
             </div>
           </div>
         </section>
-        <section id="section6"  className="pricing pricing-colo">
+        <section id="section6" className="pricing pricing-colo">
           <div className="container">
             <div className="row justify-content-center text-center">
               <div className="col-lg-8">
@@ -965,166 +1008,166 @@ const Finance = () => {
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>
-                  Dynamics 365 Finance 
+                    Dynamics 365 Finance
                   </h3>
                   <p>From</p>
                   <div className="price">
-                  $244.20(CAD)<span>user/month</span>
+                    $244.20(CAD)<span>user/month</span>
                   </div>
                   <ul>
                     <li>
-                      <i className="bi bi-check-lg"></i>Core Financials 
+                      <i className="bi bi-check-lg"></i>Core Financials
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Business performance planning (read-only access) 
+                      <i className="bi bi-check-lg"></i>Business performance planning (read-only access)
                     </li>
                     <li>
                       <i className="bi bi-check-lg"></i>Business performance analytics
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>AI and machine learning 
+                      <i className="bi bi-check-lg"></i>AI and machine learning
                     </li>
-                    
+
                   </ul>
                 </div>
               </div>
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>
-                  Dynamics 365 Finance Premium 
+                    Dynamics 365 Finance Premium
                   </h3>
                   <p>From</p>
                   <div className="price">
-                  $407.00(CAD)<span>user/month</span>
+                    $407.00(CAD)<span>user/month</span>
                   </div>
                   <ul>
                     <li>
-                      <i className="bi bi-check-lg"></i>Core Financials 
+                      <i className="bi bi-check-lg"></i>Core Financials
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Business performance planning (Admin access) 
+                      <i className="bi bi-check-lg"></i>Business performance planning (Admin access)
                     </li>
                     <li>
                       <i className="bi bi-check-lg"></i>Business performance analytics
                     </li>
                     <li>
-                      <i className="bi bi-check-lg"></i>Capacity and Storage 
+                      <i className="bi bi-check-lg"></i>Capacity and Storage
                     </li>
-                    
+
                   </ul>
                 </div>
               </div>
-             
+
 
               <div className="col-lg-12 col-md-12">
                 <div className="price-btn d-flex justify-content-center">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
-                   className="btn bt-bg">Get Started Now</a>
+                    className="btn bt-bg">Get Started Now</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="solution-faq faq" style={{marginTop:'-40px'}}>
+        <section className="solution-faq faq" style={{ marginTop: '-40px' }}>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9 ">
                 <header className="section-header-new text-center">
-                  <h2>Got any questions About <br/>Dynamics 365 Finance</h2>
+                  <h2>Got any questions About <br />Dynamics 365 Finance</h2>
                   <p>Click through to our FAQ for the best answers!</p>
                 </header>
               </div>
             </div>
             <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >What is Copilot in Dynamics 365 Finance? </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Copilot is an AI-powered assistant in Dynamics 365 Finance that helps automate routine tasks, suggest actions, and provide insights. It enhances productivity by reducing manual effort and allowing finance teams to focus on strategic activities.</p>
-                     
+              <div className="col-lg-8">
+                <div className="accordion accordion-flush" id="faqlist1">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-2"
+                      >What is Copilot in Dynamics 365 Finance? </button>
+                    </h3>
+                    <div
+                      id="faq-content-2"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Copilot is an AI-powered assistant in Dynamics 365 Finance that helps automate routine tasks, suggest actions, and provide insights. It enhances productivity by reducing manual effort and allowing finance teams to focus on strategic activities.</p>
+
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >Is Dynamics 365 Finance suitable for global businesses? </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Yes, Dynamics 365 Finance is designed to support global operations with multi-currency, multi-language, and localization features, making it an ideal solution for businesses operating in multiple regions.</p>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-3"
+                      >Is Dynamics 365 Finance suitable for global businesses? </button>
+                    </h3>
+                    <div
+                      id="faq-content-3"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Yes, Dynamics 365 Finance is designed to support global operations with multi-currency, multi-language, and localization features, making it an ideal solution for businesses operating in multiple regions.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >Can Dynamics 365 Finance integrate with other systems? </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Yes, Dynamics 365 Finance offers APIs and pre-built connectors for integration with third-party applications, other <a href="/solutions/microsoft-dynamics-365/">Dynamics 365 modules</a>, and Microsoft products like Office 365 and <a href="/solutions/microsoft-power-bi/">Power BI</a>.</p>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-4"
+                      >Can Dynamics 365 Finance integrate with other systems? </button>
+                    </h3>
+                    <div
+                      id="faq-content-4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Yes, Dynamics 365 Finance offers APIs and pre-built connectors for integration with third-party applications, other <a href="/solutions/microsoft-dynamics-365/">Dynamics 365 modules</a>, and Microsoft products like Office 365 and <a href="/solutions/microsoft-power-bi/">Power BI</a>.</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-5"
-                    >Can Dynamics 365 Finance be customized? </button>
-                  </h3>
-                  <div
-                    id="faq-content-5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Yes, Dynamics 365 Finance is highly customizable. You can tailor the system to fit your specific business needs by configuring workflows, creating custom reports, and integrating with other applications.</p>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-5"
+                      >Can Dynamics 365 Finance be customized? </button>
+                    </h3>
+                    <div
+                      id="faq-content-5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Yes, Dynamics 365 Finance is highly customizable. You can tailor the system to fit your specific business needs by configuring workflows, creating custom reports, and integrating with other applications.</p>
+                      </div>
                     </div>
                   </div>
+
                 </div>
-                
               </div>
             </div>
           </div>
-          </div>
         </section>
       </main>
-      
+
     </>
   );
 };
