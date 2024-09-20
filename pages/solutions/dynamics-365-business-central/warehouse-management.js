@@ -93,7 +93,7 @@ const Warehouse = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                <p>Microsoft <Link href="/solutions/dynamics-365-business-central/"><a><b>Dynamics 365 Business Central</b></a></Link> offers a comprehensive warehouse management system <b>(WMS)</b> to optimize inventory levels, improve warehouse efficiency, and elevate customer satisfaction.</p>
+                <p><Link href="/solutions/dynamics-365-business-central/"><a><b>Microsoft Dynamics 365 Business Central</b></a></Link> offers a comprehensive warehouse management system <b>(WMS)</b> to optimize inventory levels, improve warehouse efficiency, and elevate customer satisfaction.</p>
                 <p>You can access real-time insight with embedded barcode scanning, leading to reduced manual errors and improved order accuracy. Also, it enables efficient picking, packing, and shipping processes, regardless of business size.</p>
                 </div>
               </div>
@@ -106,8 +106,8 @@ const Warehouse = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
-                  <h2>How Can Business Central Transforms Supply Chain Management?</h2>
-                  <p>The D365 Business Central Supply Chain Management module offers several benefits to businesses, including a competitive edge and a space for recognizing growth opportunities.</p>
+                  <h2>Get the Best ERP System for Effective Warehouse Management </h2>
+                  <p>D365 Business Central comprises an embedded warehouse management system module that allows businesses to perform efficient warehouse operations. This module comes standard in the <a href="/blog/business-central-pricing-guide-canada/"><b>Business Central Essentials licensing plan</b></a> to help you cost-effectively streamline complex warehouse operations.</p>
                 </header>
               </div>
             </div>
@@ -130,14 +130,13 @@ const Warehouse = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-118.png" alt="Increased Business Agility" width={48} height={48} />
                   <h3>Increased Business Agility</h3>
-                  <p>Gain real-time insights into <Link href="/solutions/dynamics-365-supply-chain-management/"><a><b>inventory levels</b></a></Link>, order fulfillment status, and warehouse performance metrics to respond quickly to changing markets as well as customer demands.</p>
+                  <p>Gain real-time insights into inventory levels , order fulfillment status, and warehouse performance metrics to respond quickly to changing markets as well as customer demands.</p>
                 </div>
               </div>
             </div>
 
           </div>
         </section>
-
         <section>
           <div className="container">
             <div className="row bg-new-callaction m-o justify-content-center">
@@ -261,7 +260,7 @@ const Warehouse = () => {
                     <li>Are you accepting orders based on assumptions and struggling to fulfill them?  </li>
                     <li>Are you dealing with issues locating product orders while putting them away?  </li>
                   </ul>
-                  <p>There could be many more challenges you might be facing. To eliminate all such challenges and move towards the growth path, move forward with <Link href="/d365-business-central-implementation/"><a>D365 Business Central implementation</a></Link> for warehouse management.  </p>
+                  <p>There could be many more challenges you might be facing. To eliminate all such challenges and move towards the growth path, move forward with <Link href="/d365-business-central-implementation/"><a><b>D365 Business Central implementation</b></a></Link> for warehouse management.  </p>
                   <p>Business Central will eradicate all warehouse management issues while managing various departments of the businesses.  </p>
                 </div>
               </div>
@@ -280,7 +279,7 @@ const Warehouse = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                 <h2>Why Choose Dynamics Square for <br/>Warehouse Management?  </h2>
-                <p>We are a leading <Link href="/"><a>Dynamics 365 partner in Vancouver</a></Link> <b>(Canada)</b> with more than a decade of experience.</p>
+                <p>We are a leading <Link href="/"><a><b>Dynamics 365 partner in Vancouver</b></a></Link> <b>(Canada)</b> with more than a decade of experience.</p>
                 </header>
               </div>
             </div>

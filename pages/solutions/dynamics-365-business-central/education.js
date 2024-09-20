@@ -94,7 +94,7 @@ const Education = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                <p><b>Microsoft Dynamics 365 ERP</b> helps educational institutions reduce their operational stress by offering financial, HR, <Link href="/solutions/dynamics-365-human-resources/"><a><b>payroll</b></a></Link>, and scheduling functionalities. </p>
+                <p><b>Microsoft Dynamics 365 ERP</b> helps educational institutions reduce their operational stress by offering financial, <Link href="/solutions/dynamics-365-human-resources/"><a><b>HR</b></a></Link>, payroll, and scheduling functionalities. </p>
                 <p>Being an all-in-one solution, D365 BC comes with <b>ERP</b> and <b>CRM</b> features to help you streamline communication with students, provide performance data in real-time, utilize resources, and schedule classes from a single screen. </p>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const Education = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                 <h2>Digitalize Your Institution and Simplify Complex Processes</h2>
-                <p>Digitalization is the simplest route of business growth in this competitive world. Business Central for education institutions comes with absolute tools that can help you digitalize different processes and leverage automation. It will help you eliminate duplication, automate core processes, and build a streamlined communication channel.</p>
+                <p>Digitalization is the simplest route of business growth in this competitive world. <a href="/solutions/dynamics-365-business-central/"><b>Business Central</b></a> for education institutions comes with absolute tools that can help you digitalize different processes and leverage automation. It will help you eliminate duplication, automate core processes, and build a streamlined communication channel.</p>
                 </header>
               </div>
             </div>
@@ -164,7 +164,7 @@ const Education = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                 <h2>Empower Your Institutions with Adaptive and Flexible Functionalities </h2>
-                <p>Educational institutions need to offer unparalleled learning experience to students, manage financial transactions, and update parents with real-time data. Some other <Link href="/solutions/dynamics-365-business-central/"><a>Business Central features</a></Link> that can help institutions or schools are:</p>
+                <p>Educational institutions need to offer unparalleled learning experience to students, manage financial transactions, and update parents with real-time data. Some other Business Central features that can help institutions or schools are:</p>
                 </header>
               </div>
             </div>
@@ -188,7 +188,7 @@ const Education = () => {
                 <div className="card-two card-two-extra two-extra">
                   <img src="/img/icon-inner-99.png" alt="Financial Management" width={40} height={40} />
                   <h3>Financial Management</h3>
-                  <p>Track education resources, manage staff salaries, and reduce errors in <Link href="/solutions/microsoft-dynamics-365-finance/"><a><b>finance</b></a></Link>. Allocate realistic budgets across different departments and track the budget’s usage.</p>
+                  <p>Track education resources, manage staff salaries, and reduce errors in <Link href="/solutions/dynamics-365-business-central/financial-management/"><a><b>finance</b></a></Link>. Allocate realistic budgets across different departments and track the budget’s usage.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -217,7 +217,7 @@ const Education = () => {
                 <div className="card-two card-two-extra two-extra">
                   <img src="/img/icon-inner-103.png" alt="Project Management" width={40} height={40} />
                   <h3>Project Management</h3>
-                  <p>Efficiently plan, execute, and monitor various academic and administrative projects to ensure timely delivery and optimal <Link href="/solutions/dynamics-365-human-resources/"><a><b>resource allocation</b></a></Link>.</p>
+                  <p>Efficiently plan, execute, and monitor various academic and administrative projects to ensure timely delivery and optimal <Link href="/solutions/dynamics-365-business-central/project-management/"><a><b>resource allocation</b></a></Link>.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -257,7 +257,7 @@ const Education = () => {
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
                 <h2>Types of Educational Institutions That Can Use Dynamics BC </h2>
-                  <p>Dynamics 365 BC can be beneficial for a wide range of educational entities. </p>
+                  <p><a href="/solutions/dynamics-365-business-central/"><b>Dynamics Business Central</b></a> can be beneficial for a wide range of educational entities. </p>
                   <ul className="cut-ul">
                     <li><b>K-12 Schools</b>: Use Dynamics 365 Business Central to streamline administrative tasks </li>
                     <li><b>Universities and colleges</b>: Grant and manage funding for research and development. </li>

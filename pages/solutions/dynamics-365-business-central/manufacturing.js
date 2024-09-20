@@ -125,7 +125,7 @@ const Manufacturing = () => {
                 <div className="card-two card-two-extra">
                   <img src="/img/icon-inner-106.png" alt="Effective Inventory Management" width={48} height={48} />
                   <h3>Effective Inventory Management</h3>
-                  <p>Managing inventory with Dynamics BC is much easier. Track the list of stored items, understand production demand, and simplify process scheduling to <Link href="/solutions/dynamics-365-supply-chain-management/"><a><b>effectively manage inventory</b></a></Link>.</p>
+                  <p>Managing inventory with Dynamics BC is much easier. Track the list of stored items, understand production demand, and simplify process scheduling to <Link href="/solutions/dynamics-365-business-central/inventory-management/"><a><b>effectively manage inventory</b></a></Link>.</p>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -210,7 +210,7 @@ const Manufacturing = () => {
                 <div className="card-two card-two-extra two-extra">
                   <img src="/img/icon-inner-113.png" alt="Standard Cost Worksheet" width={40} height={40} />
                   <h3>Standard Cost Worksheet</h3>
-                    <p><Link href="/solutions/dynamics-365-supply-chain-management/"><a><b>Manage inventory</b></a></Link> and maintain the standard cost of finished items along with different components. Identify overruns and inefficiencies by correcting mistakes in the worksheet.</p>
+                    <p>Manage inventory and maintain the standard cost of finished items along with different components. Identify overruns and inefficiencies by correcting mistakes in the worksheet.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
@@ -267,7 +267,7 @@ const Manufacturing = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>Engineer to Order (ETO): Customize Products to Meet Specific Customer Requirements  </h2>
-                  <p><b>ETO</b> is a kind of manufacturing process where a <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>manufacturer produces</a></Link> a customized product based on a specific requirement. Production starts when the manufacturer receives an order for a certain quantity.</p>
+                  <p><b>ETO</b> is a kind of manufacturing process where a <Link href="/industries/microsoft-cloud-for-manufacturing/"><a><b>manufacturer produces</b></a></Link> a customized product based on a specific requirement. Production starts when the manufacturer receives an order for a certain quantity.</p>
                   <p>However, such manufacturers face challenges due to variant bills of materials <b>(BOMs)</b>, complex projects, and engineering revisions. Let's see how Business Central solves such complex issues:</p>
                   <ul className="cut-ul">
                     <li>Agile Bill of Materials (BOM) management</li>
@@ -347,7 +347,7 @@ const Manufacturing = () => {
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
                 <h2>Get Unmatched Expertise from Dynamics Square</h2>
-                <p>We are a leading <Link href="/"><a>Microsoft Solutions Partner</a></Link>, helping businesses like yours become smarter, more efficient, and more productive.</p>
+                <p>We are a leading <Link href="/"><a><b>Microsoft Solutions Partner</b></a></Link>, helping businesses like yours become smarter, more efficient, and more productive.</p>
                 </header>
               </div>
             </div>
