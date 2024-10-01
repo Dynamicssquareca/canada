@@ -438,7 +438,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Enterprise</h3>
                 <div className="price">
-                $128.90(CAD)<span> per user/month</span>
+                $142.50(CAD)<span> per user/month</span>
                 </div>
                 <p className="small-tt">
                 Industry-leading sales force automation with contextual insights and advanced customization capabilities
@@ -450,7 +450,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Premium</h3>
                 <div className="price">
-                $183.20(CAD)<span>per user/month</span>
+                $203.50(CAD)<span>per user/month</span>
                 </div>
                 <p className="small-tt">Dynamics 365 Sales Enterprise plus prebuilt customizable intelligence solutions for sellers and managers</p>
               </div>

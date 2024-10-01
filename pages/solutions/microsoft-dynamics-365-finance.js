@@ -969,7 +969,7 @@ const Finance = () => {
                   </h3>
                   <p>From</p>
                   <div className="price">
-                  $244.20(CAD)<span>user/month</span>
+                  $284.90(CAD)<span>user/month</span>
                   </div>
                   <ul>
                     <li>

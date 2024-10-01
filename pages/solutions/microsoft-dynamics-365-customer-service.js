@@ -360,7 +360,7 @@ const CustomerService = () => {
                   Enterprise
                 </h3>
                 <div className="price">
-                $128.90<span>per user/month</span>
+                $142.50<span>per user/month</span>
                 </div>
                 <ul>
                   <li>

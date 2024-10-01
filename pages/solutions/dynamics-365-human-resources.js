@@ -478,7 +478,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources
                 </h3>
                 <div className="price">
-                $162.80(CAD)<span>per user/monthh</span>
+                $183.20(CAD)<span>per user/monthh</span>
                 </div>
                 <ul>
                   <li className="text-center">

@@ -531,7 +531,7 @@ const SupplyChainManagement = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                  $244.20 (CAD)<span>per user/month</span>
+                  $284.90 (CAD)<span>per user/month</span>
                 </div>
                 <ul>
                   <li className="text-center">
