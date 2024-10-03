@@ -62,7 +62,8 @@
     { "source": "/blog/top-15-erp-systems-for-businesses/", "destination": "/blog/top-11-erp-systems-for-businesses/", "statusCode": 301 },
     { "source": "/assets/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf", "destination": "/blog/business-central-pricing-guide-canada/", "statusCode": 301 },
     { "source": "/blog/ms-dynamics-accounting/", "destination": "/blog/microsoft-dynamics-accounting/", "statusCode": 301 },
-    { "source": "/blog/preview/erp-systems-with-hr-and-payroll-capabilities/", "destination": "/blog/erp-systems-with-hr-and-payroll-capabilities/", "statusCode": 301 }
+    { "source": "/blog/preview/erp-systems-with-hr-and-payroll-capabilities/", "destination": "/blog/erp-systems-with-hr-and-payroll-capabilities/", "statusCode": 301 },
+    { "source": "/blog/dynamics-365-pricing-update/", "destination": "/blog/dynamics-365-pricing-october-2024-update/", "statusCode": 301 }
 
   ]
 }
