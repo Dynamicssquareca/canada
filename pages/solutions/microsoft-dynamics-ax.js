@@ -6,10 +6,10 @@ const MicrosoftDynamicsAX = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module</title>
+      <title>Microsoft Dynamics AX Axapta Upgrade & Support | Canada </title>
         <meta
           name="description"
-          content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square."
+          content="Microsoft Dynamics AX (Axapta), now Dynamics F&O, is a part of Dynamics 365, a suite of ERP/CRM solutions. MSFT Dynamics AX organize, automate and optimize businesses finances and operations. "
         />
         <link
           rel="canonical"
@@ -17,8 +17,9 @@ const MicrosoftDynamicsAX = () => {
         />
         <meta property="og:locale" content="CAD" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module" />
-        <meta property="og:description" content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square." />
+        <meta property="og:title" content="Microsoft Dynamics AX Axapta Upgrade & Support | Canada 
+" />
+        <meta property="og:description" content="Microsoft Dynamics AX (Axapta), now Dynamics F&O, is a part of Dynamics 365, a suite of ERP/CRM solutions. MSFT Dynamics AX organize, automate and optimize businesses finances and operations. " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
         <meta property="og:image" content="https://www.dynamicssquare.ca/img/azure-Banner.png" />
@@ -27,8 +28,9 @@ const MicrosoftDynamicsAX = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_ca" />
-        <meta name="twitter:title" content="Microsoft Dynamics AX (Support) Canada: On-premises Finance ERP Module" />
-        <meta name="twitter:description" content="Microsoft Dynamics AX seamlessly minimizes your operational spending and offers financial process automation for better visibility. Contact Dynamics Square." />
+        <meta name="twitter:title" content="Microsoft Dynamics AX Axapta Upgrade & Support | Canada 
+" />
+        <meta name="twitter:description" content="Microsoft Dynamics AX (Axapta), now Dynamics F&O, is a part of Dynamics 365, a suite of ERP/CRM solutions. MSFT Dynamics AX organize, automate and optimize businesses finances and operations. " />
         <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/azure-Banner.png" />
          <script
           type="application/ld+json"
@@ -90,7 +92,8 @@ const MicrosoftDynamicsAX = () => {
                 <br />
                 Dynamics AX
               </h1>
-              <p>Organize, automate, and better optimize your finances and operations using on-premises or in the cloud or the hybrid deployment of Dynamics AX - a modern enterprise resource planning (ERP) software package for global enterprises to effectively and efficiently manage their finance and operations.</p>
+              <span><b>Transform the Way You Manage Finance & Operations </b></span>
+              <p>Organize, automate, and better optimize your finances and operations using on-premises, in the cloud, or the hybrid deployment of Microsoft Dynamics AX—a modern enterprise resource planning <b>(ERP)</b> software package. This solution helps global enterprises effectively and efficiently manage their finance and operations. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -121,7 +124,10 @@ const MicrosoftDynamicsAX = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
                 <h2>What is Microsoft Dynamics AX?</h2>
-                <p>From the simple accounting and financial management software package for the Service, Manufacturing, Distribution, Public, and Retail Industries, IBM Axapta or Microsoft Dynamics AX, or Microsoft Dynamics 365 Finance and Operations (now Dynamics 365 Finance) is a new age business application. Organizations of varied sizes, ranging from small and mid-market sized to large international groups, use this Dynamics AX to organize, automate and optimize their finances and operations. For long-term investment, Dynamics AX is the best and most affordable choice for on-premises, in-the-cloud, or hybrid financial visibility solutions.</p>
+               <p>From the simple accounting and financial management software package for the Service, <b>Manufacturing</b>, Distribution, Public, and Retail Industries,<b> IBM Axapta</b> or Microsoft Dynamics AX, or <a href="/solutions/microsoft-dynamics-365-finance-operations/"><b>Microsoft Dynamics 365 Operations and Finance</b></a>  <b>(now Dynamics 365 Finance)</b> is a new age business application.</p>
+               <p>Organizations of varied sizes, ranging from small and mid-market sized to large international groups, use this MSFT Dynamics AX to organize, automate and optimize their finances and operations. For long-term investment, Dynamics AX Axapta is the best and most affordable choice for <b>on-premises</b>, in-the-cloud, or hybrid financial visibility solutions. </p>
+               <p>This versatile solution gives you the flexibility to manage your business operations and finances in a way that suits your unique needs. Whether you choose an on-premises, cloud, or hybrid deployment, ERP Microsoft Dynamics AX makes long-term investments in your business simple and scalable. </p>
+               <p><b>Why wait?</b> Start experiencing the difference with <b>MSFT Dynamics AX</b> today and regain control of your business operations. </p>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a
@@ -140,15 +146,22 @@ const MicrosoftDynamicsAX = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
                 <h2>Get Started with Dynamics AX today!</h2>
-                <p>If your finance and accounting software is hurting your business, read the below mentioned Dynamics AX features to revive your business operations:</p>
-              </div>
-              <ul>
-                <li>Easy deployment; on-premises, in-the-cloud, or hybrid</li>
-                <li>Affordable and transparent licensing and pricing</li>
-                <li>Interactive user interface makes it easy to adapt</li>
-                <li>Superior business intelligence than its competitors</li>
-                <li>Excellent support from Dynamics Square & the Microsoft Community</li>
+                <p>If your current <a href="/solutions/dynamics-365-business-central/"><b>finance and accounting software</b></a> is holding you back, check out these AX Dynamics software features to elevate your business operations: </p>
+                <ul>
+                <li><b>Easy deployment:</b> Microsoft Dynamics AX Axapta on-premises, cloud, and hybrid model provides you with the flexibility to adapt to changing business needs. </li>
+
+                <li><b>Affordable Pricing:</b> The cost of Microsoft Dynamics AX is transparent with flexible licensing options and an affordable ownership cost. </li>
+
+                <li><b>Interactive User Interface:</b> You can navigate its interface without the need for complex training, allowing you to adapt easily. </li>
+
+                <li><b>Advanced Business Intelligence:</b> Take advantage of superior analytics tools, including built-in Power BI integration, to turn data into actionable insights. </li>
+
+                <li><b>Superior business intelligence:</b> With built-in Power BI integration, you can turn data into actionable insights more easily.</li> 
+
+                <li><b>Dedicated Support:</b> With a trusted partner like Dynamics Square and a supportive Microsoft Dynamics AX community, you’ll always have help when you need it. </li>
               </ul>
+              </div>
+           
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="commen-lef-pic">
@@ -169,9 +182,9 @@ const MicrosoftDynamicsAX = () => {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Game-changing Capabilities of Dynamics AX </h2>
-                <p>Grow your business to scale by managing your by-products and collaterals, meeting evolving market demands, and following legal obligations. </p>
+                <p>Grow your business using Microsoft Dynamics AX Axapta to scale by managing your by-products and collaterals, meeting evolving market demands, and following legal obligations. </p>
                 <p><b>Flexibility & Cloud Deployment</b></p>
-                <p>It doesn't matter if you are using Microsoft Dynamics ERP on-premises or in the cloud using Azure. With Dynamics Square's extensive industry experience in implementing and supporting these systems, you can avail yourself of a desired productive ERP solution.</p>
+                <p>With the flexibility to use ERP Microsoft Dynamics AX on-premises or via Azure in the cloud, your business benefits from seamless deployment. With Dynamics Square's extensive industry experience in implementing and supporting these systems, you can avail yourself of a desired productive ERP solution. </p>
               </header>
             </div>
           </div>
@@ -713,7 +726,7 @@ const MicrosoftDynamicsAX = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-news-1"
-                    >What should I prefer to use Microsoft Dynamics AX?</button>
+                    >What is Microsoft Dynamics AX? </button>
                   </h3>
                   <div
                     id="faq-content-news-1"
@@ -721,7 +734,7 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist2"
                   >
                     <div className="accordion-body">
-                      <p>MS Dynamics AX is a highly integrated, easy-to-operate, and affordable enterprise resource planning (ERP) solution. It streamlines your critical finances and operations with fuller efficiency and effectiveness than its competitors. Contact a Silver or Gold Microsoft partner like Dynamics Square to implement Dynamics AX's cloud, on-premises, or hybrid version and start organizing, managing, and automating the repetitive and manual tasks.</p>
+                      <p>Microsoft Dynamics AX Axapta is an ERP solution designed for large-scale organizations. Initially launched as IBM Axapta, it became Microsoft Dynamics AX, and then Microsoft Finance and Operation. It provides comprehensive tools for managing finance, operations, supply chain, and human resources. This also supports industries like manufacturing, retail, and finance.  </p>
                     </div>
                   </div>
                 </div>
@@ -732,7 +745,7 @@ const MicrosoftDynamicsAX = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-news-2"
-                    >Can I still use Microsoft Dynamics AX for my business?</button>
+                    >What is the difference between Dynamics AX and Dynamics 365? </button>
                   </h3>
                   <div
                     id="faq-content-news-2"
@@ -740,7 +753,7 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist2"
                   >
                     <div className="accordion-body">
-                      <p>Unfortunately, no! But you can still avail yourself of support and upgrade services to some of its versions via Microsoft Dynamics 365 partner like us. The better option is to get started with Microsoft Dynamics 365 Finance - a cloud-based finance management app (earlier Microsoft Dynamics 365 Finance and operations). Also, if you need an app to intelligently manage your supply chain, then choose Dynamics 365 Supply Chain Management, another cloud-driven supply chain management (SCM) solution for your planning, logistics, distribution, or manufacturing purpose. </p>
+                      <p>The primary difference between Dynamics AX and Dynamics 365 lies in their architecture and approach. Dynamics AX Axapta was primarily an on-premises ERP solution, while Dynamics 365 is a cloud-based suite that includes modules like Finance and Supply Chain Management (formerly AX components). Dynamics 365 offers more scalability, integration, and real-time analytics, and enables easier updates and customization. In short, Dynamics 365 is a more flexible, cloud-first evolution of ERP software Microsoft Dynamics AX. </p>
                     </div>
                   </div>
                 </div>
@@ -751,9 +764,7 @@ const MicrosoftDynamicsAX = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-news-3"
-                    >
-                     What is the Difference between Dynamics AX and Dynamics 365? 
-                    </button>
+                    >What is AX used for? </button>
                   </h3>
                   <div
                     id="faq-content-news-3"
@@ -761,11 +772,49 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist2"
                   >
                     <div className="accordion-body">
-                      <p>Microsoft Dynamics 365 is an all-in-one cloud-based suite of intelligent business apps that includes Dynamics 365 Finance, Project Operations, Customer Service, and an all-in-one ERP/CRM app like Dynamics 365 Business Central for small and mid-market size businesses. Whereas MSFT Dynamics AX is a full-fledged ERP solution for managing finances and operations only.</p>
+                      <p>Dynamics AX is used for managing and automating core business functions, such as financial management, <a href="/solutions/dynamics-365-supply-chain-management/"><b>supply chain operations</b></a>, human resources, and manufacturing processes. It’s designed to streamline complex operations, provide real-time data insights, and ensure regulatory compliance for large enterprises across. With its scalable structure, it supports global operations, multi-language capabilities, and flexible deployment models. </p>
                     </div>
                   </div>
                 </div>
-                
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-4"
+                    >What is the role of Dynamics AX? </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p><b>Microsoft AX Dynamics</b> manages various activities, including finance, accounting, supply chain, and human resources, providing real-time insights and automating repetitive tasks. Its primary goal is to help large enterprises improve operational efficiency, reduce costs, and maintain compliance across global operations. This makes it a key tool for business optimization and decision-making.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-5"
+                    >What is the new name for Dynamics AX? </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p>The new name for Dynamics AX is Dynamics 365 Finance and Supply Chain Management. As part of Microsoft's rebranding and shift towards cloud-based solutions, the core functionalities of AX Dynamics software have been divided into two separate but integrated modules: Dynamics 365 Finance, which focuses on financial management, and Dynamics 365 Supply Chain Management, which handles logistics and operations. This shift allows for enhanced scalability, real-time updates, and easier integration with other <a href="/solutions/microsoft-dynamics-365/"><b>Microsoft Dynamics 365</b></a> Business Applications. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

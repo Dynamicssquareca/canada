@@ -158,7 +158,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header section-header-color">
-                  <h2>Dynamics 365 F&O: Empower <br />Your Business Operations</h2>
+                  <h2>Dynamics 365 F&O: Handle Global Operation, Manage Procurement, and Ensure Production Quality </h2>
                 </header>
               </div>
             </div>
@@ -170,7 +170,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p><b>Dynamics 365 Finance and Operations (F&O)</b> is a cloud-based ERP solution that helps maximize financial visibility and profitability, unify finance and operation, make fast and informed decisions, and adapt to the changing landscape of market demands. </p>
+                  <p><b>Dynamics 365 Operations and Finance</b> is a cloud-based ERP solution that helps maximize financial visibility and profitability, unify finance and operation, make fast and informed decisions, and adapt to the changing landscape of market demands. </p>
                   <p>You can predict finance, manage your global operation, accelerate financial processes, optimize warehouses efficiently, and derive rapid business growth with Dynamics F&O. Its automation capabilities empower you to save time and reduce costs on invoice processing, inventory management, and financial workflows.</p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
                   <h2>Achieve Operational Excellence with Dynamics 365 F&O</h2>
-                  <p>Get real-time financial data, streamline procurement & sourcing, automate workflow, and derive smarter decisions with Dynamics 365 F&O.</p>
+                  <p>Get real-time financial data, streamline procurement & sourcing, automate workflow, and derive smarter decisions with Dynamics 365 Operations and Finance.</p>
                 </header>
               </div>
             </div>
@@ -315,7 +315,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
                   <h2>Harness the Power of Dynamics F&O Capabilities</h2>
-                  <p>Plan your budget accurately, get end-to-end visibility of your operation, and ensure production quality with Dynamics F&O capabilities.</p>
+                 <p>Plan your budget accurately, get end-to-end visibility of your operation, and ensure production quality with D365 Finance and Operations capabilities. </p>
                 </header>
               </div>
             </div>
@@ -693,7 +693,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-lg-7">
                 <div className="call-to-action-three">
                   <h2>Streamline Production and Financial Processes for Faster Delivery! Accelerate Time-to-Market</h2>
-                  <p>Switch now to Dynamics F&O to speed up your operation by synchronizing finance and supply chain activities.</p>
+                  <p>Switch now to D365 Finance and Operations to speed up your operation by synchronizing finance and supply chain activities.</p>
                   <a  data-bs-toggle="modal"
                       href="#exampleModal" className="btn bt-bg">Switch Now!</a>
                   <div className="im-abso">
@@ -722,7 +722,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
                   <h3>Comprehensive Financial Management</h3>
-                  <p>D365 F&O comes embedded with standard capabilities that include <b>general ledger</b>, accounts receivable and payable, <b>multi-currency support</b>, fixed assets, and budgeting.</p>
+                  <p>Finance and Operations comes embedded with standard capabilities that include <b>general ledger</b>, accounts receivable and payable, <b>multi-currency support</b>, fixed assets, and budgeting.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
@@ -788,7 +788,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                   </div>
                   <div className="info-card">
                     <h3>Smooth Transition to Dynamics F&O</h3>
-                    <p>Seamlessly upgrade to the latest version with minimal disruption.</p>
+                    <p>Seamlessly upgrade to the latest version of Finance and Operations with minimal disruption.</p>
                     <div className="act-bb">
                       <a href="/services/dynamics-365-upgrade/" >Switch to Tech! <i className="bi bi-arrow-right"></i></a>
                     </div>
@@ -859,8 +859,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
                 <Image src="/img/icon-inner-82.png" alt="icon-inner-80" width={48} height={48} />
-                  <h3>Proven Track Record</h3>
-                  <p>With over <b>250</b> global clients and a <b>99%</b> satisfaction rate, Dynamics Square delivers successful digital transformations.</p>
+                  <h3>Deep Understanding of Dynamics F&O</h3>
+                  <p>Our consultants have in-depth knowledge of Dynamics F&O and its capabilities, ensuring a <b>99%</b> satisfaction rate. </p>
                   <div className="img-flips">
                     <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
@@ -869,8 +869,8 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
                 <Image src="/img/icon-inner-83.png" alt="icon-inner-80" width={48} height={48} />
-                  <h3>Years of Experience</h3>
-                  <p>We ensure businesses can leverage the full power of Dynamics 365 solutions with our <b>14+</b> years of experience and a team of <b>150+</b> Microsoft-certified consultants.</p>
+                  <h3>Proven Methodology </h3>
+                  <p>We follow Microsoft sure step methodologies to ensure successful digital transformations, allowing you to leverage the full power of <a href="/solutions/microsoft-dynamics-365/"><b>Dynamics 365 solutions</b></a>. </p>
 
                 </div>
               </div>
@@ -891,7 +891,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
               <div className="col-lg-6">
                 <header className="section-header-new">
                   <h2>Dynamics 365 Finance & Operations: Now Two Distinct Solutions, Starting a New Era</h2>
-                  <p>Microsoft has split Dynamics 365 F&O into two distinct applications to provide more specialized functionality: Dynamics 365 Finance and Dynamics 365 Supply Chain Management.</p>
+                  <p>Microsoft has split Dynamics 365 Operations and Finance into two distinct applications to provide more specialized functionality: Dynamics 365 Finance and Dynamics 365 Supply Chain Management. </p>
                 </header>
               </div>
             </div>
@@ -1051,7 +1051,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics 365 Finance & Operations consists of several modules tailored to specific business functions.</p>
+                      <p>Dynamics 365 Operations and Finance consists of several modules tailored to specific business functions.</p>
                       <ul>
                         <li><b>Finance:</b> Manages <a href="/solutions/microsoft-dynamics-365-finance/">general ledger</a>, accounts payable/receivable, budgeting, and financial reporting.</li>
                         <li><b>Supply Chain Management:</b> Handles procurement, <a href="/solutions/dynamics-365-supply-chain-management/">inventory management</a>, warehousing, and logistics.</li>
@@ -1076,7 +1076,7 @@ const MicrosoftDynamics365FinanceOperationsNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Microsoft has split Dynamics 365 F&O into two separate applications: Microsoft Dynamics 365 Finance and Supply Chain.</p>
+                      <p>Microsoft has split D365 Finance and Operations into two separate applications: Microsoft Dynamics 365 Finance and Supply Chain.</p>
                       <p><b>Dynamics 365 Finance</b> focuses on financial management and accounting functions. <b>D365 Supply Chain Management</b> concentrates on supply chain, manufacturing, and logistics operations.</p>
                     </div>
                   </div>

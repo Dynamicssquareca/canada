@@ -1790,6 +1790,7 @@ height:auto
 .rigt-conte-vs1 {
   padding-top: 30px;
 }
+
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 500;
@@ -4996,6 +4997,7 @@ height:auto
   font-size: 24px;
     color: #545454;
 }
+
 .bg-333,
 .new-bg {
   background-color: var(--color-bg);
@@ -11670,6 +11672,9 @@ color: #385575 !important;
 }
 .vide-sss{
   text-align: center;
+}
+.commen-rit-info ul li{
+  margin-bottom:10px
 }
 /*solution new template css End */
 @media (min-width: 1200px) and (max-width: 1400px) {
