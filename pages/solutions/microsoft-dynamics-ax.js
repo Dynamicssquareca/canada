@@ -9,7 +9,7 @@ const MicrosoftDynamicsAX = () => {
       <title>Microsoft Dynamics AX Axapta Upgrade & Support | Canada </title>
         <meta
           name="description"
-          content="Microsoft Dynamics AX (Axapta), now Dynamics F&O, is a part of Dynamics 365, a suite of ERP/CRM solutions. MSFT Dynamics AX organize, automate and optimize businesses finances and operations. "
+          content="Microsoft Dynamics AX Axapta is an ERP solution designed for large-scale organizations. Initially launched as IBM Axapta, it became Microsoft Dynamics AX, and then Microsoft Finance and Operation.  "
         />
         <link
           rel="canonical"
@@ -19,7 +19,7 @@ const MicrosoftDynamicsAX = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Microsoft Dynamics AX Axapta Upgrade & Support | Canada 
 " />
-        <meta property="og:description" content="Microsoft Dynamics AX (Axapta), now Dynamics F&O, is a part of Dynamics 365, a suite of ERP/CRM solutions. MSFT Dynamics AX organize, automate and optimize businesses finances and operations. " />
+        <meta property="og:description" content="Microsoft Dynamics AX Axapta is an ERP solution designed for large-scale organizations. Initially launched as IBM Axapta, it became Microsoft Dynamics AX, and then Microsoft Finance and Operation.  " />
         <meta property="og:url" content="https://www.dynamicssquare.ca/solutions/microsoft-dynamics-ax/" />
         <meta property="og:site_name" content="Dynamics Square CA" />
         <meta property="og:image" content="https://www.dynamicssquare.ca/img/azure-Banner.png" />
@@ -30,7 +30,7 @@ const MicrosoftDynamicsAX = () => {
         <meta name="twitter:site" content="@dsquare_ca" />
         <meta name="twitter:title" content="Microsoft Dynamics AX Axapta Upgrade & Support | Canada 
 " />
-        <meta name="twitter:description" content="Microsoft Dynamics AX (Axapta), now Dynamics F&O, is a part of Dynamics 365, a suite of ERP/CRM solutions. MSFT Dynamics AX organize, automate and optimize businesses finances and operations. " />
+        <meta name="twitter:description" content="Microsoft Dynamics AX Axapta is an ERP solution designed for large-scale organizations. Initially launched as IBM Axapta, it became Microsoft Dynamics AX, and then Microsoft Finance and Operation.  " />
         <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/azure-Banner.png" />
          <script
           type="application/ld+json"
