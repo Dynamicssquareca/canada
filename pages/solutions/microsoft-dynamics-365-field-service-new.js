@@ -163,10 +163,10 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row bg-new-callaction justify-content-center">
               <div className="col-lg-9">
                 <div className="solution-new-caltoaction">
-                  <h2>Are you tired of manual sales processes slowing down your team?</h2>
-                  <p>Dynamics 365 Sales can automate repetitive tasks and boost productivity.</p>
+                  <h2>Having difficulty analyzing and improving technician performance? </h2>
+                  <p>Dynamics 365 Field Service offers advanced reporting and real-time dashboards for actionable insights, improving performance. </p>
                   <a data-bs-toggle="modal"
-                      href="#exampleModal" className="btn bt-bg">Get in touch now!</a>
+                      href="#exampleModal" className="btn bt-bg">Schedule a demo! </a>
                 </div>
                 <div className="ffloting-pic">
                   <img src="/img/new-shape-call.png" alt="new-shape-call" width={404} height={192} />
@@ -185,8 +185,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
-                  <h2>Accelerate Growth and Drive Success with Dynamics 365 Sales</h2>
-                  <p>Automate repetitive tasks, strengthen customer relationships, and prioritize high prospect leads with Dynamics 365 Sales.</p>
+                  <h2>Maximizing Efficiency with Dynamics 365 Field Service Benefits </h2>
+                  <p>Improve customer satisfaction, increase service agent productivity, enhance decision-making, and improve resource utilization with D365 Field Service. </p>
                 </header>
               </div>
             </div>
@@ -194,97 +194,97 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-60.png" alt="Enhanced Sales Efficiency, Make Data-Driven Decision" width={40} height={40} />
-                  <h3>Enhanced Sales Efficiency, Make Data-Driven Decision</h3>
+                  <img src="/img/icon-inner-60.png" alt="Optimized Resource Scheduling " width={40} height={40} />
+                  <h3>Optimized Resource Scheduling </h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Optimize sales processes</span></li>
-                    <li><i className="bi bi-check"></i><span>Close more deals faster</span></li>
-                    <li><i className="bi bi-check"></i><span>Prioritize leads and opportunities</span></li>
-                    <li><i className="bi bi-check"></i><span>Focus on qualified prospects</span></li>
+                    <li><i className="bi bi-check"></i><span>Reduced rescheduled appointments </span></li>
+                    <li><i className="bi bi-check"></i><span>Automatically adjust schedules </span></li>
+                    <li><i className="bi bi-check"></i><span>Accommodate last-minute changes </span></li>
+                    <li><i className="bi bi-check"></i><span>Increase technician efficiency </span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-61.png" alt="Comprehensive Customer Engagement, Higher Satisfaction Level" width={40} height={40} />
-                  <h3>Comprehensive Customer Engagement, Higher Satisfaction Level</h3>
+                  <img src="/img/icon-inner-61.png" alt="Enhanced Customer Experienc" width={40} height={40} />
+                  <h3>Enhanced Customer Experienc</h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Exceed customer expectations</span></li>
-                    <li><i className="bi bi-check"></i><span>Build lasting relationships</span></li>
-                    <li><i className="bi bi-check"></i><span>Foster stronger connections</span></li>
-                    <li><i className="bi bi-check"></i><span>Higher growth opportunities</span></li>
+                    <li><i className="bi bi-check"></i><span>Real-time appointment visibility </span></li>
+                    <li><i className="bi bi-check"></i><span>Automated appointment status notifications </span></li>
+                    <li><i className="bi bi-check"></i><span>Track technician’s arrival </span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce waiting times</span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-62.png" alt="Sales Process Automation, Boost Productivity" width={40} height={40} />
-                  <h3>Sales Process Automation, Boost Productivity</h3>
+                  <img src="/img/icon-inner-62.png" alt="Proactive Maintenance " width={40} height={40} />
+                  <h3>Proactive Maintenance </h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Simplify repeatable sales processes</span></li>
-                    <li><i className="bi bi-check"></i><span>Reduce burden of administrative tasks</span></li>
-                    <li><i className="bi bi-check"></i><span>Automate workflows</span></li>
-                    <li><i className="bi bi-check"></i><span>Generate meeting summaries</span></li>
+                    <li><i className="bi bi-check"></i><span>Get real-time data </span></li>
+                    <li><i className="bi bi-check"></i><span>Monitor equipment condition </span></li>
+                    <li><i className="bi bi-check"></i><span>Automate maintenance requests </span></li>
+                    <li><i className="bi bi-check"></i><span>Extend asset lifespan </span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-63.png" alt="Improved Task Management, Better Collaboration" width={40} height={40} />
-                  <h3>Improved Task Management, Better Collaboration</h3>
+                  <img src="/img/icon-inner-63.png" alt="Improved First-Time Fix Rate " width={40} height={40} />
+                  <h3>Improved First-Time Fix Rate </h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Prepare for more complex tasks</span></li>
-                    <li><i className="bi bi-check"></i><span>Reduce data loss risk</span></li>
-                    <li><i className="bi bi-check"></i><span>Stick to deadline</span></li>
-                    <li><i className="bi bi-check"></i><span>Optimize work allocation</span></li>
+                    <li><i className="bi bi-check"></i><span>Access to service history </span></li>
+                    <li><i className="bi bi-check"></i><span>Support mixed reality tools </span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce operational cost </span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce downtime </span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-64.png" alt="Real-Time Pipeline Insights, Make Accurate and Fast Decisions" width={40} height={40} />
-                  <h3>Real-Time Pipeline Insights, Make Accurate and Fast Decisions</h3>
+                  <img src="/img/icon-inner-64.png" alt="Route Optimization, Reduce Travel Tim" width={40} height={40} />
+                  <h3>Route Optimization, Reduce Travel Tim</h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Deeper sales pipeline insight</span></li>
-                    <li><i className="bi bi-check"></i><span>Track key performance indicators</span></li>
-                    <li><i className="bi bi-check"></i><span>Predict revenue</span></li>
-                    <li><i className="bi bi-check"></i><span>Identify areas for improvement</span></li>
+                    <li><i className="bi bi-check"></i><span>Optimize route </span></li>
+                    <li><i className="bi bi-check"></i><span>Minimize fuel consumption </span></li>
+                    <li><i className="bi bi-check"></i><span>Efficient technician scheduling </span></li>
+                    <li><i className="bi bi-check"></i><span>Reduce unnecessary travel </span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-65.png" alt="Scale Your Business, Increase Revenue Potential" width={40} height={40} />
-                  <h3>Scale Your Business, Increase Revenue Potential</h3>
+                  <img src="/img/icon-inner-65.png" alt="Accurate Arrival Times" width={40} height={40} />
+                  <h3>Accurate Arrival Times</h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Reach to new market</span></li>
-                    <li><i className="bi bi-check"></i><span>Get competitive edge</span></li>
-                    <li><i className="bi bi-check"></i><span>Improve profitability</span></li>
-                    <li><i className="bi bi-check"></i><span>Ensure long-term sustainability</span></li>
+                    <li><i className="bi bi-check"></i><span>Track real-time technician locations </span></li>
+                    <li><i className="bi bi-check"></i><span>Accurate estimated arrival times </span></li>
+                    <li><i className="bi bi-check"></i><span>Get traffic updates </span></li>
+                    <li><i className="bi bi-check"></i><span>Notify arrival times changes </span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-66.png" alt="Improved Customer Interaction, Fast Query Resolution" width={40} height={40} />
-                  <h3>Improved Customer Interaction, Fast Query Resolution</h3>
+                  <img src="/img/icon-inner-66.png" alt="Technician Management " width={40} height={40} />
+                  <h3>Technician Management </h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Boost brand image</span></li>
-                    <li><i className="bi bi-check"></i><span>Improve profit margin</span></li>
-                    <li><i className="bi bi-check"></i><span>Ensure repeat business</span></li>
-                    <li><i className="bi bi-check"></i><span>Foster trust</span></li>
+                    <li><i className="bi bi-check"></i><span>Faster issue resolution </span></li>
+                    <li><i className="bi bi-check"></i><span>Identify technicians with intended skills </span></li>
+                    <li><i className="bi bi-check"></i><span>Get technical assistance </span></li>
+                    <li><i className="bi bi-check"></i><span>Complete more service calls </span></li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-67.png" alt="Embedded Copilot, Intelligent Assistance" width={40} height={40} />
-                  <h3>Embedded Copilot, Intelligent Assistance</h3>
+                  <img src="/img/icon-inner-67.png" alt="Manage Follow-Up " width={40} height={40} />
+                  <h3>Manage Follow-Up </h3>
                   <ul>
-                    <li><i className="bi bi-check"></i><span>Achieve better results</span></li>
-                    <li><i className="bi bi-check"></i><span>Deliver tailored customer experience</span></li>
-                    <li><i className="bi bi-check"></i><span>Gain detailed data analysis</span></li>
-                    <li><i className="bi bi-check"></i><span>Make data-driven decisions</span></li>
+                    <li><i className="bi bi-check"></i><span>Easily schedule follow-up tasks </span></li>
+                    <li><i className="bi bi-check"></i><span>Provide timely attention </span></li>
+                    <li><i className="bi bi-check"></i><span>Identify upsell and cross-sell opportunities </span></li>
+                    <li><i className="bi bi-check"></i><span>Improve service quality </span></li>
                   </ul>
                 </div>
               </div>
@@ -300,8 +300,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
-                  <h2>Boost Sales Productivity with Cutting-Edge Features</h2>
-                  <p>Improve your sales team productivity, automate workflow, predict market trends, and make data-driven decisions with Dynamics 365 Sales.</p>
+                  <h2>Must-Have Features for Enhanced Agent Performance</h2>
+                  <p>Customize work orders, adjust schedules in real-time, and monitor equipment with IoT integration with Dynamics Field Service. </p>
                 </header>
               </div>
             </div>
@@ -310,13 +310,13 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
                 <div className="d-flex align-items-start new-solution-tab">
                   <div className="nav flex-column nav-pills me-3" id="solu-pills-tab">
-                    <div className="nav-link active" id="solution-one-tab" data-bs-toggle="pill" data-bs-target="#solution-one" ><h3>Collaboration Across Teams</h3></div>
-                    <div className="nav-link" id="solution-two-tab" data-bs-toggle="pill" data-bs-target="#solution-two"><h3>Microsoft Copilot Integration</h3></div>
-                    <div className="nav-link" id="solution-three-tab" data-bs-toggle="pill" data-bs-target="#solution-three"><h3>AI-Driven Lead Scoring</h3></div>
-                    <div className="nav-link" id="solution-four-tab" data-bs-toggle="pill" data-bs-target="#solution-four"><h3>Adaptive Sales Guidance</h3></div>
-                    <div className="nav-link" id="solution-five-tab" data-bs-toggle="pill" data-bs-target="#solution-five"><h3>Predictive Analytics</h3></div>
-                    <div className="nav-link" id="solution-six-tab" data-bs-toggle="pill" data-bs-target="#solution-six"><h3>Automated Sales Processes</h3></div>
-                    <div className="nav-link" id="solution-seven-tab" data-bs-toggle="pill" data-bs-target="#solution-seven"><h3>Customer Data Unification</h3></div>
+                    <div className="nav-link active" id="solution-one-tab" data-bs-toggle="pill" data-bs-target="#solution-one" ><h3>Work Order Management</h3></div>
+                    <div className="nav-link" id="solution-two-tab" data-bs-toggle="pill" data-bs-target="#solution-two"><h3>Resource Scheduling and Dispatch</h3></div>
+                    <div className="nav-link" id="solution-three-tab" data-bs-toggle="pill" data-bs-target="#solution-three"><h3>Mobile App for Field Technicians </h3></div>
+                    <div className="nav-link" id="solution-four-tab" data-bs-toggle="pill" data-bs-target="#solution-four"><h3>IoT Integration and Predictive Maintenance </h3></div>
+                    <div className="nav-link" id="solution-five-tab" data-bs-toggle="pill" data-bs-target="#solution-five"><h3>Inventory Managemen</h3></div>
+                    <div className="nav-link" id="solution-six-tab" data-bs-toggle="pill" data-bs-target="#solution-six"><h3>Service Agreements and Contracts </h3></div>
+                   
                   </div>
                 </div>
               </div>
@@ -329,54 +329,72 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Cross-Department Collaboration
+                              Automated Work Order Generation 
                             </div>
-                            <p>Enhances collaboration between sales, marketing, and service teams.</p>
+                            <p>Create work orders automatically from various triggers. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Shared Customer Insights
+                              Work Order Lifecycle Tracking 
                             </div>
-                            <p>Improve communication and alignment with customer needs across departments.</p>
+                            <p>Monitor work order progress from creation to completion. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Integrated Communication Tools
+                              Work Order Templates 
                             </div>
-                            <p>Utilize platforms like Microsoft Teams to streamline information sharing.</p>
+                            <p>Standardize work orders with predefined templates. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Real-Time Collaboration
+                              Task and Subtask Management 
                             </div>
-                            <p>Enable real-time collaboration for quicker decision-making and problem-solving.</p>
+                            <p>Break down complex work orders into smaller tasks. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Unified Sales Strategies
+                              Priority and Status Indicators 
                             </div>
-                            <p>Create a cohesive sales approach across departments to maximize results.</p>
+                            <p>Prioritize and track work order status effectively. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Enhanced Team Productivity
+                              Service Task Assignments 
                             </div>
-                            <p>Increase overall team efficiency and productivity through better collaboration.</p>
+                            <p>Assign tasks to technicians based on expertise and availability. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Work Order Customization 
+                            </div>
+                            <p>Tailor work orders to fit specific business needs. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Work Order Escalation Process 
+                            </div>
+                            <p>Address high-priority work orders promptly. </p>
                           </div>
                         </div>
                         
@@ -388,54 +406,81 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Automated Task Management
+                              Dynamic Scheduling Board 
                             </div>
-                            <p>Automates repetitive tasks like email drafting and meeting summaries.</p>
+                            <p>Visualize technician schedules, assignments, and availability. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Real-Time Insights
+                              Drag-and-Drop Scheduling Interface 
                             </div>
-                            <p>Provide real-time insights to inform sales decisions and actions</p>
+                            <p>Easily assign or reassign jobs to technicians. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Enhanced Meeting Preparation
+                              Technician Skill Matching 
                             </div>
-                            <p>Generate comprehensive meeting summaries to optimize preparation and follow-up.</p>
+                            <p>Match work orders to technicians based on skills. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              AI-Powered Follow-Up
+                              Proximity-Based Technician Dispatch 
                             </div>
-                            <p>Improve follow-up effectiveness through AI-powered suggestions.</p>
+                            <p>Dispatch technicians based on their proximity to the job site. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Security and Compliance
+                              Real-Time Schedule Adjustments 
                             </div>
-                            <p>Protect sensitive customer data with robust security measures.</p>
+                            <p>Adjust schedules in real time to accommodate emergency requests. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Cross-Platform Data Syncing
+                              Multi-Resource Scheduling 
                             </div>
-                            <p>Integrate with existing business applications for a seamless workflow.</p>
+                            <p>Schedule multiple technicians, equipment, or vehicles required for a single job. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Capacity Planning and Forecasting 
+                            </div>
+                            <p>Plan resource capacity and forecast future workloads. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Automated Schedule Optimization 
+                            </div>
+                            <p>Optimize schedules using AI-driven algorithms. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Overtime and Shift Scheduling 
+                            </div>
+                            <p>Manage technician shifts and overtime to minimize overtime. </p>
                           </div>
                         </div>
                         
@@ -447,54 +492,81 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Prioritize High-Value Leads
+                              Offline Functionality 
                             </div>
-                            <p>Identify high-potential leads to prioritize who is more likely to convert</p>
+                            <p>Access work orders, customer information, and other critical data offline. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Dynamic Scoring Adjustments
+                              Real-Time Work Order Updates 
                             </div>
-                            <p>Real-time updates to stay focused on high-potential prospects.</p>
+                            <p>Receive real-time updates on work orders. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Increased Conversion Rates
+                              GPS-Enabled Route Optimization 
                             </div>
-                            <p>Increase sales conversion rates by focusing on qualified leads.</p>
+                            <p>Get optimized routes for navigation to reach the job sites quickly. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Data-Driven Decision Making
+                              Push Notifications and Alerts 
                             </div>
-                            <p>Make data-driven decisions to optimize sales strategies.</p>
+                            <p>Receive notifications for assignments and updates. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Customization of Scoring Criteria
+                              Mobile Signature Capture 
                             </div>
-                            <p>Customize scoring models to fit your unique sales processes and criteria.</p>
+                            <p>Capture signatures directly on the mobile device. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Improved Sales Forecasting
+                              Parts and Equipment Lookup 
                             </div>
-                            <p>Predict accurate revenue and set realistic sales goals based on lead scores.</p>
+                            <p>Search for parts and equipment availability directly from the app. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Mobile Time Logging 
+                            </div>
+                            <p>Log in time spent on tasks, ensuring accurate labor hours.  </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Photo and Video Documentation 
+                            </div>
+                            <p>Capture visual evidence of work to show service is performed. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Interactive Customer Forms 
+                            </div>
+                            <p>Fill out and submit forms directly from the app.  </p>
                           </div>
                         </div>
                         
@@ -507,63 +579,81 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Contextual Sales Advice
+                              IoT Sensor Integration 
                             </div>
-                            <p>Provide actionable strategies and insights based on the current sales stage.</p>
+                            <p>Integrate with IoT sensors for equipment monitoring. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Budget Control
+                              Real-Time Equipment Monitoring 
                             </div>
-                            <p>Prevent overspending by <b>monitoring expenditures</b> against budgeted amounts.</p>
+                            <p>Monitor equipment performance with real-time data on performance metrics. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Automated Sales Sequences
+                              Automated Maintenance Alerts 
                             </div>
-                            <p>Automate routine sales tasks to increase efficiency.</p>
+                            <p>Trigger maintenance alerts based on IoT data. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Proactive Opportunity Management
+                              Predictive Maintenance Scheduling 
                             </div>
-                            <p>Alerts reps about potential risks and opportunities proactively.</p>
+                            <p>Ensure equipment is serviced before breakdown with schedule maintenance. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Personalized Selling Strategies
+                              Anomaly Detection Algorithms 
                             </div>
-                            <p>Customizes sales approaches based on customer data.</p>
+                            <p>Detect anomalies in IoT data for early intervention. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Sales Playbooks
+                              Remote Diagnostics 
                             </div>
-                            <p>Leverage pre-defined sales best practices for improved outcomes.</p>
+                            <p>Perform diagnostics remotely to reduce on-site visits. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              AI-Driven Next Best Actions
+                              Proactive Service Scheduling 
                             </div>
-                            <p>Recommend the most effective next steps based on AI analysis.</p>
+                            <p>Ensure equipment works in optimal condition with proactive schedule service. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              IoT Data Analytics 
+                            </div>
+                            <p>Get insights into equipment performance, usage patterns, and maintenance needs. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Condition-Based Maintenance Triggers 
+                            </div>
+                            <p>Trigger maintenance based on specific conditions to prevent failures. </p>
                           </div>
                         </div>
                         
@@ -575,56 +665,75 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Data-Driven Forecasting
+                              Real-Time Inventory Tracking 
                             </div>
-                            <p>Uses historical and real-time data for accurate sales predictions.</p>
+                            <p>Monitor inventory levels across locations to ensure availability. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Risk Identification 
+                              Parts Availability Check 
                             </div>
-                            <p>Identify potential risks in the pipeline that could impact revenue.</p>
+                            <p>Check parts availability before scheduling jobs, reducing delay risk. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Scenario Modeling
+                              Warehouse Location Mapping 
                             </div>
-                            <p>Model different sales scenarios, like <b>"what-if"</b> analysis for strategic planning.</p>
+                            <p>Track parts storage locations to enable quick retrieval. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Goal Tracking
+                              Automated Inventory Replenishment 
                             </div>
-                            <p>Track progress towards sales targets and adjust strategies.</p>
+                            <p>Automatically reorder parts and materials to ensure optimal levels. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Predictive Insights
+                              Inventory Usage Reporting 
                             </div>
-                            <p>Anticipate future market trends to stay ahead of competition.</p>
+                            <p>Generate reports on inventory usage to plan future inventory needs. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Performance Benchmarking
+                              Return Merchandise Authorization (RMA) Management 
                             </div>
-                            <p>Compare performance to industry benchmarks for improvement.</p>
+                            <p>Manage returns and warranty claims to proceed with replacement or refund. </p>
                           </div>
                         </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Inventory Cost Tracking 
+                            </div>
+                            <p>Track inventory costs to track inventory expenses. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Inventory Reconciliation Tools 
+                            </div>
+                            <p>Reconcile inventory levels to ensure accurate inventory records. </p>
+                          </div>
+                        </div>
+                        
                         
                       </div>
                     </div>
@@ -634,119 +743,86 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Streamlined Workflow Automation
+                              Contract Creation and Management
                             </div>
-                            <p>Automate tasks like follow-ups to save time and resources.</p>
+                            <p>Create and manage service agreements. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Sales Process Standardization
+                              Service Level Agreement (SLA) Tracking 
                             </div>
-                            <p>Ensure consistent sales processes across the organization.</p>
+                            <p>Monitor and enforce SLAs to prevent breaches. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Reduced Manual Errors
+                              Warranty and Coverage Details 
                             </div>
-                            <p>Minimizes human errors and improves data accuracy through automation.</p>
+                            <p>Track warranties and coverage to provide appropriate service. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Increased Sales Efficiency
+                              Contract Renewal Reminders 
                             </div>
-                            <p>Increase sales team productivity and efficiency by reducing manual work.</p>
+                            <p>Send renewal reminders to maintain continuous service. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Improved Lead Management
+                              Automated Billing and Invoicing 
                             </div>
-                            <p>Effectively manage and nurture leads through automation.</p>
+                            <p>Automate billing and invoicing to reduce the risk of errors. </p>
                           </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
                           <div className="card-three">
                             <div className="top-h">
                               <i className="bi bi-check"></i>
-                              Enhanced Productivity
+                              Prepaid Service Bundles 
                             </div>
-                            <p>Free up sales reps to focus on building relationships.</p>
+                            <p>Offer prepaid service bundles to improve cash flow. </p>
                           </div>
                         </div>
-                     
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Contract Compliance Monitoring 
+                            </div>
+                            <p>Ensure that all service activities are compliant with contract terms. </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Recurring Service Scheduling 
+                            </div>
+                            <p>Automatically schedule recurring services, ensuring consistent service delivery.  </p>
+                          </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
+                          <div className="card-three">
+                            <div className="top-h">
+                              <i className="bi bi-check"></i>
+                              Service Agreement Reporting 
+                            </div>
+                            <p>Generate detailed reports on service agreements to optimize opportunities. </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div className="tab-pane fade" id="solution-seven">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check"></i>
-                              Centralized Customer Information
-                            </div>
-                            <p>Consolidate customer information into a single source of truth.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check"></i>
-                              360-Degree Customer View
-                            </div>
-                            <p>Gain a comprehensive view of each customer for better understanding.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check"></i>
-                              Improved Data Accuracy
-                            </div>
-                            <p>Improve data quality and consistency across the organization.</p>
-                          </div>
-                        </div>
-                       
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check"></i>
-                              Real-Time Data Access
-                            </div>
-                            <p>Access customer data in real-time for timely decisions.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check"></i>
-                              Enhanced Customer Segmentation
-                            </div>
-                            <p>Create targeted customer segments for personalized campaigns.</p>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-sm-6 col-md-6 d-flex">
-                          <div className="card-three">
-                            <div className="top-h">
-                              <i className="bi bi-check"></i>
-                              Simplified Data Management
-                            </div>
-                            <p>Efficiently manage and maintain customer data.</p>
-                          </div>
-                        </div>
-                        
-                      </div>
-                    </div>
+                    
                 
                   </div>
                 </div>
@@ -764,10 +840,10 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row po-realtive">
               <div className="col-lg-7">
                 <div className="call-to-action-three">
-                  <h2>Want to improve your sales forecasting accuracy?</h2>
-                  <p>Dynamics 365 Sales comes with built-in Copilot that provides advanced analytics and insights to help you predict sales trends.</p>
+                  <h2>Are you losing out on contract renewals and customer retention? </h2>
+                  <p>Automate contract renewals and manage service agreements seamlessly to prevent breach of contract. </p>
                   <a  data-bs-toggle="modal"
-                      href="#exampleModal" className="btn bt-bg">Schedule a personalized demo</a>
+                      href="#exampleModal" className="btn bt-bg">Get Field Service Now! </a>
                   <div className="im-abso">
                     <img src="/img/frame-shape.png" alt="frame-shape" width={650} height={736} />
                   </div>
@@ -783,8 +859,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Why is Dynamics 365 Sales the Best CRM Solution?</h2>
-                  <p>Dynamics 365 Sales enables you to identify high opportunity leads, automate routine tasks, reduce data loss risk, and optimize the sales process.</p>
+                  <h2>Why Dynamics 365 Field Service Outperforms Other Solutions? </h2>
+                  <p>Microsoft Dynamics 365 Field Service allows businesses to optimize their operations, improve customer satisfaction, and drive business growth. </p>
                 </header>
               </div>
             </div>
@@ -793,26 +869,26 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Advanced Automation Capabilities</h3>
-                  <p>Dynamics 365 Sales comes with in-built Copilot that provides AI-driven insights to predict customer needs, identify high-priority leads, and automate routine tasks.</p>
+                  <h3>Comprehensive End-to-End Management </h3>
+                  <p>Dynamics 365 Field Service offers a complete solution, like work order creation, resource scheduling, dispatch, and post-service follow-up. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Comprehensive Relationship Management</h3>
-                  <p>Dynamics 365 Sales aggregates data from various touchpoints and provides a 360-degree view of customers to understand customer behaviors, preferences, and histories.</p>
+                  <h3>Optimized Resource Scheduling </h3>
+                  <p>Reduces travel time and costs by dispatching the right technician with the right skills at the right time. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Customizable as Per Needs</h3>
-                  <p>Dynamics 365 Sales allows businesses to tailor the solution as per specific needs, like custom dashboards, workflows, or integrations with third-party tools.</p>
+                  <h3>Real-Time Mobile Capabilities </h3>
+                  <p>Technicians can update job statuses using smart phones on the go and resolve issues faster, resulting in higher first-time fix rates with mobile app access. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-md-4 d-flex">
                 <div className="card-four">
-                  <h3>Integration with Dynamics 365 Ecosystem</h3>
-                  <p>It integrates with other Microsoft solutions such as Teams, Power BI, and Dynamics 365, ensuring easy data access and smooth customer relationship management.</p>
+                  <h3>Proactive Maintenance with IoT Integration </h3>
+                  <p>Dynamics 365 Field Service integrates seamlessly with IoT devices, enabling proactive maintenance by monitoring equipment in real time. </p>
                 </div>
               </div>
             </div>
@@ -830,8 +906,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-8 col-md-8">
                 <header className="section-header-new">
-                  <h2>Get Comprehensive Services for Dynamics 365 Sales</h2>
-                  <p>Tailor business needs, troubleshoot problems, integrate with existing systems, and get the most out of your investment.</p>
+                  <h2>Optimize Your Application with Expert Ed-to-End Services </h2>
+                  <p>Explore the wide range of services that are reliable, world-class quality, and competitive pricing. </p>
                 </header>
               </div>
             </div>
@@ -841,13 +917,13 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/services/dynamics-365-implementation/"><Image src="/img/serv-img-1.jpg" alt="Implementation" width={826} height={368} /></a>
+                    <a data-bs-toggle="modal" href="#exampleModal"><Image src="/img/serv-img-1.jpg" alt="Implementation" width={826} height={368} /></a>
                   </div>
                   <div className="info-card">
-                    <h3>Dynamics 365 Sales Implementation</h3>
-                    <p>Get tailored implementation service and expert guidance throughout the journey.</p>
+                    <h3>Dynamics 365 Field Service Implementation </h3>
+                    <p>Improve service delivery and enhance user proficiency with tailored implementation. </p>
                     <div className="act-bb">
-                      <a href="/services/dynamics-365-implementation/">Experience Seamless Transition! <i className="bi bi-arrow-right"></i></a>
+                      <a data-bs-toggle="modal" href="#exampleModal">Implement Today!  <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -855,13 +931,13 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/services/dynamics-365-upgrade/"><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
+                    <a data-bs-toggle="modal" href="#exampleModal"><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
                   </div>
                   <div className="info-card">
-                    <h3>Upgrade to D365 Sales</h3>
-                    <p>Leverage latest innovations and Improve performance and efficiency with upgradation.</p>
+                    <h3>Upgrade to Dynamics 365 Field Service </h3>
+                    <p>Access the latest features and improve functionality to maintain a competitive edge. </p>
                     <div className="act-bb">
-                      <a href="/services/dynamics-365-upgrade/">Upgrade Today! <i className="bi bi-arrow-right"></i></a>
+                      <a data-bs-toggle="modal" href="#exampleModal">Upgrade Instantly!   <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -869,13 +945,13 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/services/dynamics-365-support/" ><Image src="/img/serv-img-3.jpg" alt="Support Services" width={827} height={368} /></a>
+                    <a data-bs-toggle="modal" href="#exampleModal" ><Image src="/img/serv-img-3.jpg" alt="Support Services" width={827} height={368} /></a>
                   </div>
                   <div className="info-card">
-                    <h3>Get Hand-on Support</h3>
-                    <p>Access expert assistance, resolve issues quickly, and get personalized support.</p>
+                    <h3>Get Comprehensive Support </h3>
+                    <p>Enhance operational efficiency and customer satisfaction with reliable support. </p>
                     <div className="act-bb">
-                      <a href="/services/dynamics-365-support/" >Get Expert Help! <i className="bi bi-arrow-right"></i></a>
+                      <a data-bs-toggle="modal" href="#exampleModal" >Empower Your Team!  <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -900,8 +976,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Maximize Your Sales Potential with Dynamics Square</h2>
-                  <p>Dynamics Square, a trusted Microsoft Solutions Partner in <b>Ontario</b>, has deep expertise in D365 Sales and helps you achieve your sales goals. Here is why business chose us:</p>
+                  <h2>Why Dynamics Square is the Best Choice? </h2>
+                  <p>Dynamics Square is a leading Microsoft Gold Partner in Ontario with over 14 years of experience. We follow the Microsoft certified 3600 approaches to provide you with a perfect service you need to grow consistently. Here is why you can choose us: </p>
                 </header>
               </div>
             </div>
@@ -911,16 +987,16 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
                   <Image src="/img/icon-inner-68.png" alt="micrsoft-nva-ds" width={48} height={48} />
-                  <h3>End-to- end Solution</h3>
-                  <p>We provide end-to-end tailored solutions for implementation, upgrade, or support to empower your sales team.</p>
+                  <h3>Proven Expertise </h3>
+                  <p>We follow Microsoft-proven methodology to deliver high-quality Dynamics 365 implementations and support, offering the best out of your investment. </p>
 
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
                 <Image src="/img/icon-inner-69.png" alt="micrsoft-nva-ds" width={48} height={48} />
-                  <h3>Certified Implementation Methodology</h3>
-                  <p>We follow a proven and structured approach certified by Microsoft that is effective, efficient, and consistent for Dynamics 365 Sales deployments.</p>
+                  <h3>Microsoft Certified Consultants </h3>
+                  <p>We have a team of 135+ certified consultants that have extensive knowledge and expertise, offering tailored services. </p>
                   <div className="bg-img">
                     <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
@@ -930,8 +1006,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six">
                 <Image src="/img/icon-inner-70.png" alt="micrsoft-nva-ds" width={48} height={48} />
-                  <h3>Hands-on Support</h3>
-                  <p>Our <b>150+</b> consultants provide real-time assistance and guidance throughout the process, resolve your queries, and ensure hassle-free troubleshooting.</p>
+                  <h3>99% Success Rate </h3>
+                  <p>Over the years, we have served 250+ clients, including Canada, with a remarkable 99% success rate, ensuring seamless transition. </p>
                   <div className="img-flips">
                     <img src="/img/shpe-11.png" alt="shape" width={650} height={736} />
                   </div>
@@ -940,11 +1016,12 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-6 col-md-6 d-flex">
                 <div className="crad-six c-white">
                 <Image src="/img/icon-inner-71.png" alt="micrsoft-nva-ds" width={48} height={48} />
-                  <h3>24*7 Availability</h3>
-                  <p>Our team is always available to assist you to ensure uninterrupted business operations and quick issue resolution.</p>
+                  <h3>Tailored Solutions for Your Business </h3>
+                  <p>We offer customized solutions to enhance customer satisfaction and drive operational efficiency, fulfilling unique business requirements. </p>
 
                 </div>
               </div>
+
             </div>
 
           </div>
@@ -961,8 +1038,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row">
               <div className="col-lg-6">
                 <header className="section-header-new">
-                  <h2>Close More Deals Faster with Microsoft Copilot for Sales</h2>
-                  <p>Microsoft Copilot for Sales helps businesses streamline tasks like data entry, follow-up scheduling, and report generation to work smarter.</p>
+                  <h2>Copilot: Your Field Service Assistant in Dynamics 365 </h2>
+                  <p>Copilot can further enhance the capabilities of Dynamics 365 Field Service. It helps improve efficiency, reduce costs, and deliver exceptional customer service. </p>
                 </header>
               </div>
             </div>
@@ -972,9 +1049,9 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                   {/* <div className="card-top-pic">
                     <img src="/img/micrsoft-nva-ds.png" alt="micrsoft-nva-ds" />
                   </div> */}
-                  <h3>Accelerate Sales Cycles</h3>
-                  <p>Leverage AI-driven insights to identify opportunities, create personalized pitches, and close deals faster.</p>
-                  <a href="#exampleModal" data-bs-toggle="modal" className="btn bt-bg">Sell Smarter, Faster</a>
+                  <h3>Get Real-time Guidance </h3>
+                  <p>Technicians can receive step-by-step instructions, troubleshooting tips, and knowledge base articles directly within their mobile or web apps. </p>
+                  <a href="#exampleModal" data-bs-toggle="modal" className="btn bt-bg">Increase Output! </a>
                   <div className="bg-r-img">
                     <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
@@ -985,9 +1062,9 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                   {/* <div className="card-top-pic">
                     <img src="/img/micrsoft-nva-ds.png" alt="micrsoft-nva-ds" />
                   </div> */}
-                  <h3>Enhance Customer Relationships</h3>
-                  <p>Understand customer needs, increase customer satisfaction, and deliver personalized experiences that drive sales.</p>
-                  <a href="#exampleModal" data-bs-toggle="modal" className="btn bt-bg">Close More Deals!</a>
+                  <h3>Predictive Maintenance </h3>
+                  <p>Copilot can analyze equipment data to identify potential failures and recommend preventive actions, minimizing downtime and costs. </p>
+                  <a href="#exampleModal" data-bs-toggle="modal" className="btn bt-bg">Act Proactively! </a>
                   <div className="bg-r-img">
                     <img src="/img/micrsoft-nva-ds-bott.png" alt="micrsoft-nva-ds-bott" width={144} height={144} />
                   </div>
@@ -1001,8 +1078,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row justify-content-center text-center">
               <div className="col-lg-8">
                 <header className="section-header-new">
-                  <h2>Dynamics 365 Sales Pricing: <br/>Choose the Best License</h2>
-                  <p>There are multiple Dynamics 365 Sales pricing options, and you can choose one according to your requirement. </p>
+                  <h2>Dynamics 365 Field Service Pricing: What You Need to Know </h2>
+                  <p>To make the informed decisions, it is essential to know the Dynamics 365 Field Service pricing. Here is the detailed table with pricing in 2024.  </p>
                 </header>
               </div>
             </div>
@@ -1010,37 +1087,47 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>
-                  Dynamics 365 Sales Professional
+                  Dynamics 365 Field Service Contractor 
                   </h3>
+                  <div className="price">
+                  CAD $67.80 <span>user/month</span>
+                  </div>
+                <ul>
+                  <li>- App access </li>
+                  <li>- Access to Dynamics 365 Guides (limited)  </li>
+                  <li>- Access to Dynamics 365 Remote Assist (limited)  </li>
+                  <li>- Vendor and contractor management (limited)  </li>
+                  <li>- Scheduling and resource dispatching (limited)  </li>
+                
+                </ul>
+                </div>
+              </div>
+              <div className="col-lg-4 d-flex">
+                <div className="box box-999">
+                  <h3>Dynamics 365 Field Service </h3>
                   <p>From</p>
                   <div className="price">
-                  $88.20(CAD)<span>user/month</span>
+                  CAD $128.90 <span>user/month</span>
                   </div>
-                 <p>Core sales force automation and Microsoft 365 integration</p>
+                 <ul>
+                  <li>- Everything in Contractctor license + </li>
+                  <li>- Planned maintenance agreements </li>
+                  <li>- Returns processing </li>
+                  <li>- Copilot </li>
+                  <li>- Technician performance analysis </li>
+                 </ul>
                 </div>
               </div>
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>
-                  Dynamics 365 Sales Enterprise Edition
+                  Dynamics 365 Field Service - Resource Scheduling Optimization 
                   </h3>
                   <p>From</p>
                   <div className="price">
-                  $128.90(CAD)<span>user/month</span>
+                  CAD$40.70<span>resource/month</span>
                   </div>
-                 <p>Industry-leading sales force automation with contextual insights and advanced customization capabilities</p>
-                </div>
-              </div>
-              <div className="col-lg-4 d-flex">
-                <div className="box box-999">
-                  <h3>
-                  Dynamics 365 Sales Premium
-                  </h3>
-                  <p>From</p>
-                  <div className="price">
-                  $183.20(CAD)<span>user/month</span>
-                  </div>
-                  <p>Dynamics 365 Sales Enterprise plus prebuilt customizable intelligence solutions for sellers and managers</p>
+             
                 </div>
               </div>
 
@@ -1060,7 +1147,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9 ">
                 <header className="section-header-new text-center">
-                  <h2>Got any questions About <br/>Dynamics 365 Sales </h2>
+                  <h2>Got any questions About <br/>Field Service  </h2>
                   <p>Click through to our FAQ for the best answers!</p>
                 </header>
               </div>
@@ -1075,7 +1162,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
-                    >Are Dynamics 365 sales the same as CRM?</button>
+                    >What is the difference between Dynamics 365 Customer Service and Field Service? </button>
                   </h3>
                   <div
                     id="faq-content-2"
@@ -1083,9 +1170,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, Dynamics 365 Sales is a CRM solution. It's specifically designed for sales teams to manage customer interactions, opportunities, and sales processes.</p>
-                     
-                    </div>
+                      <p>Dynamics 365 Customer Service focuses on managing customer interactions, support tickets, and service-related inquiries, aiming to enhance customer satisfaction. On the other hand, Dynamics 365 Field Service manages on-site service delivery, including work orders, scheduling, and resource management. It is designed for businesses that dispatch technicians to customers' locations for repairs or installations. </p></div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -1095,7 +1180,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
-                    >What are the solution sales of MS Dynamics 365?</button>
+                    >Is Dynamics 365 Field Service free? </button>
                   </h3>
                   <div
                     id="faq-content-3"
@@ -1103,7 +1188,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Solution sales for MS Dynamics 365 involves selling the software and its related services to businesses. This includes understanding customer needs, demonstrating the software's value, and providing implementation and support solutions.</p>
+                      <p>No, Dynamics 365 Field Service is not free. It requires a separate subscription, which includes various pricing tiers based on the features and number of users. However, it offers free trials to allow businesses to explore its capabilities before committing to a paid plan. </p>
                     </div>
                   </div>
                 </div>
@@ -1114,7 +1199,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >What is the difference between Dynamics 365 sales and customer engagement?</button>
+                    >What is Connected Field Service in Dynamics 365?</button>
                   </h3>
                   <div
                     id="faq-content-4"
@@ -1122,7 +1207,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics 365 Sales focuses specifically on sales processes and customer interactions. Customer engagement is a broader term encompassing sales, marketing, and <a href="/solutions/microsoft-dynamics-365-customer-service/"><b>customer service</b></a> activities. It provides a holistic view of the customer’s journey.</p>
+                      <p>Connected Field Service in Dynamics 365 integrates IoT capabilities to monitor and manage equipment remotely. It enables proactive maintenance by alerting service teams to potential issues before they occur. This allows for predictive maintenance and reducing downtime. It leads to more efficient service delivery and improved customer satisfaction. </p>
                     </div>
                   </div>
                 </div>
@@ -1133,15 +1218,15 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >What are the stages of the Dynamics 365 Sales process?</button>
+                    >What are the benefits of Dynamics 365 Field Service? </button>
                   </h3>
                   <div
                     id="faq-content-5"
                     className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
+                    data-bs-parent="#faqlist5"
                   >
                     <div className="accordion-body">
-                      <p>The typical stages in Dynamics 365 Sales include lead management, opportunity qualification, proposal creation, order processing, and customer relationship management. These stages can be customized to fit specific business needs.</p>
+                      <p>Dynamics 365 Field Service offers numerous benefits, including improved scheduling and resource allocation, enhanced customer satisfaction through timely service, and reduced operational costs via optimized routes. It also increases technician productivity by providing real-time information and streamlining work orders. </p>
                     </div>
                   </div>
                 </div>
@@ -1152,7 +1237,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
-                    >What is Dynamics 365 Sales used for?</button>
+                    >What is the purpose of the Requirement Group feature? </button>
                   </h3>
                   <div
                     id="faq-content-6"
@@ -1160,7 +1245,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                     data-bs-parent="#faqlist6"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics 365 Sales is used to manage and nurture leads, track sales opportunities, automate sales processes, improve sales forecasting, and gain insights into customer behavior to drive sales growth.</p>
+                      <p>The Requirement Group feature in Dynamics 365 Field Service allows businesses to define and group multiple service requirements for a job, ensuring that all necessary skills, resources, and equipment are available. It streamlines complex service jobs by matching the right technicians and resources, improving efficiency and ensuring successful service delivery. </p>
                     </div>
                   </div>
                 </div>
