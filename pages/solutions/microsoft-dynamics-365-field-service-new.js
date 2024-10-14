@@ -242,8 +242,8 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 col-md-6 d-flex">
                 <div className="card-two">
-                  <img src="/img/icon-inner-64.png" alt="Route Optimization, Reduce Travel Tim" width={40} height={40} />
-                  <h3>Route Optimization, Reduce Travel Tim</h3>
+                  <img src="/img/icon-inner-64.png" alt="Route Optimization, Reduce Travel Time" width={40} height={40} />
+                  <h3>Route Optimization, Reduce Travel Time</h3>
                   <ul>
                     <li><i className="bi bi-check"></i><span>Optimize route </span></li>
                     <li><i className="bi bi-check"></i><span>Minimize fuel consumption </span></li>
