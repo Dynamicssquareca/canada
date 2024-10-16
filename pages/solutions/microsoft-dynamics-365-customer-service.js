@@ -116,7 +116,7 @@ const MicrosoftDynamics365CustomerServiceNew = () => {
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
                       href="#exampleModal" className="btn">Let’s Get Started!</a>
-                    <span>Drive end-to-end sales practices</span>
+                    <span>Drive omnichannel customer experience</span>
                   </div>
                 </div>
               </div>
@@ -914,7 +914,7 @@ const MicrosoftDynamics365CustomerServiceNew = () => {
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>
-                  Dynamics 365 Customer Service Professional
+                  Dynamics 365 Customer <br/>Service Professional
                   </h3>
                   <div className="price">
                   CAD $67.80  <span>user/month</span>
@@ -930,7 +930,7 @@ const MicrosoftDynamics365CustomerServiceNew = () => {
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>
-                  Dynamics 365 Customer Service Enterprise
+                  Dynamics 365 Customer <br/>Service Enterprise
                   </h3>
                   <div className="price">
                   CAD $128.90 <span>user/month</span>

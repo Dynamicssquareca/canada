@@ -99,7 +99,7 @@ const Dynamics365CustomerEngagementNew = () => {
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
                       href="#exampleModal" className="btn">Let’s Get Started!</a>
-                    <span>An intelligent ERP for <br />finances & supply chain </span>
+                    <span>Improve Your marketing capabilities</span>
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const Dynamics365CustomerEngagementNew = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                  <p>Microsoft Dynamics 365 Customer Engagement, formerly known as Dynamics 365 CRM, is a suite of CRM applications, including Microsoft Dynamics 365 Sales, Marketing, Customer Service, Field Service, and Customer Insights.</p>
+                  <p>Microsoft Dynamics 365 Customer Engagement, formerly known as <a href="/solutions/microsoft-dynamics-crm/"><b>Dynamics 365 CRM</b></a> , is a suite of CRM applications, including Microsoft Dynamics 365 Sales, Marketing, Customer Service, Field Service, and Customer Insights.</p>
                   <p>With its AI-driven insights, your sales teams can prioritize leads and opportunities, understand customer needs, and close deals faster. You can create targeted marketing campaigns, track engagement across channels, and convert prospects into loyal customers.</p>
                   <p>Dynamics 365 Customer Engagement (CE) allows resolve issues faster, offers high-quality support, and uses AI-driven analytics to anticipate customer needs. In addition to this, deliver timely and efficient on-site services by automating scheduling and monitoring field technicians in real-time.</p>
                 </div>
@@ -650,13 +650,13 @@ const Dynamics365CustomerEngagementNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a href="/services/dynamics-365-upgrade/" ><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
+                    <a data-bs-toggle="modal" href="#exampleModal" ><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Upgradation</h3>
                     <p>Leave behind the legacy system and stay current with the latest Dynamics 365 features with our upgrade services.</p>
                     <div className="act-bb">
-                      <a href="/services/dynamics-365-upgrade/" >Schedule a Demo Today! <i className="bi bi-arrow-right"></i></a>
+                      <a data-bs-toggle="modal" href="#exampleModal" >Schedule a Demo Today! <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
