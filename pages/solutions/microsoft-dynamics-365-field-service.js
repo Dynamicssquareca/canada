@@ -115,7 +115,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                   <div className="bottom-info-cta">
                     <a data-bs-toggle="modal"
                       href="#exampleModal" className="btn">Let’s Get Started!</a>
-                    <span>Drive end-to-end sales practices</span>
+                    <span>Drive connected and collaborated field service</span>
                   </div>
                 </div>
               </div>
@@ -153,7 +153,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="new-sol-con-side">
-                 <p>Dynamics 365 Field Service is a comprehensive solution within the Microsoft Dynamics 365 suite. It is designed to streamline and optimize field service operations, like asset-routing for businesses of all sizes. The solution comes with capabilities like advance automation, work order management, enhanced tracking, resource management, and scheduling. This ensures the right technicians are dispatched at the right time with the right skills and tools. </p>
+                 <p>Dynamics 365 Field Service is a comprehensive solution within the <a href="/solutions/microsoft-dynamics-365/"><b>Microsoft Dynamics 365</b></a> suite. It is designed to streamline and optimize field service operations, like asset-routing for businesses of all sizes. The solution comes with capabilities like advance automation, work order management, enhanced tracking, resource management, and scheduling. This ensures the right technicians are dispatched at the right time with the right skills and tools. </p>
                  <p>Field Service software comes with an integrated toolset that helps organizations in a time-sensitive service aspect while offering an optimal level of customer satisfaction. By using the solution, businesses can track their field technicians, schedule service appointments, track service history, improve invoice accuracy, allocate resources and improve overall customer satisfaction. </p>
                  <p>D365 Field Service allows businesses to provide faster and more efficient service, reducing customer wait times and increasing first-time fix rates. Businesses can also ensure compliance with industry regulations and standards. </p>
                 </div>
@@ -931,13 +931,13 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a data-bs-toggle="modal" href="#exampleModal"><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
+                    <a href="/services/dynamics-365-upgrade/"><Image src="/img/serv-img-2.jpg" alt="Upgrade Services" width={829} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Upgrade to Dynamics 365 Field Service </h3>
                     <p>Access the latest features and improve functionality to maintain a competitive edge. </p>
                     <div className="act-bb">
-                      <a data-bs-toggle="modal" href="#exampleModal">Upgrade Instantly!   <i className="bi bi-arrow-right"></i></a>
+                      <a href="/services/dynamics-365-upgrade/">Upgrade Instantly!   <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -945,13 +945,13 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 d-flex">
                 <div className="card-five">
                   <div className="pic">
-                    <a data-bs-toggle="modal" href="#exampleModal" ><Image src="/img/serv-img-3.jpg" alt="Support Services" width={827} height={368} /></a>
+                    <a href="/services/dynamics-365-support/" ><Image src="/img/serv-img-3.jpg" alt="Support Services" width={827} height={368} /></a>
                   </div>
                   <div className="info-card">
                     <h3>Get Comprehensive Support </h3>
                     <p>Enhance operational efficiency and customer satisfaction with reliable support. </p>
                     <div className="act-bb">
-                      <a data-bs-toggle="modal" href="#exampleModal" >Empower Your Team!  <i className="bi bi-arrow-right"></i></a>
+                      <a data-bs-toggle="modal" href="/services/dynamics-365-support/" >Empower Your Team!  <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -988,7 +988,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                 <div className="crad-six c-white">
                   <Image src="/img/s-com-09.png" alt="Proven Expertise" width={48} height={48} />
                   <h3>Proven Expertise </h3>
-                  <p>We follow Microsoft-proven methodology to deliver high-quality Dynamics 365 implementations and support, offering the best out of your investment. </p>
+                  <p>We follow Microsoft-proven methodology to deliver high-quality Dynamics 365 Field Services Implementations and support, offering the best out of your investment. </p>
 
                 </div>
               </div>
@@ -1105,7 +1105,7 @@ const MicrosoftDynamics365FieldServiceNew = () => {
               <div className="col-lg-4 d-flex">
                 <div className="box box-999">
                   <h3>Dynamics 365 Field Service </h3>
-                  <p>From</p>
+                
                   <div className="price">
                   CAD $128.90 <span>user/month</span>
                   </div>
@@ -1123,7 +1123,6 @@ const MicrosoftDynamics365FieldServiceNew = () => {
                   <h3>
                   Dynamics 365 Field Service - Resource Scheduling Optimization 
                   </h3>
-                  <p>From</p>
                   <div className="price">
                   CAD$40.70<span>resource/month</span>
                   </div>
