@@ -30,5 +30,29 @@
       { "id": "section4", "label": "Services" },
       { "id": "section5", "label": "Why us" },
       { "id": "section6", "label": "Pricing and Licensing" }
+    ],
+    "solutions/microsoft-dynamics-365-customer-service": [
+      { "id": "section1", "label": "Overview" },
+      { "id": "section2", "label": "Benefits" },
+      { "id": "section3", "label": "Capabilities" },
+      { "id": "section4", "label": "Services" },
+      { "id": "section5", "label": "Why us" },
+      { "id": "section6", "label": "Pricing and Licensing" }
+    ],
+    "solutions/dynamics-365-customer-engagement": [
+      { "id": "section1", "label": "Overview" },
+      { "id": "section2", "label": "Benefits" },
+      { "id": "section3", "label": "Capabilities" },
+      { "id": "section4", "label": "Services" },
+      { "id": "section5", "label": "Why us" },
+      { "id": "section6", "label": "Pricing and Licensing" }
+    ],
+    "solutions/microsoft-dynamics-365-field-service": [
+      { "id": "section1", "label": "Overview" },
+      { "id": "section2", "label": "Benefits" },
+      { "id": "section3", "label": "Capabilities" },
+      { "id": "section4", "label": "Services" },
+      { "id": "section5", "label": "Why us" },
+      { "id": "section6", "label": "Pricing and Licensing" }
     ]
   }
