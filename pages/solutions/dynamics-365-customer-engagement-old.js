@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import ZohoForm from '../../components/ZohoForm';
 
 const Dynamics365CustomerEngagement = () => {
   return (
@@ -80,6 +81,10 @@ const Dynamics365CustomerEngagement = () => {
           }}
         />
       </Head>
+
+      <section>
+        <ZohoForm />
+      </section>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
