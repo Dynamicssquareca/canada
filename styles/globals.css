@@ -11676,6 +11676,30 @@ color: #385575 !important;
 .commen-rit-info ul li{
   margin-bottom:10px
 }
+
+
+.thnak-page{
+  margin-bottom: 100px;
+}
+.thnak-page .iner-divv {
+  box-shadow: 0px 3px 25px rgb(42 66 97 / 37%);
+  padding: 60px 60px;
+  border-radius: 18px;
+}
+.thnak-page .iner-divv h1{
+  background: #542784;
+    line-height: normal;
+    background: linear-gradient(to right, #542784 10%, #307faf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 44px !important;
+}
+.thnak-page .iner-divv p{
+  
+}
+
 /*solution new template css End */
 @media (min-width: 1200px) and (max-width: 1400px) {
   .video-conte h1, .video-conte h2{
@@ -12259,5 +12283,11 @@ display:none
     position: absolute;
     bottom: 20px;
     font-size:14px
+  }
+  .thnak-page .iner-divv{
+    padding:40px
+  }
+  .thnak-page .iner-divv h1{
+    font-size: 32px !important;
   }
 }
