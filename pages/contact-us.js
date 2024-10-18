@@ -1062,7 +1062,7 @@ const ContactUs = () => {
         </div>
         <div className="container">
           <div className="copyright">
-            &copy; Copyright &nbsp;<span>2023 Dynamics Square.</span>
+            &copy; Copyright &nbsp;<span>2024 Dynamics Square.</span>
             <div className="footer-extra-link">
               <a href="/terms-of-use/">Terms of Use </a>
               <a href="/cookie-policy/">| Cookie </a>
